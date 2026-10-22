@@ -1,0 +1,528 @@
+[
+  {
+    "file": "01_verified_510k.rq",
+    "rows": 1,
+    "result": {
+      "head": {
+        "vars": [
+          "pmid",
+          "number",
+          "record",
+          "device"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "pmid": {
+              "type": "literal",
+              "value": "900000001"
+            },
+            "number": {
+              "type": "literal",
+              "value": "K123456"
+            },
+            "record": {
+              "type": "uri",
+              "value": "https://example.org/synthetic-fda/k510"
+            },
+            "device": {
+              "type": "uri",
+              "value": "https://example.org/synthetic-fda/device1"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "file": "02_device_recalls.rq",
+    "rows": 1,
+    "result": {
+      "head": {
+        "vars": [
+          "pmid",
+          "device",
+          "recall"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "pmid": {
+              "type": "literal",
+              "value": "900000001"
+            },
+            "device": {
+              "type": "uri",
+              "value": "https://example.org/synthetic-fda/device1"
+            },
+            "recall": {
+              "type": "uri",
+              "value": "https://example.org/synthetic-fda/recall1"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "file": "03_trial_devices.rq",
+    "rows": 2,
+    "result": {
+      "head": {
+        "vars": [
+          "pmid",
+          "trial",
+          "device",
+          "source"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "pmid": {
+              "type": "literal",
+              "value": "900000001"
+            },
+            "trial": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/trial/NCT00000001"
+            },
+            "device": {
+              "type": "uri",
+              "value": "https://example.org/synthetic-fda/device1"
+            },
+            "source": {
+              "type": "uri",
+              "value": "https://example.org/synthetic-registry/source"
+            }
+          },
+          {
+            "pmid": {
+              "type": "literal",
+              "value": "900000002"
+            },
+            "trial": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/trial/NCT00000001"
+            },
+            "device": {
+              "type": "uri",
+              "value": "https://example.org/synthetic-fda/device1"
+            },
+            "source": {
+              "type": "uri",
+              "value": "https://example.org/synthetic-registry/source"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "file": "04_entities_devices.rq",
+    "rows": 2,
+    "result": {
+      "head": {
+        "vars": [
+          "pmid",
+          "device",
+          "type",
+          "namespace",
+          "identifier"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "pmid": {
+              "type": "literal",
+              "value": "900000001"
+            },
+            "device": {
+              "type": "uri",
+              "value": "https://example.org/synthetic-fda/device1"
+            },
+            "type": {
+              "type": "literal",
+              "value": "Chemical"
+            },
+            "namespace": {
+              "type": "literal",
+              "value": "MESH"
+            },
+            "identifier": {
+              "type": "literal",
+              "value": "D000002"
+            }
+          },
+          {
+            "pmid": {
+              "type": "literal",
+              "value": "900000001"
+            },
+            "device": {
+              "type": "uri",
+              "value": "https://example.org/synthetic-fda/device1"
+            },
+            "type": {
+              "type": "literal",
+              "value": "Disease"
+            },
+            "namespace": {
+              "type": "literal",
+              "value": "MESH"
+            },
+            "identifier": {
+              "type": "literal",
+              "value": "D000001"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "file": "05_mesh_year_category.rq",
+    "rows": 1,
+    "result": {
+      "head": {
+        "vars": [
+          "code",
+          "year",
+          "descriptor",
+          "publications"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "code": {
+              "type": "literal",
+              "value": "ZZZ"
+            },
+            "year": {
+              "type": "literal",
+              "value": "2024"
+            },
+            "descriptor": {
+              "type": "uri",
+              "value": "http://id.nlm.nih.gov/mesh/D000001"
+            },
+            "publications": {
+              "type": "literal",
+              "value": "1",
+              "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "file": "06_funding.rq",
+    "rows": 1,
+    "result": {
+      "head": {
+        "vars": [
+          "pmid",
+          "agency",
+          "grant"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "pmid": {
+              "type": "literal",
+              "value": "900000001"
+            },
+            "agency": {
+              "type": "literal",
+              "value": "Synthetic Funding Agency"
+            },
+            "grant": {
+              "type": "literal",
+              "value": "SYN-001"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "file": "07_pma.rq",
+    "rows": 1,
+    "result": {
+      "head": {
+        "vars": [
+          "pmid",
+          "record",
+          "number",
+          "device"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "pmid": {
+              "type": "literal",
+              "value": "900000001"
+            },
+            "record": {
+              "type": "uri",
+              "value": "https://example.org/synthetic-fda/pma"
+            },
+            "number": {
+              "type": "literal",
+              "value": "P123456"
+            },
+            "device": {
+              "type": "uri",
+              "value": "https://example.org/synthetic-fda/device1"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "file": "08_low_literature_categories.rq",
+    "rows": 2,
+    "result": {
+      "head": {
+        "vars": [
+          "category",
+          "code",
+          "publications"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "category": {
+              "type": "uri",
+              "value": "https://example.org/synthetic-fda/category2"
+            },
+            "code": {
+              "type": "literal",
+              "value": "ZZY"
+            },
+            "publications": {
+              "type": "literal",
+              "value": "0",
+              "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            }
+          },
+          {
+            "category": {
+              "type": "uri",
+              "value": "https://example.org/synthetic-fda/category1"
+            },
+            "code": {
+              "type": "literal",
+              "value": "ZZZ"
+            },
+            "publications": {
+              "type": "literal",
+              "value": "1",
+              "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "file": "09_pending_review.rq",
+    "rows": 1,
+    "result": {
+      "head": {
+        "vars": [
+          "pmid",
+          "link",
+          "target",
+          "method",
+          "location"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "pmid": {
+              "type": "literal",
+              "value": "900000002"
+            },
+            "link": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/device-link/c0e98bb26748d23261f52633e6727d3eb715b167179f9223c2fe921db1afe396"
+            },
+            "target": {
+              "type": "uri",
+              "value": "https://example.org/synthetic-fda/device2"
+            },
+            "method": {
+              "type": "literal",
+              "value": "fda-catalog-token-name-exact"
+            },
+            "location": {
+              "type": "literal",
+              "value": "title"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "file": "10_quality.rq",
+    "rows": 2,
+    "result": {
+      "head": {
+        "vars": [
+          "pmid",
+          "issue"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "pmid": {
+              "type": "literal",
+              "value": "900000001"
+            },
+            "issue": {
+              "type": "literal",
+              "value": "missing-doi"
+            }
+          },
+          {
+            "pmid": {
+              "type": "literal",
+              "value": "900000002"
+            },
+            "issue": {
+              "type": "literal",
+              "value": "missing-doi"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "file": "11_annotation_status.rq",
+    "rows": 2,
+    "result": {
+      "head": {
+        "vars": [
+          "pmid",
+          "status",
+          "annotations"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "pmid": {
+              "type": "literal",
+              "value": "900000001"
+            },
+            "status": {
+              "type": "literal",
+              "value": "complete"
+            },
+            "annotations": {
+              "type": "literal",
+              "value": "4",
+              "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            }
+          },
+          {
+            "pmid": {
+              "type": "literal",
+              "value": "900000002"
+            },
+            "status": {
+              "type": "literal",
+              "value": "unavailable"
+            },
+            "annotations": {
+              "type": "literal",
+              "value": "0",
+              "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "file": "12_review_provenance.rq",
+    "rows": 2,
+    "result": {
+      "head": {
+        "vars": [
+          "pmid",
+          "scheme",
+          "reviewer",
+          "date",
+          "revision"
+        ]
+      },
+      "results": {
+        "bindings": [
+          {
+            "pmid": {
+              "type": "literal",
+              "value": "900000001"
+            },
+            "scheme": {
+              "type": "literal",
+              "value": "510k"
+            },
+            "reviewer": {
+              "type": "literal",
+              "value": "SYNTHETIC-reviewer"
+            },
+            "date": {
+              "type": "literal",
+              "value": "2026-10-22T00:00:00Z",
+              "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+            },
+            "revision": {
+              "type": "literal",
+              "value": "2",
+              "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            }
+          },
+          {
+            "pmid": {
+              "type": "literal",
+              "value": "900000001"
+            },
+            "scheme": {
+              "type": "literal",
+              "value": "pma"
+            },
+            "reviewer": {
+              "type": "literal",
+              "value": "SYNTHETIC-reviewer"
+            },
+            "date": {
+              "type": "literal",
+              "value": "2026-10-22T00:00:00Z",
+              "datatype": "http://www.w3.org/2001/XMLSchema#dateTime"
+            },
+            "revision": {
+              "type": "literal",
+              "value": "2",
+              "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            }
+          }
+        ]
+      }
+    }
+  }
+]

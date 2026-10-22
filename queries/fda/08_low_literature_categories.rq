@@ -1,0 +1,5 @@
+PREFIX k: <https://example.org/pubmed-kg/v1/>
+PREFIX md: <http://medicaldevice.com/ontology/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+# Which categories have recalls but at most one linked publication?
+SELECT ?category ?code (COUNT(DISTINCT ?a) AS ?publications) WHERE { ?category a md:ProductCode; md:productCode ?code. ?tplc md:hasProductCode ?category; md:hasRecall ?recall. OPTIONAL { ?device md:hasProductCode ?category. ?a k:link ?l. ?l k:device ?device; k:status "verified". } } GROUP BY ?category ?code HAVING(COUNT(DISTINCT ?a)<=1) ORDER BY ?code LIMIT 100

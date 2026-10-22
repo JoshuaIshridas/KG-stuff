@@ -1,0 +1,105 @@
+{
+  "checked_at": "2026-10-21",
+  "service": "Connected OKN federated SPARQL service",
+  "native_endpoint_from_catalog": "https://apps.okn.us/medical-device-kg/sparql",
+  "named_graph": "https://purl.org/okn/frink/kg/medical-device-kg",
+  "namespace_verified_in_rows": "http://medicaldevice.com/ontology/",
+  "catalog_namespace_not_assumed_live": "https://bmedesign.org/medical-device-kg/ns/",
+  "query": "SELECT ?s ?p ?o (IF(isIRI(?o), \"iri\", \"literal\") AS ?kind) WHERE { { SELECT ?s ?p ?o WHERE { BIND(<http://medicaldevice.com/ontology/k510Number> AS ?p) GRAPH <https://purl.org/okn/frink/kg/medical-device-kg> { ?s ?p ?o } FILTER(REGEX(STR(?o), \"^K[0-9]{6}$\")) } LIMIT 2 } UNION { SELECT ?s ?p ?o WHERE { BIND(<http://medicaldevice.com/ontology/pmaNumber> AS ?p) GRAPH <https://purl.org/okn/frink/kg/medical-device-kg> { ?s ?p ?o }  } LIMIT 2 } UNION { SELECT ?s ?p ?o WHERE { BIND(<http://medicaldevice.com/ontology/productCode> AS ?p) GRAPH <https://purl.org/okn/frink/kg/medical-device-kg> { ?s ?p ?o }  } LIMIT 2 } UNION { SELECT ?s ?p ?o WHERE { BIND(<http://medicaldevice.com/ontology/hasProductCode> AS ?p) GRAPH <https://purl.org/okn/frink/kg/medical-device-kg> { ?s ?p ?o }  } LIMIT 2 } UNION { SELECT ?s ?p ?o WHERE { BIND(<http://medicaldevice.com/ontology/hasRecall> AS ?p) GRAPH <https://purl.org/okn/frink/kg/medical-device-kg> { ?s ?p ?o }  } LIMIT 2 } UNION { SELECT ?s ?p ?o WHERE { BIND(<http://medicaldevice.com/ontology/recallNumber> AS ?p) GRAPH <https://purl.org/okn/frink/kg/medical-device-kg> { ?s ?p ?o }  } LIMIT 2 } UNION { SELECT ?s ?p ?o WHERE { BIND(<http://medicaldevice.com/ontology/deviceName> AS ?p) GRAPH <https://purl.org/okn/frink/kg/medical-device-kg> { ?s ?p ?o }  } LIMIT 2 } } LIMIT 14",
+  "result": {
+    "vars": [
+      "s",
+      "p",
+      "o",
+      "kind"
+    ],
+    "rows": [
+      {
+        "s": "http://medicaldevice.com/ontology/k510/k000001",
+        "p": "http://medicaldevice.com/ontology/k510Number",
+        "o": "K000001",
+        "kind": "literal"
+      },
+      {
+        "s": "http://medicaldevice.com/ontology/k510/k000002",
+        "p": "http://medicaldevice.com/ontology/k510Number",
+        "o": "K000002",
+        "kind": "literal"
+      },
+      {
+        "s": "http://medicaldevice.com/ontology/pma/n10389_s001",
+        "p": "http://medicaldevice.com/ontology/pmaNumber",
+        "o": "N10389",
+        "kind": "literal"
+      },
+      {
+        "s": "http://medicaldevice.com/ontology/pma/n10389_s010",
+        "p": "http://medicaldevice.com/ontology/pmaNumber",
+        "o": "N10389",
+        "kind": "literal"
+      },
+      {
+        "s": "http://medicaldevice.com/ontology/hde/h000001__s001",
+        "p": "http://medicaldevice.com/ontology/productCode",
+        "o": "MAF",
+        "kind": "literal"
+      },
+      {
+        "s": "http://medicaldevice.com/ontology/hde/h000001__s002",
+        "p": "http://medicaldevice.com/ontology/productCode",
+        "o": "MAF",
+        "kind": "literal"
+      },
+      {
+        "s": "http://medicaldevice.com/ontology/denovo/den000001",
+        "p": "http://medicaldevice.com/ontology/hasProductCode",
+        "o": "http://medicaldevice.com/ontology/productcode/mrn_andnbsp_andnbsp",
+        "kind": "iri"
+      },
+      {
+        "s": "http://medicaldevice.com/ontology/denovo/den000002",
+        "p": "http://medicaldevice.com/ontology/hasProductCode",
+        "o": "http://medicaldevice.com/ontology/productcode/nam_andnbsp_andnbsp",
+        "kind": "iri"
+      },
+      {
+        "s": "http://medicaldevice.com/ontology/tplc/bry",
+        "p": "http://medicaldevice.com/ontology/hasRecall",
+        "o": "http://medicaldevice.com/ontology/tplc/bry/recall/bry_ii_0",
+        "kind": "iri"
+      },
+      {
+        "s": "http://medicaldevice.com/ontology/tplc/bry",
+        "p": "http://medicaldevice.com/ontology/hasRecall",
+        "o": "http://medicaldevice.com/ontology/tplc/bry/recall/bry_ii_1",
+        "kind": "iri"
+      },
+      {
+        "s": "http://medicaldevice.com/ontology/recall/z_0001_2013",
+        "p": "http://medicaldevice.com/ontology/recallNumber",
+        "o": "Z-0001-2013",
+        "kind": "literal"
+      },
+      {
+        "s": "http://medicaldevice.com/ontology/recall/z_0001_2014",
+        "p": "http://medicaldevice.com/ontology/recallNumber",
+        "o": "Z-0001-2014",
+        "kind": "literal"
+      },
+      {
+        "s": "http://medicaldevice.com/ontology/denovo/bk000038",
+        "p": "http://medicaldevice.com/ontology/deviceName",
+        "o": "TrueGene HIV Genotyping Kit and OpenGene DNA Sequencing System",
+        "kind": "literal"
+      },
+      {
+        "s": "http://medicaldevice.com/ontology/denovo/bk060036",
+        "p": "http://medicaldevice.com/ontology/deviceName",
+        "o": "Sepax Cell Separation System and Single Use Kits",
+        "kind": "literal"
+      }
+    ],
+    "row_count": 14
+  },
+  "scope": "Small read-only sample; not an FDA dump, corpus count, or release verification."
+}

@@ -1,0 +1,13 @@
+{
+  "status": "verified",
+  "synthetic": true,
+  "source_article_events": 4,
+  "deletion_events": 1,
+  "current_articles": 2,
+  "structured_metadata_retention": 1.0,
+  "record_event_retention": 1.0,
+  "sparql_queries": 12,
+  "triples": 784,
+  "near_100_percent_device_recall_established": false,
+  "device_recall_status": "representative benchmark required"
+}

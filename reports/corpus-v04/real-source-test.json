@@ -1,0 +1,33 @@
+{
+  "status": "incomplete",
+  "checked_at": "2026-10-21T22:10:13.239663+00:00",
+  "plan_sha256": null,
+  "inventory_observed_at": null,
+  "planned_files": null,
+  "verified_files": 2,
+  "official_checksum_verified_files": 0,
+  "file_inventory_fraction": null,
+  "current_articles": 100,
+  "deleted_pmids": 214,
+  "record_coverage_of_frozen_inventory": null,
+  "medical_device_recall": "not_measured",
+  "scope": "Only the explicitly supplied local files; no population device-recall claim.",
+  "verification": "passed",
+  "source_upsert_events": 100,
+  "source_deletion_events": 214,
+  "record_event_retention": 1.0,
+  "eligible_metadata_retention": 1.0,
+  "graph_ownership": "one named graph per PMID",
+  "input_files": [
+    {
+      "name": "baseline-bounded-sample.xml.gz",
+      "sha256": "5a9e05e453662da6a141ca40cbffda1f060ddb08630651e783220ea255de63ed"
+    },
+    {
+      "name": "update-sample-with-all-deletions.xml.gz",
+      "sha256": "f9e303a4a249892b15affbbb57dc7cf17e4439b98d287fd3e24421ac29d3c567"
+    }
+  ],
+  "elapsed_seconds": 63.0,
+  "full_corpus_tested": false
+}

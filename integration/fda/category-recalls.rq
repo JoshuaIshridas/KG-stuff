@@ -1,0 +1,10 @@
+PREFIX md: <http://medicaldevice.com/ontology/>
+# FDA-only bounded query; tested live through OKN federation, three rows returned.
+# This associates submissions with categories having recalls, not recalled products.
+SELECT ?submission ?number ?productCode ?tplc ?recall WHERE {
+  GRAPH <https://purl.org/okn/frink/kg/medical-device-kg> {
+    ?submission md:k510Number ?number; md:hasProductCode ?category .
+    ?category md:productCode ?productCode .
+    ?tplc md:productCode ?productCode; md:hasRecall ?recall .
+  }
+} LIMIT 3

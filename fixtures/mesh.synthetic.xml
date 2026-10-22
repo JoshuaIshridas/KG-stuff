@@ -1,0 +1,5 @@
+<DescriptorRecordSet>
+<!-- Synthetic minimal structure for parser tests; not a complete MeSH release. -->
+<DescriptorRecord><DescriptorUI>D004864</DescriptorUI><DescriptorName><String>Equipment and Supplies</String></DescriptorName><TreeNumberList><TreeNumber>E07</TreeNumber></TreeNumberList></DescriptorRecord>
+<DescriptorRecord><DescriptorUI>SYNTHETIC-EQUIPMENT</DescriptorUI><DescriptorName><String>Synthetic equipment topic</String></DescriptorName><TreeNumberList><TreeNumber>E07.999</TreeNumber></TreeNumberList></DescriptorRecord>
+</DescriptorRecordSet>

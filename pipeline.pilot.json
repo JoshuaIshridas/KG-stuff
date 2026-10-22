@@ -1,0 +1,13 @@
+{
+  "state": "../pubmed-private/pilot-corpus-v06",
+  "plan": "../pubmed-private/pilot-v06-plan.json",
+  "fda_index": "../pubmed-private/pilot-fda-v06.sqlite",
+  "rdf_store": "../pubmed-private/pilot-query-store-v06",
+  "fda_ontology": "integration/fda/ontology.ttl",
+  "fda_sources": ["integration/fda/fda-sample.ttl"],
+  "catalog_scope": "Bounded real FDA sample only; not complete device-link coverage",
+  "trial_device_file": null,
+  "annotations_per_run": 2,
+  "reserve_gib": 10,
+  "batch_size": 50
+}

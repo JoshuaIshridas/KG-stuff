@@ -1,0 +1,9 @@
+{
+  "representative": false,
+  "labeling_method": "Synthetic demonstration labels; not a human-curated validation corpus",
+  "population": "Two synthetic test articles only",
+  "records": [
+    {"pmid": "900000001", "is_device": true},
+    {"pmid": "900000002", "is_device": false}
+  ]
+}

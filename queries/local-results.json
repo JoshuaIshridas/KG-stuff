@@ -1,0 +1,537 @@
+[
+  {
+    "file": "01_verified_510k.rq",
+    "count": 1,
+    "result": {
+      "results": {
+        "bindings": [
+          {
+            "article": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/article/900000001"
+            },
+            "device": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/synthetic-device"
+            }
+          }
+        ]
+      },
+      "head": {
+        "vars": [
+          "article",
+          "device"
+        ]
+      }
+    },
+    "live": "NOT RUN: actual MDKG endpoint/schema not supplied"
+  },
+  {
+    "file": "02_device_recalls.rq",
+    "count": 1,
+    "result": {
+      "results": {
+        "bindings": [
+          {
+            "device": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/synthetic-device"
+            },
+            "article": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/article/900000001"
+            },
+            "recall": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/synthetic-recall"
+            }
+          }
+        ]
+      },
+      "head": {
+        "vars": [
+          "article",
+          "device",
+          "recall"
+        ]
+      }
+    },
+    "live": "NOT RUN: actual MDKG endpoint/schema not supplied"
+  },
+  {
+    "file": "03_trial_devices.rq",
+    "count": 2,
+    "result": {
+      "results": {
+        "bindings": [
+          {
+            "article": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/article/900000001"
+            },
+            "trial": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/trial/NCT00000001"
+            },
+            "device": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/synthetic-device"
+            }
+          },
+          {
+            "article": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/article/900000002"
+            },
+            "trial": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/trial/NCT00000001"
+            },
+            "device": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/synthetic-device"
+            }
+          }
+        ]
+      },
+      "head": {
+        "vars": [
+          "article",
+          "trial",
+          "device"
+        ]
+      }
+    },
+    "live": "NOT RUN: actual MDKG endpoint/schema not supplied"
+  },
+  {
+    "file": "04_entities_devices.rq",
+    "count": 2,
+    "result": {
+      "results": {
+        "bindings": [
+          {
+            "article": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/article/900000001"
+            },
+            "device": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/synthetic-device"
+            },
+            "type": {
+              "type": "literal",
+              "value": "Disease"
+            },
+            "namespace": {
+              "type": "literal",
+              "value": "MESH"
+            },
+            "id": {
+              "type": "literal",
+              "value": "D000001"
+            }
+          },
+          {
+            "article": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/article/900000001"
+            },
+            "device": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/synthetic-device"
+            },
+            "type": {
+              "type": "literal",
+              "value": "Chemical"
+            },
+            "namespace": {
+              "type": "literal",
+              "value": "MESH"
+            },
+            "id": {
+              "type": "literal",
+              "value": "D000002"
+            }
+          }
+        ]
+      },
+      "head": {
+        "vars": [
+          "article",
+          "device",
+          "type",
+          "namespace",
+          "id"
+        ]
+      }
+    },
+    "live": "NOT RUN: actual MDKG endpoint/schema not supplied"
+  },
+  {
+    "file": "05_mesh_year_category.rq",
+    "count": 1,
+    "result": {
+      "results": {
+        "bindings": [
+          {
+            "year": {
+              "type": "literal",
+              "value": "2024"
+            },
+            "category": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/synthetic-category"
+            },
+            "descriptor": {
+              "type": "uri",
+              "value": "http://id.nlm.nih.gov/mesh/D000001"
+            }
+          }
+        ]
+      },
+      "head": {
+        "vars": [
+          "category",
+          "year",
+          "descriptor"
+        ]
+      }
+    },
+    "live": "NOT RUN: actual MDKG endpoint/schema not supplied"
+  },
+  {
+    "file": "06_funding.rq",
+    "count": 1,
+    "result": {
+      "results": {
+        "bindings": [
+          {
+            "article": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/article/900000001"
+            },
+            "agency": {
+              "type": "literal",
+              "value": "Synthetic Funding Agency"
+            },
+            "grant": {
+              "type": "literal",
+              "value": "SYN-001"
+            }
+          }
+        ]
+      },
+      "head": {
+        "vars": [
+          "article",
+          "agency",
+          "grant"
+        ]
+      }
+    },
+    "live": "NOT RUN: actual MDKG endpoint/schema not supplied"
+  },
+  {
+    "file": "07_pma.rq",
+    "count": 1,
+    "result": {
+      "results": {
+        "bindings": [
+          {
+            "article": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/article/900000001"
+            },
+            "device": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/synthetic-device"
+            }
+          }
+        ]
+      },
+      "head": {
+        "vars": [
+          "article",
+          "device"
+        ]
+      }
+    },
+    "live": "NOT RUN: actual MDKG endpoint/schema not supplied"
+  },
+  {
+    "file": "08_coverage.rq",
+    "count": 2,
+    "result": {
+      "results": {
+        "bindings": [
+          {
+            "category": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/synthetic-category"
+            },
+            "publications": {
+              "type": "literal",
+              "value": "1",
+              "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            }
+          },
+          {
+            "category": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/synthetic-category2"
+            },
+            "publications": {
+              "type": "literal",
+              "value": "0",
+              "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+            }
+          }
+        ]
+      },
+      "head": {
+        "vars": [
+          "category",
+          "publications"
+        ]
+      }
+    },
+    "live": "NOT RUN: actual MDKG endpoint/schema not supplied"
+  },
+  {
+    "file": "09_review.rq",
+    "count": 1,
+    "result": {
+      "results": {
+        "bindings": [
+          {
+            "article": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/article/900000002"
+            },
+            "device": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/synthetic-device"
+            },
+            "method": {
+              "type": "literal",
+              "value": "synthetic-name-review-required"
+            }
+          }
+        ]
+      },
+      "head": {
+        "vars": [
+          "article",
+          "device",
+          "method"
+        ]
+      }
+    },
+    "live": "NOT RUN: actual MDKG endpoint/schema not supplied"
+  },
+  {
+    "file": "10_quality.rq",
+    "count": 2,
+    "result": {
+      "results": {
+        "bindings": [
+          {
+            "article": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/article/900000001"
+            },
+            "issue": {
+              "type": "literal",
+              "value": "missing DOI"
+            }
+          },
+          {
+            "article": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/article/900000002"
+            },
+            "issue": {
+              "type": "literal",
+              "value": "missing DOI"
+            }
+          }
+        ]
+      },
+      "head": {
+        "vars": [
+          "article",
+          "issue"
+        ]
+      }
+    },
+    "live": "NOT RUN: actual MDKG endpoint/schema not supplied"
+  },
+  {
+    "file": "11_identifiers.rq",
+    "count": 2,
+    "result": {
+      "results": {
+        "bindings": [
+          {
+            "article": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/article/900000001"
+            },
+            "raw": {
+              "type": "literal",
+              "value": "NCT00000001"
+            },
+            "scheme": {
+              "type": "literal",
+              "value": "nct"
+            },
+            "valid": {
+              "type": "literal",
+              "value": "true",
+              "datatype": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "value": {
+              "type": "literal",
+              "value": "NCT00000001"
+            }
+          },
+          {
+            "article": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/article/900000002"
+            },
+            "raw": {
+              "type": "literal",
+              "value": "NCT00000001"
+            },
+            "scheme": {
+              "type": "literal",
+              "value": "nct"
+            },
+            "valid": {
+              "type": "literal",
+              "value": "true",
+              "datatype": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "value": {
+              "type": "literal",
+              "value": "NCT00000001"
+            }
+          }
+        ]
+      },
+      "head": {
+        "vars": [
+          "article",
+          "scheme",
+          "raw",
+          "value",
+          "valid"
+        ]
+      }
+    },
+    "live": "NOT RUN: actual MDKG endpoint/schema not supplied"
+  },
+  {
+    "file": "12_annotations.rq",
+    "count": 5,
+    "result": {
+      "results": {
+        "bindings": [
+          {
+            "article": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/article/900000001"
+            },
+            "status": {
+              "type": "literal",
+              "value": "complete"
+            },
+            "namespace": {
+              "type": "literal",
+              "value": "MESH"
+            },
+            "id": {
+              "type": "literal",
+              "value": "D000001"
+            }
+          },
+          {
+            "article": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/article/900000001"
+            },
+            "status": {
+              "type": "literal",
+              "value": "complete"
+            },
+            "namespace": {
+              "type": "literal",
+              "value": "MESH"
+            },
+            "id": {
+              "type": "literal",
+              "value": "D000002"
+            }
+          },
+          {
+            "article": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/article/900000001"
+            },
+            "status": {
+              "type": "literal",
+              "value": "complete"
+            },
+            "namespace": {
+              "type": "literal",
+              "value": "unmapped:Gene"
+            },
+            "id": {
+              "type": "literal",
+              "value": "672"
+            }
+          },
+          {
+            "article": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/article/900000001"
+            },
+            "status": {
+              "type": "literal",
+              "value": "complete"
+            },
+            "namespace": {
+              "type": "literal",
+              "value": "unmapped:Variant"
+            },
+            "id": {
+              "type": "literal",
+              "value": "unmapped-test"
+            }
+          },
+          {
+            "article": {
+              "type": "uri",
+              "value": "https://example.org/pubmed-kg/v1/article/900000002"
+            },
+            "status": {
+              "type": "literal",
+              "value": "unavailable"
+            }
+          }
+        ]
+      },
+      "head": {
+        "vars": [
+          "article",
+          "status",
+          "namespace",
+          "id"
+        ]
+      }
+    },
+    "live": "NOT RUN: actual MDKG endpoint/schema not supplied"
+  }
+]

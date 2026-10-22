@@ -1,0 +1,18 @@
+{
+  "version": "0.5.0",
+  "tests_passed": 88,
+  "offline_sparql_queries_passed": 12,
+  "synthetic_acceptance_triples": 785,
+  "live_pubtator_articles": 1,
+  "live_pubtator_annotations": 26,
+  "fda_sample_triples": 28,
+  "fda_registry_schema_triples": 1143,
+  "fda_category_recall_live_rows": 3,
+  "fda_native_endpoint": "ReadTimeout",
+  "fulltext_ingestion_enabled": false,
+  "abstract_or_body_export_enabled": false,
+  "api_key_path_tested": "mock credential forwarding/privacy; no live credential used",
+  "full_corpus_tested": false,
+  "overall_medical_device_recall": "not_established",
+  "fda_bundle_scope": "Bounded real extract plus registry-derived schema, not the complete FDA TTL/canonical release ontology."
+}

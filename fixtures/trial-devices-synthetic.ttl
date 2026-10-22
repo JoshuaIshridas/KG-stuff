@@ -1,0 +1,8 @@
+@prefix k: <https://example.org/pubmed-kg/v1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+# SYNTHETIC reviewed registry/device association. Not an FDA ontology predicate.
+<https://example.org/pubmed-kg/v1/trial/NCT00000001> a k:ClinicalTrial;
+ k:device <https://example.org/synthetic-fda/device1>;
+ prov:wasDerivedFrom <https://example.org/synthetic-registry/source>;
+ rdfs:label "SYNTHETIC trial-device association" .

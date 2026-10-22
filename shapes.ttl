@@ -1,0 +1,71 @@
+@prefix k: <https://example.org/pubmed-kg/v1/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+k:ArticleShape a sh:NodeShape; sh:targetClass k:Article;
+ sh:property [sh:path k:pmid; sh:minCount 1; sh:maxCount 1; sh:datatype xsd:string; sh:pattern "^[1-9][0-9]*$"];
+ sh:property [sh:path k:title; sh:minCount 1; sh:maxCount 1];
+ sh:property [sh:path k:sourceOrder; sh:minCount 1; sh:datatype xsd:integer].
+k:AnnotationShape a sh:NodeShape; sh:targetClass k:Annotation;
+ sh:property [sh:path k:source; sh:minCount 1];
+ sh:property [sh:path k:namespace; sh:minCount 1].
+k:LinkShape a sh:NodeShape; sh:targetClass k:LinkAssertion;
+ sh:property [sh:path k:status; sh:in ("candidate" "verified" "rejected"); sh:minCount 1; sh:maxCount 1];
+ sh:property [sh:path k:method; sh:minCount 1];
+ sh:or (
+   [sh:property [sh:path k:device; sh:minCount 1; sh:nodeKind sh:IRI]]
+   [sh:property [sh:path k:fdaRecord; sh:minCount 1; sh:nodeKind sh:IRI]]
+   [sh:property [sh:path k:categoryMatch; sh:minCount 1; sh:nodeKind sh:IRI]]
+ ).
+
+# Context-bearing resources have explicit classes and constraints.
+k:IdentifierShape a sh:NodeShape; sh:targetClass k:Identifier;
+ sh:property [sh:path k:scheme; sh:datatype xsd:string; sh:minCount 1; sh:maxCount 1];
+ sh:property [sh:path k:raw; sh:datatype xsd:string; sh:minCount 1; sh:maxCount 1];
+ sh:property [sh:path k:value; sh:datatype xsd:string; sh:minCount 1; sh:maxCount 1];
+ sh:property [sh:path k:valid; sh:datatype xsd:boolean; sh:minCount 1; sh:maxCount 1].
+k:DateShape a sh:NodeShape; sh:targetClass k:PublicationDate;
+ sh:property [sh:path k:kind; sh:minCount 1; sh:maxCount 1];
+ sh:property [sh:path k:meaning; sh:minCount 1; sh:maxCount 1];
+ sh:property [sh:path k:precision; sh:minCount 1; sh:maxCount 1; sh:in ("year" "month" "day" "text")].
+k:MeshShape a sh:NodeShape; sh:targetClass k:MeshAssignment;
+ sh:property [sh:path k:major; sh:minCount 1; sh:maxCount 1; sh:datatype xsd:boolean];
+ sh:property [sh:path k:qualifier; sh:class k:MeshQualifierAssignment].
+k:QualifierShape a sh:NodeShape; sh:targetClass k:MeshQualifierAssignment;
+ sh:property [sh:path k:major; sh:minCount 1; sh:maxCount 1; sh:datatype xsd:boolean].
+k:FieldShape a sh:NodeShape; sh:targetClass k:SourceField;
+ sh:property [sh:path k:path; sh:minCount 1; sh:maxCount 1; sh:datatype xsd:string];
+ sh:property [sh:path k:element; sh:minCount 1; sh:maxCount 1; sh:datatype xsd:string];
+ sh:property [sh:path k:fieldValue; sh:minCount 1; sh:maxCount 1; sh:datatype xsd:string];
+ sh:property [sh:path k:attributes; sh:minCount 1; sh:maxCount 1; sh:datatype xsd:string];
+ sh:not [sh:property [sh:path k:element; sh:in ("Abstract" "OtherAbstract" "AbstractText" "CopyrightInformation" "CoiStatement" "GeneralNote" "Note" "Citation" "RefSource" "ItemList" "Sections" "ObjectList")]].
+k:DeviceSignalShape a sh:NodeShape; sh:targetClass k:DeviceRelevanceSignal;
+ sh:property [sh:path k:method; sh:minCount 1; sh:maxCount 1];
+ sh:property [sh:path k:classification; sh:minCount 1; sh:maxCount 1];
+ sh:property [sh:path k:location; sh:minCount 1; sh:maxCount 1].
+k:RelevanceShape a sh:NodeShape; sh:targetClass k:Article;
+ sh:property [sh:path k:deviceRelevanceStatus; sh:minCount 1; sh:maxCount 1; sh:in ("candidate" "unassessed")];
+ sh:property [sh:path k:metadataField; sh:class k:SourceField; sh:minCount 1];
+ sh:property [sh:path <http://purl.org/ontology/bibo/abstract>; sh:maxCount 0];
+ sh:property [sh:path <https://schema.org/abstract>; sh:maxCount 0];
+ sh:property [sh:path <http://purl.org/dc/terms/abstract>; sh:maxCount 0].
+k:BiomedicalEntityShape a sh:NodeShape; sh:targetClass k:BiomedicalEntity;
+ sh:property [sh:path k:namespace; sh:datatype xsd:string; sh:minCount 1; sh:maxCount 1];
+ sh:property [sh:path k:normalizedIdentifier; sh:datatype xsd:string; sh:minCount 1; sh:maxCount 1];
+ sh:property [sh:path k:entityType; sh:datatype xsd:string; sh:minCount 1; sh:maxCount 1].
+k:AnnotationEntityShape a sh:NodeShape; sh:targetClass k:Annotation;
+ sh:property [sh:path k:entity; sh:class k:BiomedicalEntity; sh:maxCount 1];
+ sh:property [sh:path k:retrieved; sh:datatype xsd:string; sh:minCount 1; sh:maxCount 1];
+ sh:property [sh:path k:entityType; sh:datatype xsd:string; sh:minCount 1; sh:maxCount 1].
+
+k:DeviceLinkShape a sh:NodeShape; sh:targetClass k:DeviceLinkAssertion;
+ sh:property [sh:path k:matchedResource; sh:minCount 1; sh:maxCount 1; sh:nodeKind sh:IRI];
+ sh:property [sh:path k:articleRevision; sh:minCount 1; sh:maxCount 1; sh:datatype xsd:integer];
+ sh:property [sh:path k:catalogIdentity; sh:minCount 1; sh:maxCount 1];
+ sh:or (
+   [sh:property [sh:path k:status; sh:in ("candidate" "rejected")]]
+   [sh:property [sh:path k:status; sh:hasValue "verified"];
+    sh:property [sh:path k:scheme; sh:in ("510k" "pma")];
+    sh:property [sh:path k:reviewer; sh:minCount 1];
+    sh:property [sh:path k:reviewedAt; sh:minCount 1; sh:datatype xsd:dateTime];
+    sh:property [sh:path k:reviewMethod; sh:hasValue "independent-identifier-confirmation"]]
+ ).

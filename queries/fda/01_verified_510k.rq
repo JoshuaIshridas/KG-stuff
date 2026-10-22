@@ -1,0 +1,5 @@
+PREFIX k: <https://example.org/pubmed-kg/v1/>
+PREFIX md: <http://medicaldevice.com/ontology/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+# Which publications have a reviewed exact 510(k) match?
+SELECT DISTINCT ?pmid ?number ?record ?device WHERE { ?a k:pmid ?pmid; k:link ?l. ?l k:status "verified"; k:scheme "510k"; k:fdaRecord ?record. ?record md:k510Number ?number. OPTIONAL { ?l k:device ?device } } ORDER BY ?pmid LIMIT 100

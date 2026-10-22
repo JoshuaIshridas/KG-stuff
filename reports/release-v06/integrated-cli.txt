@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "synthetic": true,
+  "canonical_fda_ontology": {
+    "sha256": "f9f455c15bd100e2c6f17fb197c01f6e6a49685e1e10daa4a36f3b6ada198ac2",
+    "triples": 753,
+    "namespace": "http://medicaldevice.com/ontology/",
+    "classes": 53,
+    "properties": 264,
+    "trial_predicate_declared": false
+  },
+  "fda_catalog": "a6d16610981fb6eadd7358d5b56a0fab745cc86040a2815405a1f9af65cc78da",
+  "current_articles": 2,
+  "before_update_articles": 3,
+  "deleted_pmids": 1,
+  "queries_passed": 12,
+  "rdf_triples": 2009,
+  "stale_links_and_annotations_cleared": true,
+  "source_metadata_retention": 1.0,
+  "full_pubmed_tested": false,
+  "overall_device_recall": "not_measured"
+}

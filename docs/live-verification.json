@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_250101.dtd",
+    "status": 200,
+    "content_type": "application/xml-dtd",
+    "date": "2026-10-21"
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/research/pubtator3/api",
+    "status": 200,
+    "content_type": "text/html",
+    "date": "2026-10-21"
+  },
+  {
+    "url": "https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson?pmids=19894120",
+    "status": 200,
+    "content_type": "application/json",
+    "date": "2026-10-21",
+    "structure": {
+      "root": "dict",
+      "keys": [
+        "PubTator3"
+      ]
+    }
+  },
+  {
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=19894120&retmode=xml",
+    "status": 200,
+    "content_type": "text/xml; charset=UTF-8",
+    "date": "2026-10-21"
+  },
+  {
+    "url": "https://ftp.ncbi.nlm.nih.gov/pubmed/baseline/",
+    "status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "date": "2026-10-21"
+  },
+  {
+    "url": "https://ftp.ncbi.nlm.nih.gov/pubmed/updatefiles/",
+    "status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "date": "2026-10-21"
+  }
+]

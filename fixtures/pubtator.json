@@ -1,0 +1,38 @@
+[
+  {
+    "id": "900000001",
+    "passages": [
+      {
+        "infons": {
+          "type": "title"
+        },
+        "annotations": [
+          {
+            "infons": {
+              "type": "Disease",
+              "identifier": "MESH:D000001"
+            }
+          },
+          {
+            "infons": {
+              "type": "Chemical",
+              "identifier": "MESH:D000002"
+            }
+          },
+          {
+            "infons": {
+              "type": "Gene",
+              "identifier": "672"
+            }
+          },
+          {
+            "infons": {
+              "type": "Variant",
+              "identifier": "unmapped-test"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

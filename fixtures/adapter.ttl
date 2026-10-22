@@ -1,0 +1,15 @@
+@prefix k: <https://example.org/pubmed-kg/v1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+# ALL adapter resources and relationships are synthetic, not actual MDKG schema.
+k:synthetic-device a k:Device; rdfs:label "SYNTHETIC device"; k:category k:synthetic-category; k:recall k:synthetic-recall; k:regulatoryIdentifier "K123456", "P123456" .
+k:synthetic-device2 a k:Device; rdfs:label "SYNTHETIC low-literature device"; k:category k:synthetic-category2; k:recall k:synthetic-recall2 .
+k:synthetic-category rdfs:label "SYNTHETIC category" .
+k:synthetic-category2 rdfs:label "SYNTHETIC category 2" .
+k:synthetic-recall a k:Recall; rdfs:label "SYNTHETIC recall" .
+k:synthetic-recall2 a k:Recall; rdfs:label "SYNTHETIC recall 2" .
+<https://example.org/pubmed-kg/v1/trial/NCT00000001> a k:ClinicalTrial; k:device k:synthetic-device; rdfs:label "SYNTHETIC trial" .
+<https://example.org/pubmed-kg/v1/article/900000001> k:link k:synthetic-link, k:synthetic-pma .
+k:synthetic-link a k:LinkAssertion; k:device k:synthetic-device; k:detection <https://example.org/pubmed-kg/v1/detection/900000001%2F0>; k:status "verified"; k:method "synthetic-exact-identifier-review"; k:confidence "identifier-confirmed"; k:scheme "510k"; k:evidenceLocation "title"; k:reviewer "synthetic-reviewer" .
+k:synthetic-pma a k:LinkAssertion; k:device k:synthetic-device; k:status "verified"; k:method "synthetic-exact-identifier-review"; k:scheme "pma"; k:evidenceLocation "title" .
+<https://example.org/pubmed-kg/v1/article/900000002> k:link k:synthetic-candidate .
+k:synthetic-candidate a k:LinkAssertion; k:device k:synthetic-device; k:status "candidate"; k:method "synthetic-name-review-required"; k:confidence "unresolved"; k:evidenceLocation "title" .

@@ -1,0 +1,5 @@
+PREFIX k: <https://example.org/pubmed-kg/v1/>
+PREFIX md: <http://medicaldevice.com/ontology/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+# Which agencies and grants support device-linked publications?
+SELECT DISTINCT ?pmid ?agency ?grant WHERE { ?a k:pmid ?pmid; k:link ?l; k:grant ?g. ?l k:status "verified". ?g k:Agency ?agency; k:GrantID ?grant. } ORDER BY ?pmid LIMIT 100

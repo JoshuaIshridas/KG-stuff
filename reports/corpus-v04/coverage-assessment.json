@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-10-21T22:17:41.508677+00:00",
+  "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/einfo.fcgi?db=pubmed&retmode=json",
+  "pubmed_count": 41313688,
+  "source_lastupdate": "2026/10/21 15:06",
+  "unique_real_article_pmids_tested_across_versions": 415,
+  "test_sample_fraction_percent": "0.001004509691799967119856256842",
+  "new_delta_engine_sample_article_retention_percent": 100,
+  "new_delta_engine_test_articles": 100,
+  "new_delta_engine_test_deletion_notices": 214,
+  "overall_medical_device_recall_percent": null,
+  "overall_recall_estimate_available": false,
+  "reason": "No independently labeled representative device-recall benchmark and no completed whole-corpus reconstruction. Test fraction is not recall."
+}

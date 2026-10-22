@@ -1,0 +1,1196 @@
+# rdf/ontology.ttl
+
+@prefix ex: <http://medicaldevice.com/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+# =========================
+# ABSTRACT / SHARED CLASSES
+# =========================
+
+ex:MedicalDevice a rdfs:Class ;
+    rdfs:label "Medical Device" .
+
+ex:FDADataRecord a rdfs:Class ;
+    rdfs:label "FDA Data Record" .
+
+ex:RegulatorySubmission a rdfs:Class ;
+    rdfs:subClassOf ex:FDADataRecord ;
+    rdfs:label "Regulatory Submission" .
+
+ex:AdverseEventReport a rdfs:Class ;
+    rdfs:subClassOf ex:FDADataRecord ;
+    rdfs:label "Adverse Event Report" .
+
+ex:SafetyReport a rdfs:Class ;
+    rdfs:subClassOf ex:AdverseEventReport ;
+    rdfs:label "Safety Report" .
+
+ex:Manufacturer a rdfs:Class ;
+    rdfs:label "Manufacturer / Organization" .
+
+ex:ProductCode a rdfs:Class ;
+    rdfs:label "FDA Product Code" .
+
+ex:RegulationNumber a rdfs:Class ;
+    rdfs:label "Regulation Number" .
+
+ex:ApprovalPathway a rdfs:Class ;
+    rdfs:label "Approval Pathway" .
+
+ex:DeviceIdentifier a rdfs:Class ;
+    rdfs:label "Device Identifier (UDI)" .
+
+ex:GMDNTerm a rdfs:Class ;
+    rdfs:label "GMDN Term" .
+
+ex:DeviceProblem a rdfs:Class ;
+    rdfs:label "Device Problem" .
+
+ex:PatientOutcome a rdfs:Class ;
+    rdfs:label "Patient Outcome" .
+
+ex:SafetySignal a rdfs:Class ;
+    rdfs:label "Safety Signal" .
+
+ex:Recall a rdfs:Class ;
+    rdfs:label "Recall" .
+
+ex:DesignChange a rdfs:Class ;
+    rdfs:label "Design Change" .
+
+ex:DeviceMaterial a rdfs:Class ;
+    rdfs:label "Device Material" .
+
+ex:DeviceComponent a rdfs:Class ;
+    rdfs:label "Device Component" .
+
+ex:Material a rdfs:Class ;
+    rdfs:subClassOf ex:DeviceMaterial ;
+    rdfs:label "Material" .
+
+ex:Component a rdfs:Class ;
+    rdfs:subClassOf ex:DeviceComponent ;
+    rdfs:label "Component" .
+
+ex:SoftwareFeature a rdfs:Class ;
+    rdfs:label "Software Feature" .
+
+ex:MDRStatistic a rdfs:Class ;
+    rdfs:label "MDR Statistic" .
+
+# =========================
+# DATASET-SPECIFIC CLASSES
+# =========================
+
+ex:MAUDEReport a rdfs:Class ;
+    rdfs:subClassOf ex:AdverseEventReport ;
+    rdfs:label "MAUDE Adverse Event Report" .
+
+ex:MedSunReport a rdfs:Class ;
+    rdfs:subClassOf ex:AdverseEventReport ;
+    rdfs:label "MedSun Safety Report" .
+
+ex:TPLCRecord a rdfs:Class ;
+    rdfs:subClassOf ex:FDADataRecord ;
+    rdfs:label "TPLC Device Record" .
+
+ex:K510Record a rdfs:Class ;
+    rdfs:subClassOf ex:RegulatorySubmission ;
+    rdfs:label "510(k) Submission" .
+
+ex:PMARecord a rdfs:Class ;
+    rdfs:subClassOf ex:RegulatorySubmission ;
+    rdfs:label "PMA Submission" .
+
+ex:PMAChangeMemo a rdfs:Class ;
+    rdfs:subClassOf ex:DesignChange ;
+    rdfs:label "PMA Design Change / Supplement" .
+
+ex:AccessGUDIDRecord a rdfs:Class ;
+    rdfs:subClassOf ex:FDADataRecord ;
+    rdfs:label "AccessGUDID / UDI Record" .
+
+ex:DeNovoRecord a rdfs:Class ;
+    rdfs:subClassOf ex:RegulatorySubmission ;
+    rdfs:label "De Novo Authorization" .
+
+ex:RecallRecord a rdfs:Class ;
+    rdfs:subClassOf ex:FDADataRecord ;
+    rdfs:label "Device Recall Record" .
+
+ex:ProductClassificationRecord a rdfs:Class ;
+    rdfs:subClassOf ex:FDADataRecord ;
+    rdfs:label "FDA Product Classification Code" .
+
+ex:RegistrationListingRecord a rdfs:Class ;
+    rdfs:subClassOf ex:FDADataRecord ;
+    rdfs:label "FDA Registration and Listing Record" .
+
+ex:DeviceListing a rdfs:Class ;
+    rdfs:subClassOf ex:FDADataRecord ;
+    rdfs:label "FDA Device Listing" .
+
+# =========================
+# CROSS-DATASET OBJECT PROPERTIES
+# =========================
+
+ex:involvesDevice a rdf:Property ;
+    rdfs:range ex:MedicalDevice ;
+    rdfs:label "involves device" .
+
+ex:linkedMedicalDevice a rdf:Property ;
+    rdfs:range ex:MedicalDevice ;
+    rdfs:label "linked medical device" .
+
+ex:hasProductCode a rdf:Property ;
+    rdfs:range ex:ProductCode ;
+    rdfs:label "has product code" .
+
+ex:linkedProductCode a rdf:Property ;
+    rdfs:range ex:ProductCode ;
+    rdfs:label "linked product code" .
+
+ex:relatedProductCode a rdf:Property ;
+    rdfs:range ex:ProductCode ;
+    rdfs:label "related product code" .
+
+ex:sameProductCodeAs a rdf:Property ;
+    rdfs:label "same product code as" .
+
+ex:possiblySameDeviceAs a rdf:Property ;
+    rdfs:label "possibly same device as" .
+
+ex:madeBy a rdf:Property ;
+    rdfs:range ex:Manufacturer ;
+    rdfs:label "made by" .
+
+ex:reportedBy a rdf:Property ;
+    rdfs:range ex:Manufacturer ;
+    rdfs:label "reported by" .
+
+ex:hasManufacturer a rdf:Property ;
+    rdfs:range ex:Manufacturer ;
+    rdfs:label "has manufacturer" .
+
+# Record-level links
+
+ex:hasFDARecord a rdf:Property ;
+    rdfs:range ex:FDADataRecord ;
+    rdfs:label "has FDA record" .
+
+ex:hasMAUDEReport a rdf:Property ;
+    rdfs:domain ex:MedicalDevice ;
+    rdfs:range ex:MAUDEReport ;
+    rdfs:label "has MAUDE report" .
+
+ex:hasMedSunReport a rdf:Property ;
+    rdfs:domain ex:MedicalDevice ;
+    rdfs:range ex:MedSunReport ;
+    rdfs:label "has MedSun report" .
+
+ex:hasTPLCRecord a rdf:Property ;
+    rdfs:domain ex:MedicalDevice ;
+    rdfs:range ex:TPLCRecord ;
+    rdfs:label "has TPLC record" .
+
+ex:has510kRecord a rdf:Property ;
+    rdfs:domain ex:MedicalDevice ;
+    rdfs:range ex:K510Record ;
+    rdfs:label "has 510(k) record" .
+
+ex:hasPMARecord a rdf:Property ;
+    rdfs:domain ex:MedicalDevice ;
+    rdfs:range ex:PMARecord ;
+    rdfs:label "has PMA record" .
+
+ex:hasPMADesignChange a rdf:Property ;
+    rdfs:domain ex:MedicalDevice ;
+    rdfs:range ex:PMAChangeMemo ;
+    rdfs:label "has PMA design change" .
+
+ex:hasDesignChange a rdf:Property ;
+    rdfs:domain ex:MedicalDevice ;
+    rdfs:range ex:PMAChangeMemo ;
+    rdfs:label "has design change" .
+
+ex:hasAccessGUDIDRecord a rdf:Property ;
+    rdfs:domain ex:MedicalDevice ;
+    rdfs:range ex:AccessGUDIDRecord ;
+    rdfs:label "has AccessGUDID record" .
+
+# Safety / problem / outcome links
+
+ex:hasProblem a rdf:Property ;
+    rdfs:range ex:DeviceProblem ;
+    rdfs:label "has problem" .
+
+ex:hasDeviceProblem a rdf:Property ;
+    rdfs:range ex:DeviceProblem ;
+    rdfs:label "has device problem" .
+
+ex:hasOutcome a rdf:Property ;
+    rdfs:range ex:PatientOutcome ;
+    rdfs:label "has outcome" .
+
+ex:hasPatientOutcome a rdf:Property ;
+    rdfs:range ex:PatientOutcome ;
+    rdfs:label "has patient outcome" .
+
+ex:hasSafetySignal a rdf:Property ;
+    rdfs:range ex:SafetySignal ;
+    rdfs:label "has safety signal" .
+
+ex:hasRecall a rdf:Property ;
+    rdfs:domain ex:TPLCRecord ;
+    rdfs:range ex:Recall ;
+    rdfs:label "has recall" .
+
+# Device characteristic links
+
+ex:hasMaterial a rdf:Property ;
+    rdfs:range ex:Material ;
+    rdfs:label "has material" .
+
+ex:hasComponent a rdf:Property ;
+    rdfs:range ex:Component ;
+    rdfs:label "has component" .
+
+ex:hasSoftware a rdf:Property ;
+    rdfs:range ex:SoftwareFeature ;
+    rdfs:label "has software" .
+
+ex:hasDeviceIdentifier a rdf:Property ;
+    rdfs:range ex:DeviceIdentifier ;
+    rdfs:label "has device identifier" .
+
+ex:hasGMDNTerm a rdf:Property ;
+    rdfs:range ex:GMDNTerm ;
+    rdfs:label "has GMDN term" .
+
+ex:hasMDRStatistic a rdf:Property ;
+    rdfs:domain ex:TPLCRecord ;
+    rdfs:range ex:MDRStatistic ;
+    rdfs:label "has MDR statistic" .
+
+ex:hasDeNovoRecord a rdf:Property ;
+    rdfs:domain ex:MedicalDevice ;
+    rdfs:range ex:DeNovoRecord ;
+    rdfs:label "has De Novo record" .
+
+ex:hasRecallRecord a rdf:Property ;
+    rdfs:domain ex:MedicalDevice ;
+    rdfs:range ex:RecallRecord ;
+    rdfs:label "has recall record" .
+
+ex:hasClassificationRecord a rdf:Property ;
+    rdfs:domain ex:ProductCode ;
+    rdfs:range ex:ProductClassificationRecord ;
+    rdfs:label "has classification record" .
+
+ex:hasRegistrationRecord a rdf:Property ;
+    rdfs:domain ex:Manufacturer ;
+    rdfs:range ex:RegistrationListingRecord ;
+    rdfs:label "has registration record" .
+
+ex:hasDeviceListing a rdf:Property ;
+    rdfs:domain ex:RegistrationListingRecord ;
+    rdfs:range ex:DeviceListing ;
+    rdfs:label "has device listing" .
+
+ex:registeredAt a rdf:Property ;
+    rdfs:domain ex:DeviceListing ;
+    rdfs:range ex:RegistrationListingRecord ;
+    rdfs:label "registered at establishment" .
+
+ex:hasYearlyTrend a rdf:Property ;
+    rdfs:domain ex:TPLCRecord ;
+    rdfs:range ex:MDRStatistic ;
+    rdfs:label "has yearly trend" .
+
+ex:hasRegulationNumber a rdf:Property ;
+    rdfs:range ex:RegulationNumber ;
+    rdfs:label "has regulation number" .
+
+ex:hasApprovalPathway a rdf:Property ;
+    rdfs:range ex:ApprovalPathway ;
+    rdfs:label "has approval pathway" .
+
+ex:hasPredicateDevice a rdf:Property ;
+    rdfs:label "has predicate device" .
+
+ex:supplementsPMA a rdf:Property ;
+    rdfs:label "supplements PMA" .
+
+# Design change affect properties
+
+ex:affectsMaterial a rdf:Property ;
+    rdfs:label "affects material" .
+
+ex:affectsSoftware a rdf:Property ;
+    rdfs:label "affects software" .
+
+ex:affectsComponent a rdf:Property ;
+    rdfs:label "affects component" .
+
+ex:affectsLabeling a rdf:Property ;
+    rdfs:label "affects labeling" .
+
+ex:affectsPackaging a rdf:Property ;
+    rdfs:label "affects packaging" .
+
+ex:affectsSterility a rdf:Property ;
+    rdfs:label "affects sterility" .
+
+# =========================
+# DATATYPE / LITERAL PROPERTIES
+# =========================
+
+# Shared identifiers
+
+ex:productCode a rdf:Property ;
+    rdfs:label "product code" .
+
+ex:deviceName a rdf:Property ;
+    rdfs:label "device name" .
+
+ex:brandName a rdf:Property ;
+    rdfs:label "brand name" .
+
+ex:tradeName a rdf:Property ;
+    rdfs:label "trade name" .
+
+ex:genericName a rdf:Property ;
+    rdfs:label "generic name" .
+
+ex:manufacturerName a rdf:Property ;
+    rdfs:label "manufacturer name" .
+
+ex:modelNumber a rdf:Property ;
+    rdfs:label "model number" .
+
+ex:catalogNumber a rdf:Property ;
+    rdfs:label "catalog number" .
+
+ex:sourceDataset a rdf:Property ;
+    rdfs:label "source dataset" .
+
+ex:sourceUrl a rdf:Property ;
+    rdfs:label "source URL" .
+
+# Regulatory submission fields
+
+ex:pmaNumber a rdf:Property ;
+    rdfs:label "PMA number" .
+
+ex:k510Number a rdf:Property ;
+    rdfs:label "510(k) number" .
+
+ex:supplementNumber a rdf:Property ;
+    rdfs:label "supplement number" .
+
+ex:approvalDate a rdf:Property ;
+    rdfs:label "approval date" .
+
+ex:decisionDate a rdf:Property ;
+    rdfs:label "decision date" .
+
+ex:decisionCode a rdf:Property ;
+    rdfs:label "decision code" .
+
+ex:expeditedReviewFlag a rdf:Property ;
+    rdfs:label "expedited review flag" .
+
+ex:applicant a rdf:Property ;
+    rdfs:label "applicant" .
+
+ex:intendedUse a rdf:Property ;
+    rdfs:label "intended use" .
+
+ex:deviceDescription a rdf:Property ;
+    rdfs:label "device description" .
+
+ex:summary a rdf:Property ;
+    rdfs:label "summary" .
+
+ex:technologicalCharacteristics a rdf:Property ;
+    rdfs:label "technological characteristics" .
+
+ex:predicateDevice a rdf:Property ;
+    rdfs:label "predicate device" .
+
+ex:reviewPanel a rdf:Property ;
+    rdfs:label "review panel" .
+
+ex:advisoryCommittee a rdf:Property ;
+    rdfs:label "advisory committee" .
+
+# Design change fields
+
+ex:changeDescription a rdf:Property ;
+    rdfs:label "change description" .
+
+ex:changeReason a rdf:Property ;
+    rdfs:label "change reason" .
+
+ex:designChangeSummary a rdf:Property ;
+    rdfs:label "design change summary" .
+
+ex:softwareDescription a rdf:Property ;
+    rdfs:label "software description" .
+
+ex:materialDescription a rdf:Property ;
+    rdfs:label "material description" .
+
+ex:componentDescription a rdf:Property ;
+    rdfs:label "component description" .
+
+ex:labelingDescription a rdf:Property ;
+    rdfs:label "labeling description" .
+
+ex:packagingDescription a rdf:Property ;
+    rdfs:label "packaging description" .
+
+ex:sterilityDescription a rdf:Property ;
+    rdfs:label "sterility description" .
+
+# Adverse event / safety report fields
+
+ex:reportNumber a rdf:Property ;
+    rdfs:label "report number" .
+
+ex:reportDate a rdf:Property ;
+    rdfs:label "report date" .
+
+ex:eventDate a rdf:Property ;
+    rdfs:label "event date" .
+
+ex:eventType a rdf:Property ;
+    rdfs:label "event type" .
+
+ex:dateReceived a rdf:Property ;
+    rdfs:label "date received" .
+
+ex:dateOfEvent a rdf:Property ;
+    rdfs:label "date of event" .
+
+ex:narrative a rdf:Property ;
+    rdfs:label "narrative" .
+
+ex:eventNarrative a rdf:Property ;
+    rdfs:label "event narrative" .
+
+ex:problemDescription a rdf:Property ;
+    rdfs:label "problem description" .
+
+ex:adverseEventFlag a rdf:Property ;
+    rdfs:label "adverse event flag" .
+
+ex:sourceType a rdf:Property ;
+    rdfs:label "source type" .
+
+ex:reporterOccupationCode a rdf:Property ;
+    rdfs:label "reporter occupation code" .
+
+ex:problemCode a rdf:Property ;
+    rdfs:label "problem code" .
+
+ex:outcomeCode a rdf:Property ;
+    rdfs:label "outcome code" .
+
+ex:deviceBrandName a rdf:Property ;
+    rdfs:label "device brand name" .
+
+ex:genericDeviceName a rdf:Property ;
+    rdfs:label "generic device name" .
+
+# Device classification fields
+
+ex:definition a rdf:Property ;
+    rdfs:label "definition" .
+
+ex:regulationDescription a rdf:Property ;
+    rdfs:label "regulation description" .
+
+ex:regulationNumber a rdf:Property ;
+    rdfs:label "regulation number" .
+
+ex:deviceClass a rdf:Property ;
+    rdfs:label "device class" .
+
+ex:deviceClassType a rdf:Property ;
+    rdfs:label "device class type" .
+
+ex:regulationArea a rdf:Property ;
+    rdfs:label "regulation area" .
+
+# TPLC / recall / trend fields
+
+ex:reportCount a rdf:Property ;
+    rdfs:label "report count" .
+
+ex:eventCount a rdf:Property ;
+    rdfs:label "event count" .
+
+ex:year a rdf:Property ;
+    rdfs:label "year" .
+
+ex:recallClass a rdf:Property ;
+    rdfs:label "recall class" .
+
+ex:recallDate a rdf:Property ;
+    rdfs:label "recall date" .
+
+# AccessGUDID / UDI fields
+
+ex:primaryDI a rdf:Property ;
+    rdfs:label "primary device identifier (DI)" .
+
+ex:publicDeviceRecordKey a rdf:Property ;
+    rdfs:label "public device record key" .
+
+ex:versionModelNumber a rdf:Property ;
+    rdfs:label "version or model number" .
+
+ex:companyName a rdf:Property ;
+    rdfs:label "company name" .
+
+ex:gmdnTermName a rdf:Property ;
+    rdfs:label "GMDN term name" .
+
+ex:gmdnTermCode a rdf:Property ;
+    rdfs:label "GMDN term code" .
+
+ex:mriSafetyStatus a rdf:Property ;
+    rdfs:label "MRI safety status" .
+
+ex:isSterile a rdf:Property ;
+    rdfs:range xsd:boolean ;
+    rdfs:label "is sterile" .
+
+ex:isSingleUse a rdf:Property ;
+    rdfs:range xsd:boolean ;
+    rdfs:label "is single use" .
+
+ex:isKit a rdf:Property ;
+    rdfs:range xsd:boolean ;
+    rdfs:label "is kit" .
+
+ex:isCombinationProduct a rdf:Property ;
+    rdfs:range xsd:boolean ;
+    rdfs:label "is combination product" .
+
+ex:devicePublishDate a rdf:Property ;
+    rdfs:label "device publish date" .
+
+ex:commercialDistributionStatus a rdf:Property ;
+    rdfs:label "commercial distribution status" .
+
+ex:recordStatus a rdf:Property ;
+    rdfs:label "record status" .
+
+# Retained from original ontology
+
+ex:hasImplantStatus a rdf:Property ;
+    rdfs:label "has implant status" .
+
+ex:hasSterilityStatus a rdf:Property ;
+    rdfs:label "has sterility status" .
+
+ex:hasMRIStatus a rdf:Property ;
+    rdfs:label "has MRI status" .
+
+# =========================
+# NEW SOURCE PROPERTIES (De Novo, Recalls, Classification, Registration)
+# =========================
+
+ex:deNovoNumber a rdf:Property ;
+    rdfs:label "De Novo number" .
+
+ex:decisionDescription a rdf:Property ;
+    rdfs:label "decision description" .
+
+ex:medicalSpecialty a rdf:Property ;
+    rdfs:label "medical specialty code" .
+
+ex:medicalSpecialtyDescription a rdf:Property ;
+    rdfs:label "medical specialty description" .
+
+ex:recallNumber a rdf:Property ;
+    rdfs:label "recall number" .
+
+ex:eventId a rdf:Property ;
+    rdfs:label "event ID" .
+
+ex:recallStatus a rdf:Property ;
+    rdfs:label "recall status" .
+
+ex:recallClassification a rdf:Property ;
+    rdfs:label "recall classification (Class I/II/III)" .
+
+ex:voluntaryMandated a rdf:Property ;
+    rdfs:label "voluntary or mandated" .
+
+ex:initialFirmNotification a rdf:Property ;
+    rdfs:label "initial firm notification method" .
+
+ex:recallingFirm a rdf:Property ;
+    rdfs:label "recalling firm name" .
+
+ex:recallingFirmAddress a rdf:Property ;
+    rdfs:label "recalling firm address" .
+
+ex:productDescription a rdf:Property ;
+    rdfs:label "product description" .
+
+ex:productQuantity a rdf:Property ;
+    rdfs:label "product quantity involved in recall" .
+
+ex:codeInfo a rdf:Property ;
+    rdfs:label "lot / model / serial code info" .
+
+ex:reasonForRecall a rdf:Property ;
+    rdfs:label "reason for recall" .
+
+ex:recallAction a rdf:Property ;
+    rdfs:label "corrective action taken" .
+
+ex:distributionPattern a rdf:Property ;
+    rdfs:label "distribution pattern" .
+
+ex:recallInitiationDate a rdf:Property ;
+    rdfs:label "recall initiation date" .
+
+ex:centerClassificationDate a rdf:Property ;
+    rdfs:label "FDA center classification date" .
+
+ex:terminationDate a rdf:Property ;
+    rdfs:label "recall termination date" .
+
+ex:recallEventId a rdf:Property ;
+    rdfs:label "recall event ID" .
+
+ex:physicalState a rdf:Property ;
+    rdfs:label "physical state" .
+
+ex:technicalMethod a rdf:Property ;
+    rdfs:label "technical method" .
+
+ex:targetArea a rdf:Property ;
+    rdfs:label "target area" .
+
+ex:implantFlag a rdf:Property ;
+    rdfs:label "implant flag (Y/N)" .
+
+ex:lifeSustainSupportFlag a rdf:Property ;
+    rdfs:label "life sustain support flag (Y/N)" .
+
+ex:gmpExemptFlag a rdf:Property ;
+    rdfs:label "GMP exempt flag (Y/N)" .
+
+ex:thirdPartyFlag a rdf:Property ;
+    rdfs:label "third party review flag" .
+
+ex:unclassifiedReason a rdf:Property ;
+    rdfs:label "unclassified reason" .
+
+ex:submissionTypeId a rdf:Property ;
+    rdfs:label "submission type ID" .
+
+ex:summaryMalfunctionReporting a rdf:Property ;
+    rdfs:label "summary malfunction reporting (SMR) code" .
+
+ex:feiNumber a rdf:Property ;
+    rdfs:label "FDA establishment identifier (FEI)" .
+
+ex:registrationNumber a rdf:Property ;
+    rdfs:label "FDA registration number" .
+
+ex:establishmentName a rdf:Property ;
+    rdfs:label "establishment name" .
+
+ex:establishmentType a rdf:Property ;
+    rdfs:label "establishment type" .
+
+ex:registrationStatus a rdf:Property ;
+    rdfs:label "registration status code" .
+
+ex:registrationAddress a rdf:Property ;
+    rdfs:label "registration address" .
+
+ex:initialImporterFlag a rdf:Property ;
+    rdfs:label "initial importer flag (Y/N)" .
+
+ex:regExpiryDateYear a rdf:Property ;
+    rdfs:label "registration expiry year" .
+
+ex:listingNumber a rdf:Property ;
+    rdfs:label "FDA device listing number" .
+
+ex:proprietaryName a rdf:Property ;
+    rdfs:label "proprietary (brand) name" .
+
+ex:gmdnTermDefinition a rdf:Property ;
+    rdfs:label "GMDN term definition" .
+
+ex:lotBatchNumber a rdf:Property ;
+    rdfs:label "lot or batch number" .
+
+ex:lotNumber a rdf:Property ;
+    rdfs:label "lot number" .
+
+ex:deviceOperator a rdf:Property ;
+    rdfs:label "device operator setting" .
+
+ex:reportKey a rdf:Property ;
+    rdfs:label "MDR report key" .
+
+ex:reportToFDA a rdf:Property ;
+    rdfs:label "report to FDA flag" .
+
+ex:productProblemFlag a rdf:Property ;
+    rdfs:label "product problem flag" .
+
+ex:remedialAction a rdf:Property ;
+    rdfs:label "remedial action taken" .
+
+ex:removalCorrectionNumber a rdf:Property ;
+    rdfs:label "removal / correction number (recall link)" .
+
+ex:reprocessedFlag a rdf:Property ;
+    rdfs:label "reprocessed and reused flag" .
+
+ex:singleUseFlag a rdf:Property ;
+    rdfs:label "single use flag" .
+
+ex:problemCodes a rdf:Property ;
+    rdfs:label "device problem codes (semicolon-separated)" .
+
+ex:supplementReason a rdf:Property ;
+    rdfs:label "PMA supplement reason" .
+
+ex:clearanceType a rdf:Property ;
+    rdfs:label "510(k) clearance type" .
+
+ex:thirdPartyReviewFlag a rdf:Property ;
+    rdfs:label "third party review flag" .
+
+ex:statementOrSummary a rdf:Property ;
+    rdfs:label "510(k) statement or summary type" .
+
+ex:advisoryCommitteeDescription a rdf:Property ;
+    rdfs:label "advisory committee description" .
+
+ex:submissionType a rdf:Property ;
+    rdfs:label "submission type" .
+
+ex:submissionNumber a rdf:Property ;
+    rdfs:label "submission number" .
+
+ex:relatedTPLC a rdf:Property ;
+    rdfs:label "related TPLC product code record" .
+
+ex:city a rdf:Property ;
+    rdfs:label "city" .
+
+ex:state a rdf:Property ;
+    rdfs:label "state or province" .
+
+ex:country a rdf:Property ;
+    rdfs:label "country" .
+
+# =========================
+# PROVENANCE / AUDIT CLASSES  (kg-json-v4)
+# =========================
+
+ex:SourceRecord a rdfs:Class ;
+    rdfs:label "Source Record (raw FDA record)" .
+
+ex:ProvenanceRecord a rdfs:Class ;
+    rdfs:label "Provenance / Extraction Audit Record" .
+
+ex:Dataset a rdfs:Class ;
+    rdfs:label "FDA Source Dataset" .
+
+# =========================
+# NEW DATASET-SPECIFIC CLASSES
+# =========================
+
+ex:CLIARecord a rdfs:Class ;
+    rdfs:subClassOf ex:FDADataRecord ;
+    rdfs:label "CLIA Laboratory Test System Record" .
+
+ex:CLIAWaivedRecord a rdfs:Class ;
+    rdfs:subClassOf ex:FDADataRecord ;
+    rdfs:label "CLIA Waived Analyte Record" .
+
+ex:IVDRecord a rdfs:Class ;
+    rdfs:subClassOf ex:FDADataRecord ;
+    rdfs:label "IVD Home Use (OTC) Test Record" .
+
+ex:MammographyFacility a rdfs:Class ;
+    rdfs:subClassOf ex:FDADataRecord ;
+    rdfs:label "MQSA Certified Mammography Facility" .
+
+ex:RecognizedStandard a rdfs:Class ;
+    rdfs:subClassOf ex:FDADataRecord ;
+    rdfs:label "FDA Recognized Consensus Standard" .
+
+ex:Postmarket522Study a rdfs:Class ;
+    rdfs:subClassOf ex:FDADataRecord ;
+    rdfs:label "FDA 522 Postmarket Surveillance Study" .
+
+ex:HDERecord a rdfs:Class ;
+    rdfs:subClassOf ex:RegulatorySubmission ;
+    rdfs:label "Humanitarian Device Exemption (HDE)" .
+
+ex:XRayAssemblerRecord a rdfs:Class ;
+    rdfs:subClassOf ex:FDADataRecord ;
+    rdfs:label "FDA X-Ray Assembler Record" .
+
+ex:DevicesFDARecord a rdfs:Class ;
+    rdfs:subClassOf ex:FDADataRecord ;
+    rdfs:label "Devices@FDA Catalog Record" .
+
+# =========================
+# CLIA-SPECIFIC CLASSES
+# =========================
+
+ex:TestSystem a rdfs:Class ;
+    rdfs:label "CLIA Test System" .
+
+ex:Analyte a rdfs:Class ;
+    rdfs:label "Analyte (measurand)" .
+
+ex:Specialty a rdfs:Class ;
+    rdfs:label "CLIA Laboratory Specialty" .
+
+# =========================
+# NEW OBJECT PROPERTIES
+# =========================
+
+ex:hasTestSystem a rdf:Property ;
+    rdfs:domain ex:CLIARecord ;
+    rdfs:range ex:TestSystem ;
+    rdfs:label "has test system" .
+
+ex:hasAnalyte a rdf:Property ;
+    rdfs:range ex:Analyte ;
+    rdfs:label "has analyte" .
+
+ex:hasSpecialty a rdf:Property ;
+    rdfs:domain ex:CLIARecord ;
+    rdfs:range ex:Specialty ;
+    rdfs:label "has specialty" .
+
+ex:hasCLIARecord a rdf:Property ;
+    rdfs:range ex:CLIARecord ;
+    rdfs:label "has CLIA record" .
+
+ex:hasMammographyFacility a rdf:Property ;
+    rdfs:range ex:MammographyFacility ;
+    rdfs:label "has mammography facility" .
+
+ex:hasRecognizedStandard a rdf:Property ;
+    rdfs:range ex:RecognizedStandard ;
+    rdfs:label "has recognized standard" .
+
+ex:hasPostmarket522Study a rdf:Property ;
+    rdfs:range ex:Postmarket522Study ;
+    rdfs:label "has 522 postmarket study" .
+
+ex:hasHDERecord a rdf:Property ;
+    rdfs:domain ex:MedicalDevice ;
+    rdfs:range ex:HDERecord ;
+    rdfs:label "has HDE record" .
+
+ex:hasProvenance a rdf:Property ;
+    rdfs:range ex:ProvenanceRecord ;
+    rdfs:label "has provenance record" .
+
+ex:fromDataset a rdf:Property ;
+    rdfs:range ex:Dataset ;
+    rdfs:label "sourced from dataset" .
+
+# =========================
+# NEW DATATYPE PROPERTIES
+# =========================
+
+# Provenance / envelope fields
+
+ex:sourceRecordId a rdf:Property ;
+    rdfs:label "source record ID (original FDA identifier)" .
+
+ex:retrievedAt a rdf:Property ;
+    rdfs:label "timestamp when record was retrieved" .
+
+ex:extractionVersion a rdf:Property ;
+    rdfs:label "kg-json extraction version tag" .
+
+ex:extractedAt a rdf:Property ;
+    rdfs:label "timestamp when record was extracted" .
+
+ex:rawRecord a rdf:Property ;
+    rdfs:label "JSON literal of the complete raw FDA record" .
+
+# CLIA fields
+
+ex:testSystemId a rdf:Property ;
+    rdfs:label "CLIA Test System ID" .
+
+ex:testSystemName a rdf:Property ;
+    rdfs:label "CLIA Test System Name" .
+
+ex:analyteId a rdf:Property ;
+    rdfs:label "Analyte ID" .
+
+ex:analyteName a rdf:Property ;
+    rdfs:label "Analyte Name" .
+
+ex:specialtyId a rdf:Property ;
+    rdfs:label "CLIA Specialty ID" .
+
+ex:specialtyName a rdf:Property ;
+    rdfs:label "CLIA Specialty Name" .
+
+ex:qualifier1 a rdf:Property ;
+    rdfs:label "CLIA Qualifier 1" .
+
+ex:qualifier2 a rdf:Property ;
+    rdfs:label "CLIA Qualifier 2" .
+
+ex:complexity a rdf:Property ;
+    rdfs:label "CLIA complexity level" .
+
+ex:dateEffective a rdf:Property ;
+    rdfs:label "date effective" .
+
+# IVD / home-use fields
+
+ex:testName a rdf:Property ;
+    rdfs:label "IVD test name" .
+
+ex:testType a rdf:Property ;
+    rdfs:label "IVD test type" .
+
+ex:effectiveDateRaw a rdf:Property ;
+    rdfs:label "effective date (raw string)" .
+
+# Mammography / facility fields
+
+ex:facilityName a rdf:Property ;
+    rdfs:label "facility name" .
+
+ex:phone a rdf:Property ;
+    rdfs:label "phone number" .
+
+ex:zipCode a rdf:Property ;
+    rdfs:label "ZIP / postal code" .
+
+ex:accreditationBody a rdf:Property ;
+    rdfs:label "accreditation body" .
+
+ex:certificateNumber a rdf:Property ;
+    rdfs:label "MQSA certificate number" .
+
+# Recognized standards fields
+
+ex:recognitionNumber a rdf:Property ;
+    rdfs:label "FDA recognition number" .
+
+ex:organization a rdf:Property ;
+    rdfs:label "standards organization" .
+
+ex:standardDesignation a rdf:Property ;
+    rdfs:label "standard designation number" .
+
+ex:ascaPilot a rdf:Property ;
+    rdfs:label "ASCA pilot program flag" .
+
+# 522 Postmarket Study fields
+
+ex:orderNumber a rdf:Property ;
+    rdfs:label "522 order number" .
+
+ex:studyName a rdf:Property ;
+    rdfs:label "522 study name" .
+
+ex:studyStatus a rdf:Property ;
+    rdfs:label "522 study status" .
+
+ex:dateOrder a rdf:Property ;
+    rdfs:label "522 order date" .
+
+# HDE fields
+
+ex:hdeNumber a rdf:Property ;
+    rdfs:label "HDE number" .
+
+ex:genericNameHDE a rdf:Property ;
+    rdfs:label "HDE generic device name" .
+
+# Devices@FDA fields
+
+ex:documentNumber a rdf:Property ;
+    rdfs:label "document number (K / P / H / DEN)" .
+
+ex:pathway a rdf:Property ;
+    rdfs:label "regulatory pathway (510k / pma / hde / de_novo)" .
+
+ex:decisionDateRaw a rdf:Property ;
+    rdfs:label "decision date (raw string from source)" .
+
+ex:summaryUrl a rdf:Property ;
+    rdfs:label "URL to summary / PDF document" .
+
+# X-Ray Assembler fields
+
+ex:assemblerName a rdf:Property ;
+    rdfs:label "x-ray assembler name" .
+
+ex:assemblerAddress a rdf:Property ;
+    rdfs:label "x-ray assembler address" .
+
+ex:installedDate a rdf:Property ;
+    rdfs:label "x-ray equipment installed date" .
+
+ex:roomIdentifier a rdf:Property ;
+    rdfs:label "x-ray room identifier" .
+
+# =============================================================================
+# UDI IDENTIFIER — AccessGUDID identifiers[] decomposition
+# =============================================================================
+
+ex:UDIIdentifier a rdfs:Class ;
+    rdfs:label "UDI Device Identifier or Package Identifier" ;
+    rdfs:comment "One entry from the AccessGUDID identifiers[] array. May be a Primary DI, Package DI, or Unit-of-Use DI." .
+
+ex:hasIdentifier a rdf:Property ;
+    rdfs:domain ex:AccessGUDIDRecord ;
+    rdfs:range  ex:UDIIdentifier ;
+    rdfs:label "links an AccessGUDID device record to one of its UDI identifiers" .
+
+ex:belongsToDevice a rdf:Property ;
+    rdfs:domain ex:UDIIdentifier ;
+    rdfs:range  ex:AccessGUDIDRecord ;
+    rdfs:label "back-link from a UDI identifier node to its parent device record" .
+
+ex:identifierId a rdf:Property ;
+    rdfs:label "UDI identifier value — the DI, Package DI, or PI string (e.g. GTIN-14)" .
+
+ex:identifierType a rdf:Property ;
+    rdfs:label "UDI identifier type: Primary DI / Package DI / Unit of Use DI" .
+
+ex:issuingAgency a rdf:Property ;
+    rdfs:label "UDI issuing agency: GS1 / HIBCC / ICCBBA / NDC" .
+
+ex:packageType a rdf:Property ;
+    rdfs:label "package type description associated with this identifier (e.g. Box, Case)" .
+
+ex:quantityPerUnitOfUse a rdf:Property ;
+    rdfs:label "quantity of base devices contained in this package unit" .
+
+ex:unitOfUseId a rdf:Property ;
+    rdfs:label "Unit-of-Use identifier string (UoU DI)" .
+
+ex:identifierStatus a rdf:Property ;
+    rdfs:label "device identifier status: Active / Inactive / Deprecated" .
+
+# =========================
+# CROSS-GRAPH IDENTIFIERS (NAICS / geospatial)
+#
+# Added to support joining this KG with other Proto-OKN graphs:
+#   - SUDOKN, via shared NAICS industry codes
+#   - SpatialKG, via facility WGS84 coordinates
+#
+# The FDA Product Code -> NAICS mapping is an INFERRED crosswalk (our own
+# rule-based/LLM-assisted classification of what industry manufactures a
+# given FDA-defined device type), not data supplied by FDA. Provenance is
+# preserved on ex:ProductCodeNAICSMapping so this distinction stays
+# queryable. See FDA_Parse_TPLC_Pipeline/crossgraph/ and README.md
+# "Cross-Graph Integration".
+# =========================
+
+ex:NAICSClassification a rdfs:Class ;
+    rdfs:label "NAICS Industry Classification (US Census)" .
+
+ex:ProductCodeNAICSMapping a rdfs:Class ;
+    rdfs:label "FDA Product Code to NAICS Crosswalk Assertion (inferred, with provenance)" .
+
+ex:Facility a rdfs:Class ;
+    rdfs:subClassOf ex:RegistrationListingRecord ;
+    rdfs:label "FDA-registered establishment/facility with a geocodable address" .
+
+ex:hasNAICSClassification a rdf:Property ;
+    rdfs:range ex:NAICSClassification ;
+    rdfs:label "has NAICS classification (domain: ex:ProductCode or ex:Manufacturer)" .
+
+ex:hasNAICSMapping a rdf:Property ;
+    rdfs:domain ex:ProductCode ;
+    rdfs:range ex:ProductCodeNAICSMapping ;
+    rdfs:label "has NAICS crosswalk mapping (provenance-bearing)" .
+
+ex:assignedNAICS a rdf:Property ;
+    rdfs:domain ex:ProductCodeNAICSMapping ;
+    rdfs:range ex:NAICSClassification ;
+    rdfs:label "NAICS code assigned by this crosswalk mapping" .
+
+ex:naicsCode a rdf:Property ;
+    rdfs:domain ex:NAICSClassification ;
+    rdfs:label "six-digit NAICS code literal (cross-graph join key)" .
+
+ex:naicsVersion a rdf:Property ;
+    rdfs:domain ex:NAICSClassification ;
+    rdfs:label "NAICS taxonomy version, e.g. 2022" .
+
+ex:mappingMethod a rdf:Property ;
+    rdfs:domain ex:ProductCodeNAICSMapping ;
+    rdfs:label "how this NAICS mapping was derived: definition_match / llm_assisted / manual_review / unmapped" .
+
+ex:mappingConfidence a rdf:Property ;
+    rdfs:domain ex:ProductCodeNAICSMapping ;
+    rdfs:label "0.0-1.0 confidence score for this NAICS mapping" .
+
+ex:mappingReviewStatus a rdf:Property ;
+    rdfs:domain ex:ProductCodeNAICSMapping ;
+    rdfs:label "approved / manual_review" .
+
+ex:mappingReason a rdf:Property ;
+    rdfs:domain ex:ProductCodeNAICSMapping ;
+    rdfs:label "human-readable evidence/justification for this NAICS mapping" .
+
+ex:mappingSource a rdf:Property ;
+    rdfs:domain ex:ProductCodeNAICSMapping ;
+    rdfs:label "provenance label, e.g. internal_crosswalk (never claims FDA supplied the NAICS code)" .
+
+ex:geocodingSource a rdf:Property ;
+    rdfs:domain ex:Facility ;
+    rdfs:label "geocoding provider used, e.g. census / nominatim" .
+
+ex:geocodingConfidence a rdf:Property ;
+    rdfs:domain ex:Facility ;
+    rdfs:label "0.0-1.0 confidence score returned by the geocoder" .
+
+ex:normalizedAddress a rdf:Property ;
+    rdfs:domain ex:Facility ;
+    rdfs:label "normalized single-line address used as the geocoding cache key" .
+
+# Latitude/longitude use the standard WGS84 Geo Positioning vocabulary
+# (http://www.w3.org/2003/01/geo/wgs84_pos#) rather than a custom predicate,
+# per project convention of reusing standard vocabularies when introducing
+# geospatial data. See rdf/turtle_writer.py PREFIXES / crossgraph/rdf_geo.py.
+#
+# External interoperability vocabularies (used but NOT redefined here — we
+# don't own these terms, we only reuse them; see crossgraph/rdf_naics.py and
+# crossgraph/rdf_geo.py for exactly where/how):
+#   sudokn:    <http://asu.edu/semantics/SUDOKN/>              — NAICSClassifier, hasNAICSClassifier
+#   iof:       <https://spec.industrialontologies.org/ontology/core/Core/>  — Manufacturer
+#   geosparql: <http://www.opengis.net/ont/geosparql#>          — Feature, Geometry, hasGeometry,
+#                                                                  defaultGeometry, asWKT, wktLiteral
+# ex:Manufacturer and ex:NAICSClassification/ex:Facility instances are
+# dual-typed with these external classes, and ex:hasNAICSClassification is
+# paired with sudokn:hasNAICSClassifier, so a SUDOKN- or GeoSPARQL-aware
+# consumer can use our data without needing our ex: vocabulary at all — see
+# README.md "Cross-Graph Integration" for the full rationale.

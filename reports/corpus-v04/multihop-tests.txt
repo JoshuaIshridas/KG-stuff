@@ -1,0 +1,12 @@
+.                                                                        [100%]
+=============================== warnings summary ===============================
+tests/test_corpus.py: 12 warnings
+  /private/tmp/mdkg-audit-venv/lib/python3.14/site-packages/rdflib/plugins/parsers/nquads.py:80: DeprecationWarning: Dataset.default_context is deprecated, use Dataset.default_graph instead.
+    ds_default = ds.default_context  # the DEFAULT_DATASET_GRAPH_ID
+
+tests/test_corpus.py: 12 warnings
+  /private/tmp/mdkg-audit-venv/lib/python3.14/site-packages/rdflib/plugins/parsers/nquads.py:91: DeprecationWarning: Dataset.default_context is deprecated, use Dataset.default_graph instead.
+    ds.default_context = new_default_context
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+1 passed, 24 warnings in 1.52s

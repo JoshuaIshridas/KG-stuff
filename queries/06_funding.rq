@@ -1,0 +1,3 @@
+PREFIX k: <https://example.org/pubmed-kg/v1/>
+SELECT DISTINCT ?article ?agency ?grant WHERE { ?article k:link ?l; k:grant ?g . ?l k:status "verified" . ?g k:Agency ?agency; k:GrantID ?grant . }
+LIMIT 100

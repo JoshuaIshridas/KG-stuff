@@ -1,0 +1,42 @@
+{
+  "status": "verified",
+  "workflow": [
+    "verify-source-count",
+    "write-json",
+    "verify-json",
+    "write-turtle",
+    "verify-turtle"
+  ],
+  "sources": [
+    {
+      "name": "fetch-1.xml",
+      "counts": {
+        "article": 1,
+        "metadata_nodes": 218,
+        "metadata_attributes": 82
+      },
+      "record_event_retention": 1.0,
+      "eligible_metadata_retention": 1.0
+    }
+  ],
+  "final_articles": 1,
+  "deleted_pmids": 0,
+  "serialized_partition_triples": 1966,
+  "partitions": [
+    {
+      "status": "verified",
+      "articles": 1,
+      "metadata_nodes": 218
+    }
+  ],
+  "record_event_retention": 1.0,
+  "eligible_metadata_retention": 1.0,
+  "device_recall": "not_measured",
+  "all_pubmed_coverage": "not_measured",
+  "limitations": [
+    "Retention covers supplied sources and declared safe metadata, not all facts in article text.",
+    "A full PubMed universe requires a reconciled complete baseline and all applicable updates.",
+    "Device recall requires an independently labeled representative benchmark."
+  ],
+  "input_origin": "Live EFetch and PubTator responses obtained in this session, replayed after freezing implementation."
+}

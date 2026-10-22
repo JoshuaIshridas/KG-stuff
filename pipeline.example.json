@@ -1,0 +1,14 @@
+{
+  "state": "../pubmed-private/corpus-v06",
+  "plan": "../pubmed-private/pubmed-v06-plan.json",
+  "fda_index": "../pubmed-private/fda-release-v06.sqlite",
+  "rdf_store": "../pubmed-private/query-store-v06",
+  "fda_ontology": "integration/fda/ontology.ttl",
+  "fda_sources": ["/srv/fda-release/*.ttl.gz"],
+  "fda_format": "ttl",
+  "catalog_scope": "Replace fda_sources with your actual complete FDA RDF release partitions",
+  "trial_device_file": null,
+  "annotations_per_run": 10,
+  "reserve_gib": 10,
+  "batch_size": 50
+}

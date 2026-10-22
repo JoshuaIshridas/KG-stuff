@@ -1,0 +1,22 @@
+{
+  "version": "0.6.0",
+  "tests_passed": 108,
+  "tests_failed": 0,
+  "synthetic_fda_queries_passed": 12,
+  "live_combined_pubmed_fda_queries_tested": 0,
+  "live_integrations_checked": [
+    "E-utilities EFetch",
+    "PubTator3 BioC JSON"
+  ],
+  "original_fda_ontology_sha256": "f9f455c15bd100e2c6f17fb197c01f6e6a49685e1e10daa4a36f3b6ada198ac2",
+  "original_fda_ontology_modified": false,
+  "full_pubmed_run_completed": false,
+  "medical_device_discovery_recall": "not_measured",
+  "production_inputs_needed": [
+    "Complete FDA RDF instance release paths",
+    "VM persistent storage paths and sufficient storage",
+    "Optional sourced trial-device crosswalk"
+  ],
+  "guide": "docs/production-v06.md",
+  "evidence": "reports/release-v06/README.md"
+}

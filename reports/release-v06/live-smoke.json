@@ -1,0 +1,83 @@
+{
+  "version": "0.6.0",
+  "checked_at": "2026-10-22T04:30:19.221035+00:00",
+  "pmids": [
+    "19894120"
+  ],
+  "efetch_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi",
+  "pubtator_url": "https://www.ncbi.nlm.nih.gov/research/pubtator3-api/publications/export/biocjson",
+  "fda_scope": "Previously live-verified bounded 28-triple real FDA extract; not full FDA data",
+  "links": {
+    "sources_scanned": 1,
+    "articles_linked": 1,
+    "candidates": 0,
+    "catalog": "dc821de704805449cc9540f63829fce7337d377d76114f9208844139e806f394",
+    "automatic_verified_links": 0
+  },
+  "annotations": {
+    "processed": 1,
+    "statuses": {
+      "complete": 1,
+      "unavailable": 0,
+      "failed": 0
+    },
+    "source": "PubTator3",
+    "metadata_unchanged": true,
+    "refresh": false,
+    "next_action": "Retry pending, failed or unavailable articles; complete articles are skipped unless --refresh."
+  },
+  "verification": {
+    "status": "incomplete",
+    "checked_at": "2026-10-22T04:30:19.195362+00:00",
+    "plan_sha256": null,
+    "inventory_observed_at": null,
+    "planned_files": null,
+    "verified_files": 1,
+    "official_checksum_verified_files": 0,
+    "file_inventory_fraction": null,
+    "current_articles": 1,
+    "deleted_pmids": 0,
+    "record_coverage_of_frozen_inventory": null,
+    "medical_device_recall": "not_measured",
+    "scope": "Ledger status only; corpus-verify independently replays JSON and checks exports. File fractions are not record fractions. A frozen inventory is not real-time PubMed.",
+    "verification": "passed",
+    "enrichment": {
+      "annotation_batches": 1,
+      "pending": 0,
+      "status": "verified"
+    },
+    "device_links": {
+      "status": "verified",
+      "batches": 1
+    },
+    "source_upsert_events": 1,
+    "source_deletion_events": 0,
+    "record_event_retention": 1.0,
+    "eligible_metadata_retention": 1.0,
+    "graph_ownership": "one named graph per PMID"
+  },
+  "materialized": {
+    "current_articles": 1,
+    "status": "verified"
+  },
+  "article_query": {
+    "head": {
+      "vars": [
+        "articles"
+      ]
+    },
+    "results": {
+      "bindings": [
+        {
+          "articles": {
+            "type": "literal",
+            "value": "1",
+            "datatype": "http://www.w3.org/2001/XMLSchema#integer"
+          }
+        }
+      ]
+    }
+  },
+  "full_pubmed_coverage_verified": false,
+  "full_joined_live_graph_tested": false
+}

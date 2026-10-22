@@ -1,0 +1,18 @@
+{
+  "endpoint": null,
+  "native_endpoint_candidate": "https://apps.okn.us/medical-device-kg/sparql",
+  "graph": "https://purl.org/okn/frink/kg/medical-device-kg",
+  "namespaces": {"md": "http://medicaldevice.com/ontology/"},
+  "identifier_predicates": {
+    "510k": "http://medicaldevice.com/ontology/k510Number",
+    "pma": "http://medicaldevice.com/ontology/pmaNumber",
+    "product-code": "http://medicaldevice.com/ontology/productCode"
+  },
+  "name_predicates": ["http://medicaldevice.com/ontology/deviceName"],
+  "allow_single_token_names": [],
+  "device_class": null,
+  "trial_device_predicate": null,
+  "device_recall_predicate": null,
+  "category_predicate": "http://medicaldevice.com/ontology/hasProductCode",
+  "note": "Predicates confirmed through the connected OKN federated service. Native endpoint read timed out; endpoint remains unset. A shared product code gives category association, not identity or proof of recall. No trial/device predicate was established."
+}

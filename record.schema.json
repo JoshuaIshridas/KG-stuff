@@ -1,0 +1,499 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Metadata-only PubMed source event v2",
+  "type": "object",
+  "required": [
+    "pmid",
+    "operation",
+    "record"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "pmid": {
+      "type": "string",
+      "pattern": "^[1-9][0-9]*$"
+    },
+    "operation": {
+      "enum": [
+        "upsert",
+        "delete"
+      ]
+    },
+    "record": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "schema_version",
+            "record_kind",
+            "pmid",
+            "title",
+            "version",
+            "journal",
+            "identifiers",
+            "dates",
+            "mesh",
+            "grants",
+            "types",
+            "detections",
+            "metadata_fields",
+            "keywords",
+            "chemicals",
+            "supplementary",
+            "corrections",
+            "references",
+            "languages",
+            "publication_status",
+            "device_relevance"
+          ],
+          "properties": {
+            "schema_version": {
+              "type": "integer",
+              "const": 2
+            },
+            "record_kind": {
+              "type": "string",
+              "enum": [
+                "article",
+                "book"
+              ]
+            },
+            "pmid": {
+              "type": "string",
+              "pattern": "^[1-9][0-9]*$"
+            },
+            "title": {
+              "type": "string"
+            },
+            "version": {
+              "type": "string"
+            },
+            "journal": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "name",
+                "ids"
+              ],
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "array",
+                    "prefixItems": [
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      },
+                      {
+                        "type": "string"
+                      }
+                    ],
+                    "items": false,
+                    "minItems": 3,
+                    "maxItems": 3
+                  }
+                }
+              }
+            },
+            "identifiers": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "scheme",
+                  "raw",
+                  "value",
+                  "location",
+                  "valid"
+                ],
+                "properties": {
+                  "scheme": {
+                    "type": "string"
+                  },
+                  "raw": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "string"
+                  },
+                  "location": {
+                    "type": "string"
+                  },
+                  "valid": {
+                    "type": "boolean"
+                  }
+                }
+              }
+            },
+            "dates": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "kind",
+                  "meaning",
+                  "parts"
+                ],
+                "properties": {
+                  "kind": {
+                    "type": "string"
+                  },
+                  "meaning": {
+                    "type": "string"
+                  },
+                  "parts": {
+                    "type": "object",
+                    "additionalProperties": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "mesh": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "id",
+                  "label",
+                  "major",
+                  "qualifiers"
+                ],
+                "properties": {
+                  "id": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "label": {
+                    "type": "string"
+                  },
+                  "major": {
+                    "type": "boolean"
+                  },
+                  "qualifiers": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "required": [
+                        "id",
+                        "label",
+                        "major"
+                      ],
+                      "properties": {
+                        "id": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        },
+                        "label": {
+                          "type": "string"
+                        },
+                        "major": {
+                          "type": "boolean"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "grants": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "string"
+                }
+              }
+            },
+            "types": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "id",
+                  "label"
+                ],
+                "properties": {
+                  "id": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "label": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "detections": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "scheme",
+                  "value",
+                  "location",
+                  "method"
+                ],
+                "properties": {
+                  "scheme": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "string"
+                  },
+                  "location": {
+                    "type": "string"
+                  },
+                  "method": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "metadata_fields": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "path",
+                  "element",
+                  "value",
+                  "attributes"
+                ],
+                "properties": {
+                  "path": {
+                    "type": "string"
+                  },
+                  "element": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "string"
+                  },
+                  "attributes": {
+                    "type": "object",
+                    "additionalProperties": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "keywords": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "value",
+                  "owner",
+                  "major"
+                ],
+                "properties": {
+                  "value": {
+                    "type": "string"
+                  },
+                  "owner": {
+                    "type": "string"
+                  },
+                  "major": {
+                    "type": "boolean"
+                  }
+                }
+              }
+            },
+            "chemicals": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "identifier",
+                  "label",
+                  "registry"
+                ],
+                "properties": {
+                  "identifier": {
+                    "type": "string"
+                  },
+                  "label": {
+                    "type": "string"
+                  },
+                  "registry": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "supplementary": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "identifier",
+                  "label",
+                  "entityType"
+                ],
+                "properties": {
+                  "identifier": {
+                    "type": "string"
+                  },
+                  "label": {
+                    "type": "string"
+                  },
+                  "entityType": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "corrections": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "relation",
+                  "pmid"
+                ],
+                "properties": {
+                  "relation": {
+                    "type": "string"
+                  },
+                  "pmid": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "references": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": [
+                  "scheme",
+                  "value"
+                ],
+                "properties": {
+                  "scheme": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "languages": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "publication_status": {
+              "type": "string"
+            },
+            "device_relevance": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "status",
+                "signals",
+                "excludes_record"
+              ],
+              "properties": {
+                "status": {
+                  "enum": [
+                    "candidate",
+                    "unassessed"
+                  ]
+                },
+                "signals": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "method",
+                      "identifier",
+                      "location",
+                      "classification"
+                    ],
+                    "properties": {
+                      "method": {
+                        "type": "string"
+                      },
+                      "identifier": {
+                        "type": "string"
+                      },
+                      "location": {
+                        "type": "string"
+                      },
+                      "classification": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                },
+                "excludes_record": {
+                  "const": false
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "operation": {
+            "const": "delete"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "record": {
+            "type": "null"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "record": {
+            "type": "object"
+          }
+        }
+      }
+    }
+  ]
+}

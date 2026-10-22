@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-10-21",
+  "query": "SELECT ?submission ?number ?productCode ?tplc ?recall WHERE { GRAPH <https://purl.org/okn/frink/kg/medical-device-kg> { ?submission <http://medicaldevice.com/ontology/k510Number> ?number ; <http://medicaldevice.com/ontology/hasProductCode> ?category . ?category <http://medicaldevice.com/ontology/productCode> ?productCode . ?tplc <http://medicaldevice.com/ontology/productCode> ?productCode ; <http://medicaldevice.com/ontology/hasRecall> ?recall . } } LIMIT 3",
+  "result": {
+    "vars": [
+      "submission",
+      "number",
+      "productCode",
+      "tplc",
+      "recall"
+    ],
+    "rows": [
+      {
+        "submission": "http://medicaldevice.com/ontology/k510/k912346",
+        "number": "K912346",
+        "productCode": "BRY",
+        "tplc": "http://medicaldevice.com/ontology/tplc/bry",
+        "recall": "http://medicaldevice.com/ontology/tplc/bry/recall/bry_ii_34"
+      },
+      {
+        "submission": "http://medicaldevice.com/ontology/k510/k921710",
+        "number": "K921710",
+        "productCode": "BRY",
+        "tplc": "http://medicaldevice.com/ontology/tplc/bry",
+        "recall": "http://medicaldevice.com/ontology/tplc/bry/recall/bry_ii_34"
+      },
+      {
+        "submission": "http://medicaldevice.com/ontology/k510/k901474",
+        "number": "K901474",
+        "productCode": "BRY",
+        "tplc": "http://medicaldevice.com/ontology/tplc/bry",
+        "recall": "http://medicaldevice.com/ontology/tplc/bry/recall/bry_ii_34"
+      }
+    ],
+    "row_count": 3
+  },
+  "interpretation": "Shared FDA product code associates a submission with a category having recalls; does not prove that submission or a mentioned device was recalled."
+}

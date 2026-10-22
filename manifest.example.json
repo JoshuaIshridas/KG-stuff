@@ -1,0 +1,7 @@
+{
+  "baseline_complete": false,
+  "sources": [],
+  "note": "Replace with the complete annual baseline inventory and every subsequent update, sorted numerically. Orders are globally increasing integers. Include source name, url, order and optional md5. Do not mark complete for a sample.",
+  "discover_updates": true,
+  "verify_complete_inventory": true
+}

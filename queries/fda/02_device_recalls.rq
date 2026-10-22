@@ -1,0 +1,5 @@
+PREFIX k: <https://example.org/pubmed-kg/v1/>
+PREFIX md: <http://medicaldevice.com/ontology/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+# Which publications link to actual devices with direct recall records?
+SELECT DISTINCT ?pmid ?device ?recall WHERE { ?a k:pmid ?pmid; k:link ?l. ?l k:status "verified"; k:device ?device. ?device md:hasRecallRecord ?recall. } ORDER BY ?pmid LIMIT 100

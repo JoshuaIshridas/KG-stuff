@@ -1,0 +1,27 @@
+{
+  "vars": [
+    "s",
+    "p",
+    "o",
+    "kind",
+    "datatype",
+    "lang"
+  ],
+  "rows": [
+    {
+      "s": "http://medicaldevice.com/ontology/product-code/bry",
+      "p": "http://medicaldevice.com/ontology/productCode",
+      "o": "BRY",
+      "kind": "literal",
+      "datatype": "http://www.w3.org/2001/XMLSchema#string",
+      "lang": ""
+    },
+    {
+      "s": "http://medicaldevice.com/ontology/product-code/bry",
+      "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+      "o": "http://medicaldevice.com/ontology/ProductCode",
+      "kind": "iri"
+    }
+  ],
+  "row_count": 2
+}

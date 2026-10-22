@@ -1,0 +1,1143 @@
+<http://asu.edu/semantics/SUDOKN/NAICSClassifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://asu.edu/semantics/SUDOKN/NAICSClassifier> <http://www.w3.org/2000/01/rdf-schema#comment> "The SUDOKN class for NAICS classifiers, asserted as a second type on the 13 NAICS Industry Classification nodes to align this graph with the SUDOKN manufacturing graph. Read the codes through md:naicsCode." .
+<http://asu.edu/semantics/SUDOKN/NAICSClassifier> <http://www.w3.org/2000/01/rdf-schema#label> "NAICS Classifier (SUDOKN)" .
+<http://asu.edu/semantics/SUDOKN/hasNAICSClassifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://asu.edu/semantics/SUDOKN/hasNAICSClassifier> <http://www.w3.org/2000/01/rdf-schema#comment> "The SUDOKN property linking a manufacturer to a NAICS industry. It repeats the manufacturer links of md:hasNAICSClassification (the same 13,972 triples) in SUDOKN and IOF terms. The assignments are inferred by the knowledge graph's crosswalk and are not supplied by FDA." .
+<http://asu.edu/semantics/SUDOKN/hasNAICSClassifier> <http://www.w3.org/2000/01/rdf-schema#label> "has NAICS classifier (SUDOKN)" .
+<http://medicaldevice.com/ontology/AccessGUDIDRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/AccessGUDIDRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "A device record from AccessGUDID, the public view of the Global Unique Device Identification Database. A subclass of FDA Data Record. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/AccessGUDIDRecord> <http://www.w3.org/2000/01/rdf-schema#label> "AccessGUDID / UDI Record" .
+<http://medicaldevice.com/ontology/AdverseEventReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/AdverseEventReport> <http://www.w3.org/2000/01/rdf-schema#comment> "The parent class of device adverse-event report classes, including MAUDE and MedSun reports. A subclass of FDA Data Record. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/AdverseEventReport> <http://www.w3.org/2000/01/rdf-schema#label> "Adverse Event Report" .
+<http://medicaldevice.com/ontology/Analyte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/Analyte> <http://www.w3.org/2000/01/rdf-schema#comment> "A substance or constituent measured by a diagnostic test. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/Analyte> <http://www.w3.org/2000/01/rdf-schema#label> "Analyte" .
+<http://medicaldevice.com/ontology/ApprovalPathway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/ApprovalPathway> <http://www.w3.org/2000/01/rdf-schema#comment> "The regulatory pathway by which a device reached the market, such as 510(k), PMA, De Novo, or HDE. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/ApprovalPathway> <http://www.w3.org/2000/01/rdf-schema#label> "Approval Pathway" .
+<http://medicaldevice.com/ontology/CFRTitle21Section> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/CFRTitle21Section> <http://www.w3.org/2000/01/rdf-schema#comment> "A section of Title 21 of the Code of Federal Regulations, with its authority and full regulatory text." .
+<http://medicaldevice.com/ontology/CFRTitle21Section> <http://www.w3.org/2000/01/rdf-schema#label> "21 CFR Section" .
+<http://medicaldevice.com/ontology/CLIARecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/CLIARecord> <http://www.w3.org/2000/01/rdf-schema#comment> "A laboratory test system record under the Clinical Laboratory Improvement Amendments. A subclass of FDA Data Record. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/CLIARecord> <http://www.w3.org/2000/01/rdf-schema#label> "CLIA Laboratory Test System Record" .
+<http://medicaldevice.com/ontology/CLIAWaivedRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/CLIAWaivedRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "A record of an analyte waived from routine CLIA oversight. A subclass of FDA Data Record. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/CLIAWaivedRecord> <http://www.w3.org/2000/01/rdf-schema#label> "CLIA Waived Analyte Record" .
+<http://medicaldevice.com/ontology/CfrPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/CfrPart> <http://www.w3.org/2000/01/rdf-schema#comment> "A part of Title 21 of the Code of Federal Regulations that groups related sections." .
+<http://medicaldevice.com/ontology/CfrPart> <http://www.w3.org/2000/01/rdf-schema#label> "21 CFR Part" .
+<http://medicaldevice.com/ontology/CliaWaivedAnalyte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/CliaWaivedAnalyte> <http://www.w3.org/2000/01/rdf-schema#comment> "An analyte whose test is waived from routine regulatory oversight under the Clinical Laboratory Improvement Amendments." .
+<http://medicaldevice.com/ontology/CliaWaivedAnalyte> <http://www.w3.org/2000/01/rdf-schema#label> "CLIA Waived Analyte" .
+<http://medicaldevice.com/ontology/Component> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/Component> <http://www.w3.org/2000/01/rdf-schema#comment> "A component of a medical device. A subclass of Device Component. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/Component> <http://www.w3.org/2000/01/rdf-schema#label> "Component" .
+<http://medicaldevice.com/ontology/Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/Dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "An FDA source dataset that records in the graph were extracted from. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/Dataset> <http://www.w3.org/2000/01/rdf-schema#label> "FDA Source Dataset" .
+<http://medicaldevice.com/ontology/DeNovoRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/DeNovoRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "A De Novo classification request granting marketing authorization to a novel low-to-moderate risk device that has no valid predicate. A subclass of Regulatory Submission." .
+<http://medicaldevice.com/ontology/DeNovoRecord> <http://www.w3.org/2000/01/rdf-schema#label> "De Novo Authorization" .
+<http://medicaldevice.com/ontology/DesignChange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/DesignChange> <http://www.w3.org/2000/01/rdf-schema#comment> "A change to a device design; the parent class of PMA supplements. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/DesignChange> <http://www.w3.org/2000/01/rdf-schema#label> "Design Change" .
+<http://medicaldevice.com/ontology/DeviceComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/DeviceComponent> <http://www.w3.org/2000/01/rdf-schema#comment> "The parent class for device components. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/DeviceComponent> <http://www.w3.org/2000/01/rdf-schema#label> "Device Component" .
+<http://medicaldevice.com/ontology/DeviceFDARecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/DeviceFDARecord> <http://www.w3.org/2000/01/rdf-schema#comment> "An entry in the Devices@FDA catalog, linking a marketed device to the submission and pathway under which it reached the market." .
+<http://medicaldevice.com/ontology/DeviceFDARecord> <http://www.w3.org/2000/01/rdf-schema#label> "Devices@FDA Catalog Record" .
+<http://medicaldevice.com/ontology/DeviceIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/DeviceIdentifier> <http://www.w3.org/2000/01/rdf-schema#comment> "The device identifier portion of a Unique Device Identification code. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/DeviceIdentifier> <http://www.w3.org/2000/01/rdf-schema#label> "Device Identifier (UDI)" .
+<http://medicaldevice.com/ontology/DeviceListing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/DeviceListing> <http://www.w3.org/2000/01/rdf-schema#comment> "A device listing filed by a registered establishment. A subclass of FDA Data Record. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/DeviceListing> <http://www.w3.org/2000/01/rdf-schema#label> "FDA Device Listing" .
+<http://medicaldevice.com/ontology/DeviceMaterial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/DeviceMaterial> <http://www.w3.org/2000/01/rdf-schema#comment> "The parent class for device materials. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/DeviceMaterial> <http://www.w3.org/2000/01/rdf-schema#label> "Device Material" .
+<http://medicaldevice.com/ontology/DeviceProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/DeviceProblem> <http://www.w3.org/2000/01/rdf-schema#comment> "A device problem code reported on MDRs for a TPLC product code, with its report and event counts." .
+<http://medicaldevice.com/ontology/DeviceProblem> <http://www.w3.org/2000/01/rdf-schema#label> "Device Problem" .
+<http://medicaldevice.com/ontology/DevicesFDARecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/DevicesFDARecord> <http://www.w3.org/2000/01/rdf-schema#comment> "The declared class for Devices@FDA catalog entries. A subclass of FDA Data Record. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/DevicesFDARecord> <http://www.w3.org/2000/01/rdf-schema#label> "Devices@FDA Catalog Record (declared)" .
+<http://medicaldevice.com/ontology/FDADataRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/FDADataRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "The root class for records extracted from an FDA source dataset; all dataset-specific record classes are subclasses of it. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/FDADataRecord> <http://www.w3.org/2000/01/rdf-schema#label> "FDA Data Record" .
+<http://medicaldevice.com/ontology/Facility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/Facility> <http://www.w3.org/2000/01/rdf-schema#comment> "An FDA-registered establishment whose registration address has been geocoded. A subclass of FDA Registration and Listing Record: each of the 9,120 facilities is also typed md:RegistrationListingRecord and geo:Feature, keeps all registration properties, and adds a point geometry, latitude and longitude, a normalized address, and the geocoder's source and confidence. Almost all are U.S. addresses; the other 16,012 registration records have no coordinates. Reach the NAICS industry of a facility through md:hasManufacturer and md:hasNAICSClassification (3,452 facilities have one)." .
+<http://medicaldevice.com/ontology/Facility> <http://www.w3.org/2000/01/rdf-schema#label> "Geocoded Facility" .
+<http://medicaldevice.com/ontology/GMDNTerm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/GMDNTerm> <http://www.w3.org/2000/01/rdf-schema#comment> "A Global Medical Device Nomenclature term describing a generic device group. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/GMDNTerm> <http://www.w3.org/2000/01/rdf-schema#label> "GMDN Term" .
+<http://medicaldevice.com/ontology/HDERecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/HDERecord> <http://www.w3.org/2000/01/rdf-schema#comment> "The declared record class for Humanitarian Device Exemptions. A subclass of Regulatory Submission. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/HDERecord> <http://www.w3.org/2000/01/rdf-schema#label> "Humanitarian Device Exemption Record" .
+<http://medicaldevice.com/ontology/HumanitarianDeviceExemption> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/HumanitarianDeviceExemption> <http://www.w3.org/2000/01/rdf-schema#comment> "A Humanitarian Device Exemption record, covering a device intended to treat or diagnose a condition affecting a small patient population." .
+<http://medicaldevice.com/ontology/HumanitarianDeviceExemption> <http://www.w3.org/2000/01/rdf-schema#label> "Humanitarian Device Exemption" .
+<http://medicaldevice.com/ontology/IVDHomeUseTest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/IVDHomeUseTest> <http://www.w3.org/2000/01/rdf-schema#comment> "An in vitro diagnostic test cleared or approved for home (over-the-counter) use." .
+<http://medicaldevice.com/ontology/IVDHomeUseTest> <http://www.w3.org/2000/01/rdf-schema#label> "IVD Home-Use Test" .
+<http://medicaldevice.com/ontology/IVDRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/IVDRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "The declared class for in vitro diagnostic home-use test records. A subclass of FDA Data Record. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/IVDRecord> <http://www.w3.org/2000/01/rdf-schema#label> "IVD Home-Use Test Record" .
+<http://medicaldevice.com/ontology/K510Record> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/K510Record> <http://www.w3.org/2000/01/rdf-schema#comment> "A premarket notification submission under section 510(k), by which a device is cleared for market on the basis of substantial equivalence to a legally marketed predicate device. A subclass of Regulatory Submission." .
+<http://medicaldevice.com/ontology/K510Record> <http://www.w3.org/2000/01/rdf-schema#label> "510(k) Submission" .
+<http://medicaldevice.com/ontology/MAUDEReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/MAUDEReport> <http://www.w3.org/2000/01/rdf-schema#comment> "A Medical Device Report (MDR) from the FDA Manufacturer and User Facility Device Experience (MAUDE) system, describing a suspected device-associated death, serious injury, or malfunction. A subclass of Adverse Event Report." .
+<http://medicaldevice.com/ontology/MAUDEReport> <http://www.w3.org/2000/01/rdf-schema#label> "MAUDE Adverse Event Report" .
+<http://medicaldevice.com/ontology/MDRStatistic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/MDRStatistic> <http://www.w3.org/2000/01/rdf-schema#comment> "A yearly count of medical device reports and events for a TPLC product code." .
+<http://medicaldevice.com/ontology/MDRStatistic> <http://www.w3.org/2000/01/rdf-schema#label> "MDR Statistic" .
+<http://medicaldevice.com/ontology/MammographyFacility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/MammographyFacility> <http://www.w3.org/2000/01/rdf-schema#comment> "A mammography facility certified under the Mammography Quality Standards Act. A subclass of FDA Data Record." .
+<http://medicaldevice.com/ontology/MammographyFacility> <http://www.w3.org/2000/01/rdf-schema#label> "MQSA Certified Mammography Facility" .
+<http://medicaldevice.com/ontology/Manufacturer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/Manufacturer> <http://www.w3.org/2000/01/rdf-schema#comment> "A firm or establishment named on an FDA record, identified where possible by its FDA Establishment Identifier (FEI). The 10,432 manufacturers that carry a NAICS classification are also typed iof:Manufacturer." .
+<http://medicaldevice.com/ontology/Manufacturer> <http://www.w3.org/2000/01/rdf-schema#label> "Manufacturer" .
+<http://medicaldevice.com/ontology/Material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/Material> <http://www.w3.org/2000/01/rdf-schema#comment> "A material a device is made from. A subclass of Device Material. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/Material> <http://www.w3.org/2000/01/rdf-schema#label> "Material" .
+<http://medicaldevice.com/ontology/MedSunReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/MedSunReport> <http://www.w3.org/2000/01/rdf-schema#comment> "A report from MedSun, the Medical Product Safety Network of sentinel reporting facilities. A subclass of Adverse Event Report. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/MedSunReport> <http://www.w3.org/2000/01/rdf-schema#label> "MedSun Safety Report" .
+<http://medicaldevice.com/ontology/MedicalDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/MedicalDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "A medical device, the hub entity that FDA records about the same product are attached to." .
+<http://medicaldevice.com/ontology/MedicalDevice> <http://www.w3.org/2000/01/rdf-schema#label> "Medical Device" .
+<http://medicaldevice.com/ontology/NAICSClassification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/NAICSClassification> <http://www.w3.org/2000/01/rdf-schema#comment> "A North American Industry Classification System (NAICS) industry, with its six-digit code in md:naicsCode, the NAICS version in md:naicsVersion, and the industry title in rdfs:label. The graph holds 13 NAICS 2022 industries (e.g., 339112 Surgical and Medical Instrument Manufacturing), assigned to manufacturers and FDA product codes by the knowledge graph's own crosswalk, not by FDA. The same nodes are also typed sud:NAICSClassifier." .
+<http://medicaldevice.com/ontology/NAICSClassification> <http://www.w3.org/2000/01/rdf-schema#label> "NAICS Industry Classification" .
+<http://medicaldevice.com/ontology/PMAChangeMemo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/PMAChangeMemo> <http://www.w3.org/2000/01/rdf-schema#comment> "A supplement to an approved PMA covering a change to the device, its manufacturing, or its labeling. A subclass of Design Change." .
+<http://medicaldevice.com/ontology/PMAChangeMemo> <http://www.w3.org/2000/01/rdf-schema#label> "PMA Supplement" .
+<http://medicaldevice.com/ontology/PMARecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/PMARecord> <http://www.w3.org/2000/01/rdf-schema#comment> "A Premarket Approval application, the FDA scientific and regulatory review pathway required for Class III devices. A subclass of Regulatory Submission." .
+<http://medicaldevice.com/ontology/PMARecord> <http://www.w3.org/2000/01/rdf-schema#label> "PMA Submission" .
+<http://medicaldevice.com/ontology/PatientOutcome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/PatientOutcome> <http://www.w3.org/2000/01/rdf-schema#comment> "A patient outcome code reported on MDRs for a TPLC product code, with its report and event counts." .
+<http://medicaldevice.com/ontology/PatientOutcome> <http://www.w3.org/2000/01/rdf-schema#label> "Patient Outcome" .
+<http://medicaldevice.com/ontology/Postmarket522Study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/Postmarket522Study> <http://www.w3.org/2000/01/rdf-schema#comment> "A postmarket surveillance study ordered under section 522 of the Federal Food, Drug, and Cosmetic Act. A subclass of FDA Data Record." .
+<http://medicaldevice.com/ontology/Postmarket522Study> <http://www.w3.org/2000/01/rdf-schema#label> "522 Postmarket Surveillance Study" .
+<http://medicaldevice.com/ontology/ProductClassificationRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/ProductClassificationRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "The FDA classification record for a product code, giving its device class, regulation, review panel, and regulatory flags. A subclass of FDA Data Record. Its nodes (IRIs ending productcode/<code>) are separate from the FDA Product Code nodes (IRIs ending product-code/<code>); only 443 nodes carry both types, so join the two on the md:productCode literal. 1,589 of the 7,071 records carry a NAICS industry through md:hasNAICSClassification." .
+<http://medicaldevice.com/ontology/ProductClassificationRecord> <http://www.w3.org/2000/01/rdf-schema#label> "FDA Product Classification Record" .
+<http://medicaldevice.com/ontology/ProductCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/ProductCode> <http://www.w3.org/2000/01/rdf-schema#comment> "A three-letter FDA product code identifying a device type; the key most FDA device datasets join on. Its nodes (IRIs ending product-code/<code>) are separate from the FDA Product Classification Record nodes (IRIs ending productcode/<code>); only 443 nodes carry both types, so join the two on the md:productCode literal." .
+<http://medicaldevice.com/ontology/ProductCode> <http://www.w3.org/2000/01/rdf-schema#label> "FDA Product Code" .
+<http://medicaldevice.com/ontology/ProductCodeNAICSMapping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/ProductCodeNAICSMapping> <http://www.w3.org/2000/01/rdf-schema#comment> "A crosswalk assertion that assigns a NAICS industry to an FDA product code, recording the method, source, confidence, review status, and justification of the assignment. The mappings are inferred by the knowledge graph's builders and are not supplied by FDA." .
+<http://medicaldevice.com/ontology/ProductCodeNAICSMapping> <http://www.w3.org/2000/01/rdf-schema#label> "Product Code to NAICS Mapping" .
+<http://medicaldevice.com/ontology/ProvenanceRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/ProvenanceRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "An extraction audit record describing how and when data was harvested. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/ProvenanceRecord> <http://www.w3.org/2000/01/rdf-schema#label> "Provenance Record" .
+<http://medicaldevice.com/ontology/Recall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/Recall> <http://www.w3.org/2000/01/rdf-schema#comment> "A recall event summarised on a TPLC product-code record, giving its class and date." .
+<http://medicaldevice.com/ontology/Recall> <http://www.w3.org/2000/01/rdf-schema#label> "Recall" .
+<http://medicaldevice.com/ontology/RecallRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/RecallRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "A device recall enforcement record from the openFDA recall dataset, with the recalling firm, reason, classification, and distribution. A subclass of FDA Data Record." .
+<http://medicaldevice.com/ontology/RecallRecord> <http://www.w3.org/2000/01/rdf-schema#label> "Device Recall Record" .
+<http://medicaldevice.com/ontology/RecognizedConsensusStandard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/RecognizedConsensusStandard> <http://www.w3.org/2000/01/rdf-schema#comment> "A voluntary consensus standard recognized by FDA for use in device premarket submissions." .
+<http://medicaldevice.com/ontology/RecognizedConsensusStandard> <http://www.w3.org/2000/01/rdf-schema#label> "Recognized Consensus Standard" .
+<http://medicaldevice.com/ontology/RecognizedStandard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/RecognizedStandard> <http://www.w3.org/2000/01/rdf-schema#comment> "The declared class for FDA-recognized voluntary consensus standards. A subclass of FDA Data Record. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/RecognizedStandard> <http://www.w3.org/2000/01/rdf-schema#label> "FDA Recognized Consensus Standard" .
+<http://medicaldevice.com/ontology/RegistrationListingRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/RegistrationListingRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "An establishment registration and device listing record, giving the registered facility, its status, and its registration number. A subclass of FDA Data Record. The 9,120 records with a geocoded address are also typed md:Facility." .
+<http://medicaldevice.com/ontology/RegistrationListingRecord> <http://www.w3.org/2000/01/rdf-schema#label> "FDA Registration and Listing Record" .
+<http://medicaldevice.com/ontology/RegulationNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/RegulationNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "A 21 CFR regulation number under which a device type is classified." .
+<http://medicaldevice.com/ontology/RegulationNumber> <http://www.w3.org/2000/01/rdf-schema#label> "Regulation Number" .
+<http://medicaldevice.com/ontology/RegulatorySubmission> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/RegulatorySubmission> <http://www.w3.org/2000/01/rdf-schema#comment> "A premarket submission to FDA; the parent class of the 510(k), PMA, De Novo, and HDE record classes. A subclass of FDA Data Record. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/RegulatorySubmission> <http://www.w3.org/2000/01/rdf-schema#label> "Regulatory Submission" .
+<http://medicaldevice.com/ontology/SafetyReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/SafetyReport> <http://www.w3.org/2000/01/rdf-schema#comment> "A device safety report; a parent class for adverse-event reporting sources. A subclass of Adverse Event Report. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/SafetyReport> <http://www.w3.org/2000/01/rdf-schema#label> "Safety Report" .
+<http://medicaldevice.com/ontology/SafetySignal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/SafetySignal> <http://www.w3.org/2000/01/rdf-schema#comment> "A derived safety signal identified from postmarket data. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/SafetySignal> <http://www.w3.org/2000/01/rdf-schema#label> "Safety Signal" .
+<http://medicaldevice.com/ontology/SoftwareFeature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/SoftwareFeature> <http://www.w3.org/2000/01/rdf-schema#comment> "A software feature or function of a device. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/SoftwareFeature> <http://www.w3.org/2000/01/rdf-schema#label> "Software Feature" .
+<http://medicaldevice.com/ontology/SourceRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/SourceRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "The raw FDA record a graph entity was derived from. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/SourceRecord> <http://www.w3.org/2000/01/rdf-schema#label> "Source Record" .
+<http://medicaldevice.com/ontology/Specialty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/Specialty> <http://www.w3.org/2000/01/rdf-schema#comment> "A laboratory specialty or subspecialty recognized under CLIA. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/Specialty> <http://www.w3.org/2000/01/rdf-schema#label> "CLIA Laboratory Specialty" .
+<http://medicaldevice.com/ontology/TPLCRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/TPLCRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "A Total Product Life Cycle record, aggregating device problems, patient outcomes, MDR trends, and recalls for one FDA product code. A subclass of FDA Data Record." .
+<http://medicaldevice.com/ontology/TPLCRecord> <http://www.w3.org/2000/01/rdf-schema#label> "TPLC Device Record" .
+<http://medicaldevice.com/ontology/TestSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/TestSystem> <http://www.w3.org/2000/01/rdf-schema#comment> "A test system, assay, or instrument categorised under CLIA. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/TestSystem> <http://www.w3.org/2000/01/rdf-schema#label> "CLIA Test System" .
+<http://medicaldevice.com/ontology/UDIIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/UDIIdentifier> <http://www.w3.org/2000/01/rdf-schema#comment> "One entry from the AccessGUDID identifiers list; may be a primary DI, package DI, or unit-of-use DI. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/UDIIdentifier> <http://www.w3.org/2000/01/rdf-schema#label> "UDI Identifier" .
+<http://medicaldevice.com/ontology/XRayAssemblerRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/XRayAssemblerRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "The declared class for FDA x-ray assembler reports. A subclass of FDA Data Record. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/XRayAssemblerRecord> <http://www.w3.org/2000/01/rdf-schema#label> "FDA X-Ray Assembler Record" .
+<http://medicaldevice.com/ontology/XrayAssemblerRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://medicaldevice.com/ontology/XrayAssemblerRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "An FDA x-ray assembler report recording the installation of diagnostic x-ray equipment at a named site." .
+<http://medicaldevice.com/ontology/XrayAssemblerRecord> <http://www.w3.org/2000/01/rdf-schema#label> "X-Ray Assembler Record" .
+<http://medicaldevice.com/ontology/accreditationBody> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/accreditationBody> <http://www.w3.org/2000/01/rdf-schema#comment> "Accreditation body. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/accreditationBody> <http://www.w3.org/2000/01/rdf-schema#label> "accreditation body" .
+<http://medicaldevice.com/ontology/address> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/address> <http://www.w3.org/2000/01/rdf-schema#comment> "Street address given on the record." .
+<http://medicaldevice.com/ontology/address> <http://www.w3.org/2000/01/rdf-schema#label> "address" .
+<http://medicaldevice.com/ontology/adverseEventFlag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/adverseEventFlag> <http://www.w3.org/2000/01/rdf-schema#comment> "Adverse event flag. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/adverseEventFlag> <http://www.w3.org/2000/01/rdf-schema#label> "adverse event flag" .
+<http://medicaldevice.com/ontology/advisoryCommittee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/advisoryCommittee> <http://www.w3.org/2000/01/rdf-schema#comment> "FDA advisory committee code for the device type." .
+<http://medicaldevice.com/ontology/advisoryCommittee> <http://www.w3.org/2000/01/rdf-schema#label> "advisory committee" .
+<http://medicaldevice.com/ontology/advisoryCommitteeDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/advisoryCommitteeDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "FDA advisory committee that reviews the device type." .
+<http://medicaldevice.com/ontology/advisoryCommitteeDescription> <http://www.w3.org/2000/01/rdf-schema#label> "advisory committee description" .
+<http://medicaldevice.com/ontology/affectsComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/affectsComponent> <http://www.w3.org/2000/01/rdf-schema#comment> "Affects component. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/affectsComponent> <http://www.w3.org/2000/01/rdf-schema#label> "affects component" .
+<http://medicaldevice.com/ontology/affectsLabeling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/affectsLabeling> <http://www.w3.org/2000/01/rdf-schema#comment> "Affects labeling. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/affectsLabeling> <http://www.w3.org/2000/01/rdf-schema#label> "affects labeling" .
+<http://medicaldevice.com/ontology/affectsMaterial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/affectsMaterial> <http://www.w3.org/2000/01/rdf-schema#comment> "Affects material. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/affectsMaterial> <http://www.w3.org/2000/01/rdf-schema#label> "affects material" .
+<http://medicaldevice.com/ontology/affectsPackaging> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/affectsPackaging> <http://www.w3.org/2000/01/rdf-schema#comment> "Affects packaging. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/affectsPackaging> <http://www.w3.org/2000/01/rdf-schema#label> "affects packaging" .
+<http://medicaldevice.com/ontology/affectsSoftware> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/affectsSoftware> <http://www.w3.org/2000/01/rdf-schema#comment> "Affects software. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/affectsSoftware> <http://www.w3.org/2000/01/rdf-schema#label> "affects software" .
+<http://medicaldevice.com/ontology/affectsSterility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/affectsSterility> <http://www.w3.org/2000/01/rdf-schema#comment> "Affects sterility. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/affectsSterility> <http://www.w3.org/2000/01/rdf-schema#label> "affects sterility" .
+<http://medicaldevice.com/ontology/analyteId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/analyteId> <http://www.w3.org/2000/01/rdf-schema#comment> "Analyte ID. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/analyteId> <http://www.w3.org/2000/01/rdf-schema#label> "Analyte ID" .
+<http://medicaldevice.com/ontology/analyteName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/analyteName> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the analyte measured by the waived test." .
+<http://medicaldevice.com/ontology/analyteName> <http://www.w3.org/2000/01/rdf-schema#label> "Analyte Name" .
+<http://medicaldevice.com/ontology/applicant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/applicant> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the firm that submitted the application." .
+<http://medicaldevice.com/ontology/applicant> <http://www.w3.org/2000/01/rdf-schema#label> "applicant" .
+<http://medicaldevice.com/ontology/approvalDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/approvalDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Approval date. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/approvalDate> <http://www.w3.org/2000/01/rdf-schema#label> "approval date" .
+<http://medicaldevice.com/ontology/ascaPilot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/ascaPilot> <http://www.w3.org/2000/01/rdf-schema#comment> "ASCA pilot program flag. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/ascaPilot> <http://www.w3.org/2000/01/rdf-schema#label> "ASCA pilot program flag" .
+<http://medicaldevice.com/ontology/assemblerAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/assemblerAddress> <http://www.w3.org/2000/01/rdf-schema#comment> "X-ray assembler address. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/assemblerAddress> <http://www.w3.org/2000/01/rdf-schema#label> "x-ray assembler address" .
+<http://medicaldevice.com/ontology/assemblerId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/assemblerId> <http://www.w3.org/2000/01/rdf-schema#comment> "FDA identifier of the x-ray equipment assembler." .
+<http://medicaldevice.com/ontology/assemblerId> <http://www.w3.org/2000/01/rdf-schema#label> "assembler ID" .
+<http://medicaldevice.com/ontology/assemblerName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/assemblerName> <http://www.w3.org/2000/01/rdf-schema#comment> "X-ray assembler name. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/assemblerName> <http://www.w3.org/2000/01/rdf-schema#label> "x-ray assembler name" .
+<http://medicaldevice.com/ontology/assignedNAICS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/assignedNAICS> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a product code to NAICS mapping to the NAICS industry it assigns." .
+<http://medicaldevice.com/ontology/assignedNAICS> <http://www.w3.org/2000/01/rdf-schema#label> "assigned NAICS" .
+<http://medicaldevice.com/ontology/authority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/authority> <http://www.w3.org/2000/01/rdf-schema#comment> "Statutory authority under which the CFR part is issued." .
+<http://medicaldevice.com/ontology/authority> <http://www.w3.org/2000/01/rdf-schema#label> "authority" .
+<http://medicaldevice.com/ontology/belongsToDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/belongsToDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a UDI Identifier to a AccessGUDID / UDI Record. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/belongsToDevice> <http://www.w3.org/2000/01/rdf-schema#label> "belongs to device" .
+<http://medicaldevice.com/ontology/brandName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/brandName> <http://www.w3.org/2000/01/rdf-schema#comment> "Brand name. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/brandName> <http://www.w3.org/2000/01/rdf-schema#label> "brand name" .
+<http://medicaldevice.com/ontology/cId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/cId> <http://www.w3.org/2000/01/rdf-schema#comment> "FDA internal identifier used on the 522 study page." .
+<http://medicaldevice.com/ontology/cId> <http://www.w3.org/2000/01/rdf-schema#label> "FDA c-ID" .
+<http://medicaldevice.com/ontology/catalogNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/catalogNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Catalog number. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/catalogNumber> <http://www.w3.org/2000/01/rdf-schema#label> "catalog number" .
+<http://medicaldevice.com/ontology/centerClassificationDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/centerClassificationDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Date FDA classified the recall." .
+<http://medicaldevice.com/ontology/centerClassificationDate> <http://www.w3.org/2000/01/rdf-schema#label> "FDA center classification date" .
+<http://medicaldevice.com/ontology/certificateNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/certificateNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "MQSA certificate number. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/certificateNumber> <http://www.w3.org/2000/01/rdf-schema#label> "MQSA certificate number" .
+<http://medicaldevice.com/ontology/changeDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/changeDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Change description. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/changeDescription> <http://www.w3.org/2000/01/rdf-schema#label> "change description" .
+<http://medicaldevice.com/ontology/changeReason> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/changeReason> <http://www.w3.org/2000/01/rdf-schema#comment> "Change reason. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/changeReason> <http://www.w3.org/2000/01/rdf-schema#label> "change reason" .
+<http://medicaldevice.com/ontology/city> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/city> <http://www.w3.org/2000/01/rdf-schema#comment> "City given on the record." .
+<http://medicaldevice.com/ontology/city> <http://www.w3.org/2000/01/rdf-schema#label> "city" .
+<http://medicaldevice.com/ontology/clearanceType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/clearanceType> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of 510(k) clearance, such as traditional, special, or abbreviated." .
+<http://medicaldevice.com/ontology/clearanceType> <http://www.w3.org/2000/01/rdf-schema#label> "510(k) clearance type" .
+<http://medicaldevice.com/ontology/codeInfo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/codeInfo> <http://www.w3.org/2000/01/rdf-schema#comment> "Lot, model, or serial numbers identifying the recalled units." .
+<http://medicaldevice.com/ontology/codeInfo> <http://www.w3.org/2000/01/rdf-schema#label> "lot / model / serial code info" .
+<http://medicaldevice.com/ontology/commercialDistributionStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/commercialDistributionStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "Commercial distribution status. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/commercialDistributionStatus> <http://www.w3.org/2000/01/rdf-schema#label> "commercial distribution status" .
+<http://medicaldevice.com/ontology/companyName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/companyName> <http://www.w3.org/2000/01/rdf-schema#comment> "Company name. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/companyName> <http://www.w3.org/2000/01/rdf-schema#label> "company name" .
+<http://medicaldevice.com/ontology/complexity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/complexity> <http://www.w3.org/2000/01/rdf-schema#comment> "CLIA complexity level. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/complexity> <http://www.w3.org/2000/01/rdf-schema#label> "CLIA complexity level" .
+<http://medicaldevice.com/ontology/componentDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/componentDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Component description. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/componentDescription> <http://www.w3.org/2000/01/rdf-schema#label> "component description" .
+<http://medicaldevice.com/ontology/country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/country> <http://www.w3.org/2000/01/rdf-schema#comment> "Country given on the record." .
+<http://medicaldevice.com/ontology/country> <http://www.w3.org/2000/01/rdf-schema#label> "country" .
+<http://medicaldevice.com/ontology/dataSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/dataSource> <http://www.w3.org/2000/01/rdf-schema#comment> "Data source used by the 522 study." .
+<http://medicaldevice.com/ontology/dataSource> <http://www.w3.org/2000/01/rdf-schema#label> "data source" .
+<http://medicaldevice.com/ontology/dateCurrentPlanAccepted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/dateCurrentPlanAccepted> <http://www.w3.org/2000/01/rdf-schema#comment> "Date FDA accepted the current 522 study plan." .
+<http://medicaldevice.com/ontology/dateCurrentPlanAccepted> <http://www.w3.org/2000/01/rdf-schema#label> "date current plan accepted" .
+<http://medicaldevice.com/ontology/dateEffective> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/dateEffective> <http://www.w3.org/2000/01/rdf-schema#comment> "Date effective. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/dateEffective> <http://www.w3.org/2000/01/rdf-schema#label> "date effective" .
+<http://medicaldevice.com/ontology/dateOfEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/dateOfEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "Date on which the reported adverse event occurred." .
+<http://medicaldevice.com/ontology/dateOfEvent> <http://www.w3.org/2000/01/rdf-schema#label> "date of event" .
+<http://medicaldevice.com/ontology/dateOrder> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/dateOrder> <http://www.w3.org/2000/01/rdf-schema#comment> "522 order date. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/dateOrder> <http://www.w3.org/2000/01/rdf-schema#label> "522 order date" .
+<http://medicaldevice.com/ontology/dateOriginalPlanAccepted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/dateOriginalPlanAccepted> <http://www.w3.org/2000/01/rdf-schema#comment> "Date FDA accepted the original 522 study plan." .
+<http://medicaldevice.com/ontology/dateOriginalPlanAccepted> <http://www.w3.org/2000/01/rdf-schema#label> "date original plan accepted" .
+<http://medicaldevice.com/ontology/dateReceived> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/dateReceived> <http://www.w3.org/2000/01/rdf-schema#comment> "Date on which FDA received the submission." .
+<http://medicaldevice.com/ontology/dateReceived> <http://www.w3.org/2000/01/rdf-schema#label> "date received" .
+<http://medicaldevice.com/ontology/deNovoNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/deNovoNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "De Novo request number." .
+<http://medicaldevice.com/ontology/deNovoNumber> <http://www.w3.org/2000/01/rdf-schema#label> "De Novo number" .
+<http://medicaldevice.com/ontology/decisionCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/decisionCode> <http://www.w3.org/2000/01/rdf-schema#comment> "FDA decision code for the submission." .
+<http://medicaldevice.com/ontology/decisionCode> <http://www.w3.org/2000/01/rdf-schema#label> "decision code" .
+<http://medicaldevice.com/ontology/decisionDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/decisionDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Date of the FDA decision on the submission." .
+<http://medicaldevice.com/ontology/decisionDate> <http://www.w3.org/2000/01/rdf-schema#label> "decision date" .
+<http://medicaldevice.com/ontology/decisionDateRaw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/decisionDateRaw> <http://www.w3.org/2000/01/rdf-schema#comment> "Decision date (raw string from source). Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/decisionDateRaw> <http://www.w3.org/2000/01/rdf-schema#label> "decision date (raw string from source)" .
+<http://medicaldevice.com/ontology/decisionDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/decisionDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Description of the FDA decision on the submission." .
+<http://medicaldevice.com/ontology/decisionDescription> <http://www.w3.org/2000/01/rdf-schema#label> "decision description" .
+<http://medicaldevice.com/ontology/definition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/definition> <http://www.w3.org/2000/01/rdf-schema#comment> "The FDA definition of the device type identified by a product code." .
+<http://medicaldevice.com/ontology/definition> <http://www.w3.org/2000/01/rdf-schema#label> "definition" .
+<http://medicaldevice.com/ontology/designChangeSummary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/designChangeSummary> <http://www.w3.org/2000/01/rdf-schema#comment> "Design change summary. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/designChangeSummary> <http://www.w3.org/2000/01/rdf-schema#label> "design change summary" .
+<http://medicaldevice.com/ontology/detailUrl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/detailUrl> <http://www.w3.org/2000/01/rdf-schema#comment> "URL of the FDA detail page for the 522 study." .
+<http://medicaldevice.com/ontology/detailUrl> <http://www.w3.org/2000/01/rdf-schema#label> "detail URL" .
+<http://medicaldevice.com/ontology/deviceBrandName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/deviceBrandName> <http://www.w3.org/2000/01/rdf-schema#comment> "Device brand name. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/deviceBrandName> <http://www.w3.org/2000/01/rdf-schema#label> "device brand name" .
+<http://medicaldevice.com/ontology/deviceClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/deviceClass> <http://www.w3.org/2000/01/rdf-schema#comment> "FDA device class: I, II, or III, in increasing order of regulatory control." .
+<http://medicaldevice.com/ontology/deviceClass> <http://www.w3.org/2000/01/rdf-schema#label> "device class" .
+<http://medicaldevice.com/ontology/deviceClassType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/deviceClassType> <http://www.w3.org/2000/01/rdf-schema#comment> "Device class type. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/deviceClassType> <http://www.w3.org/2000/01/rdf-schema#label> "device class type" .
+<http://medicaldevice.com/ontology/deviceDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/deviceDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Device description. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/deviceDescription> <http://www.w3.org/2000/01/rdf-schema#label> "device description" .
+<http://medicaldevice.com/ontology/deviceName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/deviceName> <http://www.w3.org/2000/01/rdf-schema#comment> "FDA device name for the record." .
+<http://medicaldevice.com/ontology/deviceName> <http://www.w3.org/2000/01/rdf-schema#label> "device name" .
+<http://medicaldevice.com/ontology/deviceOperator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/deviceOperator> <http://www.w3.org/2000/01/rdf-schema#comment> "Device operator setting. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/deviceOperator> <http://www.w3.org/2000/01/rdf-schema#label> "device operator setting" .
+<http://medicaldevice.com/ontology/devicePublishDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/devicePublishDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Device publish date. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/devicePublishDate> <http://www.w3.org/2000/01/rdf-schema#label> "device publish date" .
+<http://medicaldevice.com/ontology/distributionPattern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/distributionPattern> <http://www.w3.org/2000/01/rdf-schema#comment> "Geographic distribution of the recalled product." .
+<http://medicaldevice.com/ontology/distributionPattern> <http://www.w3.org/2000/01/rdf-schema#label> "distribution pattern" .
+<http://medicaldevice.com/ontology/docketNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/docketNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Federal Register docket number." .
+<http://medicaldevice.com/ontology/docketNumber> <http://www.w3.org/2000/01/rdf-schema#label> "docket number" .
+<http://medicaldevice.com/ontology/document> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/document> <http://www.w3.org/2000/01/rdf-schema#comment> "Reference to the FDA document describing the test." .
+<http://medicaldevice.com/ontology/document> <http://www.w3.org/2000/01/rdf-schema#label> "document" .
+<http://medicaldevice.com/ontology/documentNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/documentNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "FDA document number of the submission (K, P, H, or DEN prefix)." .
+<http://medicaldevice.com/ontology/documentNumber> <http://www.w3.org/2000/01/rdf-schema#label> "document number (K / P / H / DEN)" .
+<http://medicaldevice.com/ontology/effectiveDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/effectiveDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Date the record took effect." .
+<http://medicaldevice.com/ontology/effectiveDate> <http://www.w3.org/2000/01/rdf-schema#label> "effective date" .
+<http://medicaldevice.com/ontology/effectiveDateRaw> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/effectiveDateRaw> <http://www.w3.org/2000/01/rdf-schema#comment> "Effective date (raw string). Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/effectiveDateRaw> <http://www.w3.org/2000/01/rdf-schema#label> "effective date (raw string)" .
+<http://medicaldevice.com/ontology/equipmentType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/equipmentType> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of diagnostic x-ray equipment installed." .
+<http://medicaldevice.com/ontology/equipmentType> <http://www.w3.org/2000/01/rdf-schema#label> "equipment type" .
+<http://medicaldevice.com/ontology/establishmentName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/establishmentName> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the registered establishment." .
+<http://medicaldevice.com/ontology/establishmentName> <http://www.w3.org/2000/01/rdf-schema#label> "establishment name" .
+<http://medicaldevice.com/ontology/establishmentType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/establishmentType> <http://www.w3.org/2000/01/rdf-schema#comment> "Establishment type. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/establishmentType> <http://www.w3.org/2000/01/rdf-schema#label> "establishment type" .
+<http://medicaldevice.com/ontology/eventCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/eventCount> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of adverse events carrying this code or year." .
+<http://medicaldevice.com/ontology/eventCount> <http://www.w3.org/2000/01/rdf-schema#label> "event count" .
+<http://medicaldevice.com/ontology/eventDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/eventDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Event date. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/eventDate> <http://www.w3.org/2000/01/rdf-schema#label> "event date" .
+<http://medicaldevice.com/ontology/eventId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/eventId> <http://www.w3.org/2000/01/rdf-schema#comment> "Event ID. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/eventId> <http://www.w3.org/2000/01/rdf-schema#label> "event ID" .
+<http://medicaldevice.com/ontology/eventNarrative> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/eventNarrative> <http://www.w3.org/2000/01/rdf-schema#comment> "Event narrative. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/eventNarrative> <http://www.w3.org/2000/01/rdf-schema#label> "event narrative" .
+<http://medicaldevice.com/ontology/eventType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/eventType> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of adverse event reported: death, injury, or malfunction." .
+<http://medicaldevice.com/ontology/eventType> <http://www.w3.org/2000/01/rdf-schema#label> "event type" .
+<http://medicaldevice.com/ontology/expeditedReviewFlag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/expeditedReviewFlag> <http://www.w3.org/2000/01/rdf-schema#comment> "Whether the submission received expedited review." .
+<http://medicaldevice.com/ontology/expeditedReviewFlag> <http://www.w3.org/2000/01/rdf-schema#label> "expedited review flag" .
+<http://medicaldevice.com/ontology/extractedAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/extractedAt> <http://www.w3.org/2000/01/rdf-schema#comment> "Timestamp at which the record was extracted into the graph. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/extractedAt> <http://www.w3.org/2000/01/rdf-schema#label> "timestamp when record was extracted" .
+<http://medicaldevice.com/ontology/extractionVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/extractionVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "Version tag of the extraction pipeline that produced the record. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/extractionVersion> <http://www.w3.org/2000/01/rdf-schema#label> "kg-json extraction version tag" .
+<http://medicaldevice.com/ontology/facilityName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/facilityName> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the certified mammography facility." .
+<http://medicaldevice.com/ontology/facilityName> <http://www.w3.org/2000/01/rdf-schema#label> "facility name" .
+<http://medicaldevice.com/ontology/fedRegNoticeDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/fedRegNoticeDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Date of the Federal Register notice." .
+<http://medicaldevice.com/ontology/fedRegNoticeDate> <http://www.w3.org/2000/01/rdf-schema#label> "Federal Register notice date" .
+<http://medicaldevice.com/ontology/feiNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/feiNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "FDA Establishment Identifier (FEI) of the firm." .
+<http://medicaldevice.com/ontology/feiNumber> <http://www.w3.org/2000/01/rdf-schema#label> "FDA establishment identifier (FEI)" .
+<http://medicaldevice.com/ontology/fromDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/fromDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a record to a FDA Source Dataset. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/fromDataset> <http://www.w3.org/2000/01/rdf-schema#label> "sourced from dataset" .
+<http://medicaldevice.com/ontology/genericDeviceName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/genericDeviceName> <http://www.w3.org/2000/01/rdf-schema#comment> "Generic device name. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/genericDeviceName> <http://www.w3.org/2000/01/rdf-schema#label> "generic device name" .
+<http://medicaldevice.com/ontology/genericName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/genericName> <http://www.w3.org/2000/01/rdf-schema#comment> "Generic (common) name of the device." .
+<http://medicaldevice.com/ontology/genericName> <http://www.w3.org/2000/01/rdf-schema#label> "generic name" .
+<http://medicaldevice.com/ontology/genericNameHDE> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/genericNameHDE> <http://www.w3.org/2000/01/rdf-schema#comment> "HDE generic device name. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/genericNameHDE> <http://www.w3.org/2000/01/rdf-schema#label> "HDE generic device name" .
+<http://medicaldevice.com/ontology/geocodingConfidence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/geocodingConfidence> <http://www.w3.org/2000/01/rdf-schema#comment> "Confidence score between 0 and 1 returned by the geocoder for the facility address; the values are 1.0 and 0.7." .
+<http://medicaldevice.com/ontology/geocodingConfidence> <http://www.w3.org/2000/01/rdf-schema#label> "geocoding confidence" .
+<http://medicaldevice.com/ontology/geocodingSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/geocodingSource> <http://www.w3.org/2000/01/rdf-schema#comment> "Geocoding provider that located the facility address. Every value in this release is census_batch." .
+<http://medicaldevice.com/ontology/geocodingSource> <http://www.w3.org/2000/01/rdf-schema#label> "geocoding source" .
+<http://medicaldevice.com/ontology/gmdnTermCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/gmdnTermCode> <http://www.w3.org/2000/01/rdf-schema#comment> "GMDN term code. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/gmdnTermCode> <http://www.w3.org/2000/01/rdf-schema#label> "GMDN term code" .
+<http://medicaldevice.com/ontology/gmdnTermDefinition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/gmdnTermDefinition> <http://www.w3.org/2000/01/rdf-schema#comment> "GMDN term definition. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/gmdnTermDefinition> <http://www.w3.org/2000/01/rdf-schema#label> "GMDN term definition" .
+<http://medicaldevice.com/ontology/gmdnTermName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/gmdnTermName> <http://www.w3.org/2000/01/rdf-schema#comment> "GMDN term name. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/gmdnTermName> <http://www.w3.org/2000/01/rdf-schema#label> "GMDN term name" .
+<http://medicaldevice.com/ontology/gmpExemptFlag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/gmpExemptFlag> <http://www.w3.org/2000/01/rdf-schema#comment> "Whether the device type is exempt from Good Manufacturing Practice requirements." .
+<http://medicaldevice.com/ontology/gmpExemptFlag> <http://www.w3.org/2000/01/rdf-schema#label> "GMP exempt flag (Y/N)" .
+<http://medicaldevice.com/ontology/has510kRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/has510kRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Medical Device to a 510(k) Submission. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/has510kRecord> <http://www.w3.org/2000/01/rdf-schema#label> "has 510(k) record" .
+<http://medicaldevice.com/ontology/hasAccessGUDIDRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasAccessGUDIDRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Medical Device to a AccessGUDID / UDI Record. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasAccessGUDIDRecord> <http://www.w3.org/2000/01/rdf-schema#label> "has AccessGUDID record" .
+<http://medicaldevice.com/ontology/hasAnalyte> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasAnalyte> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a record to a Analyte. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasAnalyte> <http://www.w3.org/2000/01/rdf-schema#label> "has analyte" .
+<http://medicaldevice.com/ontology/hasApprovalPathway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasApprovalPathway> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a record to a Approval Pathway. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasApprovalPathway> <http://www.w3.org/2000/01/rdf-schema#label> "has approval pathway" .
+<http://medicaldevice.com/ontology/hasCLIARecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasCLIARecord> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a record to a CLIA Laboratory Test System Record. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasCLIARecord> <http://www.w3.org/2000/01/rdf-schema#label> "has CLIA record" .
+<http://medicaldevice.com/ontology/hasClassificationRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasClassificationRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a FDA Product Code to a FDA Product Classification Record. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasClassificationRecord> <http://www.w3.org/2000/01/rdf-schema#label> "has classification record" .
+<http://medicaldevice.com/ontology/hasComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasComponent> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a record to a Component. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasComponent> <http://www.w3.org/2000/01/rdf-schema#label> "has component" .
+<http://medicaldevice.com/ontology/hasDeNovoRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasDeNovoRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Medical Device to a De Novo Authorization. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasDeNovoRecord> <http://www.w3.org/2000/01/rdf-schema#label> "has De Novo record" .
+<http://medicaldevice.com/ontology/hasDesignChange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasDesignChange> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Medical Device to a PMA Supplement. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasDesignChange> <http://www.w3.org/2000/01/rdf-schema#label> "has design change" .
+<http://medicaldevice.com/ontology/hasDeviceIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasDeviceIdentifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a record to a Device Identifier (UDI). Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasDeviceIdentifier> <http://www.w3.org/2000/01/rdf-schema#label> "has device identifier" .
+<http://medicaldevice.com/ontology/hasDeviceListing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasDeviceListing> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a FDA Registration and Listing Record to a FDA Device Listing. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasDeviceListing> <http://www.w3.org/2000/01/rdf-schema#label> "has device listing" .
+<http://medicaldevice.com/ontology/hasDeviceProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasDeviceProblem> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a TPLC record to a device problem code reported against it." .
+<http://medicaldevice.com/ontology/hasDeviceProblem> <http://www.w3.org/2000/01/rdf-schema#label> "has device problem" .
+<http://medicaldevice.com/ontology/hasFDARecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasFDARecord> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a record to a FDA Data Record. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasFDARecord> <http://www.w3.org/2000/01/rdf-schema#label> "has FDA record" .
+<http://medicaldevice.com/ontology/hasGMDNTerm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasGMDNTerm> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a record to a GMDN Term. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasGMDNTerm> <http://www.w3.org/2000/01/rdf-schema#label> "has GMDN term" .
+<http://medicaldevice.com/ontology/hasHDERecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasHDERecord> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Medical Device to a Humanitarian Device Exemption Record. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasHDERecord> <http://www.w3.org/2000/01/rdf-schema#label> "has HDE record" .
+<http://medicaldevice.com/ontology/hasIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasIdentifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a AccessGUDID / UDI Record to a UDI Identifier. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasIdentifier> <http://www.w3.org/2000/01/rdf-schema#label> "has identifier" .
+<http://medicaldevice.com/ontology/hasImplantStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasImplantStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "Has implant status. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasImplantStatus> <http://www.w3.org/2000/01/rdf-schema#label> "has implant status" .
+<http://medicaldevice.com/ontology/hasMAUDEReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasMAUDEReport> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Medical Device to a MAUDE Adverse Event Report. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasMAUDEReport> <http://www.w3.org/2000/01/rdf-schema#label> "has MAUDE report" .
+<http://medicaldevice.com/ontology/hasMDRStatistic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasMDRStatistic> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a TPLC Device Record to a MDR Statistic. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasMDRStatistic> <http://www.w3.org/2000/01/rdf-schema#label> "has MDR statistic" .
+<http://medicaldevice.com/ontology/hasMRIStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasMRIStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "Has MRI status. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasMRIStatus> <http://www.w3.org/2000/01/rdf-schema#label> "has MRI status" .
+<http://medicaldevice.com/ontology/hasMammographyFacility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasMammographyFacility> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a record to a MQSA Certified Mammography Facility. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasMammographyFacility> <http://www.w3.org/2000/01/rdf-schema#label> "has mammography facility" .
+<http://medicaldevice.com/ontology/hasManufacturer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasManufacturer> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a record to the manufacturer or firm responsible for it." .
+<http://medicaldevice.com/ontology/hasManufacturer> <http://www.w3.org/2000/01/rdf-schema#label> "has manufacturer" .
+<http://medicaldevice.com/ontology/hasMaterial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasMaterial> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a record to a Material. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasMaterial> <http://www.w3.org/2000/01/rdf-schema#label> "has material" .
+<http://medicaldevice.com/ontology/hasMedSunReport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasMedSunReport> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Medical Device to a MedSun Safety Report. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasMedSunReport> <http://www.w3.org/2000/01/rdf-schema#label> "has MedSun report" .
+<http://medicaldevice.com/ontology/hasNAICSClassification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasNAICSClassification> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a manufacturer or an FDA product classification record to its NAICS industry. 10,432 of the 53,499 manufacturers carry between one and nine industries, and 1,589 classification records carry one. The links sit on the classification-record nodes (IRIs ending productcode/<code>) and on the 132 of them that are also typed FDA Product Code. md:hasProductCode mostly leads to the separate product-code/<code> nodes, which have no NAICS link (no 510(k) record reaches one that way), so join submissions to a NAICS industry on the md:productCode literal. The assignments are inferred by the knowledge graph's crosswalk and are not supplied by FDA." .
+<http://medicaldevice.com/ontology/hasNAICSClassification> <http://www.w3.org/2000/01/rdf-schema#label> "has NAICS classification" .
+<http://medicaldevice.com/ontology/hasNAICSMapping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasNAICSMapping> <http://www.w3.org/2000/01/rdf-schema#comment> "Links an FDA product classification record to the crosswalk assertion that records how its NAICS industry was assigned. The links sit on the classification-record nodes (IRIs ending productcode/<code>) and on the 132 of them that are also typed FDA Product Code. md:hasProductCode mostly leads to the separate product-code/<code> nodes, which have no NAICS link (no 510(k) record reaches one that way), so join submissions to a NAICS industry on the md:productCode literal." .
+<http://medicaldevice.com/ontology/hasNAICSMapping> <http://www.w3.org/2000/01/rdf-schema#label> "has NAICS mapping" .
+<http://medicaldevice.com/ontology/hasOutcome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasOutcome> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a record to a Patient Outcome. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasOutcome> <http://www.w3.org/2000/01/rdf-schema#label> "has outcome" .
+<http://medicaldevice.com/ontology/hasPMADesignChange> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasPMADesignChange> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Medical Device to a PMA Supplement. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasPMADesignChange> <http://www.w3.org/2000/01/rdf-schema#label> "has PMA design change" .
+<http://medicaldevice.com/ontology/hasPMARecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasPMARecord> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Medical Device to a PMA Submission. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasPMARecord> <http://www.w3.org/2000/01/rdf-schema#label> "has PMA record" .
+<http://medicaldevice.com/ontology/hasPatientOutcome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasPatientOutcome> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a TPLC record to a patient outcome code reported against it." .
+<http://medicaldevice.com/ontology/hasPatientOutcome> <http://www.w3.org/2000/01/rdf-schema#label> "has patient outcome" .
+<http://medicaldevice.com/ontology/hasPostmarket522Study> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasPostmarket522Study> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a record to a 522 Postmarket Surveillance Study. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasPostmarket522Study> <http://www.w3.org/2000/01/rdf-schema#label> "has 522 postmarket study" .
+<http://medicaldevice.com/ontology/hasPredicateDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasPredicateDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "Has predicate device. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasPredicateDevice> <http://www.w3.org/2000/01/rdf-schema#label> "has predicate device" .
+<http://medicaldevice.com/ontology/hasProblem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasProblem> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a record to a Device Problem. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasProblem> <http://www.w3.org/2000/01/rdf-schema#label> "has problem" .
+<http://medicaldevice.com/ontology/hasProductCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasProductCode> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a record to the FDA product code classifying the device." .
+<http://medicaldevice.com/ontology/hasProductCode> <http://www.w3.org/2000/01/rdf-schema#label> "has product code" .
+<http://medicaldevice.com/ontology/hasProvenance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasProvenance> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a record to a Provenance Record. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasProvenance> <http://www.w3.org/2000/01/rdf-schema#label> "has provenance record" .
+<http://medicaldevice.com/ontology/hasRecall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasRecall> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a TPLC record to a recall of the device type." .
+<http://medicaldevice.com/ontology/hasRecall> <http://www.w3.org/2000/01/rdf-schema#label> "has recall" .
+<http://medicaldevice.com/ontology/hasRecallRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasRecallRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Medical Device to a Device Recall Record. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasRecallRecord> <http://www.w3.org/2000/01/rdf-schema#label> "has recall record" .
+<http://medicaldevice.com/ontology/hasRecognizedStandard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasRecognizedStandard> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a record to a FDA Recognized Consensus Standard. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasRecognizedStandard> <http://www.w3.org/2000/01/rdf-schema#label> "has recognized standard" .
+<http://medicaldevice.com/ontology/hasRegistrationRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasRegistrationRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Manufacturer to a FDA Registration and Listing Record. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasRegistrationRecord> <http://www.w3.org/2000/01/rdf-schema#label> "has registration record" .
+<http://medicaldevice.com/ontology/hasRegulationNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasRegulationNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a record to the 21 CFR regulation number the device type falls under." .
+<http://medicaldevice.com/ontology/hasRegulationNumber> <http://www.w3.org/2000/01/rdf-schema#label> "has regulation number" .
+<http://medicaldevice.com/ontology/hasSafetySignal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasSafetySignal> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a record to a Safety Signal. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasSafetySignal> <http://www.w3.org/2000/01/rdf-schema#label> "has safety signal" .
+<http://medicaldevice.com/ontology/hasSoftware> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasSoftware> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a record to a Software Feature. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasSoftware> <http://www.w3.org/2000/01/rdf-schema#label> "has software" .
+<http://medicaldevice.com/ontology/hasSpecialty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasSpecialty> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a CLIA Laboratory Test System Record to a CLIA Laboratory Specialty. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasSpecialty> <http://www.w3.org/2000/01/rdf-schema#label> "has specialty" .
+<http://medicaldevice.com/ontology/hasSterilityStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasSterilityStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "Has sterility status. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasSterilityStatus> <http://www.w3.org/2000/01/rdf-schema#label> "has sterility status" .
+<http://medicaldevice.com/ontology/hasTPLCRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasTPLCRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a Medical Device to a TPLC Device Record. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasTPLCRecord> <http://www.w3.org/2000/01/rdf-schema#label> "has TPLC record" .
+<http://medicaldevice.com/ontology/hasTestSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasTestSystem> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a CLIA Laboratory Test System Record to a CLIA Test System. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/hasTestSystem> <http://www.w3.org/2000/01/rdf-schema#label> "has test system" .
+<http://medicaldevice.com/ontology/hasYearlyTrend> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hasYearlyTrend> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a TPLC record to its yearly MDR report and event counts." .
+<http://medicaldevice.com/ontology/hasYearlyTrend> <http://www.w3.org/2000/01/rdf-schema#label> "has yearly trend" .
+<http://medicaldevice.com/ontology/hdeNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/hdeNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "HDE number assigned to the Humanitarian Device Exemption." .
+<http://medicaldevice.com/ontology/hdeNumber> <http://www.w3.org/2000/01/rdf-schema#label> "HDE number" .
+<http://medicaldevice.com/ontology/identifierId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/identifierId> <http://www.w3.org/2000/01/rdf-schema#comment> "UDI identifier value â the DI, Package DI, or PI string (e.g. GTIN-14). Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/identifierId> <http://www.w3.org/2000/01/rdf-schema#label> "identifier ID" .
+<http://medicaldevice.com/ontology/identifierStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/identifierStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "Device identifier status: Active / Inactive / Deprecated. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/identifierStatus> <http://www.w3.org/2000/01/rdf-schema#label> "identifier status" .
+<http://medicaldevice.com/ontology/identifierType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/identifierType> <http://www.w3.org/2000/01/rdf-schema#comment> "UDI identifier type: Primary DI / Package DI / Unit of Use DI. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/identifierType> <http://www.w3.org/2000/01/rdf-schema#label> "identifier type" .
+<http://medicaldevice.com/ontology/implantFlag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/implantFlag> <http://www.w3.org/2000/01/rdf-schema#comment> "Whether the device type is an implant." .
+<http://medicaldevice.com/ontology/implantFlag> <http://www.w3.org/2000/01/rdf-schema#label> "implant flag (Y/N)" .
+<http://medicaldevice.com/ontology/inPart> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/inPart> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a 21 CFR section to the part that contains it." .
+<http://medicaldevice.com/ontology/inPart> <http://www.w3.org/2000/01/rdf-schema#label> "in part" .
+<http://medicaldevice.com/ontology/initialFirmNotification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/initialFirmNotification> <http://www.w3.org/2000/01/rdf-schema#comment> "How the firm first notified its customers of the recall." .
+<http://medicaldevice.com/ontology/initialFirmNotification> <http://www.w3.org/2000/01/rdf-schema#label> "initial firm notification method" .
+<http://medicaldevice.com/ontology/initialImporterFlag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/initialImporterFlag> <http://www.w3.org/2000/01/rdf-schema#comment> "Whether the establishment is an initial importer." .
+<http://medicaldevice.com/ontology/initialImporterFlag> <http://www.w3.org/2000/01/rdf-schema#label> "initial importer flag (Y/N)" .
+<http://medicaldevice.com/ontology/installed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/installed> <http://www.w3.org/2000/01/rdf-schema#comment> "Date the x-ray equipment was installed." .
+<http://medicaldevice.com/ontology/installed> <http://www.w3.org/2000/01/rdf-schema#label> "installed" .
+<http://medicaldevice.com/ontology/installedDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/installedDate> <http://www.w3.org/2000/01/rdf-schema#comment> "X-ray equipment installed date. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/installedDate> <http://www.w3.org/2000/01/rdf-schema#label> "x-ray equipment installed date" .
+<http://medicaldevice.com/ontology/intendedUse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/intendedUse> <http://www.w3.org/2000/01/rdf-schema#comment> "Intended use. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/intendedUse> <http://www.w3.org/2000/01/rdf-schema#label> "intended use" .
+<http://medicaldevice.com/ontology/involvesDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/involvesDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a MAUDE report to the device involved in the reported event." .
+<http://medicaldevice.com/ontology/involvesDevice> <http://www.w3.org/2000/01/rdf-schema#label> "involves device" .
+<http://medicaldevice.com/ontology/isCombinationProduct> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/isCombinationProduct> <http://www.w3.org/2000/01/rdf-schema#comment> "Is combination product. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/isCombinationProduct> <http://www.w3.org/2000/01/rdf-schema#label> "is combination product" .
+<http://medicaldevice.com/ontology/isKit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/isKit> <http://www.w3.org/2000/01/rdf-schema#comment> "Is kit. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/isKit> <http://www.w3.org/2000/01/rdf-schema#label> "is kit" .
+<http://medicaldevice.com/ontology/isSingleUse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/isSingleUse> <http://www.w3.org/2000/01/rdf-schema#comment> "Is single use. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/isSingleUse> <http://www.w3.org/2000/01/rdf-schema#label> "is single use" .
+<http://medicaldevice.com/ontology/isSterile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/isSterile> <http://www.w3.org/2000/01/rdf-schema#comment> "Is sterile. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/isSterile> <http://www.w3.org/2000/01/rdf-schema#label> "is sterile" .
+<http://medicaldevice.com/ontology/issuingAgency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/issuingAgency> <http://www.w3.org/2000/01/rdf-schema#comment> "UDI issuing agency: GS1 / HIBCC / ICCBBA / NDC. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/issuingAgency> <http://www.w3.org/2000/01/rdf-schema#label> "issuing agency" .
+<http://medicaldevice.com/ontology/k510Number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/k510Number> <http://www.w3.org/2000/01/rdf-schema#comment> "510(k) number assigned to the premarket notification." .
+<http://medicaldevice.com/ontology/k510Number> <http://www.w3.org/2000/01/rdf-schema#label> "510(k) number" .
+<http://medicaldevice.com/ontology/label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/label> <http://www.w3.org/2000/01/rdf-schema#comment> "A human-readable name for the resource." .
+<http://medicaldevice.com/ontology/label> <http://www.w3.org/2000/01/rdf-schema#label> "device label" .
+<http://medicaldevice.com/ontology/labelingDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/labelingDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Labeling description. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/labelingDescription> <http://www.w3.org/2000/01/rdf-schema#label> "labeling description" .
+<http://medicaldevice.com/ontology/lifeSustainSupportFlag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/lifeSustainSupportFlag> <http://www.w3.org/2000/01/rdf-schema#comment> "Whether the device type is life-sustaining or life-supporting." .
+<http://medicaldevice.com/ontology/lifeSustainSupportFlag> <http://www.w3.org/2000/01/rdf-schema#label> "life sustain support flag (Y/N)" .
+<http://medicaldevice.com/ontology/linkedMedicalDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/linkedMedicalDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a record to a Medical Device. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/linkedMedicalDevice> <http://www.w3.org/2000/01/rdf-schema#label> "linked medical device" .
+<http://medicaldevice.com/ontology/linkedProductCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/linkedProductCode> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a record to a FDA Product Code. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/linkedProductCode> <http://www.w3.org/2000/01/rdf-schema#label> "linked product code" .
+<http://medicaldevice.com/ontology/listingNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/listingNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "FDA device listing number. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/listingNumber> <http://www.w3.org/2000/01/rdf-schema#label> "FDA device listing number" .
+<http://medicaldevice.com/ontology/lotBatchNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/lotBatchNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Lot or batch number. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/lotBatchNumber> <http://www.w3.org/2000/01/rdf-schema#label> "lot or batch number" .
+<http://medicaldevice.com/ontology/lotNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/lotNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Lot number. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/lotNumber> <http://www.w3.org/2000/01/rdf-schema#label> "lot number" .
+<http://medicaldevice.com/ontology/madeBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/madeBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a record to a Manufacturer. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/madeBy> <http://www.w3.org/2000/01/rdf-schema#label> "made by" .
+<http://medicaldevice.com/ontology/manufacturer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/manufacturer> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the manufacturer responsible for the study." .
+<http://medicaldevice.com/ontology/manufacturer> <http://www.w3.org/2000/01/rdf-schema#label> "manufacturer" .
+<http://medicaldevice.com/ontology/manufacturerName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/manufacturerName> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the manufacturer as given on the record." .
+<http://medicaldevice.com/ontology/manufacturerName> <http://www.w3.org/2000/01/rdf-schema#label> "manufacturer name" .
+<http://medicaldevice.com/ontology/mappingConfidence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/mappingConfidence> <http://www.w3.org/2000/01/rdf-schema#comment> "Confidence score between 0 and 1 for the NAICS mapping; the values are 0.65, 0.75, and 0.95." .
+<http://medicaldevice.com/ontology/mappingConfidence> <http://www.w3.org/2000/01/rdf-schema#label> "mapping confidence" .
+<http://medicaldevice.com/ontology/mappingMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/mappingMethod> <http://www.w3.org/2000/01/rdf-schema#comment> "How the NAICS mapping was derived: definition_match, llm_assisted, manual_review, or unmapped. Every mapping in this release is definition_match." .
+<http://medicaldevice.com/ontology/mappingMethod> <http://www.w3.org/2000/01/rdf-schema#label> "mapping method" .
+<http://medicaldevice.com/ontology/mappingReason> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/mappingReason> <http://www.w3.org/2000/01/rdf-schema#comment> "Human-readable evidence for the NAICS mapping, such as the keywords matched in the FDA device name, definition, or specialty text of the product code." .
+<http://medicaldevice.com/ontology/mappingReason> <http://www.w3.org/2000/01/rdf-schema#label> "mapping reason" .
+<http://medicaldevice.com/ontology/mappingReviewStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/mappingReviewStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "Review status of the NAICS mapping, approved or manual_review. Every mapping in this release is approved." .
+<http://medicaldevice.com/ontology/mappingReviewStatus> <http://www.w3.org/2000/01/rdf-schema#label> "mapping review status" .
+<http://medicaldevice.com/ontology/mappingSource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/mappingSource> <http://www.w3.org/2000/01/rdf-schema#comment> "Provenance label of the NAICS mapping. Every value is internal_crosswalk: the code was assigned by the knowledge graph's crosswalk, not by FDA." .
+<http://medicaldevice.com/ontology/mappingSource> <http://www.w3.org/2000/01/rdf-schema#label> "mapping source" .
+<http://medicaldevice.com/ontology/materialDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/materialDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Material description. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/materialDescription> <http://www.w3.org/2000/01/rdf-schema#label> "material description" .
+<http://medicaldevice.com/ontology/medicalSpecialty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/medicalSpecialty> <http://www.w3.org/2000/01/rdf-schema#comment> "FDA medical specialty code for the device type." .
+<http://medicaldevice.com/ontology/medicalSpecialty> <http://www.w3.org/2000/01/rdf-schema#label> "medical specialty code" .
+<http://medicaldevice.com/ontology/medicalSpecialtyDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/medicalSpecialtyDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "FDA medical specialty the device type is reviewed under." .
+<http://medicaldevice.com/ontology/medicalSpecialtyDescription> <http://www.w3.org/2000/01/rdf-schema#label> "medical specialty description" .
+<http://medicaldevice.com/ontology/modelNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/modelNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Model number. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/modelNumber> <http://www.w3.org/2000/01/rdf-schema#label> "model number" .
+<http://medicaldevice.com/ontology/mriSafetyStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/mriSafetyStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "MRI safety status. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/mriSafetyStatus> <http://www.w3.org/2000/01/rdf-schema#label> "MRI safety status" .
+<http://medicaldevice.com/ontology/naicsCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/naicsCode> <http://www.w3.org/2000/01/rdf-schema#comment> "Six-digit NAICS industry code as a string (e.g., 339112); the key for joining to NAICS codes in other graphs." .
+<http://medicaldevice.com/ontology/naicsCode> <http://www.w3.org/2000/01/rdf-schema#label> "NAICS code" .
+<http://medicaldevice.com/ontology/naicsVersion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/naicsVersion> <http://www.w3.org/2000/01/rdf-schema#comment> "Version of the NAICS taxonomy the code belongs to; 2022 for every node." .
+<http://medicaldevice.com/ontology/naicsVersion> <http://www.w3.org/2000/01/rdf-schema#label> "NAICS version" .
+<http://medicaldevice.com/ontology/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/name> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the site at which the x-ray equipment was installed." .
+<http://medicaldevice.com/ontology/name> <http://www.w3.org/2000/01/rdf-schema#label> "name" .
+<http://medicaldevice.com/ontology/narrative> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/narrative> <http://www.w3.org/2000/01/rdf-schema#comment> "Free-text narrative supplied with the report. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/narrative> <http://www.w3.org/2000/01/rdf-schema#label> "narrative" .
+<http://medicaldevice.com/ontology/normalizedAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/normalizedAddress> <http://www.w3.org/2000/01/rdf-schema#comment> "Single-line normalized form of the registration address that was sent to the geocoder (e.g., 555 N Point Ctr E, Alpharetta, GA 30022, US)." .
+<http://medicaldevice.com/ontology/normalizedAddress> <http://www.w3.org/2000/01/rdf-schema#label> "normalized address" .
+<http://medicaldevice.com/ontology/orderNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/orderNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "FDA 522 order number." .
+<http://medicaldevice.com/ontology/orderNumber> <http://www.w3.org/2000/01/rdf-schema#label> "522 order number" .
+<http://medicaldevice.com/ontology/organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/organization> <http://www.w3.org/2000/01/rdf-schema#comment> "Standards organization. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/organization> <http://www.w3.org/2000/01/rdf-schema#label> "standards organization" .
+<http://medicaldevice.com/ontology/outcomeCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/outcomeCode> <http://www.w3.org/2000/01/rdf-schema#comment> "Outcome code. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/outcomeCode> <http://www.w3.org/2000/01/rdf-schema#label> "outcome code" .
+<http://medicaldevice.com/ontology/packageType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/packageType> <http://www.w3.org/2000/01/rdf-schema#comment> "Package type description associated with this identifier (e.g. Box, Case). Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/packageType> <http://www.w3.org/2000/01/rdf-schema#label> "package type" .
+<http://medicaldevice.com/ontology/packagingDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/packagingDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Packaging description. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/packagingDescription> <http://www.w3.org/2000/01/rdf-schema#label> "packaging description" .
+<http://medicaldevice.com/ontology/partNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/partNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of the 21 CFR part." .
+<http://medicaldevice.com/ontology/partNumber> <http://www.w3.org/2000/01/rdf-schema#label> "part number" .
+<http://medicaldevice.com/ontology/partTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/partTitle> <http://www.w3.org/2000/01/rdf-schema#comment> "Title of the 21 CFR part." .
+<http://medicaldevice.com/ontology/partTitle> <http://www.w3.org/2000/01/rdf-schema#label> "part title" .
+<http://medicaldevice.com/ontology/pathway> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/pathway> <http://www.w3.org/2000/01/rdf-schema#comment> "Regulatory pathway by which the device reached the market: 510k, pma, hde, or de_novo." .
+<http://medicaldevice.com/ontology/pathway> <http://www.w3.org/2000/01/rdf-schema#label> "regulatory pathway (510k / pma / hde / de_novo)" .
+<http://medicaldevice.com/ontology/phone> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/phone> <http://www.w3.org/2000/01/rdf-schema#comment> "Telephone number given on the record." .
+<http://medicaldevice.com/ontology/phone> <http://www.w3.org/2000/01/rdf-schema#label> "phone number" .
+<http://medicaldevice.com/ontology/physicalState> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/physicalState> <http://www.w3.org/2000/01/rdf-schema#comment> "Physical state. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/physicalState> <http://www.w3.org/2000/01/rdf-schema#label> "physical state" .
+<http://medicaldevice.com/ontology/pmaNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/pmaNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "PMA number assigned to the premarket approval application." .
+<http://medicaldevice.com/ontology/pmaNumber> <http://www.w3.org/2000/01/rdf-schema#label> "PMA number" .
+<http://medicaldevice.com/ontology/possiblySameDeviceAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/possiblySameDeviceAs> <http://www.w3.org/2000/01/rdf-schema#comment> "Possibly same device as. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/possiblySameDeviceAs> <http://www.w3.org/2000/01/rdf-schema#label> "possibly same device as" .
+<http://medicaldevice.com/ontology/postalCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/postalCode> <http://www.w3.org/2000/01/rdf-schema#comment> "Postal code given on the record." .
+<http://medicaldevice.com/ontology/postalCode> <http://www.w3.org/2000/01/rdf-schema#label> "postal code" .
+<http://medicaldevice.com/ontology/predicateDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/predicateDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "Predicate device. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/predicateDevice> <http://www.w3.org/2000/01/rdf-schema#label> "predicate device" .
+<http://medicaldevice.com/ontology/primaryDI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/primaryDI> <http://www.w3.org/2000/01/rdf-schema#comment> "Primary device identifier (DI). Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/primaryDI> <http://www.w3.org/2000/01/rdf-schema#label> "primary device identifier (DI)" .
+<http://medicaldevice.com/ontology/problemCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/problemCode> <http://www.w3.org/2000/01/rdf-schema#comment> "Problem code. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/problemCode> <http://www.w3.org/2000/01/rdf-schema#label> "problem code" .
+<http://medicaldevice.com/ontology/problemCodes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/problemCodes> <http://www.w3.org/2000/01/rdf-schema#comment> "Device problem codes (semicolon-separated). Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/problemCodes> <http://www.w3.org/2000/01/rdf-schema#label> "problem codes" .
+<http://medicaldevice.com/ontology/problemDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/problemDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Text of the device problem code." .
+<http://medicaldevice.com/ontology/problemDescription> <http://www.w3.org/2000/01/rdf-schema#label> "problem description" .
+<http://medicaldevice.com/ontology/productCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/productCode> <http://www.w3.org/2000/01/rdf-schema#comment> "Three-letter FDA product code classifying the device type." .
+<http://medicaldevice.com/ontology/productCode> <http://www.w3.org/2000/01/rdf-schema#label> "product code" .
+<http://medicaldevice.com/ontology/productDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/productDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Description of the recalled product." .
+<http://medicaldevice.com/ontology/productDescription> <http://www.w3.org/2000/01/rdf-schema#label> "product description" .
+<http://medicaldevice.com/ontology/productProblemFlag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/productProblemFlag> <http://www.w3.org/2000/01/rdf-schema#comment> "Product problem flag. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/productProblemFlag> <http://www.w3.org/2000/01/rdf-schema#label> "product problem flag" .
+<http://medicaldevice.com/ontology/productQuantity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/productQuantity> <http://www.w3.org/2000/01/rdf-schema#comment> "Quantity of product covered by the recall." .
+<http://medicaldevice.com/ontology/productQuantity> <http://www.w3.org/2000/01/rdf-schema#label> "product quantity involved in recall" .
+<http://medicaldevice.com/ontology/proprietaryName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/proprietaryName> <http://www.w3.org/2000/01/rdf-schema#comment> "Proprietary (brand) name. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/proprietaryName> <http://www.w3.org/2000/01/rdf-schema#label> "proprietary (brand) name" .
+<http://medicaldevice.com/ontology/publicDeviceRecordKey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/publicDeviceRecordKey> <http://www.w3.org/2000/01/rdf-schema#comment> "Public device record key. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/publicDeviceRecordKey> <http://www.w3.org/2000/01/rdf-schema#label> "public device record key" .
+<http://medicaldevice.com/ontology/qualifier1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/qualifier1> <http://www.w3.org/2000/01/rdf-schema#comment> "CLIA Qualifier 1. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/qualifier1> <http://www.w3.org/2000/01/rdf-schema#label> "CLIA Qualifier 1" .
+<http://medicaldevice.com/ontology/qualifier2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/qualifier2> <http://www.w3.org/2000/01/rdf-schema#comment> "CLIA Qualifier 2. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/qualifier2> <http://www.w3.org/2000/01/rdf-schema#label> "CLIA Qualifier 2" .
+<http://medicaldevice.com/ontology/quantityPerUnitOfUse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/quantityPerUnitOfUse> <http://www.w3.org/2000/01/rdf-schema#comment> "Quantity of base devices contained in this package unit. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/quantityPerUnitOfUse> <http://www.w3.org/2000/01/rdf-schema#label> "quantity per unit of use" .
+<http://medicaldevice.com/ontology/rawRecord> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/rawRecord> <http://www.w3.org/2000/01/rdf-schema#comment> "JSON literal of the complete raw FDA record. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/rawRecord> <http://www.w3.org/2000/01/rdf-schema#label> "raw record" .
+<http://medicaldevice.com/ontology/reasonForRecall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/reasonForRecall> <http://www.w3.org/2000/01/rdf-schema#comment> "Reason the product was recalled." .
+<http://medicaldevice.com/ontology/reasonForRecall> <http://www.w3.org/2000/01/rdf-schema#label> "reason for recall" .
+<http://medicaldevice.com/ontology/recallAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/recallAction> <http://www.w3.org/2000/01/rdf-schema#comment> "Corrective action taken. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/recallAction> <http://www.w3.org/2000/01/rdf-schema#label> "corrective action taken" .
+<http://medicaldevice.com/ontology/recallClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/recallClass> <http://www.w3.org/2000/01/rdf-schema#comment> "Recall class I, II, or III, indicating the severity of the hazard." .
+<http://medicaldevice.com/ontology/recallClass> <http://www.w3.org/2000/01/rdf-schema#label> "recall class" .
+<http://medicaldevice.com/ontology/recallClassification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/recallClassification> <http://www.w3.org/2000/01/rdf-schema#comment> "FDA recall classification: Class I, II, or III." .
+<http://medicaldevice.com/ontology/recallClassification> <http://www.w3.org/2000/01/rdf-schema#label> "recall classification (Class I/II/III)" .
+<http://medicaldevice.com/ontology/recallDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/recallDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Date of the recall." .
+<http://medicaldevice.com/ontology/recallDate> <http://www.w3.org/2000/01/rdf-schema#label> "recall date" .
+<http://medicaldevice.com/ontology/recallEventId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/recallEventId> <http://www.w3.org/2000/01/rdf-schema#comment> "FDA recall event identifier grouping the products in one recall." .
+<http://medicaldevice.com/ontology/recallEventId> <http://www.w3.org/2000/01/rdf-schema#label> "recall event ID" .
+<http://medicaldevice.com/ontology/recallInitiationDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/recallInitiationDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Date the firm began the recall." .
+<http://medicaldevice.com/ontology/recallInitiationDate> <http://www.w3.org/2000/01/rdf-schema#label> "recall initiation date" .
+<http://medicaldevice.com/ontology/recallNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/recallNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "FDA recall number." .
+<http://medicaldevice.com/ontology/recallNumber> <http://www.w3.org/2000/01/rdf-schema#label> "recall number" .
+<http://medicaldevice.com/ontology/recallStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/recallStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "Current status of the recall." .
+<http://medicaldevice.com/ontology/recallStatus> <http://www.w3.org/2000/01/rdf-schema#label> "recall status" .
+<http://medicaldevice.com/ontology/recallingFirm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/recallingFirm> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the firm conducting the recall." .
+<http://medicaldevice.com/ontology/recallingFirm> <http://www.w3.org/2000/01/rdf-schema#label> "recalling firm name" .
+<http://medicaldevice.com/ontology/recallingFirmAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/recallingFirmAddress> <http://www.w3.org/2000/01/rdf-schema#comment> "Address of the recalling firm." .
+<http://medicaldevice.com/ontology/recallingFirmAddress> <http://www.w3.org/2000/01/rdf-schema#label> "recalling firm address" .
+<http://medicaldevice.com/ontology/recognitionNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/recognitionNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "FDA recognition number of the consensus standard." .
+<http://medicaldevice.com/ontology/recognitionNumber> <http://www.w3.org/2000/01/rdf-schema#label> "FDA recognition number" .
+<http://medicaldevice.com/ontology/recordStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/recordStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "Status of the record in its source dataset. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/recordStatus> <http://www.w3.org/2000/01/rdf-schema#label> "record status" .
+<http://medicaldevice.com/ontology/regExpiryDateYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/regExpiryDateYear> <http://www.w3.org/2000/01/rdf-schema#comment> "Year in which the establishment registration expires." .
+<http://medicaldevice.com/ontology/regExpiryDateYear> <http://www.w3.org/2000/01/rdf-schema#label> "registration expiry year" .
+<http://medicaldevice.com/ontology/registeredAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/registeredAt> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a FDA Device Listing to a FDA Registration and Listing Record. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/registeredAt> <http://www.w3.org/2000/01/rdf-schema#label> "registered at establishment" .
+<http://medicaldevice.com/ontology/registrationAddress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/registrationAddress> <http://www.w3.org/2000/01/rdf-schema#comment> "Address of the registered establishment." .
+<http://medicaldevice.com/ontology/registrationAddress> <http://www.w3.org/2000/01/rdf-schema#label> "registration address" .
+<http://medicaldevice.com/ontology/registrationNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/registrationNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "FDA establishment registration number." .
+<http://medicaldevice.com/ontology/registrationNumber> <http://www.w3.org/2000/01/rdf-schema#label> "FDA registration number" .
+<http://medicaldevice.com/ontology/registrationStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/registrationStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "Status of the establishment registration." .
+<http://medicaldevice.com/ontology/registrationStatus> <http://www.w3.org/2000/01/rdf-schema#label> "registration status code" .
+<http://medicaldevice.com/ontology/regulationArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/regulationArea> <http://www.w3.org/2000/01/rdf-schema#comment> "Regulation area. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/regulationArea> <http://www.w3.org/2000/01/rdf-schema#label> "regulation area" .
+<http://medicaldevice.com/ontology/regulationDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/regulationDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Description of the regulation the device type falls under." .
+<http://medicaldevice.com/ontology/regulationDescription> <http://www.w3.org/2000/01/rdf-schema#label> "regulation description" .
+<http://medicaldevice.com/ontology/regulationNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/regulationNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "21 CFR regulation number under which the device type is classified." .
+<http://medicaldevice.com/ontology/regulationNumber> <http://www.w3.org/2000/01/rdf-schema#label> "regulation number" .
+<http://medicaldevice.com/ontology/relatedProductCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/relatedProductCode> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a record to a FDA Product Code. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/relatedProductCode> <http://www.w3.org/2000/01/rdf-schema#label> "related product code" .
+<http://medicaldevice.com/ontology/relatedTPLC> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/relatedTPLC> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a record to the TPLC product-code record that aggregates its lifecycle data." .
+<http://medicaldevice.com/ontology/relatedTPLC> <http://www.w3.org/2000/01/rdf-schema#label> "related TPLC product code record" .
+<http://medicaldevice.com/ontology/remedialAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/remedialAction> <http://www.w3.org/2000/01/rdf-schema#comment> "Remedial action taken. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/remedialAction> <http://www.w3.org/2000/01/rdf-schema#label> "remedial action taken" .
+<http://medicaldevice.com/ontology/removalCorrectionNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/removalCorrectionNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Removal / correction number (recall link). Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/removalCorrectionNumber> <http://www.w3.org/2000/01/rdf-schema#label> "removal / correction number (recall link)" .
+<http://medicaldevice.com/ontology/reportCount> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/reportCount> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of medical device reports carrying this code or year." .
+<http://medicaldevice.com/ontology/reportCount> <http://www.w3.org/2000/01/rdf-schema#label> "report count" .
+<http://medicaldevice.com/ontology/reportDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/reportDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Date the record was reported." .
+<http://medicaldevice.com/ontology/reportDate> <http://www.w3.org/2000/01/rdf-schema#label> "report date" .
+<http://medicaldevice.com/ontology/reportKey> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/reportKey> <http://www.w3.org/2000/01/rdf-schema#comment> "MDR report key. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/reportKey> <http://www.w3.org/2000/01/rdf-schema#label> "MDR report key" .
+<http://medicaldevice.com/ontology/reportNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/reportNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Report number. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/reportNumber> <http://www.w3.org/2000/01/rdf-schema#label> "report number" .
+<http://medicaldevice.com/ontology/reportToFDA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/reportToFDA> <http://www.w3.org/2000/01/rdf-schema#comment> "Report to FDA flag. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/reportToFDA> <http://www.w3.org/2000/01/rdf-schema#label> "report to FDA flag" .
+<http://medicaldevice.com/ontology/reportedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/reportedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a record to a Manufacturer. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/reportedBy> <http://www.w3.org/2000/01/rdf-schema#label> "reported by" .
+<http://medicaldevice.com/ontology/reporterOccupationCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/reporterOccupationCode> <http://www.w3.org/2000/01/rdf-schema#comment> "Reporter occupation code. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/reporterOccupationCode> <http://www.w3.org/2000/01/rdf-schema#label> "reporter occupation code" .
+<http://medicaldevice.com/ontology/reprocessedFlag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/reprocessedFlag> <http://www.w3.org/2000/01/rdf-schema#comment> "Reprocessed and reused flag. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/reprocessedFlag> <http://www.w3.org/2000/01/rdf-schema#label> "reprocessed and reused flag" .
+<http://medicaldevice.com/ontology/requirementNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/requirementNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "FDA 522 requirement number." .
+<http://medicaldevice.com/ontology/requirementNumber> <http://www.w3.org/2000/01/rdf-schema#label> "requirement number" .
+<http://medicaldevice.com/ontology/retrievedAt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/retrievedAt> <http://www.w3.org/2000/01/rdf-schema#comment> "Timestamp at which the source FDA record was retrieved." .
+<http://medicaldevice.com/ontology/retrievedAt> <http://www.w3.org/2000/01/rdf-schema#label> "timestamp when record was retrieved" .
+<http://medicaldevice.com/ontology/reviewAdvisoryCommittee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/reviewAdvisoryCommittee> <http://www.w3.org/2000/01/rdf-schema#comment> "Advisory committee that reviewed the submission." .
+<http://medicaldevice.com/ontology/reviewAdvisoryCommittee> <http://www.w3.org/2000/01/rdf-schema#label> "review advisory committee" .
+<http://medicaldevice.com/ontology/reviewGranted> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/reviewGranted> <http://www.w3.org/2000/01/rdf-schema#comment> "Whether the review was granted." .
+<http://medicaldevice.com/ontology/reviewGranted> <http://www.w3.org/2000/01/rdf-schema#label> "review granted" .
+<http://medicaldevice.com/ontology/reviewPanel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/reviewPanel> <http://www.w3.org/2000/01/rdf-schema#comment> "FDA review panel for the device type." .
+<http://medicaldevice.com/ontology/reviewPanel> <http://www.w3.org/2000/01/rdf-schema#label> "review panel" .
+<http://medicaldevice.com/ontology/room> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/room> <http://www.w3.org/2000/01/rdf-schema#comment> "Room in which the x-ray equipment was installed." .
+<http://medicaldevice.com/ontology/room> <http://www.w3.org/2000/01/rdf-schema#label> "room" .
+<http://medicaldevice.com/ontology/roomIdentifier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/roomIdentifier> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifier of the room the x-ray equipment was installed in. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/roomIdentifier> <http://www.w3.org/2000/01/rdf-schema#label> "x-ray room identifier" .
+<http://medicaldevice.com/ontology/rootDocumentNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/rootDocumentNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Root FDA document number the 522 order derives from." .
+<http://medicaldevice.com/ontology/rootDocumentNumber> <http://www.w3.org/2000/01/rdf-schema#label> "root document number" .
+<http://medicaldevice.com/ontology/sameProductCodeAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/sameProductCodeAs> <http://www.w3.org/2000/01/rdf-schema#comment> "Same product code as. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/sameProductCodeAs> <http://www.w3.org/2000/01/rdf-schema#label> "same product code as" .
+<http://medicaldevice.com/ontology/sampleSize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/sampleSize> <http://www.w3.org/2000/01/rdf-schema#comment> "Planned sample size of the 522 study." .
+<http://medicaldevice.com/ontology/sampleSize> <http://www.w3.org/2000/01/rdf-schema#label> "sample size" .
+<http://medicaldevice.com/ontology/sectionNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/sectionNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of the 21 CFR section." .
+<http://medicaldevice.com/ontology/sectionNumber> <http://www.w3.org/2000/01/rdf-schema#label> "section number" .
+<http://medicaldevice.com/ontology/sectionTitle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/sectionTitle> <http://www.w3.org/2000/01/rdf-schema#comment> "Title of the 21 CFR section." .
+<http://medicaldevice.com/ontology/sectionTitle> <http://www.w3.org/2000/01/rdf-schema#label> "section title" .
+<http://medicaldevice.com/ontology/singleUseFlag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/singleUseFlag> <http://www.w3.org/2000/01/rdf-schema#comment> "Single use flag. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/singleUseFlag> <http://www.w3.org/2000/01/rdf-schema#label> "single use flag" .
+<http://medicaldevice.com/ontology/softwareDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/softwareDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Software description. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/softwareDescription> <http://www.w3.org/2000/01/rdf-schema#label> "software description" .
+<http://medicaldevice.com/ontology/sourceDataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/sourceDataset> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the FDA or openFDA dataset the record was extracted from." .
+<http://medicaldevice.com/ontology/sourceDataset> <http://www.w3.org/2000/01/rdf-schema#label> "source dataset" .
+<http://medicaldevice.com/ontology/sourceNote> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/sourceNote> <http://www.w3.org/2000/01/rdf-schema#comment> "Free-text note about the source of the record." .
+<http://medicaldevice.com/ontology/sourceNote> <http://www.w3.org/2000/01/rdf-schema#label> "source note" .
+<http://medicaldevice.com/ontology/sourceRecordId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/sourceRecordId> <http://www.w3.org/2000/01/rdf-schema#comment> "Identifier of the record in the original FDA source dataset." .
+<http://medicaldevice.com/ontology/sourceRecordId> <http://www.w3.org/2000/01/rdf-schema#label> "source record ID (original FDA identifier)" .
+<http://medicaldevice.com/ontology/sourceType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/sourceType> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of the source the record came from. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/sourceType> <http://www.w3.org/2000/01/rdf-schema#label> "source type" .
+<http://medicaldevice.com/ontology/sourceUrl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/sourceUrl> <http://www.w3.org/2000/01/rdf-schema#comment> "URL of the source FDA record or dataset." .
+<http://medicaldevice.com/ontology/sourceUrl> <http://www.w3.org/2000/01/rdf-schema#label> "source URL" .
+<http://medicaldevice.com/ontology/specialtyId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/specialtyId> <http://www.w3.org/2000/01/rdf-schema#comment> "CLIA Specialty ID. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/specialtyId> <http://www.w3.org/2000/01/rdf-schema#label> "CLIA Specialty ID" .
+<http://medicaldevice.com/ontology/specialtyName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/specialtyName> <http://www.w3.org/2000/01/rdf-schema#comment> "CLIA Specialty Name. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/specialtyName> <http://www.w3.org/2000/01/rdf-schema#label> "CLIA Specialty Name" .
+<http://medicaldevice.com/ontology/standardDesignation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/standardDesignation> <http://www.w3.org/2000/01/rdf-schema#comment> "Standard designation number. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/standardDesignation> <http://www.w3.org/2000/01/rdf-schema#label> "standard designation number" .
+<http://medicaldevice.com/ontology/state> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/state> <http://www.w3.org/2000/01/rdf-schema#comment> "State or province given on the record." .
+<http://medicaldevice.com/ontology/state> <http://www.w3.org/2000/01/rdf-schema#label> "state or province" .
+<http://medicaldevice.com/ontology/statementOrSummary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/statementOrSummary> <http://www.w3.org/2000/01/rdf-schema#comment> "Whether the 510(k) was supported by a summary or a statement." .
+<http://medicaldevice.com/ontology/statementOrSummary> <http://www.w3.org/2000/01/rdf-schema#label> "510(k) statement or summary type" .
+<http://medicaldevice.com/ontology/sterilityDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/sterilityDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "Sterility description. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/sterilityDescription> <http://www.w3.org/2000/01/rdf-schema#label> "sterility description" .
+<http://medicaldevice.com/ontology/studyDesign> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/studyDesign> <http://www.w3.org/2000/01/rdf-schema#comment> "Design of the 522 postmarket surveillance study." .
+<http://medicaldevice.com/ontology/studyDesign> <http://www.w3.org/2000/01/rdf-schema#label> "study design" .
+<http://medicaldevice.com/ontology/studyName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/studyName> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the 522 postmarket surveillance study." .
+<http://medicaldevice.com/ontology/studyName> <http://www.w3.org/2000/01/rdf-schema#label> "522 study name" .
+<http://medicaldevice.com/ontology/studyObjectives> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/studyObjectives> <http://www.w3.org/2000/01/rdf-schema#comment> "Objectives of the 522 postmarket surveillance study." .
+<http://medicaldevice.com/ontology/studyObjectives> <http://www.w3.org/2000/01/rdf-schema#label> "study objectives" .
+<http://medicaldevice.com/ontology/studyStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/studyStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "Status of the 522 postmarket surveillance study." .
+<http://medicaldevice.com/ontology/studyStatus> <http://www.w3.org/2000/01/rdf-schema#label> "522 study status" .
+<http://medicaldevice.com/ontology/submissionNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/submissionNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Submission number. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/submissionNumber> <http://www.w3.org/2000/01/rdf-schema#label> "submission number" .
+<http://medicaldevice.com/ontology/submissionType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/submissionType> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of PMA submission." .
+<http://medicaldevice.com/ontology/submissionType> <http://www.w3.org/2000/01/rdf-schema#label> "submission type" .
+<http://medicaldevice.com/ontology/submissionTypeId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/submissionTypeId> <http://www.w3.org/2000/01/rdf-schema#comment> "FDA submission type identifier for the device type." .
+<http://medicaldevice.com/ontology/submissionTypeId> <http://www.w3.org/2000/01/rdf-schema#label> "submission type ID" .
+<http://medicaldevice.com/ontology/summary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/summary> <http://www.w3.org/2000/01/rdf-schema#comment> "Summary text supplied with the record." .
+<http://medicaldevice.com/ontology/summary> <http://www.w3.org/2000/01/rdf-schema#label> "summary" .
+<http://medicaldevice.com/ontology/summaryMalfunctionReporting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/summaryMalfunctionReporting> <http://www.w3.org/2000/01/rdf-schema#comment> "Summary malfunction reporting eligibility of the device type." .
+<http://medicaldevice.com/ontology/summaryMalfunctionReporting> <http://www.w3.org/2000/01/rdf-schema#label> "summary malfunction reporting (SMR) code" .
+<http://medicaldevice.com/ontology/summaryUrl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/summaryUrl> <http://www.w3.org/2000/01/rdf-schema#comment> "URL of the summary or decision PDF for the submission." .
+<http://medicaldevice.com/ontology/summaryUrl> <http://www.w3.org/2000/01/rdf-schema#label> "URL to summary / PDF document" .
+<http://medicaldevice.com/ontology/supplementNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/supplementNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of the PMA supplement." .
+<http://medicaldevice.com/ontology/supplementNumber> <http://www.w3.org/2000/01/rdf-schema#label> "supplement number" .
+<http://medicaldevice.com/ontology/supplementReason> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/supplementReason> <http://www.w3.org/2000/01/rdf-schema#comment> "Reason given for the PMA supplement." .
+<http://medicaldevice.com/ontology/supplementReason> <http://www.w3.org/2000/01/rdf-schema#label> "PMA supplement reason" .
+<http://medicaldevice.com/ontology/supplementType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/supplementType> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of the HDE supplement." .
+<http://medicaldevice.com/ontology/supplementType> <http://www.w3.org/2000/01/rdf-schema#label> "supplement type" .
+<http://medicaldevice.com/ontology/supplementsPMA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/supplementsPMA> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a PMA supplement to the original PMA it modifies." .
+<http://medicaldevice.com/ontology/supplementsPMA> <http://www.w3.org/2000/01/rdf-schema#label> "supplements PMA" .
+<http://medicaldevice.com/ontology/tId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/tId> <http://www.w3.org/2000/01/rdf-schema#comment> "FDA internal identifier used on the 522 study page." .
+<http://medicaldevice.com/ontology/tId> <http://www.w3.org/2000/01/rdf-schema#label> "FDA t-ID" .
+<http://medicaldevice.com/ontology/targetArea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/targetArea> <http://www.w3.org/2000/01/rdf-schema#comment> "Target area. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/targetArea> <http://www.w3.org/2000/01/rdf-schema#label> "target area" .
+<http://medicaldevice.com/ontology/technicalMethod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/technicalMethod> <http://www.w3.org/2000/01/rdf-schema#comment> "Technical method. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/technicalMethod> <http://www.w3.org/2000/01/rdf-schema#label> "technical method" .
+<http://medicaldevice.com/ontology/technologicalCharacteristics> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/technologicalCharacteristics> <http://www.w3.org/2000/01/rdf-schema#comment> "Technological characteristics. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/technologicalCharacteristics> <http://www.w3.org/2000/01/rdf-schema#label> "technological characteristics" .
+<http://medicaldevice.com/ontology/terminationDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/terminationDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Date FDA terminated the recall." .
+<http://medicaldevice.com/ontology/terminationDate> <http://www.w3.org/2000/01/rdf-schema#label> "recall termination date" .
+<http://medicaldevice.com/ontology/testName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/testName> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the in vitro diagnostic home-use test." .
+<http://medicaldevice.com/ontology/testName> <http://www.w3.org/2000/01/rdf-schema#label> "IVD test name" .
+<http://medicaldevice.com/ontology/testSystemId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/testSystemId> <http://www.w3.org/2000/01/rdf-schema#comment> "CLIA Test System ID. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/testSystemId> <http://www.w3.org/2000/01/rdf-schema#label> "CLIA Test System ID" .
+<http://medicaldevice.com/ontology/testSystemName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/testSystemName> <http://www.w3.org/2000/01/rdf-schema#comment> "CLIA Test System Name. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/testSystemName> <http://www.w3.org/2000/01/rdf-schema#label> "CLIA Test System Name" .
+<http://medicaldevice.com/ontology/testType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/testType> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of the in vitro diagnostic home-use test." .
+<http://medicaldevice.com/ontology/testType> <http://www.w3.org/2000/01/rdf-schema#label> "IVD test type" .
+<http://medicaldevice.com/ontology/text> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/text> <http://www.w3.org/2000/01/rdf-schema#comment> "Full regulatory text of the CFR section." .
+<http://medicaldevice.com/ontology/text> <http://www.w3.org/2000/01/rdf-schema#label> "text" .
+<http://medicaldevice.com/ontology/thirdPartyFlag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/thirdPartyFlag> <http://www.w3.org/2000/01/rdf-schema#comment> "Whether the device type is eligible for third-party review." .
+<http://medicaldevice.com/ontology/thirdPartyFlag> <http://www.w3.org/2000/01/rdf-schema#label> "third party review eligibility flag" .
+<http://medicaldevice.com/ontology/thirdPartyReviewFlag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/thirdPartyReviewFlag> <http://www.w3.org/2000/01/rdf-schema#comment> "Whether the submission was reviewed by an accredited third party." .
+<http://medicaldevice.com/ontology/thirdPartyReviewFlag> <http://www.w3.org/2000/01/rdf-schema#label> "third party review flag" .
+<http://medicaldevice.com/ontology/tradeName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/tradeName> <http://www.w3.org/2000/01/rdf-schema#comment> "Trade name under which the device is marketed." .
+<http://medicaldevice.com/ontology/tradeName> <http://www.w3.org/2000/01/rdf-schema#label> "trade name" .
+<http://medicaldevice.com/ontology/unclassifiedReason> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/unclassifiedReason> <http://www.w3.org/2000/01/rdf-schema#comment> "Reason the device type has not been classified." .
+<http://medicaldevice.com/ontology/unclassifiedReason> <http://www.w3.org/2000/01/rdf-schema#label> "unclassified reason" .
+<http://medicaldevice.com/ontology/unitOfUseId> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/unitOfUseId> <http://www.w3.org/2000/01/rdf-schema#comment> "Unit-of-Use identifier string (UoU DI). Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/unitOfUseId> <http://www.w3.org/2000/01/rdf-schema#label> "unit-of-use ID" .
+<http://medicaldevice.com/ontology/use1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/use1> <http://www.w3.org/2000/01/rdf-schema#comment> "Primary clinical use of the installed x-ray equipment." .
+<http://medicaldevice.com/ontology/use1> <http://www.w3.org/2000/01/rdf-schema#label> "use1" .
+<http://medicaldevice.com/ontology/use2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/use2> <http://www.w3.org/2000/01/rdf-schema#comment> "Additional clinical use of the installed x-ray equipment." .
+<http://medicaldevice.com/ontology/use2> <http://www.w3.org/2000/01/rdf-schema#label> "use2" .
+<http://medicaldevice.com/ontology/use3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/use3> <http://www.w3.org/2000/01/rdf-schema#comment> "Additional clinical use of the installed x-ray equipment." .
+<http://medicaldevice.com/ontology/use3> <http://www.w3.org/2000/01/rdf-schema#label> "use3" .
+<http://medicaldevice.com/ontology/use4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/use4> <http://www.w3.org/2000/01/rdf-schema#comment> "Additional clinical use of the installed x-ray equipment." .
+<http://medicaldevice.com/ontology/use4> <http://www.w3.org/2000/01/rdf-schema#label> "use4" .
+<http://medicaldevice.com/ontology/versionModelNumber> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/versionModelNumber> <http://www.w3.org/2000/01/rdf-schema#comment> "Version or model number. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/versionModelNumber> <http://www.w3.org/2000/01/rdf-schema#label> "version or model number" .
+<http://medicaldevice.com/ontology/voluntaryMandated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/voluntaryMandated> <http://www.w3.org/2000/01/rdf-schema#comment> "Whether the recall was voluntary or mandated by FDA." .
+<http://medicaldevice.com/ontology/voluntaryMandated> <http://www.w3.org/2000/01/rdf-schema#label> "voluntary or mandated" .
+<http://medicaldevice.com/ontology/year> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/year> <http://www.w3.org/2000/01/rdf-schema#comment> "Calendar year the MDR counts apply to." .
+<http://medicaldevice.com/ontology/year> <http://www.w3.org/2000/01/rdf-schema#label> "year" .
+<http://medicaldevice.com/ontology/zip> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/zip> <http://www.w3.org/2000/01/rdf-schema#comment> "ZIP code given on the record." .
+<http://medicaldevice.com/ontology/zip> <http://www.w3.org/2000/01/rdf-schema#label> "zip" .
+<http://medicaldevice.com/ontology/zipCode> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://medicaldevice.com/ontology/zipCode> <http://www.w3.org/2000/01/rdf-schema#comment> "ZIP / postal code. Declared in the schema but not populated in the current release." .
+<http://medicaldevice.com/ontology/zipCode> <http://www.w3.org/2000/01/rdf-schema#label> "ZIP / postal code" .
+<http://www.opengis.net/ont/geosparql#Feature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.opengis.net/ont/geosparql#Feature> <http://www.w3.org/2000/01/rdf-schema#comment> "A GeoSPARQL feature, a thing that can have a spatial location; here a second type on every geocoded facility (md:Facility)." .
+<http://www.opengis.net/ont/geosparql#Feature> <http://www.w3.org/2000/01/rdf-schema#label> "Feature" .
+<http://www.opengis.net/ont/geosparql#Geometry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.opengis.net/ont/geosparql#Geometry> <http://www.w3.org/2000/01/rdf-schema#comment> "A coherent set of direct positions in space (GeoSPARQL); here the point geometry of a geocoded facility, read through geo:asWKT." .
+<http://www.opengis.net/ont/geosparql#Geometry> <http://www.w3.org/2000/01/rdf-schema#label> "Geometry" .
+<http://www.opengis.net/ont/geosparql#asWKT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.opengis.net/ont/geosparql#asWKT> <http://www.w3.org/2000/01/rdf-schema#comment> "The Well-Known Text serialization of a geometry, here a point such as POINT(-84.300679 34.045787) in longitude latitude order." .
+<http://www.opengis.net/ont/geosparql#asWKT> <http://www.w3.org/2000/01/rdf-schema#label> "as WKT" .
+<http://www.opengis.net/ont/geosparql#defaultGeometry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.opengis.net/ont/geosparql#defaultGeometry> <http://www.w3.org/2000/01/rdf-schema#comment> "The default geometry to be used in spatial calculations; here the same point geometry as geo:hasGeometry." .
+<http://www.opengis.net/ont/geosparql#defaultGeometry> <http://www.w3.org/2000/01/rdf-schema#label> "default geometry" .
+<http://www.opengis.net/ont/geosparql#hasGeometry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.opengis.net/ont/geosparql#hasGeometry> <http://www.w3.org/2000/01/rdf-schema#comment> "Links a geocoded facility to its point geometry." .
+<http://www.opengis.net/ont/geosparql#hasGeometry> <http://www.w3.org/2000/01/rdf-schema#label> "has geometry" .
+<http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/2000/01/rdf-schema#comment> "Class." .
+<http://www.w3.org/2000/01/rdf-schema#Class> <http://www.w3.org/2000/01/rdf-schema#label> "Class" .
+<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/2000/01/rdf-schema#comment> "A human-readable description of the resource." .
+<http://www.w3.org/2000/01/rdf-schema#comment> <http://www.w3.org/2000/01/rdf-schema#label> "comment" .
+<http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#comment> "States that any resource with the given property is an instance of the stated class." .
+<http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2000/01/rdf-schema#label> "domain" .
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/2000/01/rdf-schema#comment> "A human-readable name for the resource." .
+<http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/2000/01/rdf-schema#label> "label" .
+<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#comment> "States that the values of the given property are instances of the stated class or datatype." .
+<http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#label> "range" .
+<http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/01/rdf-schema#comment> "States that all instances of one class are instances of another." .
+<http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2000/01/rdf-schema#label> "subclass of" .
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat> <http://www.w3.org/2000/01/rdf-schema#comment> "WGS84 latitude of the geocoded facility in decimal degrees." .
+<http://www.w3.org/2003/01/geo/wgs84_pos#lat> <http://www.w3.org/2000/01/rdf-schema#label> "latitude" .
+<http://www.w3.org/2003/01/geo/wgs84_pos#long> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<http://www.w3.org/2003/01/geo/wgs84_pos#long> <http://www.w3.org/2000/01/rdf-schema#comment> "WGS84 longitude of the geocoded facility in decimal degrees." .
+<http://www.w3.org/2003/01/geo/wgs84_pos#long> <http://www.w3.org/2000/01/rdf-schema#label> "longitude" .
+<https://spec.industrialontologies.org/ontology/core/Core/Manufacturer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://spec.industrialontologies.org/ontology/core/Core/Manufacturer> <http://www.w3.org/2000/01/rdf-schema#comment> "The Industrial Ontologies Foundation (IOF) Core class for an organization that manufactures products; here a second type on the 10,432 md:Manufacturer nodes that carry a NAICS classification, aligning them with the SUDOKN manufacturing graph." .
+<https://spec.industrialontologies.org/ontology/core/Core/Manufacturer> <http://www.w3.org/2000/01/rdf-schema#label> "Manufacturer (IOF)" .

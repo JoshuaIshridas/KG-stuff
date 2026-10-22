@@ -1,0 +1,14 @@
+PREFIX md: <http://medicaldevice.com/ontology/>
+PREFIX k: <https://example.org/pubmed-kg/v1/>
+# Configure a union-default PubMed graph plus the FDA named graph, or amend GRAPH.
+# The FDA portion was tested live. Full join was not: PubMed is not loaded there.
+# A verified link to a submission does not mean the mentioned product was recalled.
+SELECT DISTINCT ?pmid ?submission ?number ?productCode ?recall WHERE {
+  ?article k:pmid ?pmid; k:link ?assertion .
+  ?assertion k:status "verified"; k:scheme "510k"; k:device ?submission .
+  GRAPH <https://purl.org/okn/frink/kg/medical-device-kg> {
+    ?submission md:k510Number ?number; md:hasProductCode ?category .
+    ?category md:productCode ?productCode .
+    ?tplc md:productCode ?productCode; md:hasRecall ?recall .
+  }
+} LIMIT 100

@@ -1,0 +1,6665 @@
+{
+  "source": "desc2026.xml",
+  "descriptors": {
+    "D000044": {
+      "label": "Dental Abutments",
+      "tree_numbers": [
+        "E06.780.346.500",
+        "E07.695.190.175"
+      ],
+      "terms": [
+        "Abutment, Dental",
+        "Abutments, Dental",
+        "Dental Abutment",
+        "Dental Abutments"
+      ]
+    },
+    "D000669": {
+      "label": "Amplifiers, Electronic",
+      "tree_numbers": [
+        "E07.305.061"
+      ],
+      "terms": [
+        "Amplifier, Electronic",
+        "Amplifiers, Electronic",
+        "Electronic Amplifier",
+        "Electronic Amplifiers"
+      ]
+    },
+    "D001186": {
+      "label": "Artificial Limbs",
+      "tree_numbers": [
+        "E07.695.050",
+        "E07.858.082.050",
+        "E07.858.442.050"
+      ],
+      "terms": [
+        "Arm Prostheses",
+        "Arm Prosthesis",
+        "Arm, Artificial",
+        "Arms, Artificial",
+        "Artificial Arm",
+        "Artificial Arms",
+        "Artificial Extremities",
+        "Artificial Extremity",
+        "Artificial Leg",
+        "Artificial Legs",
+        "Artificial Limb",
+        "Artificial Limbs",
+        "Extremities, Artificial",
+        "Extremity, Artificial",
+        "Leg Prostheses",
+        "Leg Prosthesis",
+        "Leg, Artificial",
+        "Legs, Artificial",
+        "Limb Prostheses",
+        "Limb Prosthesis",
+        "Limb, Artificial",
+        "Limbs, Artificial",
+        "Prostheses, Arm",
+        "Prostheses, Leg",
+        "Prostheses, Limb",
+        "Prosthesis, Arm",
+        "Prosthesis, Leg",
+        "Prosthesis, Limb"
+      ]
+    },
+    "D001187": {
+      "label": "Artificial Organs",
+      "tree_numbers": [
+        "E07.858.082"
+      ],
+      "terms": [
+        "Artificial Organ",
+        "Artificial Organs",
+        "Organ, Artificial",
+        "Organs, Artificial"
+      ]
+    },
+    "D001273": {
+      "label": "Atmosphere Exposure Chambers",
+      "tree_numbers": [
+        "E07.079"
+      ],
+      "terms": [
+        "Atmosphere Exposure Chamber",
+        "Atmosphere Exposure Chambers",
+        "Chamber, Atmosphere Exposure",
+        "Chambers, Atmosphere Exposure",
+        "Exposure Chamber, Atmosphere",
+        "Exposure Chambers, Atmosphere"
+      ]
+    },
+    "D001458": {
+      "label": "Bandages",
+      "tree_numbers": [
+        "E07.101"
+      ],
+      "terms": [
+        "Bandage",
+        "Bandages",
+        "Dressing",
+        "Dressings"
+      ]
+    },
+    "D001512": {
+      "label": "Bedding and Linens",
+      "tree_numbers": [
+        "E07.325.137",
+        "J01.494.221"
+      ],
+      "terms": [
+        "Bedding",
+        "Bedding and Linens",
+        "Beddings",
+        "Linen",
+        "Linens",
+        "Linens and Bedding"
+      ]
+    },
+    "D001513": {
+      "label": "Beds",
+      "tree_numbers": [
+        "E07.325.220"
+      ],
+      "terms": [
+        "Bed",
+        "Beds",
+        "Mattresses"
+      ]
+    },
+    "D001674": {
+      "label": "Bioelectric Energy Sources",
+      "tree_numbers": [
+        "E07.305.124.150"
+      ],
+      "terms": [
+        "Biobatteries",
+        "Biobattery",
+        "Bioelectric Energy Source",
+        "Bioelectric Energy Sources",
+        "Bioelectric Power Source",
+        "Bioelectric Power Sources",
+        "Biofuel Cell",
+        "Biofuel Cells",
+        "Cell, Biofuel",
+        "Cell, Microbial Fuel",
+        "Cells, Biofuel",
+        "Cells, Microbial Fuel",
+        "Energy Source, Bioelectric",
+        "Energy Sources, Bioelectric",
+        "Fuel Cell, Microbial",
+        "Fuel Cells, Microbial",
+        "Microbial Fuel Cell",
+        "Microbial Fuel Cells",
+        "Power Source, Bioelectric",
+        "Power Sources, Bioelectric",
+        "Source, Bioelectric Energy",
+        "Source, Bioelectric Power",
+        "Sources, Bioelectric Energy",
+        "Sources, Bioelectric Power"
+      ]
+    },
+    "D001684": {
+      "label": "Biological Dressings",
+      "tree_numbers": [
+        "E07.101.150"
+      ],
+      "terms": [
+        "Allograft Dressing",
+        "Allograft Dressings",
+        "Amniotic Membrane Dressing",
+        "Amniotic Membrane Dressings",
+        "Biologic Dressing",
+        "Biologic Dressings",
+        "Biological Dressing",
+        "Biological Dressings",
+        "Dressing, Allograft",
+        "Dressing, Amniotic Membrane",
+        "Dressing, Biologic",
+        "Dressing, Biological",
+        "Dressing, Heterograft",
+        "Dressing, Homograft",
+        "Dressing, Pig Skin",
+        "Dressing, Porcine Xenograft",
+        "Dressing, Xenograft",
+        "Dressings, Allograft",
+        "Dressings, Amniotic Membrane",
+        "Dressings, Biologic",
+        "Dressings, Biological",
+        "Dressings, Heterograft",
+        "Dressings, Homograft",
+        "Dressings, Pig Skin",
+        "Dressings, Porcine Xenograft",
+        "Dressings, Xenograft",
+        "Heterograft Dressing",
+        "Heterograft Dressings",
+        "Homograft Dressing",
+        "Homograft Dressings",
+        "Pig Skin Dressing",
+        "Pig Skin Dressings",
+        "Porcine Xenograft Dressing",
+        "Porcine Xenograft Dressings",
+        "Xenograft Dressing",
+        "Xenograft Dressing, Porcine",
+        "Xenograft Dressings",
+        "Xenograft Dressings, Porcine"
+      ]
+    },
+    "D001705": {
+      "label": "Bioprosthesis",
+      "tree_numbers": [
+        "E07.695.100"
+      ],
+      "terms": [
+        "Bioprostheses",
+        "Bioprostheses, Heterograft",
+        "Bioprostheses, Porcine Xenograft",
+        "Bioprostheses, Xenograft",
+        "Bioprosthesis",
+        "Bioprosthesis, Heterograft",
+        "Bioprosthesis, Porcine Xenograft",
+        "Bioprosthesis, Xenograft",
+        "Glutaraldehyde Stabilized Grafts",
+        "Glutaraldehyde-Stabilized Graft",
+        "Glutaraldehyde-Stabilized Grafts",
+        "Graft, Glutaraldehyde-Stabilized",
+        "Grafts, Glutaraldehyde-Stabilized",
+        "Heterograft Bioprostheses",
+        "Heterograft Bioprosthesis",
+        "Porcine Xenograft Bioprostheses",
+        "Porcine Xenograft Bioprosthesis",
+        "Xenograft Bioprostheses",
+        "Xenograft Bioprostheses, Porcine",
+        "Xenograft Bioprosthesis",
+        "Xenograft Bioprosthesis, Porcine"
+      ]
+    },
+    "D001807": {
+      "label": "Blood Vessel Prosthesis",
+      "tree_numbers": [
+        "E07.695.110"
+      ],
+      "terms": [
+        "Blood Vessel Prostheses",
+        "Blood Vessel Prosthesis",
+        "Graft, Tissue-Engineered Vascular",
+        "Grafts, Tissue-Engineered Vascular",
+        "Prostheses, Blood Vessel",
+        "Prostheses, Vascular",
+        "Prosthesis, Blood Vessel",
+        "Prosthesis, Vascular",
+        "Tissue Engineered Vascular Graft",
+        "Tissue-Engineered Vascular Graft",
+        "Tissue-Engineered Vascular Grafts",
+        "Vascular Graft, Tissue-Engineered",
+        "Vascular Grafts, Tissue-Engineered",
+        "Vascular Prostheses",
+        "Vascular Prosthesis",
+        "Vessel Prostheses, Blood",
+        "Vessel Prosthesis, Blood"
+      ]
+    },
+    "D001858": {
+      "label": "Bone Nails",
+      "tree_numbers": [
+        "E07.695.370.249",
+        "E07.858.442.660.460.249",
+        "E07.858.690.725.460.249"
+      ],
+      "terms": [
+        "Bone Nail",
+        "Bone Nails",
+        "Bone Pin",
+        "Bone Pins",
+        "Nail, Bone",
+        "Nails, Bone",
+        "Pin, Bone",
+        "Pins, Bone"
+      ]
+    },
+    "D001860": {
+      "label": "Bone Plates",
+      "tree_numbers": [
+        "E07.695.370.374",
+        "E07.858.442.660.460.374",
+        "E07.858.690.725.460.374"
+      ],
+      "terms": [
+        "Bone Plate",
+        "Bone Plates",
+        "Plate, Bone",
+        "Plates, Bone"
+      ]
+    },
+    "D001863": {
+      "label": "Bone Screws",
+      "tree_numbers": [
+        "E07.695.370.437",
+        "E07.858.442.660.460.437",
+        "E07.858.690.725.460.437"
+      ],
+      "terms": [
+        "Bone Screw",
+        "Bone Screws",
+        "Screw, Bone",
+        "Screws, Bone"
+      ]
+    },
+    "D001864": {
+      "label": "Bone Wires",
+      "tree_numbers": [
+        "E07.695.370.468",
+        "E07.858.442.660.460.468",
+        "E07.858.690.725.460.468"
+      ],
+      "terms": [
+        "Bone Wire",
+        "Bone Wires",
+        "Kirschner Wire",
+        "Kirschner Wires",
+        "Wire, Bone",
+        "Wire, Kirschner",
+        "Wires, Bone",
+        "Wires, Kirschner"
+      ]
+    },
+    "D001915": {
+      "label": "Braces",
+      "tree_numbers": [
+        "E07.858.442.743.319"
+      ],
+      "terms": [
+        "Brace",
+        "Braces"
+      ]
+    },
+    "D002183": {
+      "label": "Canes",
+      "tree_numbers": [
+        "E07.858.442.250"
+      ],
+      "terms": [
+        "Cane",
+        "Canes",
+        "Stick, Walking",
+        "Sticks, Walking",
+        "Walking Stick",
+        "Walking Sticks"
+      ]
+    },
+    "D002370": {
+      "label": "Casts, Surgical",
+      "tree_numbers": [
+        "E07.858.442.660.430.500",
+        "E07.858.690.725.430.500"
+      ],
+      "terms": [
+        "Cast, Fiberglass",
+        "Cast, Plaster",
+        "Cast, Plastic",
+        "Cast, Surgical",
+        "Casts, Fiberglass",
+        "Casts, Plaster",
+        "Casts, Plastic",
+        "Casts, Surgical",
+        "Fiberglass Cast",
+        "Fiberglass Casts",
+        "Plaster Cast",
+        "Plaster Casts",
+        "Plastic Cast",
+        "Plastic Casts",
+        "Surgical Cast",
+        "Surgical Casts"
+      ]
+    },
+    "D002398": {
+      "label": "Catgut",
+      "tree_numbers": [
+        "E07.858.690.820.250"
+      ],
+      "terms": [
+        "Catgut",
+        "Catguts"
+      ]
+    },
+    "D002408": {
+      "label": "Catheters, Indwelling",
+      "tree_numbers": [
+        "E07.132.500"
+      ],
+      "terms": [
+        "Catheter, In-Dwelling",
+        "Catheter, Indwelling",
+        "Catheters, In-Dwelling",
+        "Catheters, Indwelling",
+        "Implantable Catheters",
+        "In Dwelling Catheters",
+        "In-Dwelling Catheter",
+        "In-Dwelling Catheters",
+        "Indwelling Catheter",
+        "Indwelling Catheters"
+      ]
+    },
+    "D003054": {
+      "label": "Cochlear Implants",
+      "tree_numbers": [
+        "E07.305.250.319.381.500.500",
+        "E07.695.150",
+        "E07.695.202.381.500.500",
+        "E07.814.458.150"
+      ],
+      "terms": [
+        "Auditory Prostheses",
+        "Auditory Prosthesis",
+        "Cochlear Implant",
+        "Cochlear Implants",
+        "Cochlear Prostheses",
+        "Cochlear Prosthesis",
+        "Implant, Cochlear",
+        "Implants, Cochlear",
+        "Prostheses, Auditory",
+        "Prostheses, Cochlear",
+        "Prosthesis, Auditory",
+        "Prosthesis, Cochlear"
+      ]
+    },
+    "D003143": {
+      "label": "Communication Devices for People with Disabilities",
+      "tree_numbers": [
+        "E07.796.250"
+      ],
+      "terms": [
+        "Augmentative and Alternative Communications Systems",
+        "Board, Communication",
+        "Communication Aids for Disabled",
+        "Communication Aids for Handicapped",
+        "Communication Aids for Persons with Disabilities",
+        "Communication Board",
+        "Communication Boards",
+        "Communication Devices for People with Disabilities",
+        "Device, Text Telecommunication",
+        "Speech Synthesizer",
+        "Speech Synthesizers",
+        "Synthesizer, Speech",
+        "TDD",
+        "TDDs",
+        "TTY Telephone",
+        "TTY Telephones",
+        "Telecommunication Device, Text",
+        "Telecommunication Devices, Text",
+        "Telecommunication, Text",
+        "Telecommunications Devices for the Deaf",
+        "Telephone, TTY",
+        "Telephone, Text",
+        "Text Telecommunication",
+        "Text Telecommunication Device",
+        "Text Telecommunication Devices",
+        "Text Telecommunications",
+        "Text Telephone",
+        "Text Telephones"
+      ]
+    },
+    "D003261": {
+      "label": "Contact Lenses",
+      "tree_numbers": [
+        "E07.632.500.276"
+      ],
+      "terms": [
+        "Contact Lens",
+        "Contact Lenses",
+        "Lens, Contact",
+        "Lenses, Contact"
+      ]
+    },
+    "D003262": {
+      "label": "Contact Lenses, Extended-Wear",
+      "tree_numbers": [
+        "E07.632.500.276.360.220"
+      ],
+      "terms": [
+        "Contact Lens, Extended Wear",
+        "Contact Lens, Extended-Wear",
+        "Contact Lenses, Extended Wear",
+        "Contact Lenses, Extended-Wear",
+        "Extended-Wear Contact Lens",
+        "Extended-Wear Contact Lenses",
+        "Lens, Extended-Wear Contact",
+        "Lenses, Extended-Wear Contact"
+      ]
+    },
+    "D003263": {
+      "label": "Contact Lenses, Hydrophilic",
+      "tree_numbers": [
+        "E07.632.500.276.360"
+      ],
+      "terms": [
+        "Contact Lens, Hydrophilic",
+        "Contact Lens, Soft",
+        "Contact Lenses, Hydrophilic",
+        "Contact Lenses, Soft",
+        "Hydrophilic Contact Lens",
+        "Hydrophilic Contact Lenses",
+        "Lens, Hydrophilic Contact",
+        "Lens, Soft Contact",
+        "Lenses, Contact, Hydrophilic",
+        "Lenses, Hydrophilic Contact",
+        "Lenses, Soft Contact",
+        "Soft Contact Lens",
+        "Soft Contact Lenses"
+      ]
+    },
+    "D003273": {
+      "label": "Contraceptive Devices",
+      "tree_numbers": [
+        "E07.190"
+      ],
+      "terms": [
+        "Contraceptive Device",
+        "Contraceptive Devices",
+        "Device, Contraceptive",
+        "Devices, Contraceptive"
+      ]
+    },
+    "D003274": {
+      "label": "Contraceptive Devices, Female",
+      "tree_numbers": [
+        "E07.190.250"
+      ],
+      "terms": [
+        "Cap, Cervical",
+        "Caps, Cervical",
+        "Cervical Cap",
+        "Cervical Caps",
+        "Coiled Spring",
+        "Coiled Springs",
+        "Contraceptive Device, Female",
+        "Contraceptive Devices, Female",
+        "Device, Female Contraceptive",
+        "Devices, Female Contraceptive",
+        "Diaphragm, Vaginal",
+        "Diaphragms, Vaginal",
+        "Female Contraceptive Device",
+        "Female Contraceptive Devices",
+        "Ring, Vaginal",
+        "Rings, Vaginal",
+        "Shield, Vaginal",
+        "Shields, Vaginal",
+        "Sponge, Vaginal",
+        "Sponges, Vaginal",
+        "Spring, Coiled",
+        "Springs, Coiled",
+        "Vaginal Diaphragm",
+        "Vaginal Diaphragms",
+        "Vaginal Ring",
+        "Vaginal Rings",
+        "Vaginal Shield",
+        "Vaginal Shields",
+        "Vaginal Sponge",
+        "Vaginal Sponges"
+      ]
+    },
+    "D003275": {
+      "label": "Contraceptive Devices, Male",
+      "tree_numbers": [
+        "E07.190.270"
+      ],
+      "terms": [
+        "Contraceptive Device, Male",
+        "Contraceptive Devices, Male",
+        "Device, Male Contraceptive",
+        "Devices, Male Contraceptive",
+        "Male Contraceptive Device",
+        "Male Contraceptive Devices"
+      ]
+    },
+    "D003442": {
+      "label": "Crowns",
+      "tree_numbers": [
+        "E06.780.346.250",
+        "E07.695.190.088"
+      ],
+      "terms": [
+        "Crown",
+        "Crown, Dental",
+        "Crowns",
+        "Crowns, Dental",
+        "Dental Crown",
+        "Dental Crowns"
+      ]
+    },
+    "D003446": {
+      "label": "Crutches",
+      "tree_numbers": [
+        "E07.858.442.281"
+      ],
+      "terms": [
+        "Crutches"
+      ]
+    },
+    "D003470": {
+      "label": "Culture Media",
+      "tree_numbers": [
+        "D27.720.470.305",
+        "E07.206"
+      ],
+      "terms": [
+        "Culture Media",
+        "Media, Culture"
+      ]
+    },
+    "D003725": {
+      "label": "Dental Articulators",
+      "tree_numbers": [
+        "E06.186.210",
+        "E07.222.210"
+      ],
+      "terms": [
+        "Articulator",
+        "Articulator, Dental",
+        "Articulators",
+        "Articulators, Dental",
+        "Dental Articulator",
+        "Dental Articulators"
+      ]
+    },
+    "D003742": {
+      "label": "Dental Devices, Home Care",
+      "tree_numbers": [
+        "E06.186.250",
+        "E06.761.726.292",
+        "E07.222.250"
+      ],
+      "terms": [
+        "Dental Devices, Home Care",
+        "Dental Floss",
+        "Floss, Dental",
+        "Home Care Dental Devices"
+      ]
+    },
+    "D003748": {
+      "label": "Dental Equipment",
+      "tree_numbers": [
+        "E06.186",
+        "E07.222"
+      ],
+      "terms": [
+        "Dental Equipment",
+        "Dental Equipments",
+        "Equipment, Dental",
+        "Equipments, Dental"
+      ]
+    },
+    "D003754": {
+      "label": "Dental High-Speed Equipment",
+      "tree_numbers": [
+        "E06.186.376",
+        "E07.222.376"
+      ],
+      "terms": [
+        "Dental High Speed Equipment",
+        "Dental High-Speed Equipment",
+        "Dental High-Speed Equipments",
+        "Equipment, Dental High-Speed",
+        "Equipments, Dental High-Speed",
+        "High Speed Dental Equipment",
+        "High-Speed Equipment, Dental",
+        "High-Speed Equipments, Dental"
+      ]
+    },
+    "D003762": {
+      "label": "Dental Instruments",
+      "tree_numbers": [
+        "E06.186.501",
+        "E07.222.501"
+      ],
+      "terms": [
+        "Dental Instrument",
+        "Dental Instruments",
+        "Instrument, Dental",
+        "Instruments, Dental"
+      ]
+    },
+    "D003778": {
+      "label": "Dentures",
+      "tree_numbers": [
+        "E06.780.346.760",
+        "E07.695.190.200"
+      ],
+      "terms": [
+        "Denture",
+        "Dentures"
+      ]
+    },
+    "D003793": {
+      "label": "Dental Restoration, Permanent",
+      "tree_numbers": [
+        "E06.780.346.737",
+        "E07.695.190.190"
+      ],
+      "terms": [
+        "Dental Filling, Permanent",
+        "Dental Fillings, Permanent",
+        "Dental Permanent Filling",
+        "Dental Permanent Fillings",
+        "Dental Restoration, Permanent",
+        "Dental Restorations, Permanent",
+        "Filling, Dental Permanent",
+        "Filling, Permanent Dental",
+        "Fillings, Dental Permanent",
+        "Fillings, Permanent Dental",
+        "Permanent Dental Filling",
+        "Permanent Dental Fillings",
+        "Permanent Dental Restoration",
+        "Permanent Dental Restorations",
+        "Permanent Filling, Dental",
+        "Permanent Fillings, Dental",
+        "Restoration, Permanent Dental",
+        "Restorations, Permanent Dental"
+      ]
+    },
+    "D003794": {
+      "label": "Dental Restoration, Temporary",
+      "tree_numbers": [
+        "E06.780.346.740",
+        "E07.695.190.192"
+      ],
+      "terms": [
+        "Dental Filling, Temporary",
+        "Dental Fillings, Temporary",
+        "Dental Prostheses, Temporary",
+        "Dental Prosthesis, Temporary",
+        "Dental Restoration, Temporary",
+        "Dental Restorations, Temporary",
+        "Filling, Temporary Dental",
+        "Fillings, Temporary Dental",
+        "Prosthesis, Temporary Dental",
+        "Restoration, Temporary Dental",
+        "Restorations, Temporary Dental",
+        "Temporary Dental Filling",
+        "Temporary Dental Fillings",
+        "Temporary Dental Prostheses",
+        "Temporary Dental Prosthesis",
+        "Temporary Dental Restoration",
+        "Temporary Dental Restorations"
+      ]
+    },
+    "D003801": {
+      "label": "Dental Veneers",
+      "tree_numbers": [
+        "E06.780.346.750",
+        "E07.695.190.196"
+      ],
+      "terms": [
+        "Dental Laminate",
+        "Dental Laminates",
+        "Dental Veneer",
+        "Dental Veneers",
+        "Laminate, Dental",
+        "Laminates, Dental",
+        "Veneer, Dental",
+        "Veneers, Dental"
+      ]
+    },
+    "D003819": {
+      "label": "Denture Bases",
+      "tree_numbers": [
+        "E06.780.346.760.281",
+        "E07.695.190.200.200"
+      ],
+      "terms": [
+        "Base, Denture",
+        "Bases, Denture",
+        "Denture Base",
+        "Denture Bases"
+      ]
+    },
+    "D003822": {
+      "label": "Denture Liners",
+      "tree_numbers": [
+        "E06.780.346.760.357",
+        "E07.695.190.200.210"
+      ],
+      "terms": [
+        "Cushion Liner",
+        "Cushion Liners",
+        "Denture Liner",
+        "Denture Liners",
+        "Liner, Cushion",
+        "Liner, Denture",
+        "Liners, Cushion",
+        "Liners, Denture"
+      ]
+    },
+    "D003824": {
+      "label": "Denture, Complete",
+      "tree_numbers": [
+        "E06.780.346.760.775",
+        "E07.695.190.200.205"
+      ],
+      "terms": [
+        "Complete Denture",
+        "Complete Dentures",
+        "Denture, Complete",
+        "Dentures, Complete"
+      ]
+    },
+    "D003825": {
+      "label": "Denture, Complete, Immediate",
+      "tree_numbers": [
+        "E06.780.346.760.775.254",
+        "E07.695.190.200.205.205"
+      ],
+      "terms": [
+        "Denture, Complete, Immediate"
+      ]
+    },
+    "D003826": {
+      "label": "Denture, Complete, Lower",
+      "tree_numbers": [
+        "E06.780.346.760.775.379",
+        "E07.695.190.200.205.210"
+      ],
+      "terms": [
+        "Denture, Complete, Lower"
+      ]
+    },
+    "D003827": {
+      "label": "Denture, Complete, Upper",
+      "tree_numbers": [
+        "E06.780.346.760.775.504",
+        "E07.695.190.200.205.215"
+      ],
+      "terms": [
+        "Denture, Complete, Upper"
+      ]
+    },
+    "D003828": {
+      "label": "Denture, Overlay",
+      "tree_numbers": [
+        "E06.780.346.760.887",
+        "E07.695.190.200.215"
+      ],
+      "terms": [
+        "Denture, Overlay",
+        "Dentures, Overlay",
+        "Overdenture",
+        "Overdentures",
+        "Overlay Denture",
+        "Overlay Dentures"
+      ]
+    },
+    "D003829": {
+      "label": "Denture, Partial",
+      "tree_numbers": [
+        "E06.780.346.760.943",
+        "E07.695.190.200.220"
+      ],
+      "terms": [
+        "Bridgework, Dental",
+        "Bridgeworks, Dental",
+        "Dental Bridgework",
+        "Dental Bridgeworks",
+        "Denture, Partial",
+        "Dentures, Partial",
+        "Partial Denture",
+        "Partial Dentures"
+      ]
+    },
+    "D003830": {
+      "label": "Denture, Partial, Fixed",
+      "tree_numbers": [
+        "E06.780.346.760.943.271",
+        "E07.695.190.200.220.220"
+      ],
+      "terms": [
+        "Bridge, Fixed",
+        "Bridges, Fixed",
+        "Denture, Fixed Partial",
+        "Denture, Partial, Fixed",
+        "Dentures, Fixed Partial",
+        "Fixed Bridge",
+        "Fixed Bridges",
+        "Fixed Partial Denture",
+        "Fixed Partial Dentures",
+        "Partial Denture, Fixed",
+        "Partial Dentures, Fixed",
+        "Pontic",
+        "Pontics"
+      ]
+    },
+    "D003831": {
+      "label": "Denture, Partial, Immediate",
+      "tree_numbers": [
+        "E06.780.346.760.943.342",
+        "E07.695.190.200.220.225"
+      ],
+      "terms": [
+        "Denture, Partial, Immediate"
+      ]
+    },
+    "D003832": {
+      "label": "Denture, Partial, Removable",
+      "tree_numbers": [
+        "E06.780.346.760.943.413",
+        "E07.695.190.200.220.230"
+      ],
+      "terms": [
+        "Denture, Partial, Removable",
+        "Denture, Removable Partial",
+        "Dentures, Removable Partial",
+        "Partial Denture, Removable",
+        "Partial Dentures, Removable",
+        "Removable Partial Denture",
+        "Removable Partial Dentures"
+      ]
+    },
+    "D003833": {
+      "label": "Denture, Partial, Temporary",
+      "tree_numbers": [
+        "E06.780.346.760.943.484",
+        "E07.695.190.200.220.235"
+      ],
+      "terms": [
+        "Dental Prostheses, Interim",
+        "Dental Prosthesis, Interim",
+        "Dental, Interim Prosthesis",
+        "Dentals, Interim Prosthesis",
+        "Denture, Partial, Temporary",
+        "Interim Dental Prostheses",
+        "Interim Dental Prosthesis",
+        "Interim Prosthesis Dental",
+        "Interim Prosthesis Dentals",
+        "Prostheses, Interim Dental",
+        "Prosthesis Dental, Interim",
+        "Prosthesis Dentals, Interim",
+        "Prosthesis, Interim Dental"
+      ]
+    },
+    "D003834": {
+      "label": "Denture Precision Attachment",
+      "tree_numbers": [
+        "E06.780.346.760.943.555",
+        "E07.695.190.200.220.245"
+      ],
+      "terms": [
+        "Attachment Denture, Precision",
+        "Attachment Dentures, Precision",
+        "Attachment, Dental Slotted",
+        "Attachment, Denture Precision",
+        "Attachment, Intracoronal",
+        "Attachments, Dental Slotted",
+        "Attachments, Denture Precision",
+        "Attachments, Intracoronal",
+        "Dental Slotted Attachment",
+        "Dental Slotted Attachments",
+        "Denture Precision Attachment",
+        "Denture Precision Attachments",
+        "Denture, Precision Attachment",
+        "Dentures, Precision Attachment",
+        "Intracoronal Attachment",
+        "Intracoronal Attachments",
+        "Precision Attachment Denture",
+        "Precision Attachment Dentures",
+        "Precision Attachment, Denture",
+        "Precision Attachments, Denture",
+        "Slotted Attachment, Dental",
+        "Slotted Attachments, Dental"
+      ]
+    },
+    "D004209": {
+      "label": "Disposable Equipment",
+      "tree_numbers": [
+        "E07.252"
+      ],
+      "terms": [
+        "Disposable Equipment",
+        "Equipment, Disposable"
+      ]
+    },
+    "D004389": {
+      "label": "Durable Medical Equipment",
+      "tree_numbers": [
+        "E07.278"
+      ],
+      "terms": [
+        "Durable Medical Equipment",
+        "Equipment, Durable Medical",
+        "Equipment, Medical, Durable",
+        "Medical Equipment, Durable"
+      ]
+    },
+    "D004430": {
+      "label": "Ear Protective Devices",
+      "tree_numbers": [
+        "E07.700.560.250",
+        "J01.637.215.600.199",
+        "J01.637.708.560.250"
+      ],
+      "terms": [
+        "Device, Ear Protective",
+        "Device, Hearing Protective",
+        "Devices, Ear Protective",
+        "Devices, Hearing Protective",
+        "Ear Protective Device",
+        "Ear Protective Devices",
+        "Earmuff",
+        "Earmuffs",
+        "Earplug",
+        "Earplugs",
+        "Hearing Protective Device",
+        "Hearing Protective Devices",
+        "Protective Device, Ear",
+        "Protective Device, Hearing",
+        "Protective Devices, Ear",
+        "Protective Devices, Hearing"
+      ]
+    },
+    "D004559": {
+      "label": "Electric Wiring",
+      "tree_numbers": [
+        "E07.305.245"
+      ],
+      "terms": [
+        "Electric Wiring",
+        "Electrical Wiring",
+        "Wiring, Electric",
+        "Wiring, Electrical"
+      ]
+    },
+    "D004566": {
+      "label": "Electrodes",
+      "tree_numbers": [
+        "E07.305.250"
+      ],
+      "terms": [
+        "Anode",
+        "Anode Material",
+        "Anode Materials",
+        "Anodes",
+        "Cathode",
+        "Cathode Material",
+        "Cathode Materials",
+        "Cathodes",
+        "Electrode",
+        "Electrodes",
+        "Material, Anode",
+        "Material, Cathode"
+      ]
+    },
+    "D004567": {
+      "label": "Electrodes, Implanted",
+      "tree_numbers": [
+        "E07.305.250.319",
+        "E07.695.202"
+      ],
+      "terms": [
+        "Electrode, Implantable",
+        "Electrode, Implantable Stimulation",
+        "Electrode, Implanted",
+        "Electrode, Implanted Stimulation",
+        "Electrodes, Implantable",
+        "Electrodes, Implantable Stimulation",
+        "Electrodes, Implanted",
+        "Electrodes, Implanted Stimulation",
+        "Implantable Electrode",
+        "Implantable Electrodes",
+        "Implantable Stimulation Electrode",
+        "Implantable Stimulation Electrodes",
+        "Implanted Electrode",
+        "Implanted Electrodes",
+        "Implanted Stimulation Electrode",
+        "Implanted Stimulation Electrodes",
+        "Stimulation Electrode, Implantable",
+        "Stimulation Electrode, Implanted",
+        "Stimulation Electrodes, Implantable",
+        "Stimulation Electrodes, Implanted"
+      ]
+    },
+    "D004633": {
+      "label": "Emergency Medical Tags",
+      "tree_numbers": [
+        "E07.315"
+      ],
+      "terms": [
+        "Emergency Medical Tag",
+        "Emergency Medical Tags",
+        "Medical Tag, Emergency",
+        "Medical Tags, Emergency",
+        "Tag, Emergency Medical",
+        "Tags, Emergency Medical"
+      ]
+    },
+    "D004864": {
+      "label": "Equipment and Supplies",
+      "tree_numbers": [
+        "E07"
+      ],
+      "terms": [
+        "Apparatus and Instruments",
+        "Device",
+        "Device, Medical",
+        "Devices",
+        "Devices, Medical",
+        "Equipment",
+        "Equipment and Supplies",
+        "Instruments and Apparatus",
+        "Inventories",
+        "Inventory",
+        "Medical Device",
+        "Medical Devices",
+        "Supplies",
+        "Supplies and Equipment"
+      ]
+    },
+    "D004865": {
+      "label": "Equipment and Supplies, Hospital",
+      "tree_numbers": [
+        "E07.325"
+      ],
+      "terms": [
+        "Equipment and Supplies, Hospital",
+        "Equipment, Hospital",
+        "Hospital Equipment",
+        "Hospital Equipment and Supplies",
+        "Hospital Supplies",
+        "Hospital Supply",
+        "Supplies, Hospital",
+        "Supply, Hospital"
+      ]
+    },
+    "D005135": {
+      "label": "Eye Protective Devices",
+      "tree_numbers": [
+        "E07.700.560.500",
+        "J01.637.708.560.500"
+      ],
+      "terms": [
+        "Device, Eye Protective",
+        "Devices, Eye Protective",
+        "Eye Protective Device",
+        "Eye Protective Devices",
+        "Glasses, Nonprescription Sun",
+        "Glasses, Safety",
+        "Goggles",
+        "Lenses, Safety",
+        "Nonprescription Sun Glasses",
+        "Protective Device, Eye",
+        "Protective Devices, Eye",
+        "Safety Glasses",
+        "Safety Lenses",
+        "Sun Glasses, Nonprescription"
+      ]
+    },
+    "D005137": {
+      "label": "Eye, Artificial",
+      "tree_numbers": [
+        "E07.695.225"
+      ],
+      "terms": [
+        "Artificial Eye",
+        "Artificial Eyes",
+        "Eye, Artificial",
+        "Eyes, Artificial",
+        "Ocular Prostheses",
+        "Ocular Prosthesis",
+        "Prostheses, Ocular",
+        "Prosthesis, Ocular"
+      ]
+    },
+    "D005139": {
+      "label": "Eyeglasses",
+      "tree_numbers": [
+        "E07.632.500.300"
+      ],
+      "terms": [
+        "Eyeglasses",
+        "Glasses",
+        "Glasses, Prescription Sun",
+        "Prescription Sun Glasses",
+        "Spectacles",
+        "Sun Glasses, Prescription"
+      ]
+    },
+    "D005676": {
+      "label": "Gravity Suits",
+      "tree_numbers": [
+        "E07.440"
+      ],
+      "terms": [
+        "Anti Shock Trousers",
+        "Anti-Shock Trouser, Medical",
+        "Anti-Shock Trousers",
+        "Anti-Shock Trousers, Medical",
+        "Anti-Shock Trousers, Military",
+        "Antigravity Suits",
+        "Antishock Trousers",
+        "Antishock Trousers, Military",
+        "Gravity Suit",
+        "Gravity Suits",
+        "MAST Suit",
+        "MAST Suits",
+        "Medical Anti Shock Trousers",
+        "Medical Anti-Shock Trouser",
+        "Medical Anti-Shock Trousers",
+        "Military Anti Shock Trousers",
+        "Military Anti-Shock Trousers",
+        "Military Antishock Trousers",
+        "Pneumatic Suit",
+        "Pneumatic Suits",
+        "Pressure Suit",
+        "Pressure Suits",
+        "Suit, Antigravity",
+        "Suit, Gravity",
+        "Suit, MAST",
+        "Suit, Pneumatic",
+        "Suit, Pressure",
+        "Suits, Antigravity",
+        "Trouser, Medical Anti-Shock",
+        "Trousers, Anti-Shock",
+        "Trousers, Antishock",
+        "Trousers, Medical Anti-Shock",
+        "Trousers, Military Anti-Shock",
+        "Trousers, Military Antishock"
+      ]
+    },
+    "D005781": {
+      "label": "Gelatin Sponge, Absorbable",
+      "tree_numbers": [
+        "E07.858.740.300"
+      ],
+      "terms": [
+        "Absorbable Gelatin Sponge",
+        "Absorbable Gelatin Sponges",
+        "Gelaspon",
+        "Gelatin Sponge, Absorbable",
+        "Gelatin Sponges, Absorbable",
+        "Gelfoam",
+        "Sponge, Absorbable Gelatin",
+        "Sponges, Absorbable Gelatin"
+      ]
+    },
+    "D005932": {
+      "label": "Gloves, Surgical",
+      "tree_numbers": [
+        "E07.700.560.875.400.400",
+        "E07.700.600.400.400",
+        "E07.858.594.500",
+        "J01.637.215.600.400.400",
+        "J01.637.708.560.875.400.400"
+      ],
+      "terms": [
+        "Glove, Surgical",
+        "Gloves, Surgical",
+        "Surgical Glove",
+        "Surgical Gloves"
+      ]
+    },
+    "D006260": {
+      "label": "Head Protective Devices",
+      "tree_numbers": [
+        "E07.700.560.750",
+        "J01.637.708.560.750"
+      ],
+      "terms": [
+        "Device, Head Protective",
+        "Devices, Head Protective",
+        "Head Protective Device",
+        "Head Protective Devices",
+        "Helmet",
+        "Helmets",
+        "Protective Device, Head",
+        "Protective Devices, Head"
+      ]
+    },
+    "D006310": {
+      "label": "Hearing Aids",
+      "tree_numbers": [
+        "E07.305.906.500",
+        "E07.814.458"
+      ],
+      "terms": [
+        "Aid, Hearing",
+        "Aids, Hearing",
+        "Ear Molds, Hearing Aid",
+        "Hearing Aid",
+        "Hearing Aids"
+      ]
+    },
+    "D006350": {
+      "label": "Heart Valve Prosthesis",
+      "tree_numbers": [
+        "E07.695.310"
+      ],
+      "terms": [
+        "Cardiac Valve Prostheses",
+        "Cardiac Valve Prosthesis",
+        "Heart Valve Prostheses",
+        "Heart Valve Prosthesis",
+        "Prostheses, Cardiac Valve",
+        "Prostheses, Heart Valve",
+        "Prosthesis, Cardiac Valve",
+        "Prosthesis, Heart Valve",
+        "Valve Prostheses, Cardiac",
+        "Valve Prostheses, Heart",
+        "Valve Prosthesis, Cardiac",
+        "Valve Prosthesis, Heart"
+      ]
+    },
+    "D006353": {
+      "label": "Heart-Assist Devices",
+      "tree_numbers": [
+        "E04.050.430",
+        "E07.695.300.300",
+        "E07.858.082.374.300"
+      ],
+      "terms": [
+        "Artificial Heart Ventricle",
+        "Artificial Heart Ventricles",
+        "Artificial Ventricle",
+        "Artificial Ventricles",
+        "Assist Device, Heart",
+        "Assist Device, Ventricular",
+        "Assist Devices, Heart",
+        "Assist Devices, Ventricular",
+        "Device, Heart Assist",
+        "Device, Heart-Assist",
+        "Device, Vascular-Assist",
+        "Device, Ventricle-Assist",
+        "Device, Ventricular Assist",
+        "Devices, Heart Assist",
+        "Devices, Heart-Assist",
+        "Devices, Vascular-Assist",
+        "Devices, Ventricle-Assist",
+        "Devices, Ventricular Assist",
+        "Heart Assist Device",
+        "Heart Assist Devices",
+        "Heart Ventricle, Artificial",
+        "Heart Ventricles, Artificial",
+        "Heart-Assist Device",
+        "Heart-Assist Devices",
+        "Heart-Assist Pump",
+        "Heart-Assist Pumps",
+        "Pump, Heart-Assist",
+        "Pumps, Heart Assist",
+        "Pumps, Heart-Assist",
+        "Vascular Assist Device",
+        "Vascular Assist Devices",
+        "Vascular-Assist Device",
+        "Vascular-Assist Devices",
+        "Ventricle Assist Device",
+        "Ventricle, Artificial",
+        "Ventricle, Artificial Heart",
+        "Ventricle-Assist Device",
+        "Ventricle-Assist Devices",
+        "Ventricles, Artificial",
+        "Ventricles, Artificial Heart",
+        "Ventricular Assist Device",
+        "Ventricular Assist Devices"
+      ]
+    },
+    "D006354": {
+      "label": "Heart, Artificial",
+      "tree_numbers": [
+        "E07.695.300",
+        "E07.858.082.374"
+      ],
+      "terms": [
+        "Artificial Heart",
+        "Artificial Hearts",
+        "Heart, Artificial",
+        "Hearts, Artificial"
+      ]
+    },
+    "D006355": {
+      "label": "Heart-Lung Machine",
+      "tree_numbers": [
+        "E07.858.082.458"
+      ],
+      "terms": [
+        "Heart Lung Machine",
+        "Heart-Lung Machine",
+        "Heart-Lung Machines",
+        "Machine, Heart-Lung",
+        "Machines, Heart-Lung"
+      ]
+    },
+    "D006622": {
+      "label": "Hip Prosthesis",
+      "tree_numbers": [
+        "E07.695.400.400"
+      ],
+      "terms": [
+        "Femoral Head Prostheses",
+        "Femoral Head Prosthesis",
+        "Hip Prostheses",
+        "Hip Prosthesis",
+        "Prostheses, Femoral Head",
+        "Prostheses, Hip",
+        "Prosthesis, Femoral Head",
+        "Prosthesis, Hip"
+      ]
+    },
+    "D006775": {
+      "label": "Hospitals, Packaged",
+      "tree_numbers": [
+        "E07.325.473"
+      ],
+      "terms": [
+        "Hospital, Packaged",
+        "Hospitals, Packaged",
+        "Packaged Hospital",
+        "Packaged Hospitals"
+      ]
+    },
+    "D007185": {
+      "label": "Incubators",
+      "tree_numbers": [
+        "E07.461"
+      ],
+      "terms": [
+        "Incubator",
+        "Incubators"
+      ]
+    },
+    "D007186": {
+      "label": "Incubators, Infant",
+      "tree_numbers": [
+        "E07.325.569",
+        "E07.461.487"
+      ],
+      "terms": [
+        "Incubator, Infant",
+        "Incubators, Infant",
+        "Infant Incubator",
+        "Infant Incubators",
+        "Infant Radiant Warmer",
+        "Infant Radiant Warmers",
+        "Radiant Warmer, Infant",
+        "Radiant Warmers, Infant",
+        "Warmer, Infant Radiant",
+        "Warmers, Infant Radiant"
+      ]
+    },
+    "D007260": {
+      "label": "Infusion Pumps",
+      "tree_numbers": [
+        "E07.505",
+        "E07.858.082.505"
+      ],
+      "terms": [
+        "Drug Infusion System",
+        "Drug Infusion Systems",
+        "External Infusion Pump",
+        "External Infusion Pumps",
+        "Infusion Pump",
+        "Infusion Pump, External",
+        "Infusion Pumps",
+        "Infusion Pumps, External",
+        "Infusion System, Drug",
+        "Infusion Systems, Drug",
+        "Infusor",
+        "Infusors",
+        "Intravenous Drug Delivery System",
+        "Intravenous Drug Delivery Systems",
+        "Perfusion Pump",
+        "Perfusion Pumps",
+        "Pump, External Infusion",
+        "Pump, Infusion",
+        "Pump, Perfusion",
+        "Pumps, External Infusion",
+        "Pumps, Infusion",
+        "Pumps, Perfusion",
+        "System, Drug Infusion",
+        "Systems, Drug Infusion"
+      ]
+    },
+    "D007284": {
+      "label": "Inlays",
+      "tree_numbers": [
+        "E06.780.346.737.500",
+        "E07.695.190.190.350"
+      ],
+      "terms": [
+        "Dental Inlay",
+        "Dental Inlays",
+        "Dental Onlay",
+        "Dental Onlays",
+        "Inlay",
+        "Inlay, Dental",
+        "Inlays",
+        "Inlays, Dental",
+        "Onlay",
+        "Onlay, Dental",
+        "Onlays",
+        "Onlays, Dental"
+      ]
+    },
+    "D007332": {
+      "label": "Insulin Infusion Systems",
+      "tree_numbers": [
+        "E02.319.300.508",
+        "E07.505.508",
+        "E07.858.082.505.508"
+      ],
+      "terms": [
+        "Artificial Endocrine Pancreas",
+        "Artificial beta Cell",
+        "Artificial beta Cells",
+        "Cell, Artificial beta",
+        "Cells, Artificial beta",
+        "Endocrine Pancreas, Artificial",
+        "Implantable Programmable Insulin Pump",
+        "Infusion System, Insulin",
+        "Infusion Systems, Insulin",
+        "Insulin Infusion System",
+        "Insulin Infusion Systems",
+        "Insulin Pump, Programmable Implantable",
+        "Pancreas, Artificial Endocrine",
+        "Programmable Implantable Insulin Pump",
+        "Pump, Programmable Implantable Insulin",
+        "System, Insulin Infusion",
+        "Systems, Insulin Infusion",
+        "beta Cell, Artificial",
+        "beta Cells, Artificial"
+      ]
+    },
+    "D007434": {
+      "label": "Intrauterine Devices",
+      "tree_numbers": [
+        "E07.190.250.510"
+      ],
+      "terms": [
+        "Contraceptive Device, Intrauterine",
+        "Contraceptive Devices, Intrauterine",
+        "Contraceptive IUD",
+        "Contraceptive IUDs",
+        "Device, Intrauterine",
+        "Device, Intrauterine Contraceptive",
+        "Devices, Intrauterine",
+        "Devices, Intrauterine Contraceptive",
+        "IUD, Contraceptive",
+        "IUD, Unmedicated",
+        "IUDs, Contraceptive",
+        "Intrauterine Contraceptive Device",
+        "Intrauterine Contraceptive Devices",
+        "Intrauterine Device",
+        "Intrauterine Devices",
+        "Unmedicated IUD",
+        "Unmedicated IUDs"
+      ]
+    },
+    "D007435": {
+      "label": "Intrauterine Devices, Copper",
+      "tree_numbers": [
+        "E07.190.250.510.520.300"
+      ],
+      "terms": [
+        "Copper Intrauterine Device",
+        "Copper Intrauterine Devices",
+        "Copper Releasing IUD",
+        "Copper-Releasing IUD",
+        "Copper-Releasing IUDs",
+        "Device, Copper Intrauterine",
+        "Devices, Copper Intrauterine",
+        "IUD, Copper Releasing",
+        "IUD, Copper-Releasing",
+        "IUDs, Copper-Releasing",
+        "Intrauterine Device, Copper",
+        "Intrauterine Devices, Copper"
+      ]
+    },
+    "D007436": {
+      "label": "Intrauterine Devices, Medicated",
+      "tree_numbers": [
+        "E07.190.250.510.520"
+      ],
+      "terms": [
+        "Device, Hormone-Releasing Intrauterine",
+        "Device, Medicated Intrauterine",
+        "Device, Progesterone-Releasing Intrauterine",
+        "Devices, Hormone-Releasing Intrauterine",
+        "Devices, Medicated Intrauterine",
+        "Devices, Progesterone-Releasing Intrauterine",
+        "Hormone Releasing IUD",
+        "Hormone-Releasing IUD",
+        "Hormone-Releasing IUDs",
+        "Hormone-Releasing Intrauterine Device",
+        "Hormone-Releasing Intrauterine Devices",
+        "IUD, Hormone Releasing",
+        "IUD, Hormone-Releasing",
+        "IUDs, Hormone-Releasing",
+        "Intrauterine Device, Hormone-Releasing",
+        "Intrauterine Device, Medicated",
+        "Intrauterine Device, Progesterone-Releasing",
+        "Intrauterine Devices, Hormone Releasing",
+        "Intrauterine Devices, Hormone-Releasing",
+        "Intrauterine Devices, Medicated",
+        "Intrauterine Devices, Progesterone Releasing",
+        "Intrauterine Devices, Progesterone-Releasing",
+        "Medicated Intrauterine Device",
+        "Medicated Intrauterine Devices",
+        "Progesterone-Releasing Intrauterine Device",
+        "Progesterone-Releasing Intrauterine Devices"
+      ]
+    },
+    "D007595": {
+      "label": "Joint Prosthesis",
+      "tree_numbers": [
+        "E07.695.400"
+      ],
+      "terms": [
+        "Joint Prostheses",
+        "Joint Prosthesis",
+        "Prostheses, Joint",
+        "Prosthesis, Joint"
+      ]
+    },
+    "D007688": {
+      "label": "Kidneys, Artificial",
+      "tree_numbers": [
+        "E07.858.082.585"
+      ],
+      "terms": [
+        "Artificial Kidney",
+        "Artificial Kidneys",
+        "Blood Dialyser",
+        "Blood Dialysers",
+        "Blood Dialyzer",
+        "Blood Dialyzers",
+        "Dialyser, Blood",
+        "Dialysers, Blood",
+        "Dialysis Machine, Renal",
+        "Dialysis Machines, Renal",
+        "Dialyzer, Blood",
+        "Dialyzers, Blood",
+        "Hemodialyser",
+        "Hemodialysers",
+        "Hemodialyzer",
+        "Hemodialyzers",
+        "Kidney, Artificial",
+        "Kidneys, Artificial",
+        "Machine, Renal Dialysis",
+        "Machines, Renal Dialysis",
+        "Renal Dialysis Machine",
+        "Renal Dialysis Machines"
+      ]
+    },
+    "D007720": {
+      "label": "Knee Prosthesis",
+      "tree_numbers": [
+        "E07.695.400.410"
+      ],
+      "terms": [
+        "Knee Prostheses",
+        "Knee Prosthesis",
+        "Prostheses, Knee",
+        "Prosthesis, Knee"
+      ]
+    },
+    "D007831": {
+      "label": "Larynx, Artificial",
+      "tree_numbers": [
+        "E07.695.450",
+        "E07.858.082.595"
+      ],
+      "terms": [
+        "Artificial Larynges",
+        "Artificial Larynx",
+        "Laryngeal Prostheses",
+        "Laryngeal Prosthesis",
+        "Larynges, Artificial",
+        "Larynx, Artificial",
+        "Prostheses, Laryngeal",
+        "Prostheses, Voice",
+        "Prosthesis, Laryngeal",
+        "Prosthesis, Voice",
+        "Voice Prostheses",
+        "Voice Prosthesis"
+      ]
+    },
+    "D007834": {
+      "label": "Lasers",
+      "tree_numbers": [
+        "E07.632.490",
+        "E07.710.520"
+      ],
+      "terms": [
+        "Continuous Wave Laser",
+        "Continuous Wave Lasers",
+        "Laser",
+        "Laser, Continuous Wave",
+        "Laser, Pulsed",
+        "Laser, Q-Switched",
+        "Lasers",
+        "Lasers, Continuous Wave",
+        "Lasers, Pulsed",
+        "Lasers, Q-Switched",
+        "Maser",
+        "Masers",
+        "Pulsed Laser",
+        "Pulsed Lasers",
+        "Q Switched Lasers",
+        "Q-Switched Laser",
+        "Q-Switched Lasers"
+      ]
+    },
+    "D007909": {
+      "label": "Lenses",
+      "tree_numbers": [
+        "E07.632.500"
+      ],
+      "terms": [
+        "Lenses"
+      ]
+    },
+    "D007910": {
+      "label": "Lenses, Intraocular",
+      "tree_numbers": [
+        "E07.632.500.460",
+        "E07.695.460"
+      ],
+      "terms": [
+        "Contact Lens, Implantable",
+        "Implantable Contact Lens",
+        "Intraocular Lens",
+        "Intraocular Lenses",
+        "Lens, Implantable Contact",
+        "Lens, Intraocular",
+        "Lenses, Intraocular"
+      ]
+    },
+    "D008341": {
+      "label": "Mandibular Prosthesis",
+      "tree_numbers": [
+        "E07.695.510.500"
+      ],
+      "terms": [
+        "Mandibular Prostheses",
+        "Mandibular Prosthesis",
+        "Prostheses, Mandibular",
+        "Prosthesis, Mandibular"
+      ]
+    },
+    "D008397": {
+      "label": "Masks",
+      "tree_numbers": [
+        "E07.325.877.500",
+        "E07.700.500",
+        "E07.700.560.782",
+        "E07.858.594.750",
+        "J01.637.708.560.782"
+      ],
+      "terms": [
+        "Mask",
+        "Masks"
+      ]
+    },
+    "D008434": {
+      "label": "Matrix Bands",
+      "tree_numbers": [
+        "E06.186.501.630",
+        "E07.222.501.630"
+      ],
+      "terms": [
+        "Band, Matrix",
+        "Bands, Matrix",
+        "Matrix Band",
+        "Matrix Bands"
+      ]
+    },
+    "D008447": {
+      "label": "Maxillofacial Prosthesis",
+      "tree_numbers": [
+        "E07.695.510"
+      ],
+      "terms": [
+        "Maxillary Prostheses",
+        "Maxillary Prosthesis",
+        "Maxillofacial Prostheses",
+        "Maxillofacial Prosthesis",
+        "Prostheses, Maxillary",
+        "Prostheses, Maxillofacial",
+        "Prosthesis, Maxillary",
+        "Prosthesis, Maxillofacial"
+      ]
+    },
+    "D008839": {
+      "label": "Microelectrodes",
+      "tree_numbers": [
+        "E07.305.250.500"
+      ],
+      "terms": [
+        "Electrode, Miniaturized",
+        "Electrodes, Miniaturized",
+        "Microelectrode",
+        "Microelectrodes",
+        "Miniaturized Electrode",
+        "Miniaturized Electrodes"
+      ]
+    },
+    "D008851": {
+      "label": "Micropore Filters",
+      "tree_numbers": [
+        "E05.196.454.403",
+        "E07.560"
+      ],
+      "terms": [
+        "Filter, Micropore",
+        "Filter, Millipore",
+        "Filters, Micropore",
+        "Filters, Millipore",
+        "Micropore Filter",
+        "Micropore Filters",
+        "Millipore Filter",
+        "Millipore Filters"
+      ]
+    },
+    "D008863": {
+      "label": "Microspheres",
+      "tree_numbers": [
+        "E07.565"
+      ],
+      "terms": [
+        "Bead, Latex",
+        "Beads, Latex",
+        "Latex Bead",
+        "Latex Beads",
+        "Latex Particle",
+        "Latex Particles",
+        "Latex Sphere",
+        "Latex Spheres",
+        "Microbead",
+        "Microbeads",
+        "Microsphere",
+        "Microspheres",
+        "Particle, Latex",
+        "Particles, Latex",
+        "Sphere, Latex",
+        "Spheres, Latex"
+      ]
+    },
+    "D009064": {
+      "label": "Mouth Protectors",
+      "tree_numbers": [
+        "E06.761.599",
+        "E07.700.520",
+        "E07.700.560.813",
+        "J01.637.708.560.813"
+      ],
+      "terms": [
+        "Guard, Mouth",
+        "Guards, Mouth",
+        "Mouth Guard",
+        "Mouth Guards",
+        "Mouth Piece, Protective",
+        "Mouth Pieces, Protective",
+        "Mouth Protector",
+        "Mouth Protectors",
+        "Mouthpiece, Protective",
+        "Mouthpieces, Protective",
+        "Piece, Protective Mouth",
+        "Pieces, Protective Mouth",
+        "Protective Mouth Piece",
+        "Protective Mouth Pieces",
+        "Protective Mouthpiece",
+        "Protective Mouthpieces",
+        "Protector, Mouth",
+        "Protectors, Mouth"
+      ]
+    },
+    "D009330": {
+      "label": "Nebulizers and Vaporizers",
+      "tree_numbers": [
+        "E07.605"
+      ],
+      "terms": [
+        "Atomizer",
+        "Atomizers",
+        "Device, Inhalation",
+        "Devices, Inhalation",
+        "Inhalation Device",
+        "Inhalation Devices",
+        "Inhalator",
+        "Inhalators",
+        "Inhaler",
+        "Inhalers",
+        "Nebulizer",
+        "Nebulizers",
+        "Nebulizers and Vaporizers",
+        "Vaporizer",
+        "Vaporizers",
+        "Vaporizers and Nebulizers"
+      ]
+    },
+    "D009339": {
+      "label": "Needles",
+      "tree_numbers": [
+        "E07.612"
+      ],
+      "terms": [
+        "Hypodermic Needle",
+        "Hypodermic Needles",
+        "Needle",
+        "Needle, Hypodermic",
+        "Needles",
+        "Needles, Hypodermic"
+      ]
+    },
+    "D009688": {
+      "label": "Nuclear Reactors",
+      "tree_numbers": [
+        "E07.710.600"
+      ],
+      "terms": [
+        "Nuclear Reactor",
+        "Nuclear Reactors",
+        "Reactor, Nuclear",
+        "Reactors, Nuclear"
+      ]
+    },
+    "D009772": {
+      "label": "Obstetrical Forceps",
+      "tree_numbers": [
+        "E07.858.700.650"
+      ],
+      "terms": [
+        "Forcep, Obstetric",
+        "Forcep, Obstetrical",
+        "Forceps, Obstetric",
+        "Forceps, Obstetrical",
+        "Obstetric Forcep",
+        "Obstetric Forceps",
+        "Obstetrical Forcep",
+        "Obstetrical Forceps"
+      ]
+    },
+    "D009779": {
+      "label": "Occlusive Dressings",
+      "tree_numbers": [
+        "E07.101.650"
+      ],
+      "terms": [
+        "Bandage, Occlusive",
+        "Bandages, Occlusive",
+        "Dressing, Occlusive",
+        "Dressing, Spray-On",
+        "Dressings, Occlusive",
+        "Dressings, Spray On",
+        "Dressings, Spray-On",
+        "Occlusive Bandage",
+        "Occlusive Bandages",
+        "Occlusive Dressing",
+        "Occlusive Dressings",
+        "Spray-On Dressing",
+        "Spray-On Dressings"
+      ]
+    },
+    "D009983": {
+      "label": "Orthopedic Equipment",
+      "tree_numbers": [
+        "E07.858.442"
+      ],
+      "terms": [
+        "Equipment, Orthopedic",
+        "Equipments, Orthopedic",
+        "Orthopedic Equipment",
+        "Orthopedic Equipments"
+      ]
+    },
+    "D009984": {
+      "label": "Orthopedic Fixation Devices",
+      "tree_numbers": [
+        "E07.858.442.660",
+        "E07.858.690.725"
+      ],
+      "terms": [
+        "Device, Orthopedic Fixation",
+        "Devices, Orthopedic Fixation",
+        "Fixation Device, Orthopedic",
+        "Fixation Devices, Orthopedic",
+        "Orthopedic Fixation Device",
+        "Orthopedic Fixation Devices"
+      ]
+    },
+    "D009989": {
+      "label": "Orthotic Devices",
+      "tree_numbers": [
+        "E07.858.442.743"
+      ],
+      "terms": [
+        "Device, Orthotic",
+        "Devices, Orthotic",
+        "Orthose",
+        "Orthoses",
+        "Orthosis",
+        "Orthotic Device",
+        "Orthotic Devices",
+        "Parapodium",
+        "Parapodiums"
+      ]
+    },
+    "D009998": {
+      "label": "Ossicular Prosthesis",
+      "tree_numbers": [
+        "E07.695.550"
+      ],
+      "terms": [
+        "Ear Implant, Middle",
+        "Ear Implants, Middle",
+        "Implant, Middle Ear",
+        "Implant, Ossicular Replacement",
+        "Implants, Middle Ear",
+        "Implants, Ossicular Replacement",
+        "Middle Ear Implant",
+        "Middle Ear Implants",
+        "Ossicular Prostheses",
+        "Ossicular Prosthesis",
+        "Ossicular Replacement Implant",
+        "Ossicular Replacement Implants",
+        "Ossicular Replacement Prosthese",
+        "Ossicular Replacement Prostheses",
+        "Ossicular Replacement Prosthesis",
+        "PORP",
+        "Prostheses, Ossicular",
+        "Prostheses, Ossicular Replacement",
+        "Prosthesis, Ossicular",
+        "Prosthesis, Ossicular Replacement",
+        "Replacement Implant, Ossicular",
+        "Replacement Implants, Ossicular",
+        "Replacement Prostheses, Ossicular",
+        "Replacement Prosthesis, Ossicular",
+        "TORP"
+      ]
+    },
+    "D010106": {
+      "label": "Oxygenators",
+      "tree_numbers": [
+        "E07.652"
+      ],
+      "terms": [
+        "Oxygenator",
+        "Oxygenators"
+      ]
+    },
+    "D010107": {
+      "label": "Oxygenators, Membrane",
+      "tree_numbers": [
+        "E07.652.582"
+      ],
+      "terms": [
+        "Membrane Oxygenator",
+        "Membrane Oxygenators",
+        "Oxygenator, Membrane",
+        "Oxygenators, Membrane"
+      ]
+    },
+    "D010138": {
+      "label": "Pacemaker, Artificial",
+      "tree_numbers": [
+        "E07.305.250.750"
+      ],
+      "terms": [
+        "Artificial Cardiac Pacemaker",
+        "Artificial Cardiac Pacemakers",
+        "Artificial Pacemaker",
+        "Artificial Pacemakers",
+        "Cardiac Pacemaker, Artificial",
+        "Cardiac Pacemakers, Artificial",
+        "Pacemaker, Artificial",
+        "Pacemaker, Artificial Cardiac",
+        "Pacemakers, Artificial",
+        "Pacemakers, Artificial Cardiac"
+      ]
+    },
+    "D010158": {
+      "label": "Palatal Obturators",
+      "tree_numbers": [
+        "E06.780.346.850",
+        "E07.695.190.600"
+      ],
+      "terms": [
+        "Cleft Palate Prostheses",
+        "Cleft Palate Prosthesis",
+        "Device, Nasoalveolar Molding",
+        "Devices, Nasoalveolar Molding",
+        "Molding Device, Nasoalveolar",
+        "Molding Devices, Nasoalveolar",
+        "Nasoalveolar Molding Device",
+        "Nasoalveolar Molding Devices",
+        "Obturator, Palatal",
+        "Obturators, Palatal",
+        "Palatal Obturator",
+        "Palatal Obturators",
+        "Palate Prostheses, Cleft",
+        "Palate Prosthesis, Cleft",
+        "Prostheses, Cleft Palate",
+        "Prosthesis, Cleft Palate"
+      ]
+    },
+    "D010315": {
+      "label": "Particle Accelerators",
+      "tree_numbers": [
+        "E07.710.680"
+      ],
+      "terms": [
+        "Accelerator, Linear",
+        "Accelerator, Particle",
+        "Accelerators, Linear",
+        "Accelerators, Particle",
+        "Betatron",
+        "Betatrons",
+        "Linear Accelerator",
+        "Linear Accelerators",
+        "Particle Accelerator",
+        "Particle Accelerators"
+      ]
+    },
+    "D010357": {
+      "label": "Patient Isolators",
+      "tree_numbers": [
+        "E07.325.755"
+      ],
+      "terms": [
+        "Isolator, Patient",
+        "Isolators, Patient",
+        "Life Island",
+        "Life Islands",
+        "Negative Pressure Pods",
+        "Negative Pressure Rooms",
+        "Negative Pressure Wards",
+        "Negative-Pressure Pod",
+        "Negative-Pressure Pods",
+        "Negative-Pressure Room",
+        "Negative-Pressure Rooms",
+        "Negative-Pressure Ward",
+        "Negative-Pressure Wards",
+        "Patient Isolator",
+        "Patient Isolators",
+        "Room, Negative-Pressure",
+        "Ward, Negative-Pressure"
+      ]
+    },
+    "D010515": {
+      "label": "Periodontal Prosthesis",
+      "tree_numbers": [
+        "E06.721.721",
+        "E07.695.190.610"
+      ],
+      "terms": [
+        "Periodontal Prostheses",
+        "Periodontal Prosthesis",
+        "Prostheses, Periodontal",
+        "Prosthesis, Periodontal"
+      ]
+    },
+    "D010570": {
+      "label": "Pessaries",
+      "tree_numbers": [
+        "E07.858.499"
+      ],
+      "terms": [
+        "Pessaries",
+        "Pessary"
+      ]
+    },
+    "D011176": {
+      "label": "Post and Core Technique",
+      "tree_numbers": [
+        "E06.780.346.250.500",
+        "E07.695.190.088.500"
+      ],
+      "terms": [
+        "Dental Dowel",
+        "Dental Dowels",
+        "Dowel, Dental",
+        "Dowels, Dental",
+        "Post Technic",
+        "Post Technics",
+        "Post Technique",
+        "Post Techniques",
+        "Post and Core Technic",
+        "Post and Core Technique",
+        "Post-Core Technic",
+        "Post-Core Technics",
+        "Technic, Post",
+        "Technic, Post-Core",
+        "Technics, Post",
+        "Technics, Post-Core",
+        "Technique, Post",
+        "Techniques, Post"
+      ]
+    },
+    "D011211": {
+      "label": "Electric Power Supplies",
+      "tree_numbers": [
+        "E07.305.124"
+      ],
+      "terms": [
+        "Electric Power Source",
+        "Electric Power Sources",
+        "Electric Power Supplies",
+        "Electric Power Supply",
+        "Power Source",
+        "Power Source, Electric",
+        "Power Sources",
+        "Power Sources, Electric",
+        "Power Supplies",
+        "Power Supplies, Electric",
+        "Power Supply",
+        "Power Supply, Electric",
+        "Supply, Electric Power"
+      ]
+    },
+    "D011474": {
+      "label": "Prosthesis Design",
+      "tree_numbers": [
+        "E05.320.550",
+        "E07.695.680"
+      ],
+      "terms": [
+        "Design, Prosthesis",
+        "Designs, Prosthesis",
+        "Prosthesis Design",
+        "Prosthesis Designs"
+      ]
+    },
+    "D011481": {
+      "label": "Protective Clothing",
+      "tree_numbers": [
+        "E07.700.560.875",
+        "E07.700.600",
+        "J01.637.215.600",
+        "J01.637.708.560.875"
+      ],
+      "terms": [
+        "Clothing, Protective",
+        "Protective Clothing"
+      ]
+    },
+    "D011482": {
+      "label": "Protective Devices",
+      "tree_numbers": [
+        "E07.700",
+        "J01.637.708"
+      ],
+      "terms": [
+        "Device, Protective",
+        "Device, Safety",
+        "Devices, Protective",
+        "Devices, Safety",
+        "Protective Device",
+        "Protective Devices",
+        "Safety Device",
+        "Safety Devices"
+      ]
+    },
+    "D011876": {
+      "label": "Radionuclide Generators",
+      "tree_numbers": [
+        "E07.710.770"
+      ],
+      "terms": [
+        "Generator, Radioisotope",
+        "Generator, Radionuclide",
+        "Generators, Radioisotope",
+        "Generators, Radionuclide",
+        "Radioisotope Generator",
+        "Radioisotope Generators",
+        "Radionuclide Generator",
+        "Radionuclide Generators"
+      ]
+    },
+    "D011933": {
+      "label": "Reagent Kits, Diagnostic",
+      "tree_numbers": [
+        "D27.505.259.875",
+        "D27.720.470.410.680",
+        "E07.720"
+      ],
+      "terms": [
+        "Diagnostic Reagent Kit",
+        "Diagnostic Reagent Kits",
+        "Diagnostic Reagents and Test Kits",
+        "Diagnostic Test Kit",
+        "Diagnostic Test Kits",
+        "In Vitro Diagnostic Device",
+        "In Vitro Diagnostic Devices",
+        "In Vitro Diagnostic Medical Device",
+        "In Vitro Diagnostic Medical Devices",
+        "Kit, Diagnostic Reagent",
+        "Kit, Diagnostic Test",
+        "Kits, Diagnostic Reagent",
+        "Kits, Diagnostic Test",
+        "Reagent Kit, Diagnostic",
+        "Reagent Kits, Diagnostic",
+        "Test Kit, Diagnostic",
+        "Test Kits, Diagnostic"
+      ]
+    },
+    "D011934": {
+      "label": "Reagent Strips",
+      "tree_numbers": [
+        "D27.505.259.875.680",
+        "D27.720.470.410.680.680",
+        "E07.720.720"
+      ],
+      "terms": [
+        "Reagent Strip",
+        "Reagent Strips",
+        "Strip, Reagent",
+        "Strips, Reagent"
+      ]
+    },
+    "D012122": {
+      "label": "Ventilators, Mechanical",
+      "tree_numbers": [
+        "E07.950"
+      ],
+      "terms": [
+        "Mechanical Ventilator",
+        "Mechanical Ventilators",
+        "Pulmonary Ventilator",
+        "Pulmonary Ventilators",
+        "Respirator",
+        "Respirators",
+        "Ventilator",
+        "Ventilator, Mechanical",
+        "Ventilator, Pulmonary",
+        "Ventilators",
+        "Ventilators, Mechanical",
+        "Ventilators, Pulmonary"
+      ]
+    },
+    "D012134": {
+      "label": "Respiratory Protective Devices",
+      "tree_numbers": [
+        "E07.700.560.937",
+        "E07.700.700",
+        "J01.637.708.560.937"
+      ],
+      "terms": [
+        "Air-Purifying Respirator",
+        "Air-Purifying Respirators",
+        "Device, Respiratory Protective",
+        "Devices, Respiratory Protective",
+        "Gas Mask",
+        "Gas Masks",
+        "Industrial Respirator",
+        "Industrial Respirators",
+        "Mask, Gas",
+        "Masks, Gas",
+        "Protective Device, Respiratory",
+        "Protective Devices, Respiratory",
+        "Respirator, Air-Purifying",
+        "Respirator, Industrial",
+        "Respirators, Air Purifying",
+        "Respirators, Air-Purifying",
+        "Respirators, Industrial",
+        "Respiratory Protective Device",
+        "Respiratory Protective Devices"
+      ]
+    },
+    "D012622": {
+      "label": "Seat Belts",
+      "tree_numbers": [
+        "E07.700.800"
+      ],
+      "terms": [
+        "Belt, Seat",
+        "Belts, Seat",
+        "Seat Belt",
+        "Seat Belts"
+      ]
+    },
+    "D012656": {
+      "label": "Self-Help Devices",
+      "tree_numbers": [
+        "E07.796"
+      ],
+      "terms": [
+        "Assistive Device",
+        "Assistive Devices",
+        "Assistive Technologies",
+        "Assistive Technology",
+        "Device, Assistive",
+        "Device, Self-Help",
+        "Devices, Assistive",
+        "Devices, Self-Help",
+        "Self Help Devices",
+        "Self-Help Device",
+        "Self-Help Devices",
+        "Technologies, Assistive",
+        "Technology, Assistive"
+      ]
+    },
+    "D012666": {
+      "label": "Semiconductors",
+      "tree_numbers": [
+        "E07.305.625"
+      ],
+      "terms": [
+        "Semiconductor",
+        "Semiconductors"
+      ]
+    },
+    "D012682": {
+      "label": "Sensory Aids",
+      "tree_numbers": [
+        "E07.814"
+      ],
+      "terms": [
+        "Aid, Sensory",
+        "Aids, Sensory",
+        "Sensory Aid",
+        "Sensory Aids"
+      ]
+    },
+    "D013165": {
+      "label": "Splints",
+      "tree_numbers": [
+        "E07.858.442.660.430.750",
+        "E07.858.690.725.430.750"
+      ],
+      "terms": [
+        "Dynamic Orthoses",
+        "Dynamic Splint",
+        "Dynamic Splinting",
+        "Dynamic Splintings",
+        "Dynamic Splints",
+        "Splint",
+        "Splint, Dynamic",
+        "Splint, Static",
+        "Splinting, Dynamic",
+        "Splinting, Static",
+        "Splints",
+        "Splints, Dynamic",
+        "Splints, Static",
+        "Static Orthose",
+        "Static Orthoses",
+        "Static Splint",
+        "Static Splinting",
+        "Static Splints"
+      ]
+    },
+    "D013523": {
+      "label": "Surgical Equipment",
+      "tree_numbers": [
+        "E07.858"
+      ],
+      "terms": [
+        "Equipment, Surgical",
+        "Equipments, Surgical",
+        "Surgical Equipment",
+        "Surgical Equipments"
+      ]
+    },
+    "D013524": {
+      "label": "Surgical Flaps",
+      "tree_numbers": [
+        "A10.850.710",
+        "E07.862.710"
+      ],
+      "terms": [
+        "Flap, Island",
+        "Flap, Pedicled",
+        "Flap, Surgical",
+        "Flaps, Island",
+        "Flaps, Pedicled",
+        "Flaps, Surgical",
+        "Island Flap",
+        "Island Flaps",
+        "Pedicled Flap",
+        "Pedicled Flaps",
+        "Surgical Flap",
+        "Surgical Flaps"
+      ]
+    },
+    "D013525": {
+      "label": "Surgical Instruments",
+      "tree_numbers": [
+        "E07.858.700"
+      ],
+      "terms": [
+        "Clamp, Surgical",
+        "Clamps, Surgical",
+        "Clip",
+        "Clip, Surgical",
+        "Clip, Tantalum",
+        "Clips",
+        "Clips, Surgical",
+        "Clips, Tantalum",
+        "Forcep",
+        "Forceps",
+        "Hook, Surgical",
+        "Hooks, Surgical",
+        "Instrument, Surgical",
+        "Instruments, Surgical",
+        "Plug, Surgical",
+        "Plugs, Surgical",
+        "Scissors, Surgical",
+        "Speculum",
+        "Speculums",
+        "Surgical Clamp",
+        "Surgical Clamps",
+        "Surgical Clip",
+        "Surgical Clips",
+        "Surgical Hook",
+        "Surgical Hooks",
+        "Surgical Instrument",
+        "Surgical Instruments",
+        "Surgical Plug",
+        "Surgical Plugs",
+        "Surgical Scissors",
+        "Surgical Valve",
+        "Surgical Valves",
+        "Tantalum Clip",
+        "Tantalum Clips",
+        "Trocar",
+        "Trocars",
+        "Valve, Surgical",
+        "Valves, Surgical"
+      ]
+    },
+    "D013526": {
+      "label": "Surgical Mesh",
+      "tree_numbers": [
+        "E07.858.708"
+      ],
+      "terms": [
+        "Mesh, Surgical",
+        "Meshes, Surgical",
+        "Surgical Mesh",
+        "Surgical Meshes"
+      ]
+    },
+    "D013528": {
+      "label": "Surgical Staplers",
+      "tree_numbers": [
+        "E07.858.700.750"
+      ],
+      "terms": [
+        "Stapler, Surgical",
+        "Staplers, Surgical",
+        "Surgical Stapler",
+        "Surgical Staplers"
+      ]
+    },
+    "D013537": {
+      "label": "Sutures",
+      "tree_numbers": [
+        "E07.858.690.820"
+      ],
+      "terms": [
+        "Staple, Surgical",
+        "Staples, Surgical",
+        "Surgical Staple",
+        "Surgical Staples",
+        "Suture",
+        "Sutures"
+      ]
+    },
+    "D013594": {
+      "label": "Syringes",
+      "tree_numbers": [
+        "E07.877"
+      ],
+      "terms": [
+        "Hypodermic Syringe",
+        "Hypodermic Syringes",
+        "Karman Syringe",
+        "Syringe",
+        "Syringe, Hypodermic",
+        "Syringe, Karman",
+        "Syringes",
+        "Syringes, Hypodermic"
+      ]
+    },
+    "D013630": {
+      "label": "Tampons, Surgical",
+      "tree_numbers": [
+        "E07.858.826"
+      ],
+      "terms": [
+        "Surgical Tampon",
+        "Surgical Tampons",
+        "Tampon, Surgical",
+        "Tampons, Surgical"
+      ]
+    },
+    "D013821": {
+      "label": "Thermometers",
+      "tree_numbers": [
+        "E07.900"
+      ],
+      "terms": [
+        "Thermometer",
+        "Thermometers"
+      ]
+    },
+    "D014014": {
+      "label": "Tissue Adhesives",
+      "tree_numbers": [
+        "D25.919",
+        "D27.720.102.919",
+        "E07.858.690.860",
+        "J01.637.051.919"
+      ],
+      "terms": [
+        "Adhesive, Tissue",
+        "Adhesives, Tissue",
+        "Tissue Adhesive",
+        "Tissue Adhesives"
+      ]
+    },
+    "D014093": {
+      "label": "Tooth, Artificial",
+      "tree_numbers": [
+        "E06.780.346.875",
+        "E07.695.190.800"
+      ],
+      "terms": [
+        "Artificial Teeth",
+        "Artificial Tooth",
+        "Teeth, Artificial",
+        "Tooth, Artificial"
+      ]
+    },
+    "D014111": {
+      "label": "Tourniquets",
+      "tree_numbers": [
+        "E07.926"
+      ],
+      "terms": [
+        "Tourniquet",
+        "Tourniquets"
+      ]
+    },
+    "D014159": {
+      "label": "Transducers",
+      "tree_numbers": [
+        "E07.305.812"
+      ],
+      "terms": [
+        "Transducer",
+        "Transducers"
+      ]
+    },
+    "D014160": {
+      "label": "Transducers, Pressure",
+      "tree_numbers": [
+        "E07.305.812.901"
+      ],
+      "terms": [
+        "Pressure Transducer",
+        "Pressure Transducers",
+        "Transducer, Pressure",
+        "Transducers, Pressure"
+      ]
+    },
+    "D014173": {
+      "label": "Transistors, Electronic",
+      "tree_numbers": [
+        "E07.305.625.714"
+      ],
+      "terms": [
+        "Electronic Transistor",
+        "Electronic Transistors",
+        "Transistor, Electronic",
+        "Transistors, Electronic"
+      ]
+    },
+    "D014340": {
+      "label": "Trusses",
+      "tree_numbers": [
+        "E07.858.925"
+      ],
+      "terms": [
+        "Trusses"
+      ]
+    },
+    "D014622": {
+      "label": "Vaginal Creams, Foams, and Jellies",
+      "tree_numbers": [
+        "D26.255.955",
+        "E07.357.750"
+      ],
+      "terms": [
+        "Cream, Vaginal",
+        "Creams, Vaginal",
+        "Foam, Vaginal",
+        "Foams, Vaginal",
+        "Gel, Vaginal",
+        "Gels, Vaginal",
+        "Jellies, Vaginal",
+        "Jelly, Vaginal",
+        "Tablet, Vaginal",
+        "Tablets, Vaginal",
+        "Vaginal Cream",
+        "Vaginal Creams",
+        "Vaginal Creams, Foams and Jellies",
+        "Vaginal Creams, Foams, and Jellies",
+        "Vaginal Foam",
+        "Vaginal Foams",
+        "Vaginal Gel",
+        "Vaginal Gels",
+        "Vaginal Jellies",
+        "Vaginal Jelly",
+        "Vaginal Tablet",
+        "Vaginal Tablets"
+      ]
+    },
+    "D014853": {
+      "label": "Walkers",
+      "tree_numbers": [
+        "E07.858.442.980"
+      ],
+      "terms": [
+        "Walker",
+        "Walkers"
+      ]
+    },
+    "D014910": {
+      "label": "Wheelchairs",
+      "tree_numbers": [
+        "E07.796.980"
+      ],
+      "terms": [
+        "Chair, Wheel",
+        "Chairs, Wheel",
+        "Wheel Chair",
+        "Wheel Chairs",
+        "Wheelchair",
+        "Wheelchairs"
+      ]
+    },
+    "D014962": {
+      "label": "X-Ray Film",
+      "tree_numbers": [
+        "E07.960"
+      ],
+      "terms": [
+        "Film, Radiographic",
+        "Film, X Ray",
+        "Film, X-Ray",
+        "Film, Xray",
+        "Films, Radiographic",
+        "Films, X-Ray",
+        "Films, Xray",
+        "Radiographic Film",
+        "Radiographic Films",
+        "X Ray Film",
+        "X-Ray Film",
+        "X-Ray Films",
+        "Xray Film",
+        "Xray Films"
+      ]
+    },
+    "D014963": {
+      "label": "X-Ray Intensifying Screens",
+      "tree_numbers": [
+        "E07.970"
+      ],
+      "terms": [
+        "Film Screen Systems, X Ray",
+        "Film-Screen System, X-Ray",
+        "Film-Screen Systems, X-Ray",
+        "Intensifying Screen, Radiographic",
+        "Intensifying Screen, X-Ray",
+        "Intensifying Screen, Xray",
+        "Intensifying Screens, Radiographic",
+        "Intensifying Screens, X-Ray",
+        "Intensifying Screens, Xray",
+        "Radiographic Intensifying Screen",
+        "Radiographic Intensifying Screens",
+        "Screen Film Systems, X Ray",
+        "Screen, Radiographic Intensifying",
+        "Screen, X-Ray Intensifying",
+        "Screen, Xray Intensifying",
+        "Screen-Film System, X-Ray",
+        "Screen-Film Systems, X-Ray",
+        "Screens, Radiographic Intensifying",
+        "Screens, X-Ray Intensifying",
+        "Screens, Xray Intensifying",
+        "System, X-Ray Film-Screen",
+        "System, X-Ray Screen-Film",
+        "Systems, X-Ray Film-Screen",
+        "Systems, X-Ray Screen-Film",
+        "X Ray Film Screen Systems",
+        "X Ray Intensifying Screens",
+        "X-Ray Film-Screen System",
+        "X-Ray Film-Screen Systems",
+        "X-Ray Intensifying Screen",
+        "X-Ray Intensifying Screens",
+        "X-Ray Screen-Film System",
+        "X-Ray Screen-Film Systems",
+        "Xray Intensifying Screen",
+        "Xray Intensifying Screens"
+      ]
+    },
+    "D015194": {
+      "label": "Diffusion Chambers, Culture",
+      "tree_numbers": [
+        "E07.241"
+      ],
+      "terms": [
+        "Cage, Tissue",
+        "Cages, Tissue",
+        "Chamber, Culture Diffusion",
+        "Chamber, Semi-Permeable",
+        "Chamber, Semipermeable",
+        "Chambers, Culture Diffusion",
+        "Chambers, Semi-Permeable",
+        "Chambers, Semipermeable",
+        "Culture Diffusion Chamber",
+        "Culture Diffusion Chambers",
+        "Diffusion Chamber, Culture",
+        "Diffusion Chambers, Culture",
+        "Semi Permeable Chambers",
+        "Semi-Permeable Chamber",
+        "Semi-Permeable Chambers",
+        "Semipermeable Chamber",
+        "Semipermeable Chambers",
+        "Tissue Cage",
+        "Tissue Cages"
+      ]
+    },
+    "D015370": {
+      "label": "Infant Equipment",
+      "tree_numbers": [
+        "E07.490"
+      ],
+      "terms": [
+        "Baby Equipment",
+        "Baby Stroller",
+        "Baby Strollers",
+        "Baby Swing",
+        "Baby Swings",
+        "Baby Walker",
+        "Baby Walkers",
+        "Chair, High",
+        "Chairs, High",
+        "Crib",
+        "Cribs",
+        "Equipment, Baby",
+        "Equipment, Infant",
+        "Furniture, Infant",
+        "High Chair",
+        "High Chairs",
+        "Infant Equipment",
+        "Infant Furniture",
+        "Infant Stroller",
+        "Infant Strollers",
+        "Infant Swing",
+        "Infant Swings",
+        "Infant Walker",
+        "Infant Walkers",
+        "Stroller, Baby",
+        "Stroller, Infant",
+        "Strollers, Baby",
+        "Strollers, Infant",
+        "Swing, Baby",
+        "Swing, Infant",
+        "Swings, Baby",
+        "Swings, Infant",
+        "Walker, Baby",
+        "Walker, Infant",
+        "Walkers, Baby",
+        "Walkers, Infant"
+      ]
+    },
+    "D015503": {
+      "label": "Surgical Sponges",
+      "tree_numbers": [
+        "E07.858.740"
+      ],
+      "terms": [
+        "Sponge, Surgical",
+        "Sponges, Surgical",
+        "Surgical Sponge",
+        "Surgical Sponges"
+      ]
+    },
+    "D015505": {
+      "label": "Chest Tubes",
+      "tree_numbers": [
+        "E07.858.150"
+      ],
+      "terms": [
+        "Chest Tube",
+        "Chest Tubes",
+        "Tube, Chest",
+        "Tubes, Chest"
+      ]
+    },
+    "D015607": {
+      "label": "Stents",
+      "tree_numbers": [
+        "E07.695.750"
+      ],
+      "terms": [
+        "Stent",
+        "Stents"
+      ]
+    },
+    "D015625": {
+      "label": "Tissue Expansion Devices",
+      "tree_numbers": [
+        "E07.695.800",
+        "E07.858.886"
+      ],
+      "terms": [
+        "Device, Tissue Expansion",
+        "Devices, Tissue Expansion",
+        "Expander, Tissue",
+        "Expander, Vacuum Tissue",
+        "Expanders, Tissue",
+        "Expanders, Vacuum Tissue",
+        "Tissue Expander",
+        "Tissue Expander, Vacuum",
+        "Tissue Expanders",
+        "Tissue Expanders, Vacuum",
+        "Tissue Expansion Device",
+        "Tissue Expansion Devices",
+        "Vacuum Tissue Expander",
+        "Vacuum Tissue Expanders"
+      ]
+    },
+    "D015898": {
+      "label": "Tomography Scanners, X-Ray Computed",
+      "tree_numbers": [
+        "E07.913"
+      ],
+      "terms": [
+        "CAT Scanner, X Ray",
+        "CAT Scanner, X-Ray",
+        "CAT Scanners, X Ray",
+        "CAT Scanners, X-Ray",
+        "CT Scanner, X Ray",
+        "CT Scanner, X-Ray",
+        "CT Scanners, X-Ray",
+        "Computed Tomography Scanner, X Ray",
+        "Computed Tomography Scanner, X-Ray",
+        "Computed Tomography Scanners, X Ray",
+        "Computed Tomography Scanners, X-Ray",
+        "Scanner, X-Ray CAT",
+        "Scanner, X-Ray CT",
+        "Scanners, X-Ray CAT",
+        "Scanners, X-Ray CT",
+        "Tomography Scanners, X Ray Computed",
+        "Tomography Scanners, X-Ray Computed",
+        "Tomography, Computed, Scanners",
+        "Tomography, X-Ray Computed, Scanner",
+        "Tomography, X-Ray Computed, Scanners",
+        "X Ray Computed Tomography Scanner",
+        "X Ray Computed Tomography Scanners",
+        "X-Ray CAT Scanner",
+        "X-Ray CAT Scanners",
+        "X-Ray CT Scanner",
+        "X-Ray CT Scanners",
+        "X-Ray Computed Tomography Scanner",
+        "X-Ray Computed Tomography Scanners"
+      ]
+    },
+    "D015902": {
+      "label": "Gamma Cameras",
+      "tree_numbers": [
+        "E07.420"
+      ],
+      "terms": [
+        "Camera, Gamma",
+        "Camera, Nuclear",
+        "Camera, Scintillation",
+        "Cameras, Gamma",
+        "Cameras, Nuclear",
+        "Cameras, Scintillation",
+        "Gamma Camera",
+        "Gamma Cameras",
+        "Nuclear Camera",
+        "Nuclear Cameras",
+        "Scinti Cameras",
+        "Scinti-Camera",
+        "Scinti-Cameras",
+        "Scintillation Camera",
+        "Scintillation Cameras"
+      ]
+    },
+    "D015905": {
+      "label": "Gastric Balloon",
+      "tree_numbers": [
+        "E07.430"
+      ],
+      "terms": [
+        "Ballobes Balloon",
+        "Ballobes Balloons",
+        "Balloon, Ballobes",
+        "Balloon, Gastric",
+        "Balloons, Ballobes",
+        "Balloons, Gastric",
+        "Bubble, Garren-Edwards Gastric",
+        "Bubble, Gastric",
+        "Bubbles, Gastric",
+        "Garren Edwards Gastric Bubble",
+        "Garren-Edwards Gastric Bubble",
+        "Gastric Balloon",
+        "Gastric Balloons",
+        "Gastric Bubble",
+        "Gastric Bubble, Garren-Edwards",
+        "Gastric Bubbles"
+      ]
+    },
+    "D015917": {
+      "label": "Penile Prosthesis",
+      "tree_numbers": [
+        "E07.695.610"
+      ],
+      "terms": [
+        "Artificial Penis",
+        "Implant, Penile",
+        "Implants, Penile",
+        "Penile Implant",
+        "Penile Implants",
+        "Penile Prostheses",
+        "Penile Prosthesis",
+        "Penis Prostheses",
+        "Penis Prosthesis",
+        "Penis, Artificial",
+        "Prostheses, Penile",
+        "Prostheses, Penis",
+        "Prosthesis, Penile",
+        "Prosthesis, Penis"
+      ]
+    },
+    "D015918": {
+      "label": "Infusion Pumps, Implantable",
+      "tree_numbers": [
+        "E07.505.254",
+        "E07.858.082.505.254"
+      ],
+      "terms": [
+        "Drug Delivery Systems, Implantable",
+        "Implantable Infusion Pump",
+        "Implantable Infusion Pumps",
+        "Implantable Medication Systems, Programmable",
+        "Implantable Perfusion Pump",
+        "Implantable Perfusion Pumps",
+        "Implantable Peristaltic Pump",
+        "Implantable Peristaltic Pumps",
+        "Infusion Pump, Implantable",
+        "Infusion Pumps, Implantable",
+        "Medication Systems, Programmable Implantable",
+        "Perfusion Pump, Implantable",
+        "Perfusion Pumps, Implantable",
+        "Peristaltic Pump, Implantable",
+        "Peristaltic Pumps, Implantable",
+        "Programmable Implantable Medication Systems",
+        "Pump, Implantable Infusion",
+        "Pump, Implantable Perfusion",
+        "Pump, Implantable Peristaltic",
+        "Pumps, Implantable Infusion",
+        "Pumps, Implantable Perfusion",
+        "Pumps, Implantable Peristaltic",
+        "Systems, Programmable Implantable Medication"
+      ]
+    },
+    "D015919": {
+      "label": "Ventilators, Negative-Pressure",
+      "tree_numbers": [
+        "E07.950.500"
+      ],
+      "terms": [
+        "Negative Pressure Pulmonary Ventilator",
+        "Negative Pressure Pulmonary Ventilators",
+        "Negative Pressure Ventilators",
+        "Negative-Pressure Pulmonary Ventilator",
+        "Negative-Pressure Pulmonary Ventilators",
+        "Negative-Pressure Respirator",
+        "Negative-Pressure Respirators",
+        "Negative-Pressure Ventilator",
+        "Negative-Pressure Ventilators",
+        "Pulmonary Ventilator, Negative Pressure",
+        "Pulmonary Ventilator, Negative-Pressure",
+        "Pulmonary Ventilators, Negative Pressure",
+        "Pulmonary Ventilators, Negative-Pressure",
+        "Respirator, Negative-Pressure",
+        "Respirators, Negative Pressure",
+        "Respirators, Negative-Pressure",
+        "Respirators, Pulmonary, Negative-Pressure",
+        "Tank Ventilator",
+        "Tank Ventilators",
+        "Ventilator, Negative Pressure Pulmonary",
+        "Ventilator, Negative-Pressure",
+        "Ventilator, Negative-Pressure Pulmonary",
+        "Ventilator, Tank",
+        "Ventilators, Negative Pressure",
+        "Ventilators, Negative-Pressure",
+        "Ventilators, Negative-Pressure Pulmonary",
+        "Ventilators, Pulmonary, Negative-Pressure",
+        "Ventilators, Tank"
+      ]
+    },
+    "D015920": {
+      "label": "Gas Scavengers",
+      "tree_numbers": [
+        "E07.427"
+      ],
+      "terms": [
+        "Anesthetic Gas Scavenger",
+        "Anesthetic Gas Scavengers",
+        "Gas Scavenger",
+        "Gas Scavenger, Anesthetic",
+        "Gas Scavengers",
+        "Gas Scavengers, Anesthetic",
+        "Scavenger, Anesthetic Gas",
+        "Scavenger, Gas",
+        "Scavengers, Anesthetic Gas",
+        "Scavengers, Gas"
+      ]
+    },
+    "D015921": {
+      "label": "Dental Implants",
+      "tree_numbers": [
+        "D25.339.312",
+        "E06.780.346.593",
+        "E07.695.190.183",
+        "J01.637.051.339.312"
+      ],
+      "terms": [
+        "Dental Implant",
+        "Dental Implant, Mini",
+        "Dental Implants",
+        "Dental Implants, Mini",
+        "Dental Prostheses, Surgical",
+        "Dental Prosthesis, Surgical",
+        "Implant, Dental",
+        "Implants, Dental",
+        "Mini Dental Implant",
+        "Mini Dental Implants",
+        "Prostheses, Surgical Dental",
+        "Prosthesis, Surgical Dental",
+        "Surgical Dental Prostheses",
+        "Surgical Dental Prosthesis"
+      ]
+    },
+    "D015924": {
+      "label": "Blood Pressure Monitors",
+      "tree_numbers": [
+        "E07.230.740.100"
+      ],
+      "terms": [
+        "Blood Pressure Monitor",
+        "Blood Pressure Monitors",
+        "Continuous Sphygmomanometer",
+        "Continuous Sphygmomanometers",
+        "Monitor, Blood Pressure",
+        "Monitors, Blood Pressure",
+        "Pressure Monitor, Blood",
+        "Pressure Monitors, Blood",
+        "Sphygmomanometer, Continuous",
+        "Sphygmomanometers, Continuous"
+      ]
+    },
+    "D016267": {
+      "label": "External Fixators",
+      "tree_numbers": [
+        "E07.858.442.660.430",
+        "E07.858.690.725.430"
+      ],
+      "terms": [
+        "Device, External Fixation",
+        "Devices, External Fixation",
+        "External Fixation Device",
+        "External Fixation Devices",
+        "External Fixator",
+        "External Fixators",
+        "Fixation Device, External",
+        "Fixation Devices, External",
+        "Fixator, External",
+        "Fixators, External"
+      ]
+    },
+    "D016268": {
+      "label": "Internal Fixators",
+      "tree_numbers": [
+        "E07.695.370",
+        "E07.858.442.660.460",
+        "E07.858.690.725.460"
+      ],
+      "terms": [
+        "Device, Internal Fixation",
+        "Devices, Internal Fixation",
+        "Fixation Device, Internal",
+        "Fixation Devices, Internal",
+        "Fixator, Internal",
+        "Fixators, Internal",
+        "Internal Fixation Device",
+        "Internal Fixation Devices",
+        "Internal Fixator",
+        "Internal Fixators"
+      ]
+    },
+    "D016306": {
+      "label": "Vena Cava Filters",
+      "tree_numbers": [
+        "E07.695.207.500"
+      ],
+      "terms": [
+        "Cava Filter, Vena",
+        "Cava Filters, Vena",
+        "Filter, Inferior Vena Cava",
+        "Filter, Umbrella",
+        "Filter, Vena Cava",
+        "Filters, Inferior Vena Cava",
+        "Filters, Umbrella",
+        "Filters, Vena Cava",
+        "Inferior Vena Cava Filter",
+        "Inferior Vena Cava Filters",
+        "Umbrella Filter",
+        "Umbrella Filters",
+        "Vena Cava Filter",
+        "Vena Cava Filters"
+      ]
+    },
+    "D016379": {
+      "label": "Denture, Partial, Fixed, Resin-Bonded",
+      "tree_numbers": [
+        "E06.780.346.760.943.271.260",
+        "E07.695.190.200.220.220.220"
+      ],
+      "terms": [
+        "Bridge, Maryland",
+        "Bridge, Resin-Bonded",
+        "Bridges, Resin-Bonded",
+        "Denture, Partial, Fixed, Resin-Bonded",
+        "Maryland Bridge",
+        "Resin Bonded Acid Etched Fixed Partial Denture",
+        "Resin Bonded Bridge",
+        "Resin Bonded Fixed Partial Denture",
+        "Resin-Bonded Acid-Etched Fixed Partial Denture",
+        "Resin-Bonded Bridge",
+        "Resin-Bonded Bridges",
+        "Resin-Bonded Fixed Partial Denture"
+      ]
+    },
+    "D016476": {
+      "label": "Urinary Reservoirs, Continent",
+      "tree_numbers": [
+        "A10.850.750",
+        "E07.862.750"
+      ],
+      "terms": [
+        "Colonic Urinary Reservoir",
+        "Colonic Urinary Reservoirs",
+        "Continent Urinary Reservoir",
+        "Continent Urinary Reservoirs",
+        "Reservoir, Colonic Urinary",
+        "Reservoir, Continent Urinary",
+        "Reservoirs, Colonic Urinary",
+        "Reservoirs, Continent Urinary",
+        "Urinary Reservoir, Colonic",
+        "Urinary Reservoir, Continent",
+        "Urinary Reservoirs, Colonic",
+        "Urinary Reservoirs, Continent"
+      ]
+    },
+    "D016496": {
+      "label": "Incontinence Pads",
+      "tree_numbers": [
+        "E07.325.068.500"
+      ],
+      "terms": [
+        "Incontinence Pad",
+        "Incontinence Pads",
+        "Pad, Incontinence",
+        "Pads, Incontinence"
+      ]
+    },
+    "D016733": {
+      "label": "Rubber Dams",
+      "tree_numbers": [
+        "E06.186.670",
+        "E07.222.670"
+      ],
+      "terms": [
+        "Dam, Rubber",
+        "Dams, Rubber",
+        "Rubber Dam",
+        "Rubber Dams",
+        "Rubberdam",
+        "Rubberdams"
+      ]
+    },
+    "D016734": {
+      "label": "Dental Clasps",
+      "tree_numbers": [
+        "E06.780.346.562",
+        "E07.695.190.180"
+      ],
+      "terms": [
+        "Clasp, Dental",
+        "Clasp, Denture",
+        "Clasps, Dental",
+        "Clasps, Denture",
+        "Dental Clasp",
+        "Dental Clasps",
+        "Denture Clasp",
+        "Denture Clasps"
+      ]
+    },
+    "D016741": {
+      "label": "Urinary Sphincter, Artificial",
+      "tree_numbers": [
+        "E07.695.850",
+        "E07.858.082.900"
+      ],
+      "terms": [
+        "Artificial Genitourinary Sphincter",
+        "Artificial Genitourinary Sphincters",
+        "Artificial Urinary Sphincter",
+        "Artificial Urinary Sphincters",
+        "Genitourinary Sphincter, Artificial",
+        "Genitourinary Sphincters, Artificial",
+        "Sphincter, Artificial Genitourinary",
+        "Sphincter, Artificial Urinary",
+        "Sphincters, Artificial Genitourinary",
+        "Sphincters, Artificial Urinary",
+        "Urinary Sphincter, Artificial",
+        "Urinary Sphincters, Artificial"
+      ]
+    },
+    "D016895": {
+      "label": "Culture Media, Serum-Free",
+      "tree_numbers": [
+        "D27.720.470.305.255",
+        "E07.206.255"
+      ],
+      "terms": [
+        "Culture Media, Serum Free",
+        "Culture Media, Serum-Free",
+        "Low Serum Media",
+        "Low-Serum Media",
+        "Media, Low-Serum",
+        "Media, Protein-Free",
+        "Media, Serum-Free",
+        "Media, Serum-Free Culture",
+        "Protein Free Media",
+        "Protein-Free Media",
+        "Serum Free Media",
+        "Serum-Free Culture Media",
+        "Serum-Free Media"
+      ]
+    },
+    "D017077": {
+      "label": "Culture Media, Conditioned",
+      "tree_numbers": [
+        "D27.720.470.305.250",
+        "E07.206.250"
+      ],
+      "terms": [
+        "Conditioned Culture Media",
+        "Conditioned Culture Medium",
+        "Conditioned Media",
+        "Conditioned Medium",
+        "Culture Media, Conditioned",
+        "Culture Medium, Conditioned",
+        "Media, Conditioned",
+        "Medium, Conditioned"
+      ]
+    },
+    "D017090": {
+      "label": "Occlusal Splints",
+      "tree_numbers": [
+        "E07.858.442.743.829"
+      ],
+      "terms": [
+        "Advancement Device, Mandibular",
+        "Advancement Devices, Mandibular",
+        "Advancement Splint, Mandibular",
+        "Advancement Splints, Mandibular",
+        "Dental Night Guard",
+        "Dental Night Guards",
+        "Device, Mandibular Advancement",
+        "Devices, Mandibular Advancement",
+        "Guard, Dental Night",
+        "Guards, Dental Night",
+        "Mandibular Advancement Device",
+        "Mandibular Advancement Devices",
+        "Mandibular Advancement Splint",
+        "Mandibular Advancement Splints",
+        "Night Guard, Dental",
+        "Night Guards, Dental",
+        "Occlusal Splint",
+        "Occlusal Splints",
+        "Splint, Mandibular Advancement",
+        "Splint, Occlusal",
+        "Splints, Mandibular Advancement",
+        "Splints, Occlusal"
+      ]
+    },
+    "D017147": {
+      "label": "Defibrillators, Implantable",
+      "tree_numbers": [
+        "E07.305.250.159.175",
+        "E07.305.250.319.175",
+        "E07.695.202.175"
+      ],
+      "terms": [
+        "Cardioverter Defibrillator, Implantable",
+        "Cardioverter Defibrillators, Implantable",
+        "Cardioverter-Defibrillator, Implantable",
+        "Cardioverter-Defibrillators, Implantable",
+        "Defibrillator, Implantable",
+        "Defibrillator, Implantable Cardioverter",
+        "Defibrillators, Implantable",
+        "Defibrillators, Implantable Cardioverter",
+        "Implantable Cardioverter Defibrillator",
+        "Implantable Cardioverter Defibrillators",
+        "Implantable Cardioverter-Defibrillator",
+        "Implantable Cardioverter-Defibrillators",
+        "Implantable Defibrillator",
+        "Implantable Defibrillators"
+      ]
+    },
+    "D017214": {
+      "label": "Laryngeal Masks",
+      "tree_numbers": [
+        "E02.041.500.475",
+        "E02.585.578.475",
+        "E05.497.578.475",
+        "E07.700.500.450",
+        "E07.700.560.782.450",
+        "J01.637.708.560.782.450"
+      ],
+      "terms": [
+        "Airway, Laryngeal Mask",
+        "Airways, Laryngeal Mask",
+        "Laryngeal Mask",
+        "Laryngeal Mask Airway",
+        "Laryngeal Mask Airways",
+        "Laryngeal Masks",
+        "Mask, Laryngeal",
+        "Masks, Laryngeal"
+      ]
+    },
+    "D017266": {
+      "label": "Dental Prosthesis",
+      "tree_numbers": [
+        "E06.780.346",
+        "E07.695.190"
+      ],
+      "terms": [
+        "Dental Prostheses",
+        "Dental Prosthesis",
+        "Prostheses, Dental",
+        "Prosthesis, Dental"
+      ]
+    },
+    "D017278": {
+      "label": "Air Bags",
+      "tree_numbers": [
+        "E07.700.100",
+        "J01.637.708.100"
+      ],
+      "terms": [
+        "Air Bag",
+        "Air Bags",
+        "Airbag",
+        "Airbags",
+        "Bag, Air",
+        "Bags, Air"
+      ]
+    },
+    "D017280": {
+      "label": "Condoms",
+      "tree_numbers": [
+        "E07.190.270.150"
+      ],
+      "terms": [
+        "Condom",
+        "Condom Manufacture",
+        "Condoms",
+        "Manufacture, Condom"
+      ]
+    },
+    "D017356": {
+      "label": "Synchrotrons",
+      "tree_numbers": [
+        "E07.710.680.700"
+      ],
+      "terms": [
+        "Synchrotron",
+        "Synchrotrons"
+      ]
+    },
+    "D017357": {
+      "label": "Cyclotrons",
+      "tree_numbers": [
+        "E07.710.680.250"
+      ],
+      "terms": [
+        "Cyclotron",
+        "Cyclotrons",
+        "Synchrocyclotron",
+        "Synchrocyclotrons"
+      ]
+    },
+    "D017575": {
+      "label": "Gloves, Protective",
+      "tree_numbers": [
+        "E07.700.560.875.400",
+        "E07.700.600.400",
+        "J01.637.215.600.400",
+        "J01.637.708.560.875.400"
+      ],
+      "terms": [
+        "Gloves, Protective",
+        "Protective Gloves"
+      ]
+    },
+    "D017736": {
+      "label": "Ion-Selective Electrodes",
+      "tree_numbers": [
+        "E07.305.250.471"
+      ],
+      "terms": [
+        "Electrode, Ion Selective",
+        "Electrode, Ion-Selective",
+        "Electrode, Ion-Sensitive",
+        "Electrodes, Ion Selective",
+        "Electrodes, Ion-Selective",
+        "Electrodes, Ion-Sensitive",
+        "Ion Selective Electrode",
+        "Ion Selective Electrodes",
+        "Ion Sensitive Electrode",
+        "Ion Sensitive Electrodes",
+        "Ion-Selective Electrode",
+        "Ion-Selective Electrodes",
+        "Ion-Sensitive Electrode",
+        "Ion-Sensitive Electrodes",
+        "Selective Electrode, Ion",
+        "Selective Electrodes, Ion"
+      ]
+    },
+    "D017768": {
+      "label": "Skin, Artificial",
+      "tree_numbers": [
+        "E07.858.082.800"
+      ],
+      "terms": [
+        "Artificial Skin",
+        "Artificial Skins",
+        "Skin Substitute",
+        "Skin Substitutes",
+        "Skin, Artificial",
+        "Skins, Artificial",
+        "Substitute, Skin",
+        "Substitutes, Skin"
+      ]
+    },
+    "D017797": {
+      "label": "Prosthesis Coloring",
+      "tree_numbers": [
+        "E05.320.550.550",
+        "E07.695.680.550"
+      ],
+      "terms": [
+        "Coloring, Dental Prosthesis",
+        "Coloring, Prosthesis",
+        "Dental Prosthesis Coloring",
+        "Prosthesis Coloring",
+        "Prosthesis Coloring, Dental"
+      ]
+    },
+    "D018427": {
+      "label": "Breast Implants",
+      "tree_numbers": [
+        "E07.695.140"
+      ],
+      "terms": [
+        "Breast Implant",
+        "Breast Implants",
+        "Breast Prostheses, Internal",
+        "Breast Prosthesis, Internal",
+        "Implant, Breast",
+        "Implants, Breast",
+        "Internal Breast Prostheses",
+        "Internal Breast Prosthesis",
+        "Prostheses, Internal Breast",
+        "Prosthesis, Internal Breast"
+      ]
+    },
+    "D018465": {
+      "label": "Molteno Implants",
+      "tree_numbers": [
+        "E07.695.250.500"
+      ],
+      "terms": [
+        "Implants, Molteno",
+        "Molteno Implants",
+        "Molteno Shunts",
+        "Shunts, Molteno"
+      ]
+    },
+    "D019023": {
+      "label": "Stethoscopes",
+      "tree_numbers": [
+        "E07.230.750"
+      ],
+      "terms": [
+        "Stethoscope",
+        "Stethoscopes"
+      ]
+    },
+    "D019026": {
+      "label": "Medicine Chests",
+      "tree_numbers": [
+        "E07.546"
+      ],
+      "terms": [
+        "Chest, Medicine",
+        "Chests, Medicine",
+        "Medicine Chest",
+        "Medicine Chests"
+      ]
+    },
+    "D019047": {
+      "label": "Phantoms, Imaging",
+      "tree_numbers": [
+        "E07.671"
+      ],
+      "terms": [
+        "Imaging Phantom",
+        "Imaging Phantoms",
+        "Phantom, Imaging",
+        "Phantom, Radiographic",
+        "Phantom, Radiologic",
+        "Phantoms, Imaging",
+        "Phantoms, Radiographic",
+        "Phantoms, Radiologic",
+        "Radiographic Phantom",
+        "Radiographic Phantoms",
+        "Radiologic Phantom",
+        "Radiologic Phantoms"
+      ]
+    },
+    "D019094": {
+      "label": "Dental Prosthesis, Implant-Supported",
+      "tree_numbers": [
+        "E06.780.346.706",
+        "E07.695.190.185"
+      ],
+      "terms": [
+        "Dental Prostheses, Implant-Supported",
+        "Dental Prosthesis, Implant Supported",
+        "Dental Prosthesis, Implant-Supported",
+        "Dental, Implant-Supported Prosthesis",
+        "Dentals, Implant-Supported Prosthesis",
+        "Denture, Implant Supported",
+        "Denture, Implant-Supported",
+        "Dentures, Implant-Supported",
+        "Implant Supported Dental Prosthesis",
+        "Implant Supported Denture",
+        "Implant-Supported Dental Prostheses",
+        "Implant-Supported Dental Prosthesis",
+        "Implant-Supported Denture",
+        "Implant-Supported Dentures",
+        "Implant-Supported Prosthesis Dental",
+        "Implant-Supported Prosthesis Dentals",
+        "Prostheses, Implant-Supported Dental",
+        "Prosthesis Dental, Implant Supported",
+        "Prosthesis Dental, Implant-Supported",
+        "Prosthesis Dentals, Implant-Supported",
+        "Prosthesis, Implant-Supported Dental"
+      ]
+    },
+    "D019111": {
+      "label": "Single-Use Internal Condom",
+      "tree_numbers": [
+        "E07.190.250.260"
+      ],
+      "terms": [
+        "Condom, Female",
+        "Condom, Single-Use Internal",
+        "Condoms, Female",
+        "Condoms, Single-Use Internal",
+        "Female Condom",
+        "Female Condoms",
+        "Internal Condom, Single-Use",
+        "Internal Condoms, Single-Use",
+        "Single Use Internal Condom",
+        "Single-Use Internal Condom",
+        "Single-Use Internal Condoms"
+      ]
+    },
+    "D019149": {
+      "label": "Bioreactors",
+      "tree_numbers": [
+        "E07.115",
+        "J01.897.120.115"
+      ],
+      "terms": [
+        "Bioreactor",
+        "Bioreactors",
+        "Fermentor",
+        "Fermentors"
+      ]
+    },
+    "D019164": {
+      "label": "Liver, Artificial",
+      "tree_numbers": [
+        "E07.858.082.620"
+      ],
+      "terms": [
+        "Artificial Liver",
+        "Artificial Livers",
+        "Bioartificial Liver",
+        "Bioartificial Livers",
+        "Liver, Artificial",
+        "Liver, Bioartificial",
+        "Livers, Artificial",
+        "Livers, Bioartificial"
+      ]
+    },
+    "D019250": {
+      "label": "Dental Implants, Single-Tooth",
+      "tree_numbers": [
+        "E06.780.346.593.185",
+        "E07.695.190.183.185"
+      ],
+      "terms": [
+        "Dental Implant, Single Tooth",
+        "Dental Implant, Single-Tooth",
+        "Dental Implants, Single Tooth",
+        "Dental Implants, Single-Tooth",
+        "Implant, Single Tooth Dental",
+        "Implant, Single-Tooth",
+        "Implant, Single-Tooth Dental",
+        "Implants, Single Tooth Dental",
+        "Implants, Single-Tooth",
+        "Implants, Single-Tooth Dental",
+        "Single Tooth Dental Implant",
+        "Single Tooth Dental Implants",
+        "Single Tooth Implants",
+        "Single-Tooth Dental Implant",
+        "Single-Tooth Dental Implants",
+        "Single-Tooth Implant",
+        "Single-Tooth Implants"
+      ]
+    },
+    "D019397": {
+      "label": "Pancreas, Artificial",
+      "tree_numbers": [
+        "E07.858.082.760"
+      ],
+      "terms": [
+        "Artificial Pancreas",
+        "Pancreas, Artificial"
+      ]
+    },
+    "D019442": {
+      "label": "Space Suits",
+      "tree_numbers": [
+        "E07.700.560.875.700",
+        "E07.700.600.700",
+        "J01.637.215.600.700",
+        "J01.637.708.560.875.700"
+      ],
+      "terms": [
+        "Flight Suit",
+        "Flight Suits",
+        "Space Suit",
+        "Space Suits",
+        "Spacesuit",
+        "Spacesuits",
+        "Suit, Flight",
+        "Suit, Space",
+        "Suits, Flight",
+        "Suits, Space"
+      ]
+    },
+    "D019719": {
+      "label": "Diagnostic Equipment",
+      "tree_numbers": [
+        "E07.230"
+      ],
+      "terms": [
+        "Diagnostic Equipment",
+        "Diagnostic Equipments",
+        "Equipment, Diagnostic",
+        "Equipments, Diagnostic"
+      ]
+    },
+    "D019720": {
+      "label": "Otoscopes",
+      "tree_numbers": [
+        "E07.230.550"
+      ],
+      "terms": [
+        "Otoscope",
+        "Otoscopes"
+      ]
+    },
+    "D019721": {
+      "label": "Ophthalmoscopes",
+      "tree_numbers": [
+        "E07.230.540"
+      ],
+      "terms": [
+        "Funduscope",
+        "Funduscopes",
+        "Ophthalmoscope",
+        "Ophthalmoscopes"
+      ]
+    },
+    "D019722": {
+      "label": "Sphygmomanometers",
+      "tree_numbers": [
+        "E07.230.740"
+      ],
+      "terms": [
+        "Sphygmomanometer",
+        "Sphygmomanometers"
+      ]
+    },
+    "D019723": {
+      "label": "Endoscopes",
+      "tree_numbers": [
+        "E07.230.220",
+        "E07.858.240"
+      ],
+      "terms": [
+        "Endoscope",
+        "Endoscopes"
+      ]
+    },
+    "D019736": {
+      "label": "Prostheses and Implants",
+      "tree_numbers": [
+        "E07.695"
+      ],
+      "terms": [
+        "Artificial Implant",
+        "Artificial Implants",
+        "Endoprostheses",
+        "Endoprosthesis",
+        "Implant and Prostheses",
+        "Implant, Artificial",
+        "Implant, Prosthetic",
+        "Implants and Prostheses",
+        "Implants, Artificial",
+        "Implants, Prosthetic",
+        "Prostheses",
+        "Prostheses and Implant",
+        "Prostheses and Implants",
+        "Prosthesis",
+        "Prosthetic Implant",
+        "Prosthetic Implants"
+      ]
+    },
+    "D019738": {
+      "label": "Surgically-Created Structures",
+      "tree_numbers": [
+        "A10.850",
+        "E07.862"
+      ],
+      "terms": [
+        "Structure, Surgically Created",
+        "Structure, Surgically-Created",
+        "Structures, Surgically Created",
+        "Structures, Surgically-Created",
+        "Surgically Created Structure",
+        "Surgically Created Structures",
+        "Surgically-Created Structure",
+        "Surgically-Created Structures"
+      ]
+    },
+    "D019739": {
+      "label": "Skeletal Muscle Ventricle",
+      "tree_numbers": [
+        "A10.850.700",
+        "E07.862.700"
+      ],
+      "terms": [
+        "Muscle Ventricle, Skeletal",
+        "Muscle Ventricles, Skeletal",
+        "Skeletal Muscle Ventricle",
+        "Skeletal Muscle Ventricles",
+        "Ventricle, Skeletal Muscle",
+        "Ventricles, Skeletal Muscle"
+      ]
+    },
+    "D020007": {
+      "label": "Implants, Experimental",
+      "tree_numbers": [
+        "E07.695.340"
+      ],
+      "terms": [
+        "Experimental Implant",
+        "Experimental Implants",
+        "Implant, Experimental",
+        "Implants, Experimental"
+      ]
+    },
+    "D020273": {
+      "label": "Orbital Implants",
+      "tree_numbers": [
+        "E07.695.540"
+      ],
+      "terms": [
+        "Implant, Orbital",
+        "Implants, Orbital",
+        "Orbital Implant",
+        "Orbital Implants"
+      ]
+    },
+    "D020327": {
+      "label": "Glaucoma Drainage Implants",
+      "tree_numbers": [
+        "E07.695.250"
+      ],
+      "terms": [
+        "Aqueous Humor Shunt",
+        "Aqueous Humor Shunts",
+        "Aqueous Shunt",
+        "Aqueous Shunts",
+        "Baerveldt Implant",
+        "Baerveldt Implants",
+        "Drainage Implant, Glaucoma",
+        "Drainage Implants, Glaucoma",
+        "Filtration Implant, Glaucoma",
+        "Filtration Implants, Glaucoma",
+        "Glaucoma Drainage Implant",
+        "Glaucoma Drainage Implants",
+        "Glaucoma Filtration Implant",
+        "Glaucoma Filtration Implants",
+        "Implant, Baerveldt",
+        "Implant, Glaucoma Drainage",
+        "Implant, Glaucoma Filtration",
+        "Implants, Baerveldt",
+        "Implants, Glaucoma Drainage",
+        "Implants, Glaucoma Filtration",
+        "Krupin Valve",
+        "Krupin Valves",
+        "Shunt, Aqueous",
+        "Shunt, Aqueous Humor",
+        "Shunts, Aqueous",
+        "Shunts, Aqueous Humor",
+        "Valve, Krupin",
+        "Valves, Krupin"
+      ]
+    },
+    "D020341": {
+      "label": "Absorbable Implants",
+      "tree_numbers": [
+        "E07.695.025"
+      ],
+      "terms": [
+        "Absorbable Implant",
+        "Absorbable Implants",
+        "Bioabsorbable Implant",
+        "Bioabsorbable Implants",
+        "Biodegradable Implant",
+        "Biodegradable Implants",
+        "Implant, Absorbable",
+        "Implant, Bioabsorbable",
+        "Implant, Biodegradable",
+        "Implants, Absorbable",
+        "Implants, Bioabsorbable",
+        "Implants, Biodegradable"
+      ]
+    },
+    "D020669": {
+      "label": "Fetoscopes",
+      "tree_numbers": [
+        "E07.230.220.280",
+        "E07.858.240.280"
+      ],
+      "terms": [
+        "Amnioscope",
+        "Amnioscopes",
+        "Embryoscope",
+        "Embryoscopes",
+        "Fetoscope",
+        "Fetoscopes"
+      ]
+    },
+    "D020677": {
+      "label": "Angioscopes",
+      "tree_numbers": [
+        "E07.230.220.040",
+        "E07.858.240.040"
+      ],
+      "terms": [
+        "Angioscope",
+        "Angioscopes"
+      ]
+    },
+    "D020679": {
+      "label": "Arthroscopes",
+      "tree_numbers": [
+        "E07.230.220.060",
+        "E07.858.240.060"
+      ],
+      "terms": [
+        "Arthroscope",
+        "Arthroscopes"
+      ]
+    },
+    "D020680": {
+      "label": "Bronchoscopes",
+      "tree_numbers": [
+        "E07.230.220.090",
+        "E07.858.240.090"
+      ],
+      "terms": [
+        "Bronchoscope",
+        "Bronchoscopes"
+      ]
+    },
+    "D020681": {
+      "label": "Colposcopes",
+      "tree_numbers": [
+        "E07.230.220.170",
+        "E07.858.240.170"
+      ],
+      "terms": [
+        "Colposcope",
+        "Colposcopes"
+      ]
+    },
+    "D020683": {
+      "label": "Culdoscopes",
+      "tree_numbers": [
+        "E07.230.220.180",
+        "E07.858.240.180"
+      ],
+      "terms": [
+        "Culdoscope",
+        "Culdoscopes"
+      ]
+    },
+    "D020684": {
+      "label": "Cystoscopes",
+      "tree_numbers": [
+        "E07.230.220.190",
+        "E07.858.240.190"
+      ],
+      "terms": [
+        "Cystoscope",
+        "Cystoscopes"
+      ]
+    },
+    "D020685": {
+      "label": "Colonoscopes",
+      "tree_numbers": [
+        "E07.230.220.260.160",
+        "E07.858.240.260.160"
+      ],
+      "terms": [
+        "Colonoscope",
+        "Colonoscopes"
+      ]
+    },
+    "D020694": {
+      "label": "Sigmoidoscopes",
+      "tree_numbers": [
+        "E07.230.220.260.160.800",
+        "E07.858.240.260.160.800"
+      ],
+      "terms": [
+        "Sigmoidoscope",
+        "Sigmoidoscopes"
+      ]
+    },
+    "D020698": {
+      "label": "Duodenoscopes",
+      "tree_numbers": [
+        "E07.230.220.260.200",
+        "E07.858.240.260.200"
+      ],
+      "terms": [
+        "Duodenoscope",
+        "Duodenoscopes"
+      ]
+    },
+    "D020699": {
+      "label": "Gastroscopes",
+      "tree_numbers": [
+        "E07.230.220.260.320",
+        "E07.858.240.260.320"
+      ],
+      "terms": [
+        "Gastroscope",
+        "Gastroscopes"
+      ]
+    },
+    "D020700": {
+      "label": "Proctoscopes",
+      "tree_numbers": [
+        "E07.230.220.260.680",
+        "E07.858.240.260.680"
+      ],
+      "terms": [
+        "Anoscope",
+        "Anoscopes",
+        "Proctoscope",
+        "Proctoscopes",
+        "Rectoscope",
+        "Rectoscopes"
+      ]
+    },
+    "D020701": {
+      "label": "Esophagoscopes",
+      "tree_numbers": [
+        "E07.230.220.260.260",
+        "E07.858.240.260.260"
+      ],
+      "terms": [
+        "Esophagoscope",
+        "Esophagoscopes"
+      ]
+    },
+    "D020702": {
+      "label": "Hysteroscopes",
+      "tree_numbers": [
+        "E07.230.220.390",
+        "E07.858.240.390"
+      ],
+      "terms": [
+        "Hysteroscope",
+        "Hysteroscopes",
+        "Uteroscope",
+        "Uteroscopes"
+      ]
+    },
+    "D020704": {
+      "label": "Laryngoscopes",
+      "tree_numbers": [
+        "E07.230.220.525",
+        "E07.858.240.525"
+      ],
+      "terms": [
+        "Laryngoscope",
+        "Laryngoscopes"
+      ]
+    },
+    "D020706": {
+      "label": "Laparoscopes",
+      "tree_numbers": [
+        "E07.230.220.520",
+        "E07.858.240.520"
+      ],
+      "terms": [
+        "Celioscope",
+        "Celioscopes",
+        "Laparoscope",
+        "Laparoscopes",
+        "Peritoneoscope",
+        "Peritoneoscopes"
+      ]
+    },
+    "D020707": {
+      "label": "Mediastinoscopes",
+      "tree_numbers": [
+        "E07.230.220.565",
+        "E07.858.240.565"
+      ],
+      "terms": [
+        "Mediastinoscope",
+        "Mediastinoscopes"
+      ]
+    },
+    "D020708": {
+      "label": "Thoracoscopes",
+      "tree_numbers": [
+        "E07.230.220.850",
+        "E07.858.240.850"
+      ],
+      "terms": [
+        "Pleuroscope",
+        "Pleuroscopes",
+        "Thoracoscope",
+        "Thoracoscopes"
+      ]
+    },
+    "D020709": {
+      "label": "Ureteroscopes",
+      "tree_numbers": [
+        "E07.230.220.895",
+        "E07.858.240.895"
+      ],
+      "terms": [
+        "Ureteroscope",
+        "Ureteroscopes"
+      ]
+    },
+    "D020776": {
+      "label": "Endoscopes, Gastrointestinal",
+      "tree_numbers": [
+        "E07.230.220.260",
+        "E07.858.240.260"
+      ],
+      "terms": [
+        "Endoscope, Gastrointestinal",
+        "Endoscopes, Gastrointestinal",
+        "Gastrointestinal Endoscope",
+        "Gastrointestinal Endoscopes"
+      ]
+    },
+    "D021522": {
+      "label": "Bioartificial Organs",
+      "tree_numbers": [
+        "E07.858.082.212"
+      ],
+      "terms": [
+        "Bioartificial Organ",
+        "Bioartificial Organs",
+        "Organ, Bioartificial",
+        "Organs, Bioartificial"
+      ]
+    },
+    "D036501": {
+      "label": "Metered Dose Inhalers",
+      "tree_numbers": [
+        "E07.605.750"
+      ],
+      "terms": [
+        "Inhaler, Metered Dose",
+        "Inhalers, Metered Dose",
+        "MDI (Inhalers)",
+        "Metered Dose Inhaler",
+        "Metered Dose Inhalers",
+        "Spacer Inhaler",
+        "Spacer Inhalers",
+        "Spacer-Inhaler",
+        "Spacer-Inhalers",
+        "Spinhaler",
+        "Spinhalers"
+      ]
+    },
+    "D036503": {
+      "label": "Inhalation Spacers",
+      "tree_numbers": [
+        "E07.605.750.500"
+      ],
+      "terms": [
+        "Aerosol Holding Chamber",
+        "Aerosol Holding Chambers",
+        "Holding Chamber, Aerosol",
+        "Holding Chamber, Valved",
+        "Holding Chambers, Aerosol",
+        "Holding Chambers, Valved",
+        "Inhalation Spacer",
+        "Inhalation Spacers",
+        "Spacer, Inhalation",
+        "Spacer, Tube",
+        "Spacers, Inhalation",
+        "Spacers, Tube",
+        "Tube Spacer",
+        "Tube Spacers",
+        "Valved Holding Chamber",
+        "Valved Holding Chambers"
+      ]
+    },
+    "D038262": {
+      "label": "Auditory Brain Stem Implants",
+      "tree_numbers": [
+        "E07.305.250.319.381.500.249",
+        "E07.695.075",
+        "E07.695.202.381.500.249",
+        "E07.814.458.074"
+      ],
+      "terms": [
+        "Auditory Brain Stem Implants",
+        "Auditory Brainstem Implant",
+        "Auditory Brainstem Implants",
+        "Brain Stem Implants, Auditory",
+        "Brainstem Implant, Auditory",
+        "Brainstem Implants, Auditory",
+        "Implant, Auditory Brainstem",
+        "Implants, Auditory Brainstem"
+      ]
+    },
+    "D039021": {
+      "label": "Colonic Pouches",
+      "tree_numbers": [
+        "A10.850.200",
+        "E07.862.200"
+      ],
+      "terms": [
+        "Colonic Pouche",
+        "Colonic Pouches",
+        "Ileal Pouche",
+        "Ileal Pouches",
+        "Ileal Reservoir",
+        "Ileal Reservoirs",
+        "Ileoanal Pouches",
+        "Ileoanal Reservoir",
+        "Ileoanal Reservoirs",
+        "J Pouch",
+        "J-Pouch",
+        "Kock Pouch",
+        "Pelvic Pouches",
+        "Pouch, Kock",
+        "Pouche, Colonic",
+        "Pouche, Ileal",
+        "Pouches, Colonic",
+        "Pouches, Ileal",
+        "Pouches, Ileoanal",
+        "Pouches, Pelvic",
+        "Reservoir, Ileal",
+        "Reservoir, Ileoanal",
+        "Reservoirs, Ileal",
+        "Reservoirs, Ileoanal",
+        "S Pouch",
+        "S-Pouch",
+        "S-Pouchs",
+        "W Pouch",
+        "W-Pouch"
+      ]
+    },
+    "D041342": {
+      "label": "Absorbent Pads",
+      "tree_numbers": [
+        "E07.325.068"
+      ],
+      "terms": [
+        "Absorbent Pad",
+        "Absorbent Pads",
+        "Liner, Pants",
+        "Liners, Pants",
+        "Pad, Absorbent",
+        "Pads, Absorbent",
+        "Pants Liner",
+        "Pants Liners",
+        "Underpad",
+        "Underpads"
+      ]
+    },
+    "D041361": {
+      "label": "Pacifiers",
+      "tree_numbers": [
+        "E07.490.500"
+      ],
+      "terms": [
+        "Pacifier",
+        "Pacifiers"
+      ]
+    },
+    "D041381": {
+      "label": "Diapers, Infant",
+      "tree_numbers": [
+        "E07.325.068.249"
+      ],
+      "terms": [
+        "Diaper Pin",
+        "Diaper Pins",
+        "Diaper, Infant",
+        "Diapers, Infant",
+        "Infant Diaper",
+        "Infant Diapers",
+        "Pin, Diaper",
+        "Pins, Diaper"
+      ]
+    },
+    "D041382": {
+      "label": "Diapers, Adult",
+      "tree_numbers": [
+        "E07.325.068.124"
+      ],
+      "terms": [
+        "Adult Diaper",
+        "Adult Diapers",
+        "Diaper, Adult",
+        "Diapers, Adult"
+      ]
+    },
+    "D042261": {
+      "label": "Retinoscopes",
+      "tree_numbers": [
+        "E07.230.540.500"
+      ],
+      "terms": [
+        "Retinoscope",
+        "Retinoscopes"
+      ]
+    },
+    "D044582": {
+      "label": "Neuroendoscopes",
+      "tree_numbers": [
+        "E07.230.220.707",
+        "E07.858.240.707"
+      ],
+      "terms": [
+        "Neuroendoscope",
+        "Neuroendoscopes"
+      ]
+    },
+    "D045268": {
+      "label": "Flowmeters",
+      "tree_numbers": [
+        "E07.230.380"
+      ],
+      "terms": [
+        "Flowmeter",
+        "Flowmeters"
+      ]
+    },
+    "D045423": {
+      "label": "Microbubbles",
+      "tree_numbers": [
+        "E07.553"
+      ],
+      "terms": [
+        "Aphron, Colloidal Gas",
+        "Aphrons, Colloidal Gas",
+        "Colloidal Gas Aphron",
+        "Colloidal Gas Aphrons",
+        "Gas Aphron, Colloidal",
+        "Gas Aphrons, Colloidal",
+        "Microbubble",
+        "Microbubbles"
+      ]
+    },
+    "D045663": {
+      "label": "Quantum Dots",
+      "tree_numbers": [
+        "E07.705",
+        "J01.637.512.600.650"
+      ],
+      "terms": [
+        "Dot, Quantum",
+        "Dots, Quantum",
+        "Nanocrystal, Semiconductor",
+        "Nanocrystals, Semiconductor",
+        "Nanoparticle, Semiconductor",
+        "Nanoparticles, Semiconductor",
+        "Quantum Dot",
+        "Quantum Dots",
+        "Quantum Nano-Dots",
+        "Quantum Nanodots",
+        "Semiconductor Nanocrystal",
+        "Semiconductor Nanocrystals",
+        "Semiconductor Nanoparticle",
+        "Semiconductor Nanoparticles"
+      ]
+    },
+    "D047070": {
+      "label": "Bandages, Hydrocolloid",
+      "tree_numbers": [
+        "E07.101.074"
+      ],
+      "terms": [
+        "Bandage, Hydrocolloid",
+        "Bandage, Hydrogel",
+        "Bandages, Hydrocolloid",
+        "Bandages, Hydrogel",
+        "Dressing, Hydrocolloid",
+        "Dressings, Hydrocolloid",
+        "Duoderm",
+        "Hydrocolloid Bandage",
+        "Hydrocolloid Bandages",
+        "Hydrocolloid Dressing",
+        "Hydrocolloid Dressings",
+        "Hydrogel Bandage",
+        "Hydrogel Bandages"
+      ]
+    },
+    "D047548": {
+      "label": "Defibrillators",
+      "tree_numbers": [
+        "E07.305.250.159"
+      ],
+      "terms": [
+        "Automated External Defibrillator",
+        "Automated External Defibrillators",
+        "Defibrillator",
+        "Defibrillator, Automated External",
+        "Defibrillator, External",
+        "Defibrillators",
+        "Defibrillators, Automated External",
+        "Defibrillators, External",
+        "Electric Shock Cardiac Stimulators",
+        "External Defibrillator",
+        "External Defibrillator, Automated",
+        "External Defibrillators",
+        "External Defibrillators, Automated",
+        "Stimulators, Electrical, Cardiac, Shock"
+      ]
+    },
+    "D048228": {
+      "label": "Intermittent Pneumatic Compression Devices",
+      "tree_numbers": [
+        "E07.515"
+      ],
+      "terms": [
+        "Compression Devices, Intermittent Pneumatic",
+        "Compression Hose, Pneumatic",
+        "Compression Stocking, Pneumatic",
+        "Compression Stockings, Pneumatic",
+        "Hose, Pneumatic",
+        "Hose, Pneumatic Compression",
+        "Intermittent Pneumatic Compression Device",
+        "Intermittent Pneumatic Compression Devices",
+        "Pneumatic Compression Hose",
+        "Pneumatic Compression Stocking",
+        "Pneumatic Compression Stockings",
+        "Pneumatic Hose",
+        "Pneumatic Intermittent Impulse Device",
+        "Stocking, Pneumatic Compression",
+        "Stockings, Pneumatic Compression"
+      ]
+    },
+    "D052576": {
+      "label": "Menstrual Hygiene Products",
+      "tree_numbers": [
+        "E07.357.500"
+      ],
+      "terms": [
+        "Cup, Menstrual",
+        "Cups, Menstrual",
+        "Feminine Napkin",
+        "Feminine Napkins",
+        "Hygiene Product, Menstrual",
+        "Hygiene Products, Menstrual",
+        "Menstrual Cup",
+        "Menstrual Cups",
+        "Menstrual Hygiene Product",
+        "Menstrual Hygiene Products",
+        "Menstrual Napkin",
+        "Menstrual Napkins",
+        "Menstrual Pad",
+        "Menstrual Pads",
+        "Menstrual Product",
+        "Menstrual Products",
+        "Menstrual Tampon",
+        "Menstrual Tampons",
+        "Napkin, Feminine",
+        "Napkin, Menstrual",
+        "Napkins, Feminine",
+        "Napkins, Menstrual",
+        "Pad, Menstrual",
+        "Pads, Menstrual",
+        "Tampon, Menstrual",
+        "Tampon, Vaginal",
+        "Tampons, Menstrual",
+        "Tampons, Vaginal",
+        "Vaginal Tampon",
+        "Vaginal Tampons"
+      ]
+    },
+    "D053441": {
+      "label": "Suture Anchors",
+      "tree_numbers": [
+        "E07.695.370.734",
+        "E07.858.442.660.460.734",
+        "E07.858.690.725.460.734"
+      ],
+      "terms": [
+        "Anchor, Bone",
+        "Anchor, Suture",
+        "Anchors, Bone",
+        "Anchors, Suture",
+        "Bone Anchor",
+        "Bone Anchors",
+        "Suture Anchor",
+        "Suture Anchors"
+      ]
+    },
+    "D053566": {
+      "label": "Hygiene Products",
+      "tree_numbers": [
+        "D27.720.693.003",
+        "E07.357"
+      ],
+      "terms": [
+        "Feminine Hygiene Product",
+        "Feminine Hygiene Products",
+        "Hygiene Product, Feminine",
+        "Hygiene Products",
+        "Hygiene Products, Feminine"
+      ]
+    },
+    "D053581": {
+      "label": "Muscle Strength Dynamometer",
+      "tree_numbers": [
+        "E07.230.460"
+      ],
+      "terms": [
+        "Dynamometer, Muscle Strength",
+        "Dynamometers, Muscle Strength",
+        "Muscle Strength Dynamometer",
+        "Muscle Strength Dynamometers"
+      ]
+    },
+    "D053705": {
+      "label": "Capsule Endoscopes",
+      "tree_numbers": [
+        "E07.230.220.260.140"
+      ],
+      "terms": [
+        "Capsule Endoscope",
+        "Capsule Endoscope, Video",
+        "Capsule Endoscopes",
+        "Capsule Endoscopes, Video",
+        "Endoscope, Capsule",
+        "Endoscope, Video Capsule",
+        "Endoscopes, Capsule",
+        "Endoscopes, Video Capsule",
+        "Video Capsule Endoscope",
+        "Video Capsule Endoscopes"
+      ]
+    },
+    "D053825": {
+      "label": "Suburethral Slings",
+      "tree_numbers": [
+        "E07.695.752"
+      ],
+      "terms": [
+        "Male Sling",
+        "Male Slings",
+        "Male Urethral Sling",
+        "Male Urethral Slings",
+        "Mid Urethral Slings",
+        "Mid-Urethral Sling",
+        "Mid-Urethral Slings",
+        "Midurethral Sling",
+        "Midurethral Slings",
+        "Sling, Male",
+        "Sling, Male Urethral",
+        "Sling, Mid-Urethral",
+        "Sling, Midurethral",
+        "Sling, Suburethral",
+        "Sling, Urethral",
+        "Slings, Male",
+        "Slings, Male Urethral",
+        "Slings, Mid-Urethral",
+        "Slings, Midurethral",
+        "Slings, Suburethral",
+        "Slings, Urethral",
+        "Suburethral Sling",
+        "Suburethral Slings",
+        "Suburethral Tape, Transobturator",
+        "Suburethral Tapes, Transobturator",
+        "Tape, Tension-Free Vaginal",
+        "Tape, Tensionless Vaginal",
+        "Tape, Trans-Obturator",
+        "Tape, Transobturator",
+        "Tape, Transobturator Suburethral",
+        "Tapes, Tension-Free Vaginal",
+        "Tapes, Tensionless Vaginal",
+        "Tapes, Trans-Obturator",
+        "Tapes, Transobturator",
+        "Tapes, Transobturator Suburethral",
+        "Tension Free Vaginal Tape",
+        "Tension-Free Vaginal Tape",
+        "Tension-Free Vaginal Tapes",
+        "Tensionless Vaginal Tape",
+        "Tensionless Vaginal Tapes",
+        "Trans Obturator Tape",
+        "Trans-Obturator Tape",
+        "Trans-Obturator Tapes",
+        "Transobturator Suburethral Tape",
+        "Transobturator Suburethral Tapes",
+        "Transobturator Tape",
+        "Transobturator Tapes",
+        "Urethral Sling",
+        "Urethral Sling, Male",
+        "Urethral Slings",
+        "Urethral Slings, Male",
+        "Vaginal Tape, Tension-Free",
+        "Vaginal Tape, Tensionless",
+        "Vaginal Tapes, Tension-Free",
+        "Vaginal Tapes, Tensionless"
+      ]
+    },
+    "D053828": {
+      "label": "Stockings, Compression",
+      "tree_numbers": [
+        "E07.101.400.500"
+      ],
+      "terms": [
+        "Compression Stocking",
+        "Compression Stockings",
+        "Elastic Stocking",
+        "Elastic Stockings",
+        "Stocking, Compression",
+        "Stocking, Elastic",
+        "Stockings, Compression",
+        "Stockings, Elastic"
+      ]
+    },
+    "D053831": {
+      "label": "Surgical Fixation Devices",
+      "tree_numbers": [
+        "E07.858.690"
+      ],
+      "terms": [
+        "Device, Surgical Fixation",
+        "Devices, Surgical Fixation",
+        "Fastener, Surgical",
+        "Fasteners, Surgical",
+        "Fixation Device, Surgical",
+        "Fixation Devices, Surgical",
+        "Surgical Fastener",
+        "Surgical Fasteners",
+        "Surgical Fixation Device",
+        "Surgical Fixation Devices"
+      ]
+    },
+    "D053832": {
+      "label": "Surgical Tape",
+      "tree_numbers": [
+        "E07.858.690.800"
+      ],
+      "terms": [
+        "Adhesive Surgical Tape",
+        "Adhesive Surgical Tapes",
+        "Adhesive Tape, Surgical",
+        "Adhesive Tapes, Surgical",
+        "Skin Tape",
+        "Skin Tapes",
+        "Surgical Adhesive Tape",
+        "Surgical Adhesive Tapes",
+        "Surgical Tape",
+        "Surgical Tape, Adhesive",
+        "Surgical Tapes",
+        "Surgical Tapes, Adhesive",
+        "Tape, Adhesive Surgical",
+        "Tape, Skin",
+        "Tape, Surgical",
+        "Tape, Surgical Adhesive",
+        "Tapes, Adhesive Surgical",
+        "Tapes, Skin",
+        "Tapes, Surgical",
+        "Tapes, Surgical Adhesive"
+      ]
+    },
+    "D053844": {
+      "label": "Lasers, Solid-State",
+      "tree_numbers": [
+        "E07.632.490.490",
+        "E07.710.520.490"
+      ],
+      "terms": [
+        "Alexandrite Laser",
+        "Alexandrite Lasers",
+        "Diode Pumped Solid State Laser",
+        "Diode Pumped Solid State Lasers",
+        "Er YAG Laser",
+        "Er YAG Lasers",
+        "Er-YAG Laser",
+        "Er-YAG Lasers",
+        "Erbium Doped Yttrium Aluminum Garnet Laser",
+        "Erbium Doped Yttrium Aluminum Garnet Lasers",
+        "Erbium YAG Laser",
+        "Erbium YAG Lasers",
+        "Erbium-Doped Yttrium Aluminum Garnet Laser",
+        "Erbium-Doped Yttrium Aluminum Garnet Lasers",
+        "Ho YAG Laser",
+        "Ho YAG Lasers",
+        "Ho-YAG Laser",
+        "Ho-YAG Lasers",
+        "Holmium Doped Yttrium Aluminum Garnet Lasers",
+        "Holmium Laser",
+        "Holmium Lasers",
+        "Holmium YAG Laser",
+        "Holmium YAG Lasers",
+        "Holmium-YAG Laser",
+        "Holmium-YAG Lasers",
+        "KTP Laser",
+        "KTP Lasers",
+        "Laser, Alexandrite",
+        "Laser, Er-YAG",
+        "Laser, Erbium YAG",
+        "Laser, Ho YAG",
+        "Laser, Ho-YAG",
+        "Laser, Holmium",
+        "Laser, Holmium-YAG",
+        "Laser, KTP",
+        "Laser, Nd YAG",
+        "Laser, Nd-YAG",
+        "Laser, Ruby",
+        "Laser, Solid-State",
+        "Laser, YAG",
+        "Laser, YLF",
+        "Laser, YSGG",
+        "Laser, Yttrium-Lithium-Fluoride",
+        "Laser, Yttrium-Scandium-Gallium Garnet",
+        "Lasers, Alexandrite",
+        "Lasers, Diode Pumped Solid State",
+        "Lasers, Er YAG",
+        "Lasers, Er-YAG",
+        "Lasers, Erbium Doped Yttrium Aluminum Garnet",
+        "Lasers, Erbium YAG",
+        "Lasers, Erbium-Doped Yttrium Aluminum Garnet",
+        "Lasers, Ho YAG",
+        "Lasers, Ho-YAG",
+        "Lasers, Holmium",
+        "Lasers, Holmium Doped Yttrium Aluminum Garnet",
+        "Lasers, Holmium-YAG",
+        "Lasers, KTP",
+        "Lasers, Nd YAG",
+        "Lasers, Nd-YAG",
+        "Lasers, Neodymium Doped Yttrium Aluminum Garnet",
+        "Lasers, Neodymium-Doped Yttrium Aluminum Garnet",
+        "Lasers, Ruby",
+        "Lasers, Solid State",
+        "Lasers, Solid-State",
+        "Lasers, YAG",
+        "Lasers, YLF",
+        "Lasers, YSGG",
+        "Lasers, Yttrium Aluminum Garnet",
+        "Lasers, Yttrium Lithium Fluoride",
+        "Lasers, Yttrium-Lithium-Fluoride",
+        "Lasers, Yttrium-Scandium-Gallium Garnet",
+        "Nd YAG Laser",
+        "Nd YAG Lasers",
+        "Nd-YAG Laser",
+        "Nd-YAG Lasers",
+        "Neodymium Doped Yttrium Aluminum Garnet Laser",
+        "Neodymium Doped Yttrium Aluminum Garnet Lasers",
+        "Neodymium-Doped Yttrium Aluminum Garnet Laser",
+        "Neodymium-Doped Yttrium Aluminum Garnet Lasers",
+        "Potassium Titanyl Phosphate Laser",
+        "Potassium Titanyl Phosphate Lasers",
+        "Ruby Laser",
+        "Ruby Lasers",
+        "Solid State Laser",
+        "Solid-State Laser",
+        "Solid-State Lasers",
+        "YAG Laser",
+        "YAG Laser, Erbium",
+        "YAG Laser, Ho",
+        "YAG Lasers",
+        "YAG Lasers, Erbium",
+        "YAG Lasers, Ho",
+        "YLF Laser",
+        "YLF Lasers",
+        "YSGG Laser",
+        "YSGG Lasers",
+        "Yttrium Aluminum Garnet Laser",
+        "Yttrium Aluminum Garnet Lasers",
+        "Yttrium Lithium Fluoride Laser",
+        "Yttrium Lithium Fluoride Lasers",
+        "Yttrium Scandium Gallium Garnet Laser",
+        "Yttrium Scandium Gallium Garnet Lasers",
+        "Yttrium-Lithium-Fluoride Laser",
+        "Yttrium-Lithium-Fluoride Lasers",
+        "Yttrium-Scandium-Gallium Garnet Laser",
+        "Yttrium-Scandium-Gallium Garnet Lasers"
+      ]
+    },
+    "D054018": {
+      "label": "Lasers, Excimer",
+      "tree_numbers": [
+        "E07.632.490.244",
+        "E07.710.520.244"
+      ],
+      "terms": [
+        "ArF Excimer Laser",
+        "ArF Excimer Lasers",
+        "ArF Laser",
+        "ArF Lasers",
+        "Argon Fluoride Excimer Lasers",
+        "Argon Fluoride Laser",
+        "Argon Fluoride Lasers",
+        "Chloride Laser, Krypton",
+        "Chloride Laser, Xenon",
+        "Chloride Lasers, Krypton",
+        "Chloride Lasers, Xenon",
+        "Excimer Laser",
+        "Excimer Laser, ArF",
+        "Excimer Laser, KrCl",
+        "Excimer Laser, XeCl",
+        "Excimer Lasers",
+        "Excimer Lasers, ArF",
+        "Excimer Lasers, Argon Fluoride",
+        "Excimer Lasers, KrCl",
+        "Excimer Lasers, Krypton Chloride",
+        "Excimer Lasers, XeCl",
+        "Excimer Lasers, Xenon Chloride",
+        "Fluoride Laser, Argon",
+        "Fluoride Lasers, Argon",
+        "KrCl Excimer Laser",
+        "KrCl Excimer Lasers",
+        "KrCl Laser",
+        "KrCl Lasers",
+        "Krypton Chloride Excimer Lasers",
+        "Krypton Chloride Laser",
+        "Krypton Chloride Lasers",
+        "Laser, ArF",
+        "Laser, ArF Excimer",
+        "Laser, Argon Fluoride",
+        "Laser, Excimer",
+        "Laser, KrCl",
+        "Laser, KrCl Excimer",
+        "Laser, Krypton Chloride",
+        "Laser, XeCl",
+        "Laser, XeCl Excimer",
+        "Laser, Xenon Chloride",
+        "Lasers, ArF",
+        "Lasers, ArF Excimer",
+        "Lasers, Argon Fluoride",
+        "Lasers, Argon Fluoride Excimer",
+        "Lasers, Excimer",
+        "Lasers, KrCl",
+        "Lasers, KrCl Excimer",
+        "Lasers, Krypton Chloride",
+        "Lasers, Krypton Chloride Excimer",
+        "Lasers, XeCl",
+        "Lasers, XeCl Excimer",
+        "Lasers, Xenon Chloride",
+        "Lasers, Xenon Chloride Excimer",
+        "XeCl Excimer Laser",
+        "XeCl Excimer Lasers",
+        "XeCl Laser",
+        "XeCl Lasers",
+        "Xenon Chloride Excimer Lasers",
+        "Xenon Chloride Laser",
+        "Xenon Chloride Lasers"
+      ]
+    },
+    "D054020": {
+      "label": "Lasers, Gas",
+      "tree_numbers": [
+        "E07.632.490.367",
+        "E07.710.520.367"
+      ],
+      "terms": [
+        "Argon Ion Laser",
+        "Argon Ion Lasers",
+        "CO2 Laser",
+        "CO2 Lasers",
+        "Carbon Dioxide Laser",
+        "Carbon Dioxide Lasers",
+        "Copper Vapor Laser",
+        "Copper Vapor Lasers",
+        "Dioxide Laser, Carbon",
+        "Dioxide Lasers, Carbon",
+        "Gas Laser",
+        "Gas Lasers",
+        "Gold Vapor Laser",
+        "Gold Vapor Lasers",
+        "HeNe Laser",
+        "HeNe Lasers",
+        "Helium Laser",
+        "Helium Lasers",
+        "Helium Neon Gas Lasers",
+        "Ion Laser, Argon",
+        "Ion Laser, Xenon",
+        "Ion Lasers, Argon",
+        "Ion Lasers, Xenon",
+        "Laser, Argon Ion",
+        "Laser, CO2",
+        "Laser, Carbon Dioxide",
+        "Laser, Copper Vapor",
+        "Laser, Gas",
+        "Laser, Gold Vapor",
+        "Laser, HeNe",
+        "Laser, Helium",
+        "Laser, Metal Vapor",
+        "Laser, Nitrogen",
+        "Laser, Xenon Ion",
+        "Lasers, Argon Ion",
+        "Lasers, CO2",
+        "Lasers, Carbon Dioxide",
+        "Lasers, Copper Vapor",
+        "Lasers, Gas",
+        "Lasers, Gold Vapor",
+        "Lasers, HeNe",
+        "Lasers, Helium",
+        "Lasers, Helium Neon Gas",
+        "Lasers, Metal Vapor",
+        "Lasers, Nitrogen",
+        "Lasers, Xenon Ion",
+        "Metal Vapor Laser",
+        "Metal Vapor Lasers",
+        "Nitrogen Laser",
+        "Nitrogen Lasers",
+        "Vapor Laser, Copper",
+        "Vapor Laser, Gold",
+        "Vapor Laser, Metal",
+        "Vapor Lasers, Copper",
+        "Vapor Lasers, Gold",
+        "Vapor Lasers, Metal",
+        "Xenon Ion Laser",
+        "Xenon Ion Lasers"
+      ]
+    },
+    "D054023": {
+      "label": "Lasers, Semiconductor",
+      "tree_numbers": [
+        "E07.632.490.480",
+        "E07.710.520.480"
+      ],
+      "terms": [
+        "Arsenide Laser, Gallium",
+        "Arsenide Lasers, Gallium",
+        "Diode Laser",
+        "Diode Laser, Semiconductor",
+        "Diode Lasers",
+        "Diode Lasers, Semiconductor",
+        "GaAlAs Laser",
+        "GaAlAs Lasers",
+        "GaAs Laser",
+        "GaAs Lasers",
+        "Gallium Aluminum Arsenide Lasers",
+        "Gallium Arsenide Laser",
+        "Gallium Arsenide Lasers",
+        "Laser, Diode",
+        "Laser, GaAlAs",
+        "Laser, GaAs",
+        "Laser, Gallium Arsenide",
+        "Laser, Quantum Cascade",
+        "Laser, Semiconductor",
+        "Laser, Semiconductor Diode",
+        "Lasers, Diode",
+        "Lasers, GaAlAs",
+        "Lasers, GaAs",
+        "Lasers, Gallium Aluminum Arsenide",
+        "Lasers, Gallium Arsenide",
+        "Lasers, Quantum Cascade",
+        "Lasers, Semiconductor",
+        "Lasers, Semiconductor Diode",
+        "Quantum Cascade Laser",
+        "Quantum Cascade Lasers",
+        "Semiconductor Diode Laser",
+        "Semiconductor Diode Lasers",
+        "Semiconductor Laser",
+        "Semiconductor Lasers"
+      ]
+    },
+    "D054025": {
+      "label": "Lasers, Dye",
+      "tree_numbers": [
+        "E07.632.490.230",
+        "E07.710.520.230"
+      ],
+      "terms": [
+        "Dye Laser",
+        "Dye Laser, Pulsed",
+        "Dye Laser, Tunable",
+        "Dye Lasers",
+        "Dye Lasers, Pulsed",
+        "Dye Lasers, Tunable",
+        "Laser, Dye",
+        "Laser, Pulsed Dye",
+        "Laser, Tunable Dye",
+        "Lasers, Dye",
+        "Lasers, Pulsed Dye",
+        "Lasers, Tunable Dye",
+        "Pulsed Dye Laser",
+        "Pulsed Dye Lasers",
+        "Tunable Dye Laser",
+        "Tunable Dye Lasers"
+      ]
+    },
+    "D054118": {
+      "label": "Nanospheres",
+      "tree_numbers": [
+        "E07.595",
+        "J01.637.512.600.612"
+      ],
+      "terms": [
+        "Nanosphere",
+        "Nanospheres"
+      ]
+    },
+    "D054120": {
+      "label": "Phakic Intraocular Lenses",
+      "tree_numbers": [
+        "E07.632.500.460.500"
+      ],
+      "terms": [
+        "Intraocular Lens, Phakic",
+        "Intraocular Lenses, Phakic",
+        "Lens, Intraocular, Phakic",
+        "Lens, Phakic Intraocular",
+        "Lenses, Phakic Intraocular",
+        "Phakic Intraocular Lens",
+        "Phakic Intraocular Lenses"
+      ]
+    },
+    "D054457": {
+      "label": "Tissue Scaffolds",
+      "tree_numbers": [
+        "E07.206.627",
+        "E07.695.825"
+      ],
+      "terms": [
+        "Scaffold, Tissue",
+        "Scaffolding, Tissue",
+        "Scaffoldings, Tissue",
+        "Scaffolds, Tissue",
+        "Tissue Scaffold",
+        "Tissue Scaffolding",
+        "Tissue Scaffoldings",
+        "Tissue Scaffolds"
+      ]
+    },
+    "D054855": {
+      "label": "Drug-Eluting Stents",
+      "tree_numbers": [
+        "E07.695.750.500"
+      ],
+      "terms": [
+        "Drug Coated Stent",
+        "Drug Coated Stents",
+        "Drug Eluting Stent",
+        "Drug Eluting Stents",
+        "Drug-Coated Stent",
+        "Drug-Coated Stents",
+        "Drug-Eluting Stent",
+        "Drug-Eluting Stents",
+        "Stent, Drug-Coated",
+        "Stent, Drug-Eluting",
+        "Stents, Drug Coated",
+        "Stents, Drug Eluting",
+        "Stents, Drug-Coated",
+        "Stents, Drug-Eluting"
+      ]
+    },
+    "D055052": {
+      "label": "Athletic Tape",
+      "tree_numbers": [
+        "E07.101.036",
+        "E07.858.442.743.159"
+      ],
+      "terms": [
+        "Athletic Tape",
+        "Kinesio Tape",
+        "Kinesio Tapes",
+        "Kinesiotape",
+        "Orthotic Tape",
+        "Tape, Athletic",
+        "Tape, Kinesio",
+        "Tape, Orthotic",
+        "Tapes, Kinesio"
+      ]
+    },
+    "D055096": {
+      "label": "Optical Devices",
+      "tree_numbers": [
+        "E07.632"
+      ],
+      "terms": [
+        "Component, Optical",
+        "Components, Optical",
+        "Device, Optical",
+        "Devices, Optical",
+        "Optical Component",
+        "Optical Components",
+        "Optical Device",
+        "Optical Devices",
+        "Optical System",
+        "Optical Systems",
+        "System, Optical",
+        "Systems, Optical"
+      ]
+    },
+    "D055100": {
+      "label": "Optical Fibers",
+      "tree_numbers": [
+        "E07.632.750"
+      ],
+      "terms": [
+        "Cable, Fiber Optic",
+        "Cables, Fiber Optic",
+        "Fiber Optic Cable",
+        "Fiber Optic Cables",
+        "Fiber, Optical",
+        "Fibers, Optical",
+        "Optic Cable, Fiber",
+        "Optic Cables, Fiber",
+        "Optical Fiber",
+        "Optical Fibers"
+      ]
+    },
+    "D055117": {
+      "label": "Curing Lights, Dental",
+      "tree_numbers": [
+        "E06.186.104",
+        "E07.222.104"
+      ],
+      "terms": [
+        "Curing Light, Dental",
+        "Curing Lights, Dental",
+        "Dental Curing Light",
+        "Dental Curing Lights",
+        "Halogen Dental Curing Lights",
+        "LED Dental Curing Lights",
+        "Light, Dental Curing",
+        "Lights, Dental Curing",
+        "Plasma Arc Dental Curing Lights"
+      ]
+    },
+    "D055615": {
+      "label": "Electrical Equipment and Supplies",
+      "tree_numbers": [
+        "E07.305"
+      ],
+      "terms": [
+        "Electrical Equipment and Supplies",
+        "Electronic Equipment and Supplies"
+      ]
+    },
+    "D055617": {
+      "label": "Micro-Electrical-Mechanical Systems",
+      "tree_numbers": [
+        "E07.305.343",
+        "J01.637.509"
+      ],
+      "terms": [
+        "BioMEMS",
+        "MEMS",
+        "Micro Electrical Mechanical Systems",
+        "Micro Electro Mechanical Systems",
+        "Micro-Electrical-Mechanical System",
+        "Micro-Electrical-Mechanical Systems",
+        "Micro-Electro-Mechanical System",
+        "Micro-Electro-Mechanical Systems",
+        "System, Micro-Electrical-Mechanical",
+        "System, Micro-Electro-Mechanical",
+        "Systems, Micro-Electrical-Mechanical",
+        "Systems, Micro-Electro-Mechanical"
+      ]
+    },
+    "D055618": {
+      "label": "Radiation Equipment and Supplies",
+      "tree_numbers": [
+        "E07.710"
+      ],
+      "terms": [
+        "Radiation Equipment and Supplies"
+      ]
+    },
+    "D055848": {
+      "label": "Nuclear Power Plants",
+      "tree_numbers": [
+        "E07.710.600.500",
+        "J01.780.600",
+        "J03.540.680.600"
+      ],
+      "terms": [
+        "Nuclear Power Plant",
+        "Nuclear Power Plants",
+        "Power Plant, Nuclear",
+        "Power Plants, Nuclear"
+      ]
+    },
+    "D055984": {
+      "label": "Cathode Ray Tube",
+      "tree_numbers": [
+        "E07.305.092"
+      ],
+      "terms": [
+        "Cathode Ray",
+        "Cathode Ray Tube",
+        "Cathode Ray Tube Display",
+        "Cathode Ray Tubes",
+        "Cathode Rays",
+        "Ray Tube, Cathode",
+        "Ray Tubes, Cathode",
+        "Ray, Cathode",
+        "Rays, Cathode",
+        "Tube, Cathode Ray",
+        "Tubes, Cathode Ray"
+      ]
+    },
+    "D055989": {
+      "label": "Septal Occluder Device",
+      "tree_numbers": [
+        "E07.695.715"
+      ],
+      "terms": [
+        "Amplatzer Occluder",
+        "Amplatzer Occluder Device",
+        "Amplatzer Occluder Devices",
+        "Amplatzer Occluders",
+        "Amplatzer Septal Occluder",
+        "Amplatzer Septal Occluder Device",
+        "Amplatzer Septal Occluders",
+        "CardioSeal Occluder",
+        "CardioSeal Occluders",
+        "CardioSeal Septal Occluder",
+        "CardioSeal Septal Occluders",
+        "Device, Amplatzer Occluder",
+        "Device, Septal Occluder",
+        "Devices, Amplatzer Occluder",
+        "Devices, Septal Occluder",
+        "Gore Helex Septal Occluder",
+        "Gore-Helex Septal Occluder",
+        "GoreHelex Septal Occluder",
+        "Helex Septal Occluder",
+        "Helex Septal Occluders",
+        "Occluder Device, Amplatzer",
+        "Occluder Devices, Amplatzer",
+        "Occluder, Amplatzer",
+        "Occluder, CardioSeal",
+        "Occluder, Septal",
+        "Occluders, Amplatzer",
+        "Occluders, CardioSeal",
+        "Occluders, Septal",
+        "Septal Occluder",
+        "Septal Occluder Device",
+        "Septal Occluder Devices",
+        "Septal Occluder, Amplatzer",
+        "Septal Occluder, CardioSeal",
+        "Septal Occluder, Helex",
+        "Septal Occluders",
+        "Septal Occluders, Amplatzer",
+        "Septal Occluders, CardioSeal",
+        "Septal Occluders, Helex"
+      ]
+    },
+    "D056656": {
+      "label": "Lab-On-A-Chip Devices",
+      "tree_numbers": [
+        "E07.305.343.500"
+      ],
+      "terms": [
+        "Analytical Device, Microchip",
+        "Analytical Device, Nanochip",
+        "Analytical Devices, Microchip",
+        "Analytical Devices, Nanochip",
+        "Device, Lab-On-A-Chip",
+        "Device, Microchip Analytical",
+        "Device, Microfluidic",
+        "Device, Nanochip Analytical",
+        "Devices, Lab-On-A-Chip",
+        "Devices, Microchip Analytical",
+        "Devices, Microfluidic",
+        "Devices, Nanochip Analytical",
+        "Lab On A Chip Devices",
+        "Lab-On-A-Chip Device",
+        "Lab-On-A-Chip Devices",
+        "Lab-On-A-Chip, Microfluidic",
+        "Lab-On-A-Chips, Microfluidic",
+        "Microchip Analytical Device",
+        "Microchip Analytical Devices",
+        "Microchip, Microfluidic",
+        "Microchips, Microfluidic",
+        "Microfluidic Device",
+        "Microfluidic Devices",
+        "Microfluidic Lab On A Chip",
+        "Microfluidic Lab-On-A-Chip",
+        "Microfluidic Lab-On-A-Chips",
+        "Microfluidic Microchip",
+        "Microfluidic Microchips",
+        "Nanochip Analytical Device",
+        "Nanochip Analytical Devices"
+      ]
+    },
+    "D056805": {
+      "label": "Consciousness Monitors",
+      "tree_numbers": [
+        "E07.858.195"
+      ],
+      "terms": [
+        "Bispectral Index Monitor",
+        "Bispectral Index Monitors",
+        "Cerebral State Index Monitor",
+        "Consciousness Monitor",
+        "Consciousness Monitors",
+        "Index of Consciousness View Monitor",
+        "Index of Consciousness-View Monitor",
+        "Index of ConsciousnessView Monitor",
+        "Monitor, Bispectral Index",
+        "Monitor, Consciousness",
+        "Monitors, Bispectral Index",
+        "Monitors, Consciousness"
+      ]
+    },
+    "D056902": {
+      "label": "Clinical Alarms",
+      "tree_numbers": [
+        "E07.230.200"
+      ],
+      "terms": [
+        "Alarm, Clinical",
+        "Alarm, Physiologic Monitor",
+        "Alarms, Clinical",
+        "Alarms, Physiologic Monitor",
+        "Clinical Alarm",
+        "Clinical Alarms",
+        "Monitor Alarm, Physiologic",
+        "Monitor Alarms, Physiologic",
+        "Physiologic Monitor Alarm",
+        "Physiologic Monitor Alarms"
+      ]
+    },
+    "D057147": {
+      "label": "Mosquito Nets",
+      "tree_numbers": [
+        "E07.700.510",
+        "J01.494.221.750"
+      ],
+      "terms": [
+        "Bed Net, Mosquito",
+        "Bed Nets, Mosquito",
+        "Bednet, Mosquito",
+        "Bednets, Mosquito",
+        "Mosquito Bed Net",
+        "Mosquito Bed Nets",
+        "Mosquito Bednet",
+        "Mosquito Bednets",
+        "Mosquito Net",
+        "Mosquito Net, Portable",
+        "Mosquito Nets",
+        "Mosquito Nets, Portable",
+        "Mosquito Netting",
+        "Mosquito Nettings",
+        "Net, Mosquito",
+        "Net, Mosquito Bed",
+        "Net, Portable Mosquito",
+        "Nets, Mosquito",
+        "Nets, Mosquito Bed",
+        "Nets, Portable Mosquito",
+        "Netting, Mosquito",
+        "Nettings, Mosquito",
+        "Portable Mosquito Net",
+        "Portable Mosquito Nets"
+      ]
+    },
+    "D057148": {
+      "label": "Insecticide-Treated Bednets",
+      "tree_numbers": [
+        "E07.700.510.500"
+      ],
+      "terms": [
+        "Bed Net, Insecticide-Treated",
+        "Bed Nets, Insecticide-Treated",
+        "Bednet, Insecticide-Treated",
+        "Bednets, Insecticide-Treated",
+        "Insecticide Treated Bed Nets",
+        "Insecticide Treated Bednets",
+        "Insecticide-Treated Bed Net",
+        "Insecticide-Treated Bed Nets",
+        "Insecticide-Treated Bednet",
+        "Insecticide-Treated Bednets",
+        "Mosquito Net, Treated",
+        "Mosquito Nets, Treated",
+        "Net, Insecticide-Treated Bed",
+        "Net, Treated Mosquito",
+        "Nets, Insecticide-Treated Bed",
+        "Nets, Treated Mosquito",
+        "Treated Mosquito Net",
+        "Treated Mosquito Nets"
+      ]
+    },
+    "D057207": {
+      "label": "Child Restraint Systems",
+      "tree_numbers": [
+        "E07.490.249",
+        "E07.700.175",
+        "J01.637.708.175"
+      ],
+      "terms": [
+        "Child Restraint System",
+        "Child Restraint Systems",
+        "Child Safety Seat",
+        "Child Safety Seats",
+        "Restraint System, Child",
+        "Restraint Systems, Child",
+        "Safety Seat, Child",
+        "Safety Seats, Child",
+        "Seats, Child Safety",
+        "System, Child Restraint",
+        "Systems, Child Restraint"
+      ]
+    },
+    "D057233": {
+      "label": "Radio Frequency Identification Device",
+      "tree_numbers": [
+        "E07.715",
+        "N04.452.653.500"
+      ],
+      "terms": [
+        "RFID",
+        "Radio Frequency Identification",
+        "Radio Frequency Identification Device"
+      ]
+    },
+    "D057488": {
+      "label": "Visual Prosthesis",
+      "tree_numbers": [
+        "E07.695.950"
+      ],
+      "terms": [
+        "Bionic Eye",
+        "Bionic Eyes",
+        "Eye, Bionic",
+        "Eyes, Bionic",
+        "Prostheses, Retinal",
+        "Prostheses, Visual",
+        "Prosthesis, Retinal",
+        "Prosthesis, Visual",
+        "Retinal Prostheses",
+        "Retinal Prosthesis",
+        "Visual Prostheses",
+        "Visual Prosthesis"
+      ]
+    },
+    "D057505": {
+      "label": "Embolic Protection Devices",
+      "tree_numbers": [
+        "E07.695.207"
+      ],
+      "terms": [
+        "Device, Emboli Protection",
+        "Device, Embolic Protection",
+        "Device, Embolism Protection",
+        "Devices, Emboli Protection",
+        "Devices, Embolic Protection",
+        "Devices, Embolism Protection",
+        "Emboli Protection Device",
+        "Emboli Protection Devices",
+        "Embolic Protection Device",
+        "Embolic Protection Devices",
+        "Embolic Protection Filter",
+        "Embolic Protection Filters",
+        "Embolism Protection Device",
+        "Embolism Protection Devices",
+        "Filter, Embolic Protection",
+        "Filters, Embolic Protection",
+        "Protection Device, Emboli",
+        "Protection Device, Embolic",
+        "Protection Device, Embolism",
+        "Protection Devices, Emboli",
+        "Protection Devices, Embolic",
+        "Protection Devices, Embolism",
+        "Protection Filter, Embolic",
+        "Protection Filters, Embolic"
+      ]
+    },
+    "D057785": {
+      "label": "Catheters",
+      "tree_numbers": [
+        "E07.132"
+      ],
+      "terms": [
+        "Catheter",
+        "Catheters"
+      ]
+    },
+    "D057918": {
+      "label": "Fiducial Markers",
+      "tree_numbers": [
+        "E05.978.808.249",
+        "E07.695.237",
+        "E07.710.259"
+      ],
+      "terms": [
+        "Anatomic Fiducial",
+        "Anatomic Fiducials",
+        "Fiducial Marker",
+        "Fiducial Markers",
+        "Fiducial Target",
+        "Fiducial Targets",
+        "Fiducial, Anatomic",
+        "Fiducial, Implanted",
+        "Fiducials, Anatomic",
+        "Fiducials, Implanted",
+        "Implanted Fiducial",
+        "Implanted Fiducials",
+        "Marker, Fiducial",
+        "Markers, Fiducial",
+        "Target, Fiducial",
+        "Targets, Fiducial"
+      ]
+    },
+    "D057968": {
+      "label": "Transdermal Patch",
+      "tree_numbers": [
+        "E07.935"
+      ],
+      "terms": [
+        "Patch, Transdermal",
+        "Patchs, Transdermal",
+        "Transdermal Patch",
+        "Transdermal Patchs"
+      ]
+    },
+    "D058117": {
+      "label": "Neural Prostheses",
+      "tree_numbers": [
+        "E07.305.250.319.381.500",
+        "E07.695.202.381.500"
+      ],
+      "terms": [
+        "Neural Prostheses",
+        "Neural Prosthesis",
+        "Prostheses, Neural",
+        "Prosthesis, Neural"
+      ]
+    },
+    "D058128": {
+      "label": "Compression Bandages",
+      "tree_numbers": [
+        "E07.101.400"
+      ],
+      "terms": [
+        "Bandage, Compression",
+        "Bandage, Elastic",
+        "Bandages, Compression",
+        "Bandages, Elastic",
+        "Compression Bandage",
+        "Compression Bandages",
+        "Compression Wrap",
+        "Compression Wrap, Elastic",
+        "Compression Wraps",
+        "Compression Wraps, Elastic",
+        "Elastic Bandage",
+        "Elastic Bandages",
+        "Elastic Compression Wrap",
+        "Elastic Compression Wraps",
+        "Wrap, Compression",
+        "Wrap, Elastic Compression",
+        "Wraps, Compression",
+        "Wraps, Elastic Compression"
+      ]
+    },
+    "D058250": {
+      "label": "Dental Restoration Repair",
+      "tree_numbers": [
+        "E06.780.346.737.112",
+        "E07.695.190.190.250"
+      ],
+      "terms": [
+        "Dental Restoration Repair",
+        "Dental Restoration Repairs",
+        "Repair, Dental Restoration",
+        "Repairs, Dental Restoration",
+        "Restoration Repair, Dental",
+        "Restoration Repairs, Dental"
+      ]
+    },
+    "D058254": {
+      "label": "Stretchers",
+      "tree_numbers": [
+        "E07.325.220.500",
+        "N02.421.297.879.550"
+      ],
+      "terms": [
+        "Ambulance Stretcher",
+        "Ambulance Stretchers",
+        "Emergency Room Stretcher",
+        "Emergency Room Stretchers",
+        "Gurney",
+        "Gurneys",
+        "Holding Stretcher, Patient",
+        "Holding Stretchers, Patient",
+        "Litter, Patient",
+        "Litters, Patient",
+        "Patient Holding Stretcher",
+        "Patient Holding Stretchers",
+        "Patient Litter",
+        "Patient Litters",
+        "Patient Trolley",
+        "Patient Trolleys",
+        "Rescue Stretcher",
+        "Rescue Stretchers",
+        "Room Stretcher, Emergency",
+        "Room Stretchers, Emergency",
+        "Stretcher, Ambulance",
+        "Stretcher, Emergency Room",
+        "Stretcher, Patient Holding",
+        "Stretcher, Rescue",
+        "Stretcher, Wheeled",
+        "Stretchers",
+        "Stretchers, Ambulance",
+        "Stretchers, Emergency Room",
+        "Stretchers, Patient Holding",
+        "Stretchers, Rescue",
+        "Stretchers, Wheeled",
+        "Trolley, Patient",
+        "Trolleys, Patient",
+        "Wheeled Stretcher",
+        "Wheeled Stretchers"
+      ]
+    },
+    "D058257": {
+      "label": "Surgical Attire",
+      "tree_numbers": [
+        "E07.325.877",
+        "E07.858.594"
+      ],
+      "terms": [
+        "Attire, Surgical",
+        "Attires, Surgical",
+        "Cover, Surgical Shoe",
+        "Covers, Surgical Shoe",
+        "Gown, Surgical",
+        "Gowns, Surgical",
+        "Shoe Cover, Surgical",
+        "Shoe Covers, Surgical",
+        "Surgical Attire",
+        "Surgical Attires",
+        "Surgical Gown",
+        "Surgical Gowns",
+        "Surgical Shoe Cover",
+        "Surgical Shoe Covers"
+      ]
+    },
+    "D058409": {
+      "label": "Cardiac Resynchronization Therapy Devices",
+      "tree_numbers": [
+        "E07.305.250.750.500"
+      ],
+      "terms": [
+        "Artificial Biventricular Pacemaker",
+        "Artificial Biventricular Pacemakers",
+        "Biventricular Pacemaker, Artificial",
+        "Biventricular Pacemakers, Artificial",
+        "Cardiac Resynchronization Therapy Device",
+        "Cardiac Resynchronization Therapy Devices",
+        "Pacemaker, Artificial Biventricular",
+        "Pacemakers, Artificial Biventricular"
+      ]
+    },
+    "D058433": {
+      "label": "Photobioreactors",
+      "tree_numbers": [
+        "E07.115.600",
+        "J01.897.120.115.600"
+      ],
+      "terms": [
+        "Photobioreactor",
+        "Photobioreactors"
+      ]
+    },
+    "D058542": {
+      "label": "Implantable Neurostimulators",
+      "tree_numbers": [
+        "E07.305.250.319.381",
+        "E07.695.202.381"
+      ],
+      "terms": [
+        "Implantable Neurostimulator",
+        "Implantable Neurostimulators",
+        "Implanted Nerve Stimulation Electrodes",
+        "Implanted Neurostimulator",
+        "Implanted Neurostimulators",
+        "Neurostimulator, Implantable",
+        "Neurostimulator, Implanted",
+        "Neurostimulators, Implantable",
+        "Neurostimulators, Implanted"
+      ]
+    },
+    "D058569": {
+      "label": "Elbow Prosthesis",
+      "tree_numbers": [
+        "E07.695.400.300"
+      ],
+      "terms": [
+        "Elbow Prostheses",
+        "Elbow Prosthesis",
+        "Prostheses, Elbow",
+        "Prosthesis, Elbow"
+      ]
+    },
+    "D058636": {
+      "label": "Surgical Drapes",
+      "tree_numbers": [
+        "E07.325.137.750",
+        "E07.858.642"
+      ],
+      "terms": [
+        "Drape, Surgical",
+        "Drapes, Surgical",
+        "Surgical Drape",
+        "Surgical Drapes"
+      ]
+    },
+    "D058637": {
+      "label": "Examination Tables",
+      "tree_numbers": [
+        "E07.325.409"
+      ],
+      "terms": [
+        "Examination Table",
+        "Examination Tables",
+        "Table, Examination",
+        "Tables, Examination"
+      ]
+    },
+    "D058638": {
+      "label": "Operating Tables",
+      "tree_numbers": [
+        "E07.325.662",
+        "E07.858.421"
+      ],
+      "terms": [
+        "Operating Room Table",
+        "Operating Room Tables",
+        "Operating Table",
+        "Operating Tables",
+        "Operation Table",
+        "Operation Tables",
+        "Room Table, Operating",
+        "Room Tables, Operating",
+        "Table, Operating",
+        "Table, Operating Room",
+        "Table, Operation",
+        "Tables, Operating",
+        "Tables, Operating Room",
+        "Tables, Operation"
+      ]
+    },
+    "D058752": {
+      "label": "Free Tissue Flaps",
+      "tree_numbers": [
+        "A10.850.710.500",
+        "E07.862.710.500"
+      ],
+      "terms": [
+        "Flap, Free",
+        "Flap, Free Tissue",
+        "Flap, Microsurgical Free",
+        "Flaps, Free",
+        "Flaps, Free Tissue",
+        "Flaps, Microsurgical Free",
+        "Free Flap",
+        "Free Flap, Microsurgical",
+        "Free Flaps",
+        "Free Flaps, Microsurgical",
+        "Free Tissue Flap",
+        "Free Tissue Flaps",
+        "Free Tissue Transfer Flaps",
+        "Microsurgical Free Flap",
+        "Microsurgical Free Flaps",
+        "Tissue Flap, Free",
+        "Tissue Flaps, Free"
+      ]
+    },
+    "D058868": {
+      "label": "Compressed Air",
+      "tree_numbers": [
+        "E07.161",
+        "G16.500.275.063.150.500",
+        "N06.230.300.100.150.592"
+      ],
+      "terms": [
+        "Air, Compressed",
+        "Air, Pressurized",
+        "Compressed Air",
+        "Pressurized Air"
+      ]
+    },
+    "D058995": {
+      "label": "Dry Powder Inhalers",
+      "tree_numbers": [
+        "E07.605.500"
+      ],
+      "terms": [
+        "Dry Powder Inhaler",
+        "Dry Powder Inhalers",
+        "Inhaler, Dry Powder",
+        "Inhalers, Dry Powder",
+        "Powder Inhaler, Dry",
+        "Powder Inhalers, Dry"
+      ]
+    },
+    "D060166": {
+      "label": "Capillary Tubing",
+      "tree_numbers": [
+        "E07.123"
+      ],
+      "terms": [
+        "Capillary Tubing",
+        "Capillary Tubings",
+        "Tubing, Capillary",
+        "Tubings, Capillary"
+      ]
+    },
+    "D061351": {
+      "label": "Telescopes",
+      "tree_numbers": [
+        "E07.632.875"
+      ],
+      "terms": [
+        "Binocular",
+        "Binoculars",
+        "Telescope",
+        "Telescopes"
+      ]
+    },
+    "D061525": {
+      "label": "Perforator Flap",
+      "tree_numbers": [
+        "A10.850.710.750",
+        "E07.862.710.750"
+      ],
+      "terms": [
+        "Flap, Perforator",
+        "Flaps, Perforator",
+        "Perforator Flap",
+        "Perforator Flaps"
+      ]
+    },
+    "D061807": {
+      "label": "Catheter Obstruction",
+      "tree_numbers": [
+        "E05.325.095",
+        "E07.132.249"
+      ],
+      "terms": [
+        "Catheter Obstruction",
+        "Catheter Obstructions",
+        "Obstruction, Catheter",
+        "Obstructions, Catheter"
+      ]
+    },
+    "D061808": {
+      "label": "Air Filters",
+      "tree_numbers": [
+        "E05.196.454.201",
+        "E07.039"
+      ],
+      "terms": [
+        "Air Filter",
+        "Air Filters",
+        "Air Purifier",
+        "Air Purifiers",
+        "Filter, Air",
+        "Filters, Air",
+        "Purifier, Air",
+        "Purifiers, Air"
+      ]
+    },
+    "D061825": {
+      "label": "Metal-on-Metal Joint Prostheses",
+      "tree_numbers": [
+        "E07.695.400.705"
+      ],
+      "terms": [
+        "Bearing, Metal-on-Metal Implant",
+        "Bearings, Metal-on-Metal Implant",
+        "Implant Bearing, Metal-on-Metal",
+        "Implant Bearings, Metal-on-Metal",
+        "Joint Prosthese, Metal-on-Metal",
+        "Joint Prostheses, Metal-on-Metal",
+        "Metal on Metal Implant Bearings",
+        "Metal on Metal Joint Prostheses",
+        "Metal-on-Metal Implant Bearing",
+        "Metal-on-Metal Implant Bearings",
+        "Metal-on-Metal Joint Prosthese",
+        "Metal-on-Metal Joint Prostheses",
+        "Prosthese, Metal-on-Metal Joint",
+        "Prostheses, Metal-on-Metal Joint"
+      ]
+    },
+    "D061826": {
+      "label": "Foot Orthoses",
+      "tree_numbers": [
+        "E07.858.442.743.659"
+      ],
+      "terms": [
+        "Arch Support, Foot",
+        "Arch Supports, Foot",
+        "Device, Foot Orthotic",
+        "Devices, Foot Orthotic",
+        "Foot Arch Support",
+        "Foot Arch Supports",
+        "Foot Orthoses",
+        "Foot Orthosis",
+        "Foot Orthotic Device",
+        "Foot Orthotic Devices",
+        "Insert, Orthotic Shoe",
+        "Inserts, Orthotic Shoe",
+        "Insole, Orthotic",
+        "Insoles, Orthotic",
+        "Orthoses, Foot",
+        "Orthosis, Foot",
+        "Orthotic Device, Foot",
+        "Orthotic Devices, Foot",
+        "Orthotic Insole",
+        "Orthotic Insoles",
+        "Orthotic Shoe Insert",
+        "Orthotic Shoe Inserts",
+        "Shoe Insert, Orthotic",
+        "Shoe Inserts, Orthotic",
+        "Support, Foot Arch",
+        "Supports, Foot Arch"
+      ]
+    },
+    "D062207": {
+      "label": "Brain-Computer Interfaces",
+      "tree_numbers": [
+        "E07.305.076"
+      ],
+      "terms": [
+        "Brain Computer Interface",
+        "Brain Computer Interfaces",
+        "Brain Machine Interface",
+        "Brain Machine Interfaces",
+        "Brain-Computer Interface",
+        "Brain-Computer Interfaces",
+        "Brain-Machine Interface",
+        "Brain-Machine Interfaces",
+        "Interface Technologies, Neural",
+        "Interface Technology, Neural",
+        "Interface, Brain Machine",
+        "Interface, Brain-Computer",
+        "Interface, Brain-Machine",
+        "Interfaces, Brain Machine",
+        "Interfaces, Brain-Computer",
+        "Interfaces, Brain-Machine",
+        "Machine Interface, Brain",
+        "Machine Interfaces, Brain",
+        "Neural Interface Technologies",
+        "Neural Interface Technology",
+        "Technologies, Neural Interface",
+        "Technology, Neural Interface"
+      ]
+    },
+    "D062609": {
+      "label": "Electronic Nose",
+      "tree_numbers": [
+        "E07.230.210",
+        "E07.305.296"
+      ],
+      "terms": [
+        "Artificial Nose",
+        "Electronic Nose",
+        "Electronic Tongue",
+        "Electronic Tongues",
+        "Nose, Artificial",
+        "Nose, Electronic",
+        "Tongue, Electronic",
+        "Tongues, Electronic",
+        "e Nose",
+        "e-Nose"
+      ]
+    },
+    "D062666": {
+      "label": "Vascular Access Devices",
+      "tree_numbers": [
+        "E07.132.750"
+      ],
+      "terms": [
+        "Arterial Line",
+        "Arterial Lines",
+        "Catheter, Port",
+        "Catheter, Vascular",
+        "Catheters, Port",
+        "Catheters, Vascular",
+        "Device, Vascular Access",
+        "Devices, Vascular Access",
+        "Intra Arterial Lines",
+        "Intra-Arterial Line",
+        "Intra-Arterial Lines",
+        "Line, Arterial",
+        "Line, Intra-Arterial",
+        "Lines, Arterial",
+        "Lines, Intra-Arterial",
+        "Port A Cath",
+        "Port Catheter",
+        "Port Catheters",
+        "Port, Vascular Access",
+        "Port-A-Cath",
+        "PortACath",
+        "Ports, Vascular Access",
+        "Reservoir, Venous",
+        "Reservoirs, Venous",
+        "Vascular Access Device",
+        "Vascular Access Devices",
+        "Vascular Access Port",
+        "Vascular Access Ports",
+        "Vascular Catheter",
+        "Vascular Catheters",
+        "Venous Reservoir",
+        "Venous Reservoirs"
+      ]
+    },
+    "D062885": {
+      "label": "Urinary Catheters",
+      "tree_numbers": [
+        "E07.132.625"
+      ],
+      "terms": [
+        "Catheter, Ureteral",
+        "Catheter, Urethral",
+        "Catheter, Urinary",
+        "Catheters, Ureteral",
+        "Catheters, Urethral",
+        "Catheters, Urinary",
+        "Ureteral Catheter",
+        "Ureteral Catheters",
+        "Urethral Catheter",
+        "Urethral Catheters",
+        "Urinary Catheter",
+        "Urinary Catheters"
+      ]
+    },
+    "D062905": {
+      "label": "Central Venous Catheters",
+      "tree_numbers": [
+        "E07.132.750.500"
+      ],
+      "terms": [
+        "Catheter, Central Venous",
+        "Catheters, Central Venous",
+        "Central Venous Catheter",
+        "Central Venous Catheters",
+        "Venous Catheter, Central",
+        "Venous Catheters, Central"
+      ]
+    },
+    "D062906": {
+      "label": "Cardiac Catheters",
+      "tree_numbers": [
+        "E07.132.750.249"
+      ],
+      "terms": [
+        "Cardiac Catheter",
+        "Cardiac Catheters",
+        "Catheter, Cardiac",
+        "Catheter, Heart",
+        "Catheter, Intracardiac",
+        "Catheters, Cardiac",
+        "Catheters, Heart",
+        "Catheters, Intracardiac",
+        "Heart Catheter",
+        "Heart Catheters",
+        "Intracardiac Catheter",
+        "Intracardiac Catheters"
+      ]
+    },
+    "D064827": {
+      "label": "Myocutaneous Flap",
+      "tree_numbers": [
+        "A10.850.710.625",
+        "E07.862.710.625"
+      ],
+      "terms": [
+        "Flap, Musculocutaneous",
+        "Flap, Myocutaneous",
+        "Flaps, Musculocutaneous",
+        "Flaps, Myocutaneous",
+        "Musculocutaneous Flap",
+        "Musculocutaneous Flaps",
+        "Myocutaneous Flap",
+        "Myocutaneous Flaps"
+      ]
+    },
+    "D065289": {
+      "label": "Pedicle Screws",
+      "tree_numbers": [
+        "E07.695.370.437.500",
+        "E07.858.442.660.460.437.500",
+        "E07.858.690.725.460.437.500"
+      ],
+      "terms": [
+        "Pedicle Screw",
+        "Pedicle Screws",
+        "Screw, Pedicle",
+        "Screws, Pedicle"
+      ]
+    },
+    "D065506": {
+      "label": "Vascular Closure Devices",
+      "tree_numbers": [
+        "E07.858.690.930"
+      ],
+      "terms": [
+        "Catheterization Closure Device",
+        "Catheterization Closure Devices",
+        "Closure Device, Catheterization",
+        "Closure Device, Vascular",
+        "Closure Devices, Catheterization",
+        "Closure Devices, Vascular",
+        "Closure Patches, Vascular",
+        "Device, Catheterization Closure",
+        "Device, Vascular Closure",
+        "Devices, Catheterization Closure",
+        "Devices, Vascular Closure",
+        "Patches, Vascular Closure",
+        "Vascular Closure Device",
+        "Vascular Closure Devices",
+        "Vascular Closure Patches"
+      ]
+    },
+    "D066167": {
+      "label": "Slit Lamp",
+      "tree_numbers": [
+        "E07.230.540.750"
+      ],
+      "terms": [
+        "Biomicroscope, Slit Lamp",
+        "Biomicroscopes, Slit Lamp",
+        "Gullstrand Slit Lamp",
+        "Gullstrand's Slit Lamp",
+        "Gullstrands Slit Lamp",
+        "Lamp Biomicroscope, Slit",
+        "Lamp Biomicroscopes, Slit",
+        "Lamp, Gullstrand's Slit",
+        "Lamp, Slit",
+        "Lamps, Slit",
+        "Slit Lamp",
+        "Slit Lamp Biomicroscope",
+        "Slit Lamp Biomicroscopes",
+        "Slit Lamp, Gullstrand's",
+        "Slit Lamps"
+      ]
+    },
+    "D000067190": {
+      "label": "Exoskeleton Device",
+      "tree_numbers": [
+        "E07.341"
+      ],
+      "terms": [
+        "Device, Exoskeleton",
+        "Devices, Exoskeleton",
+        "Exoskeleton Device",
+        "Exoskeleton Devices",
+        "Exoskeleton, Robotic",
+        "Exoskeletons, Robotic",
+        "Robotic Exoskeleton",
+        "Robotic Exoskeletons"
+      ]
+    },
+    "D000067393": {
+      "label": "Personal Protective Equipment",
+      "tree_numbers": [
+        "E07.700.560",
+        "J01.637.708.560"
+      ],
+      "terms": [
+        "Equipment, Personal Protective",
+        "PPE Personal Protective Equipment",
+        "Personal Protective Equipment",
+        "Personal Protective Equipments",
+        "Protective Equipment, Personal"
+      ]
+    },
+    "D000068998": {
+      "label": "Humidifiers",
+      "tree_numbers": [
+        "E07.451",
+        "J01.494.650"
+      ],
+      "terms": [
+        "Humidifier",
+        "Humidifiers"
+      ]
+    },
+    "D000069322": {
+      "label": "Self Expandable Metallic Stents",
+      "tree_numbers": [
+        "E07.695.750.750"
+      ],
+      "terms": [
+        "Self Expandable Metal Stent",
+        "Self Expandable Metal Stents",
+        "Self Expandable Metallic Stent",
+        "Self Expandable Metallic Stents"
+      ]
+    },
+    "D000069343": {
+      "label": "Bone-Implant Interface",
+      "tree_numbers": [
+        "A02.835.232.022",
+        "A10.165.265.183",
+        "E07.695.125"
+      ],
+      "terms": [
+        "Bone Implant Interface",
+        "Bone Prosthesis Interface",
+        "Bone-Implant Interface",
+        "Bone-Implant Interfaces",
+        "Bone-Prosthesis Interface",
+        "Bone-Prosthesis Interfaces",
+        "Interface, Bone-Implant",
+        "Interface, Bone-Prosthesis",
+        "Interfaces, Bone-Implant",
+        "Interfaces, Bone-Prosthesis"
+      ]
+    },
+    "D000070635": {
+      "label": "Punctal Plugs",
+      "tree_numbers": [
+        "E07.695.698"
+      ],
+      "terms": [
+        "Collagen Punctal Plug",
+        "Collagen Punctal Plugs",
+        "Plug, Collagen Punctal",
+        "Plug, Punctal",
+        "Plug, Silicone Punctal",
+        "Plugs, Collagen Punctal",
+        "Plugs, Punctal",
+        "Plugs, Silicone Punctal",
+        "Punctal Plug",
+        "Punctal Plug, Collagen",
+        "Punctal Plug, Silicone",
+        "Punctal Plugs",
+        "Punctal Plugs, Collagen",
+        "Punctal Plugs, Silicone",
+        "Silicone Punctal Plug",
+        "Silicone Punctal Plugs"
+      ]
+    },
+    "D000072227": {
+      "label": "Shoulder Prosthesis",
+      "tree_numbers": [
+        "E07.695.400.852"
+      ],
+      "terms": [
+        "Artificial Shoulder Joint",
+        "Artificial Shoulder Joints",
+        "Head Prostheses, Humeral",
+        "Head Prosthesis, Humeral",
+        "Humeral Head Prostheses",
+        "Humeral Head Prosthesis",
+        "Joint, Artificial Shoulder",
+        "Joints, Artificial Shoulder",
+        "Prostheses, Humeral Head",
+        "Prostheses, Shoulder",
+        "Prosthesis, Humeral Head",
+        "Prosthesis, Shoulder",
+        "Prosthetic Shoulder",
+        "Prosthetic Shoulders",
+        "Shoulder Joint, Artificial",
+        "Shoulder Joints, Artificial",
+        "Shoulder Prostheses",
+        "Shoulder Prosthesis",
+        "Shoulder, Prosthetic",
+        "Shoulders, Prosthetic"
+      ]
+    },
+    "D000072232": {
+      "label": "Radiation Dosimeters",
+      "tree_numbers": [
+        "E07.710.725"
+      ],
+      "terms": [
+        "Dosimeter",
+        "Dosimeter, Radiation",
+        "Dosimeters",
+        "Dosimeters, Radiation",
+        "Radiation Dosimeter",
+        "Radiation Dosimeters"
+      ]
+    },
+    "D000072296": {
+      "label": "Bathroom Equipment",
+      "tree_numbers": [
+        "E07.108"
+      ],
+      "terms": [
+        "Bathroom Equipment",
+        "Bedpan",
+        "Bedpans",
+        "Commode",
+        "Commodes",
+        "Equipment, Bathroom",
+        "Toilet",
+        "Toilets",
+        "Urinal",
+        "Urinals"
+      ]
+    },
+    "D000072601": {
+      "label": "Cannula",
+      "tree_numbers": [
+        "E07.132.125"
+      ],
+      "terms": [
+        "Cannula",
+        "Cannula, Nasal",
+        "Cannulae",
+        "Cannulae, Nasal",
+        "High Flow Nasal Canula",
+        "Nasal Cannula",
+        "Nasal Cannulae"
+      ]
+    },
+    "D000072936": {
+      "label": "Fitness Trackers",
+      "tree_numbers": [
+        "E07.230.300",
+        "E07.305.906.250"
+      ],
+      "terms": [
+        "Activity Tracker",
+        "Activity Trackers",
+        "Fitness Tracker",
+        "Fitness Tracker, Personal",
+        "Fitness Tracker, Physical",
+        "Fitness Trackers",
+        "Fitness Trackers, Personal",
+        "Fitness Trackers, Physical",
+        "Personal Fitness Tracker",
+        "Personal Fitness Trackers",
+        "Physical Fitness Tracker",
+        "Physical Fitness Trackers",
+        "Tracker, Activity",
+        "Tracker, Fitness",
+        "Tracker, Personal Fitness",
+        "Tracker, Physical Fitness",
+        "Trackers, Activity",
+        "Trackers, Fitness",
+        "Trackers, Personal Fitness",
+        "Trackers, Physical Fitness"
+      ]
+    },
+    "D000075542": {
+      "label": "Multifocal Intraocular Lenses",
+      "tree_numbers": [
+        "E07.632.500.460.250",
+        "E07.695.460.500"
+      ],
+      "terms": [
+        "Accommodating IOL",
+        "Accommodating IOLs",
+        "Accommodating Intraocular Lens",
+        "Accommodating Intraocular Lenses",
+        "IOL, Accommodating",
+        "IOL, Multifocal",
+        "IOLs, Accommodating",
+        "Intraocular Lens, Accommodating",
+        "Intraocular Lens, Multifocal",
+        "Intraocular Lenses, Accommodating",
+        "Multifocal IOL",
+        "Multifocal IOLs",
+        "Multifocal Intraocular Lens",
+        "Multifocal Intraocular Lenses"
+      ]
+    },
+    "D000076251": {
+      "label": "Wearable Electronic Devices",
+      "tree_numbers": [
+        "E07.305.906"
+      ],
+      "terms": [
+        "Computer, Wearable",
+        "Device, Wearable",
+        "Device, Wearable Electronic",
+        "Electronic Device, Wearable",
+        "Electronic Skin",
+        "Skin, Electronic",
+        "Technology, Wearable",
+        "Wearable Computer",
+        "Wearable Computers",
+        "Wearable Device",
+        "Wearable Devices",
+        "Wearable Electronic Device",
+        "Wearable Electronic Devices",
+        "Wearable Technologies",
+        "Wearable Technology"
+      ]
+    },
+    "D000077280": {
+      "label": "Bone-Anchored Prosthesis",
+      "tree_numbers": [
+        "E07.695.118"
+      ],
+      "terms": [
+        "Amputation Prostheses, Bone-Anchored",
+        "Amputation Prosthesis, Bone-Anchored",
+        "Bone Anchored Amputation Prosthesis",
+        "Bone Anchored Device",
+        "Bone Anchored Devices",
+        "Bone Anchored Implants",
+        "Bone Anchored Prosthesis",
+        "Bone-Anchored Amputation Prostheses",
+        "Bone-Anchored Amputation Prosthesis",
+        "Bone-Anchored Implant",
+        "Bone-Anchored Implants",
+        "Bone-Anchored Prostheses",
+        "Bone-Anchored Prosthesis",
+        "Device, Bone Anchored",
+        "Implant, Bone-Anchored",
+        "Implant, Osseo-Integrated",
+        "Implant, Osseointegrated",
+        "Intraosseous Transcutaneous Amputation Prosthesis",
+        "Osseo Anchored Prosthesis",
+        "Osseo Integrated Implants",
+        "Osseo-Anchored Prostheses",
+        "Osseo-Anchored Prosthesis",
+        "Osseo-Integrated Implant",
+        "Osseo-Integrated Implants",
+        "Osseointegrated Implant",
+        "Osseointegrated Implants",
+        "Prostheses, Bone-Anchored",
+        "Prostheses, Osseo-Anchored",
+        "Prosthesis, Bone-Anchored",
+        "Prosthesis, Bone-Anchored Amputation",
+        "Prosthesis, Osseo-Anchored"
+      ]
+    },
+    "D000080310": {
+      "label": "Smart Glasses",
+      "tree_numbers": [
+        "E07.305.906.750",
+        "L01.224.230.260.550.750"
+      ],
+      "terms": [
+        "Display, Head Mounted",
+        "Display, Head Up",
+        "Display, Head Worn",
+        "Displays, Head Mounted",
+        "Displays, Head Up",
+        "Displays, Head Worn",
+        "Glass, Google",
+        "Glasses, Google",
+        "Glasses, Smart",
+        "Google Glass",
+        "Google Glasses",
+        "Head Mounted Display",
+        "Head Mounted Displays",
+        "Head Up Display",
+        "Head Up Displays",
+        "Head Worn Display",
+        "Head Worn Displays",
+        "Mounted Display, Head",
+        "Mounted Displays, Head",
+        "Smart Glasses",
+        "Smartglasses",
+        "Up Display, Head",
+        "Up Displays, Head",
+        "Worn Display, Head",
+        "Worn Displays, Head"
+      ]
+    },
+    "D000085022": {
+      "label": "Surgical Navigation Systems",
+      "tree_numbers": [
+        "E07.858.724"
+      ],
+      "terms": [
+        "Navigation System, Surgical",
+        "Navigation Systems, Surgical",
+        "Surgical Navigation System",
+        "Surgical Navigation Systems",
+        "System, Surgical Navigation",
+        "Systems, Surgical Navigation"
+      ]
+    },
+    "D000087162": {
+      "label": "N95 Respirators",
+      "tree_numbers": [
+        "E07.325.877.750",
+        "E07.700.560.937.500",
+        "E07.700.700.500",
+        "E07.858.594.875",
+        "J01.637.708.560.937.500"
+      ],
+      "terms": [
+        "Face Mask, N95",
+        "Mask, N95",
+        "Mask, N95 Face",
+        "N95 FFR",
+        "N95 FFRs",
+        "N95 Face Mask",
+        "N95 Face Masks",
+        "N95 Filtering Facepiece Respirators",
+        "N95 Mask",
+        "N95 Masks",
+        "N95 Respirator",
+        "N95 Respirators",
+        "Respirator, N95"
+      ]
+    },
+    "D000093102": {
+      "label": "Motorized Mobility Scooter",
+      "tree_numbers": [
+        "E07.796.980.500"
+      ],
+      "terms": [
+        "Mobility Scooter, Motorized",
+        "Mobility Scooters, Motorized",
+        "Motorized Mobility Scooter",
+        "Motorized Mobility Scooters",
+        "Scooter, Motorized Mobility",
+        "Scooters, Motorized Mobility"
+      ]
+    },
+    "D000094182": {
+      "label": "Microphysiological Systems",
+      "tree_numbers": [
+        "A10.802.500",
+        "E01.370.225.500.223.250.500",
+        "E05.200.500.265.125.500",
+        "E05.242.223.375.500",
+        "E05.481.500.249.312.500",
+        "E07.305.343.500.500"
+      ],
+      "terms": [
+        "Cell Culture, Organotypic",
+        "Culture, Organotypic",
+        "Device, Organ-on-a-Chip",
+        "Microfluidic Device, Organ-on-Chip",
+        "Microphysiological System",
+        "Microphysiological Systems",
+        "Model, Organotypic",
+        "Organ Chip",
+        "Organ Chips",
+        "Organ on Chip Microfluidic Devices",
+        "Organ on a Chip",
+        "Organ on a Chip Devices",
+        "Organ-on-Chip Microfluidic Device",
+        "Organ-on-Chip Microfluidic Devices",
+        "Organ-on-a-Chip",
+        "Organ-on-a-Chip Device",
+        "Organ-on-a-Chip Devices",
+        "Organ-on-a-Chips",
+        "Organoids on a Chip",
+        "Organoids-on-a-Chip",
+        "Organoids-on-a-Chips",
+        "Organotypic Cell Culture",
+        "Organotypic Cell Cultures",
+        "Organotypic Culture",
+        "Organotypic Cultures",
+        "Organotypic Model",
+        "Organotypic Models",
+        "Organs on Chip",
+        "Organs on Chips"
+      ]
+    },
+    "D000099084": {
+      "label": "Portable X-Ray",
+      "tree_numbers": [
+        "E07.683"
+      ],
+      "terms": [
+        "Mobile Radiography",
+        "Mobile X-Ray",
+        "Mobile X-Ray Machine",
+        "Mobile X-Ray System",
+        "Mobile X-Ray Unit",
+        "Mobile X-Ray Wagon Unit",
+        "Portable Radiography",
+        "Portable X-Ray",
+        "Portable X-Ray Machine",
+        "Portable X-Ray System",
+        "Portable X-Ray Unit"
+      ]
+    },
+    "D000099134": {
+      "label": "Recipient Vessels",
+      "tree_numbers": [
+        "A07.015.536",
+        "A10.850.450",
+        "E07.862.450"
+      ],
+      "terms": [
+        "Host Vessel",
+        "Host Vessels",
+        "Recipient Vessel",
+        "Recipient Vessels",
+        "Target Vessel",
+        "Target Vessels",
+        "Vessel, Host",
+        "Vessel, Recipient",
+        "Vessel, Target"
+      ]
+    }
+  },
+  "source_url": "https://nlmpubs.nlm.nih.gov/projects/mesh/MESH_FILES/xmlmesh/desc2026.gz",
+  "access_date": "2026-10-21",
+  "release": "2026",
+  "scope": "All descriptors having E07 or E07.* tree numbers; equipment topics, not FDA identity"
+}

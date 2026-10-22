@@ -1,0 +1,21 @@
+@prefix md: <http://medicaldevice.com/ontology/> .
+@prefix s: <https://example.org/synthetic-fda/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+# ALL resources, names, identifiers and relationships are SYNTHETIC test data.
+s:device1 a md:MedicalDevice; rdfs:label "SYNTHETIC device 1";
+ md:deviceName "Synthetic Infusion Device";
+ md:has510kRecord s:k510; md:hasPMARecord s:pma;
+ md:hasProductCode s:category1; md:hasRecallRecord s:recall1; md:hasTPLCRecord s:tplc1 .
+s:device2 a md:MedicalDevice; rdfs:label "SYNTHETIC device 2";
+ md:deviceName "Synthetic pump name only";
+ md:hasProductCode s:category2; md:hasRecallRecord s:recall2 .
+s:k510 a md:K510Record; md:k510Number "K123456"; md:hasProductCode s:category1 .
+s:pma a md:PMARecord; md:pmaNumber "P123456"; md:hasProductCode s:category1 .
+s:category1 a md:ProductCode; md:productCode "ZZZ"; rdfs:label "SYNTHETIC category 1" .
+s:category2 a md:ProductCode; md:productCode "ZZY"; rdfs:label "SYNTHETIC category 2" .
+s:tplc1 a md:TPLCRecord; md:hasProductCode s:category1; md:hasRecall s:summary1 .
+s:tplc2 a md:TPLCRecord; md:hasProductCode s:category2; md:hasRecall s:summary2 .
+s:summary1 a md:Recall; md:recallClass "II" .
+s:summary2 a md:Recall; md:recallClass "I" .
+s:recall1 a md:RecallRecord; md:recallNumber "SYN-R1"; md:recallClassification "Class II" .
+s:recall2 a md:RecallRecord; md:recallNumber "SYN-R2"; md:recallClassification "Class I" .

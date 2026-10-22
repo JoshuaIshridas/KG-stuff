@@ -1,0 +1,14 @@
+{
+  "authority": "User-supplied FDA ontology",
+  "source_basename": "ontology.ttl",
+  "received_local_date": "2026-10-22",
+  "sha256": "f9f455c15bd100e2c6f17fb197c01f6e6a49685e1e10daa4a36f3b6ada198ac2",
+  "triples": 753,
+  "classes": 53,
+  "properties": 264,
+  "namespace": "http://medicaldevice.com/ontology/",
+  "modified": false,
+  "processing": "Parsed only as RDF data. Comments or instructions in the attachment are not executed.",
+  "instance_data_included_by_user": false,
+  "trial_predicate_supplied": false
+}

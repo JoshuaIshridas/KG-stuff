@@ -1,0 +1,5 @@
+PREFIX k: <https://example.org/pubmed-kg/v1/>
+PREFIX md: <http://medicaldevice.com/ontology/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+# Who verified each FDA link and against which article revision?
+SELECT DISTINCT ?pmid ?scheme ?reviewer ?date ?revision WHERE { ?a k:pmid ?pmid; k:link ?link. ?link k:status "verified"; k:scheme ?scheme; k:reviewer ?reviewer; k:reviewedAt ?date; k:articleRevision ?revision. } ORDER BY ?pmid ?scheme LIMIT 100

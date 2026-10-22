@@ -1,0 +1,5 @@
+PREFIX k: <https://example.org/pubmed-kg/v1/>
+PREFIX md: <http://medicaldevice.com/ontology/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+# Which publications have reviewed exact PMA matches?
+SELECT DISTINCT ?pmid ?record ?number ?device WHERE { ?a k:pmid ?pmid; k:link ?l. ?l k:status "verified"; k:scheme "pma"; k:fdaRecord ?record. ?record md:pmaNumber ?number. OPTIONAL { ?l k:device ?device } } ORDER BY ?pmid LIMIT 100

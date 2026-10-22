@@ -1,0 +1,5 @@
+PREFIX k: <https://example.org/pubmed-kg/v1/>
+PREFIX md: <http://medicaldevice.com/ontology/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+# Which publications lack DOI or have multiple verified device associations?
+SELECT DISTINCT ?pmid ?issue WHERE { ?a k:pmid ?pmid. { FILTER NOT EXISTS { ?a k:identifier ?id. ?id k:scheme "doi"; k:valid true. } BIND("missing-doi" AS ?issue) } UNION { { SELECT ?a WHERE { ?a k:link ?l. ?l k:status "verified"; k:device ?d. } GROUP BY ?a HAVING(COUNT(DISTINCT ?d)>1) } BIND("multiple-verified-devices-review" AS ?issue) } } ORDER BY ?pmid ?issue LIMIT 100

@@ -1,0 +1,5 @@
+PREFIX k: <https://example.org/pubmed-kg/v1/>
+PREFIX md: <http://medicaldevice.com/ontology/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+# Which disease/chemical annotations occur in device-linked publications?
+SELECT DISTINCT ?pmid ?device ?type ?namespace ?identifier WHERE { ?a k:pmid ?pmid; k:link ?l; k:annotation ?ann. ?l k:status "verified"; k:device ?device. ?ann k:entity ?entity. ?entity k:entityType ?type; k:namespace ?namespace; k:normalizedIdentifier ?identifier. FILTER(?type IN ("Disease","Chemical")) } ORDER BY ?pmid ?type LIMIT 100

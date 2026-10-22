@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-21",
+  "commands": [
+    "pmkg --state work/live-smoke fetch 19894120 --order 1",
+    "pmkg --state work/live-smoke enrich --limit 1",
+    "pmkg --state work/live-smoke validate"
+  ],
+  "conforms": true,
+  "triples": 457,
+  "enrichment": [
+    {
+      "pmid": "19894120",
+      "status": "complete",
+      "annotations": 26
+    }
+  ],
+  "scope": "Historical pre-v2 smoke test; use live-v2-verification.json for current gates."
+}

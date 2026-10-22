@@ -1,0 +1,5 @@
+PREFIX k: <https://example.org/pubmed-kg/v1/>
+PREFIX md: <http://medicaldevice.com/ontology/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+# Which publications share an explicitly supplied trial/device association?
+SELECT DISTINCT ?pmid ?trial ?device ?source WHERE { ?a k:pmid ?pmid; k:trial ?trial. ?trial k:device ?device; prov:wasDerivedFrom ?source. } ORDER BY ?pmid LIMIT 100

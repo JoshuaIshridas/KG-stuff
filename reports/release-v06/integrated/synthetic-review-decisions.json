@@ -1,0 +1,16 @@
+[
+  {
+    "candidate_id": "https://example.org/pubmed-kg/v1/device-link/b7b0bdb234a347e040d97191d2a77c791a10492786a9448ad8dbf3ed5f0ddcd8",
+    "status": "verified",
+    "reviewer": "SYNTHETIC-reviewer",
+    "reviewed_at": "2026-10-22T00:00:00Z",
+    "evidence_method": "independent-identifier-confirmation"
+  },
+  {
+    "candidate_id": "https://example.org/pubmed-kg/v1/device-link/ff153c6dc5fef4a1040a4322e0d2c290e7f9ef32b219c351522ecc81f035d520",
+    "status": "verified",
+    "reviewer": "SYNTHETIC-reviewer",
+    "reviewed_at": "2026-10-22T00:00:00Z",
+    "evidence_method": "independent-identifier-confirmation"
+  }
+]

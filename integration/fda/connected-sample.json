@@ -1,0 +1,86 @@
+{
+  "query": "SELECT ?s ?p ?o (IF(isIRI(?o), 'iri', 'literal') AS ?kind) WHERE { GRAPH <https://purl.org/okn/frink/kg/medical-device-kg> { VALUES ?s { <http://medicaldevice.com/ontology/k510/k912346> <http://medicaldevice.com/ontology/tplc/bry> <http://medicaldevice.com/ontology/tplc/bry/recall/bry_ii_34> } VALUES ?p { <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://medicaldevice.com/ontology/k510Number> <http://medicaldevice.com/ontology/productCode> <http://medicaldevice.com/ontology/hasProductCode> <http://medicaldevice.com/ontology/deviceName> <http://medicaldevice.com/ontology/hasRecall> <http://medicaldevice.com/ontology/recallClass> <http://medicaldevice.com/ontology/recallDate> } ?s ?p ?o . FILTER(?p != <http://medicaldevice.com/ontology/hasRecall> || ?o = <http://medicaldevice.com/ontology/tplc/bry/recall/bry_ii_34>) } } LIMIT 30",
+  "result": {
+    "vars": [
+      "s",
+      "p",
+      "o",
+      "kind"
+    ],
+    "rows": [
+      {
+        "s": "http://medicaldevice.com/ontology/k510/k912346",
+        "p": "http://medicaldevice.com/ontology/deviceName",
+        "o": "MEDIKEEPER",
+        "kind": "literal"
+      },
+      {
+        "s": "http://medicaldevice.com/ontology/k510/k912346",
+        "p": "http://medicaldevice.com/ontology/hasProductCode",
+        "o": "http://medicaldevice.com/ontology/product-code/bry",
+        "kind": "iri"
+      },
+      {
+        "s": "http://medicaldevice.com/ontology/tplc/bry",
+        "p": "http://medicaldevice.com/ontology/hasProductCode",
+        "o": "http://medicaldevice.com/ontology/product-code/bry",
+        "kind": "iri"
+      },
+      {
+        "s": "http://medicaldevice.com/ontology/tplc/bry",
+        "p": "http://medicaldevice.com/ontology/hasRecall",
+        "o": "http://medicaldevice.com/ontology/tplc/bry/recall/bry_ii_34",
+        "kind": "iri"
+      },
+      {
+        "s": "http://medicaldevice.com/ontology/k510/k912346",
+        "p": "http://medicaldevice.com/ontology/k510Number",
+        "o": "K912346",
+        "kind": "literal"
+      },
+      {
+        "s": "http://medicaldevice.com/ontology/tplc/bry",
+        "p": "http://medicaldevice.com/ontology/productCode",
+        "o": "BRY",
+        "kind": "literal"
+      },
+      {
+        "s": "http://medicaldevice.com/ontology/k510/k912346",
+        "p": "http://medicaldevice.com/ontology/productCode",
+        "o": "BRY",
+        "kind": "literal"
+      },
+      {
+        "s": "http://medicaldevice.com/ontology/tplc/bry/recall/bry_ii_34",
+        "p": "http://medicaldevice.com/ontology/recallClass",
+        "o": "II",
+        "kind": "literal"
+      },
+      {
+        "s": "http://medicaldevice.com/ontology/tplc/bry/recall/bry_ii_34",
+        "p": "http://medicaldevice.com/ontology/recallDate",
+        "o": "Sep-23-2022",
+        "kind": "literal"
+      },
+      {
+        "s": "http://medicaldevice.com/ontology/tplc/bry",
+        "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "o": "http://medicaldevice.com/ontology/TPLCRecord",
+        "kind": "iri"
+      },
+      {
+        "s": "http://medicaldevice.com/ontology/k510/k912346",
+        "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "o": "http://medicaldevice.com/ontology/K510Record",
+        "kind": "iri"
+      },
+      {
+        "s": "http://medicaldevice.com/ontology/tplc/bry/recall/bry_ii_34",
+        "p": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+        "o": "http://medicaldevice.com/ontology/Recall",
+        "kind": "iri"
+      }
+    ],
+    "row_count": 12
+  }
+}

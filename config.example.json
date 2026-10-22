@@ -1,0 +1,13 @@
+{
+  "endpoint": null,
+  "graph": null,
+  "namespaces": {},
+  "identifier_predicates": {},
+  "name_predicates": [],
+  "allow_single_token_names": [],
+  "device_class": null,
+  "trial_device_predicate": null,
+  "device_recall_predicate": null,
+  "category_predicate": null,
+  "note": "Populate only after inspecting actual MDKG schema. Nothing here claims live compatibility."
+}

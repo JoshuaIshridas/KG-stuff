@@ -1,0 +1,6 @@
+{
+  "checked_at": "2026-10-22T02:31:09.453600+00:00",
+  "endpoint": "https://apps.okn.us/medical-device-kg/sparql",
+  "query": "SELECT ?s ?number WHERE { ?s <http://medicaldevice.com/ontology/k510Number> ?number } LIMIT 1",
+  "error_type": "ReadTimeout"
+}

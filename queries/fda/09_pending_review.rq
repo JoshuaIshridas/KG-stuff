@@ -1,0 +1,5 @@
+PREFIX k: <https://example.org/pubmed-kg/v1/>
+PREFIX md: <http://medicaldevice.com/ontology/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+# Which candidate matches await review, and how were they detected?
+SELECT DISTINCT ?pmid ?link ?target ?method ?location WHERE { ?a k:pmid ?pmid; k:link ?link. ?link k:status "candidate"; k:matchedResource ?target; k:method ?method; k:evidenceLocation ?location. } ORDER BY ?pmid LIMIT 100

@@ -1,0 +1,143 @@
+[
+  {
+    "file": "01_verified_510k.rq",
+    "question": "Which publications have a reviewed exact 510(k) match?",
+    "expected_fixture_rows": 1,
+    "columns": [
+      "pmid",
+      "number",
+      "record",
+      "device"
+    ],
+    "live_status": "Full PubMed/MDKG execution not performed. FDA schema is user-supplied; bounded FDA-side live checks are recorded under integration/fda."
+  },
+  {
+    "file": "02_device_recalls.rq",
+    "question": "Which publications link to actual devices with direct recall records?",
+    "expected_fixture_rows": 1,
+    "columns": [
+      "pmid",
+      "device",
+      "recall"
+    ],
+    "live_status": "Full PubMed/MDKG execution not performed. FDA schema is user-supplied; bounded FDA-side live checks are recorded under integration/fda."
+  },
+  {
+    "file": "03_trial_devices.rq",
+    "question": "Which publications share an explicitly supplied trial/device association?",
+    "expected_fixture_rows": 2,
+    "columns": [
+      "pmid",
+      "trial",
+      "device",
+      "source"
+    ],
+    "live_status": "Full PubMed/MDKG execution not performed. FDA schema is user-supplied; bounded FDA-side live checks are recorded under integration/fda."
+  },
+  {
+    "file": "04_entities_devices.rq",
+    "question": "Which disease/chemical annotations occur in device-linked publications?",
+    "expected_fixture_rows": 2,
+    "columns": [
+      "pmid",
+      "device",
+      "type",
+      "namespace",
+      "identifier"
+    ],
+    "live_status": "Full PubMed/MDKG execution not performed. FDA schema is user-supplied; bounded FDA-side live checks are recorded under integration/fda."
+  },
+  {
+    "file": "05_mesh_year_category.rq",
+    "question": "How do MeSH topics vary by publication year and FDA category?",
+    "expected_fixture_rows": 1,
+    "columns": [
+      "code",
+      "year",
+      "descriptor",
+      "publications"
+    ],
+    "live_status": "Full PubMed/MDKG execution not performed. FDA schema is user-supplied; bounded FDA-side live checks are recorded under integration/fda."
+  },
+  {
+    "file": "06_funding.rq",
+    "question": "Which agencies and grants support device-linked publications?",
+    "expected_fixture_rows": 1,
+    "columns": [
+      "pmid",
+      "agency",
+      "grant"
+    ],
+    "live_status": "Full PubMed/MDKG execution not performed. FDA schema is user-supplied; bounded FDA-side live checks are recorded under integration/fda."
+  },
+  {
+    "file": "07_pma.rq",
+    "question": "Which publications have reviewed exact PMA matches?",
+    "expected_fixture_rows": 1,
+    "columns": [
+      "pmid",
+      "record",
+      "number",
+      "device"
+    ],
+    "live_status": "Full PubMed/MDKG execution not performed. FDA schema is user-supplied; bounded FDA-side live checks are recorded under integration/fda."
+  },
+  {
+    "file": "08_low_literature_categories.rq",
+    "question": "Which categories have recalls but at most one linked publication?",
+    "expected_fixture_rows": 2,
+    "columns": [
+      "category",
+      "code",
+      "publications"
+    ],
+    "live_status": "Full PubMed/MDKG execution not performed. FDA schema is user-supplied; bounded FDA-side live checks are recorded under integration/fda."
+  },
+  {
+    "file": "09_pending_review.rq",
+    "question": "Which candidate matches await review, and how were they detected?",
+    "expected_fixture_rows": 1,
+    "columns": [
+      "pmid",
+      "link",
+      "target",
+      "method",
+      "location"
+    ],
+    "live_status": "Full PubMed/MDKG execution not performed. FDA schema is user-supplied; bounded FDA-side live checks are recorded under integration/fda."
+  },
+  {
+    "file": "10_quality.rq",
+    "question": "Which publications lack DOI or have multiple verified device associations?",
+    "expected_fixture_rows": 2,
+    "columns": [
+      "pmid",
+      "issue"
+    ],
+    "live_status": "Full PubMed/MDKG execution not performed. FDA schema is user-supplied; bounded FDA-side live checks are recorded under integration/fda."
+  },
+  {
+    "file": "11_annotation_status.rq",
+    "question": "Which publications have complete, unavailable or pending enrichment?",
+    "expected_fixture_rows": 2,
+    "columns": [
+      "pmid",
+      "status",
+      "annotations"
+    ],
+    "live_status": "Full PubMed/MDKG execution not performed. FDA schema is user-supplied; bounded FDA-side live checks are recorded under integration/fda."
+  },
+  {
+    "file": "12_review_provenance.rq",
+    "question": "Who verified each FDA link and against which article revision?",
+    "expected_fixture_rows": 2,
+    "columns": [
+      "pmid",
+      "scheme",
+      "reviewer",
+      "date",
+      "revision"
+    ],
+    "live_status": "Full PubMed/MDKG execution not performed. FDA schema is user-supplied; bounded FDA-side live checks are recorded under integration/fda."
+  }
+]

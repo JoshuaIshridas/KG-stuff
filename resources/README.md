@@ -1,0 +1,3 @@
+# Equipment vocabulary
+
+`device-mesh-2026.json` is derived from the official NLM 2026 descriptor XML, accessed 2026-10-21 from https://nlmpubs.nlm.nih.gov/projects/mesh/MESH_FILES/xmlmesh/desc2026.gz . It includes all 345 descriptors with an E07 or E07.* tree number, their preferred labels, tree numbers and 3,683 term strings. No scope notes or article/abstract text are included. A topic match is screening evidence, not FDA device identity. English controlled terms do not guarantee comprehensive device recognition in every language or unindexed record. Update/rebuild the vocabulary and source state for a new release.

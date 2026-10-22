@@ -1,0 +1,21 @@
+WARNING: The directory '/Users/joshuaishridas/Library/Caches/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Obtaining file:///Users/joshuaishridas/Documents/Codex/2026-10-21/paste-this-into-claude-from-your/outputs/pubmed-kg
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: pubmed-mdkg
+  Building editable for pubmed-mdkg (pyproject.toml): started
+  Building editable for pubmed-mdkg (pyproject.toml): finished with status 'done'
+  Created wheel for pubmed-mdkg: filename=pubmed_mdkg-0.6.0-0.editable-py3-none-any.whl size=1667 sha256=5fb92a78b08d568da6b6e9a4b2a1119c4d9bd278db8d7c5dca58144f5a87b273
+  Stored in directory: /private/var/folders/gt/kpl33d3175qcwms098bfmgk00000gn/T/pip-ephem-wheel-cache-ol1ies_m/wheels/c8/eb/f7/fbbe9f590d26ae68a12f2e1a699cc2c6939c611f4d52798973
+Successfully built pubmed-mdkg
+Installing collected packages: pubmed-mdkg
+Successfully installed pubmed-mdkg-0.6.0
+
+[notice] A new release of pip is available: 25.3 -> 26.2.2
+[notice] To update, run: /private/tmp/mdkg-audit-venv/bin/python -m pip install --upgrade pip

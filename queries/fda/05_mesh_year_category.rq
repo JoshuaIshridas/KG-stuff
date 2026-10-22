@@ -1,0 +1,5 @@
+PREFIX k: <https://example.org/pubmed-kg/v1/>
+PREFIX md: <http://medicaldevice.com/ontology/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+# How do MeSH topics vary by publication year and FDA category?
+SELECT ?code ?year ?descriptor (COUNT(DISTINCT ?a) AS ?publications) WHERE { ?a k:link ?l; k:mesh ?mesh; k:date ?date. ?l k:status "verified"; k:device ?device. ?device md:hasProductCode ?category. ?category md:productCode ?code. ?mesh k:descriptor ?descriptor. ?date k:kind "journal"; k:Year ?year. } GROUP BY ?code ?year ?descriptor ORDER BY ?code ?year LIMIT 100

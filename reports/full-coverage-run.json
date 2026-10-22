@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-10-22T02:51:43.242868+00:00",
+  "status": "blocked_insufficient_storage",
+  "full_coverage_verified": false,
+  "planned_files": 1691,
+  "live_observed_files": 1691,
+  "baseline_files": 1334,
+  "update_files": 357,
+  "free_gib": 4.6539306640625,
+  "estimated_compressed_gib": 70.08987140655518,
+  "required_free_gib": null,
+  "reserve_gib": 10,
+  "plan": "outputs/pubmed-kg/reports/full-coverage-run.plan.json",
+  "plan_sha256": "ccf3e3dd4db9dc4b24d53b00b03ca9503a39320e4249520838decc99cffea565",
+  "source_files_downloaded_during_preflight": 0,
+  "limitation": "Rounded directory-size estimate excludes JSON, SQLite, RDF, audit history, scratch space and backups. Operator budget and ongoing monitoring are required."
+}

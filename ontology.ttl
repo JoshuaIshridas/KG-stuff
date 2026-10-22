@@ -1,0 +1,501 @@
+@prefix k: <https://example.org/pubmed-kg/v1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+k: a owl:Ontology ;
+    rdfs:comment "PubMed structured metadata and provenance, with independently audited source-field preservation. Device relevance is screening evidence; verified identity requires a reviewed LinkAssertion. MDKG adapter compatibility is unverified." ;
+    owl:versionInfo "0.2.0" .
+
+k:Agency a owl:DatatypeProperty ;
+    rdfs:label "Agency" ;
+    rdfs:range xsd:string .
+
+k:BookArticle a owl:Class ;
+    rdfs:label "BookArticle" ;
+    rdfs:comment "A PubMed book citation, distinct from journal articles." ;
+    rdfs:subClassOf k:Article .
+
+k:Country a owl:DatatypeProperty ;
+    rdfs:label "Country" ;
+    rdfs:range xsd:string .
+
+k:Day a owl:DatatypeProperty ;
+    rdfs:label "Day" ;
+    rdfs:range xsd:string .
+
+k:GrantID a owl:DatatypeProperty ;
+    rdfs:label "GrantID" ;
+    rdfs:range xsd:string .
+
+k:Hour a owl:DatatypeProperty ;
+    rdfs:label "Hour" ;
+    rdfs:range xsd:string .
+
+k:ISSN a owl:DatatypeProperty ;
+    rdfs:label "ISSN" ;
+    rdfs:range xsd:string .
+
+k:ISSNLinking a owl:DatatypeProperty ;
+    rdfs:label "ISSNLinking" ;
+    rdfs:range xsd:string .
+
+k:MedlineDate a owl:DatatypeProperty ;
+    rdfs:label "MedlineDate" ;
+    rdfs:range xsd:string .
+
+k:Minute a owl:DatatypeProperty ;
+    rdfs:label "Minute" ;
+    rdfs:range xsd:string .
+
+k:Month a owl:DatatypeProperty ;
+    rdfs:label "Month" ;
+    rdfs:range xsd:string .
+
+k:NlmUniqueID a owl:DatatypeProperty ;
+    rdfs:label "NlmUniqueID" ;
+    rdfs:range xsd:string .
+
+k:Season a owl:DatatypeProperty ;
+    rdfs:label "Season" ;
+    rdfs:range xsd:string .
+
+k:Second a owl:DatatypeProperty ;
+    rdfs:label "Second" ;
+    rdfs:range xsd:string .
+
+k:Source a owl:Class ;
+    rdfs:label "Source" ;
+    rdfs:comment "An ingested source with checksum and ordered revision provenance." ;
+    rdfs:subClassOf prov:Entity .
+
+k:Year a owl:DatatypeProperty ;
+    rdfs:label "Year" ;
+    rdfs:range xsd:string .
+
+k:annotation a owl:ObjectProperty ;
+    rdfs:label "annotation" ;
+    rdfs:domain k:Article ;
+    rdfs:range k:Annotation .
+
+k:attributes a owl:DatatypeProperty ;
+    rdfs:label "attributes" ;
+    rdfs:range xsd:string .
+
+k:category a owl:ObjectProperty ;
+    rdfs:label "category" .
+
+k:chemical a owl:ObjectProperty ;
+    rdfs:label "chemical" ;
+    rdfs:domain k:Article ;
+    rdfs:range k:ChemicalAssignment .
+
+k:classification a owl:DatatypeProperty ;
+    rdfs:label "classification" ;
+    rdfs:range xsd:string .
+
+k:confidence a owl:DatatypeProperty ;
+    rdfs:label "confidence" ;
+    rdfs:comment "Documented qualitative classification, never an invented numeric score." ;
+    rdfs:range xsd:string .
+
+k:correction a owl:ObjectProperty ;
+    rdfs:label "correction" ;
+    rdfs:domain k:Article ;
+    rdfs:range k:CorrectionLink .
+
+k:date a owl:ObjectProperty ;
+    rdfs:label "date" ;
+    rdfs:domain k:Article ;
+    rdfs:range k:PublicationDate .
+
+k:descriptor a owl:ObjectProperty ;
+    rdfs:label "descriptor" .
+
+k:detection a owl:ObjectProperty ;
+    rdfs:label "detection" ;
+    rdfs:comment "Connects an article or a link assertion to its identifier detection evidence." ;
+    rdfs:range k:IdentifierDetection .
+
+k:device a owl:ObjectProperty ;
+    rdfs:label "device" ;
+    rdfs:range k:Device .
+
+k:deviceRelevanceStatus a owl:DatatypeProperty ;
+    rdfs:label "deviceRelevanceStatus" ;
+    rdfs:comment "candidate means at least one screening signal; unassessed does not mean irrelevant." ;
+    rdfs:range xsd:string .
+
+k:deviceSignal a owl:ObjectProperty ;
+    rdfs:label "deviceSignal" ;
+    rdfs:domain k:Article ;
+    rdfs:range k:DeviceRelevanceSignal .
+
+k:element a owl:DatatypeProperty ;
+    rdfs:label "element" ;
+    rdfs:range xsd:string .
+
+k:enrichmentStatus a owl:DatatypeProperty ;
+    rdfs:label "enrichmentStatus" ;
+    rdfs:range xsd:string .
+
+k:entity a owl:ObjectProperty ;
+    rdfs:label "entity" ;
+    rdfs:domain k:Annotation ;
+    rdfs:range k:BiomedicalEntity .
+
+k:entityType a owl:DatatypeProperty ;
+    rdfs:label "entityType" ;
+    rdfs:range xsd:string .
+
+k:evidenceLocation a owl:DatatypeProperty ;
+    rdfs:label "evidenceLocation" ;
+    rdfs:range xsd:string .
+
+k:fieldValue a owl:DatatypeProperty ;
+    rdfs:label "fieldValue" ;
+    rdfs:comment "Safe source metadata string; abstracts and bodies are prohibited." ;
+    rdfs:range xsd:string .
+
+k:filename a owl:DatatypeProperty ;
+    rdfs:label "filename" ;
+    rdfs:range xsd:string .
+
+k:grant a owl:ObjectProperty ;
+    rdfs:label "grant" ;
+    rdfs:domain k:Article ;
+    rdfs:range k:Grant .
+
+k:id a owl:DatatypeProperty ;
+    rdfs:label "id" ;
+    rdfs:range xsd:string .
+
+k:identifier a owl:ObjectProperty ;
+    rdfs:label "identifier" ;
+    rdfs:comment "Article-owned identifier occurrence." ;
+    rdfs:domain k:Article ;
+    rdfs:range k:Identifier .
+
+k:identifierValue a owl:DatatypeProperty ;
+    rdfs:label "identifierValue" ;
+    rdfs:range xsd:string .
+
+k:journal a owl:ObjectProperty ;
+    rdfs:label "journal" ;
+    rdfs:domain k:Article ;
+    rdfs:range k:Journal .
+
+k:keyword a owl:ObjectProperty ;
+    rdfs:label "keyword" ;
+    rdfs:domain k:Article ;
+    rdfs:range k:KeywordAssignment .
+
+k:kind a owl:DatatypeProperty ;
+    rdfs:label "kind" ;
+    rdfs:range xsd:string .
+
+k:label a owl:DatatypeProperty ;
+    rdfs:label "label" ;
+    rdfs:range xsd:string .
+
+k:language a owl:DatatypeProperty ;
+    rdfs:label "language" ;
+    rdfs:range xsd:string .
+
+k:link a owl:ObjectProperty ;
+    rdfs:label "link" ;
+    rdfs:domain k:Article ;
+    rdfs:range k:LinkAssertion .
+
+k:location a owl:DatatypeProperty ;
+    rdfs:label "location" ;
+    rdfs:range xsd:string .
+
+k:major a owl:DatatypeProperty ;
+    rdfs:label "major" ;
+    rdfs:range xsd:boolean .
+
+k:meaning a owl:DatatypeProperty ;
+    rdfs:label "meaning" ;
+    rdfs:range xsd:string .
+
+k:mesh a owl:ObjectProperty ;
+    rdfs:label "mesh" ;
+    rdfs:domain k:Article ;
+    rdfs:range k:MeshAssignment .
+
+k:metadataField a owl:ObjectProperty ;
+    rdfs:label "metadataField" ;
+    rdfs:comment "Loss-auditable source metadata, not evidence that all device facts were discovered." ;
+    rdfs:domain k:Article ;
+    rdfs:range k:SourceField .
+
+k:method a owl:DatatypeProperty ;
+    rdfs:label "method" ;
+    rdfs:range xsd:string .
+
+k:name a owl:DatatypeProperty ;
+    rdfs:label "name" ;
+    rdfs:range xsd:string .
+
+k:namespace a owl:DatatypeProperty ;
+    rdfs:label "namespace" ;
+    rdfs:range xsd:string .
+
+k:normalizedIdentifier a owl:DatatypeProperty ;
+    rdfs:label "normalizedIdentifier" ;
+    rdfs:range xsd:string .
+
+k:owner a owl:DatatypeProperty ;
+    rdfs:label "owner" ;
+    rdfs:range xsd:string .
+
+k:path a owl:DatatypeProperty ;
+    rdfs:label "path" ;
+    rdfs:range xsd:string .
+
+k:pmid a owl:DatatypeProperty ;
+    rdfs:label "pmid" ;
+    rdfs:range xsd:string .
+
+k:precision a owl:DatatypeProperty ;
+    rdfs:label "precision" ;
+    rdfs:comment "Source date precision; no inferred month/day." ;
+    rdfs:range xsd:string .
+
+k:publicationStatus a owl:DatatypeProperty ;
+    rdfs:label "publicationStatus" ;
+    rdfs:range xsd:string .
+
+k:publicationType a owl:ObjectProperty ;
+    rdfs:label "publicationType" ;
+    rdfs:domain k:Article ;
+    rdfs:range k:PublicationTypeAssignment .
+
+k:qualifier a owl:ObjectProperty ;
+    rdfs:label "qualifier" ;
+    rdfs:domain k:MeshAssignment ;
+    rdfs:range k:MeshQualifierAssignment .
+
+k:qualifierUI a owl:DatatypeProperty ;
+    rdfs:label "qualifierUI" ;
+    rdfs:range xsd:string .
+
+k:raw a owl:DatatypeProperty ;
+    rdfs:label "raw" ;
+    rdfs:range xsd:string .
+
+k:rawIdentifier a owl:DatatypeProperty ;
+    rdfs:label "rawIdentifier" ;
+    rdfs:range xsd:string .
+
+k:recall a owl:ObjectProperty ;
+    rdfs:label "recall" ;
+    rdfs:range k:Recall .
+
+k:recordKind a owl:DatatypeProperty ;
+    rdfs:label "recordKind" ;
+    rdfs:range xsd:string .
+
+k:reference a owl:ObjectProperty ;
+    rdfs:label "reference" ;
+    rdfs:domain k:Article ;
+    rdfs:range k:ReferenceIdentifier .
+
+k:registry a owl:DatatypeProperty ;
+    rdfs:label "registry" ;
+    rdfs:range xsd:string .
+
+k:regulatoryIdentifier a owl:DatatypeProperty ;
+    rdfs:label "regulatoryIdentifier" ;
+    rdfs:range xsd:string .
+
+k:relatedArticle a owl:ObjectProperty ;
+    rdfs:label "relatedArticle" ;
+    rdfs:domain k:CorrectionLink ;
+    rdfs:comment "A referenced publication IRI; its full record need not be present locally." .
+
+k:relation a owl:DatatypeProperty ;
+    rdfs:label "relation" ;
+    rdfs:range xsd:string .
+
+k:retrieved a owl:DatatypeProperty ;
+    rdfs:label "retrieved" ;
+    rdfs:range xsd:string .
+
+k:reviewer a owl:DatatypeProperty ;
+    rdfs:label "reviewer" ;
+    rdfs:range xsd:string .
+
+k:scheme a owl:DatatypeProperty ;
+    rdfs:label "scheme" ;
+    rdfs:range xsd:string .
+
+k:scope a owl:DatatypeProperty ;
+    rdfs:label "scope" ;
+    rdfs:range xsd:string .
+
+k:sha256 a owl:DatatypeProperty ;
+    rdfs:label "sha256" ;
+    rdfs:range xsd:string .
+
+k:source a owl:DatatypeProperty ;
+    rdfs:label "source" ;
+    rdfs:range xsd:string .
+
+k:sourceOrder a owl:DatatypeProperty ;
+    rdfs:label "sourceOrder" ;
+    rdfs:range xsd:integer .
+
+k:sourceVersion a owl:DatatypeProperty ;
+    rdfs:label "sourceVersion" ;
+    rdfs:range xsd:string .
+
+k:status a owl:DatatypeProperty ;
+    rdfs:label "status" ;
+    rdfs:comment "Link review status: candidate, verified or rejected." ;
+    rdfs:range xsd:string .
+
+k:supplementary a owl:ObjectProperty ;
+    rdfs:label "supplementary" ;
+    rdfs:domain k:Article ;
+    rdfs:range k:SupplementaryAssignment .
+
+k:title a owl:DatatypeProperty ;
+    rdfs:label "title" ;
+    rdfs:range xsd:string .
+
+k:trial a owl:ObjectProperty ;
+    rdfs:label "trial" ;
+    rdfs:domain k:Article ;
+    rdfs:range k:ClinicalTrial .
+
+k:valid a owl:DatatypeProperty ;
+    rdfs:label "valid" ;
+    rdfs:range xsd:boolean .
+
+k:value a owl:DatatypeProperty ;
+    rdfs:label "value" ;
+    rdfs:range xsd:string .
+
+k:ChemicalAssignment a owl:Class ;
+    rdfs:label "ChemicalAssignment" ;
+    rdfs:comment "Structured NLM chemical indexing, independent of PubTator annotation." .
+
+k:DeviceRelevanceSignal a owl:Class ;
+    rdfs:label "DeviceRelevanceSignal" ;
+    rdfs:comment "A screening reason for possible equipment/device relevance, never a verified device identity." .
+
+k:Grant a owl:Class ;
+    rdfs:label "Grant" ;
+    rdfs:comment "An article-associated grant and funding agency as supplied." .
+
+k:Identifier a owl:Class ;
+    rdfs:label "Identifier" ;
+    rdfs:comment "An identifier occurrence retaining source and normalized values." .
+
+k:IdentifierDetection a owl:Class ;
+    rdfs:label "IdentifierDetection" ;
+    rdfs:comment "An explicit identifier mention; not an identity link." .
+
+k:KeywordAssignment a owl:Class ;
+    rdfs:label "KeywordAssignment" ;
+    rdfs:comment "An author/provider keyword and major flag." .
+
+k:LinkAssertion a owl:Class ;
+    rdfs:label "LinkAssertion" ;
+    rdfs:comment "A reviewed or candidate article-to-device assertion with method and evidence." .
+
+k:MeshQualifierAssignment a owl:Class ;
+    rdfs:label "MeshQualifierAssignment" ;
+    rdfs:comment "A qualifier contextualized by its descriptor assignment." .
+
+k:PublicationDate a owl:Class ;
+    rdfs:label "PublicationDate" ;
+    rdfs:comment "Source-specific date components with retained precision." .
+
+k:PublicationTypeAssignment a owl:Class ;
+    rdfs:label "PublicationTypeAssignment" ;
+    rdfs:comment "A publication type label and source UI." .
+
+k:ReferenceIdentifier a owl:Class ;
+    rdfs:label "ReferenceIdentifier" ;
+    rdfs:comment "An identifier of a cited reference; citation text excluded." .
+
+k:SourceField a owl:Class ;
+    rdfs:label "SourceField" ;
+    rdfs:comment "A path-addressed safe metadata XML node, including source attributes; used for preservation audits." .
+
+k:SupplementaryAssignment a owl:Class ;
+    rdfs:label "SupplementaryAssignment" ;
+    rdfs:comment "A supplementary MeSH concept preserving source type and UI." .
+
+k:Annotation a owl:Class ;
+    rdfs:label "Annotation" ;
+    rdfs:comment "A provider annotation with normalized identifier and retrieval provenance." .
+
+k:ClinicalTrial a owl:Class ;
+    rdfs:label "ClinicalTrial" ;
+    rdfs:comment "A clinical trial record identified by a registry accession." ;
+    owl:disjointWith k:BiomedicalEntity .
+
+k:CorrectionLink a owl:Class ;
+    rdfs:label "CorrectionLink" ;
+    rdfs:comment "A typed correction, retraction, update or comment relationship." .
+
+k:Device a owl:Class ;
+    rdfs:label "Device" ;
+    rdfs:comment "An external medical-device record in the adapter contract." ;
+    owl:disjointWith k:BiomedicalEntity,
+        k:Recall .
+
+k:Journal a owl:Class ;
+    rdfs:label "Journal" ;
+    rdfs:comment "A journal identified when possible by an NLM journal identifier." .
+
+k:MeshAssignment a owl:Class ;
+    rdfs:label "MeshAssignment" ;
+    rdfs:comment "A descriptor assignment with major flag and qualifiers." .
+
+k:Recall a owl:Class ;
+    rdfs:label "Recall" ;
+    rdfs:comment "An external recall record in the adapter contract." .
+
+k:BiomedicalEntity a owl:Class ;
+    rdfs:label "BiomedicalEntity" ;
+    rdfs:comment "A typed biomedical concept, distinct from an annotation occurrence." .
+
+k:Article a owl:Class ;
+    rdfs:label "Article" ;
+    rdfs:comment "A PubMed citation identified by PMID; not a claim about device relevance." ;
+    owl:disjointWith k:ClinicalTrial,
+        k:Device,
+        k:Journal .
+
+
+k:Acronym a owl:DatatypeProperty ; rdfs:label "Acronym" ; rdfs:range xsd:string ; rdfs:comment "Funding agency acronym as supplied in a PubMed Grant record." .
+
+k:title rdfs:subPropertyOf <http://purl.org/dc/terms/title> .
+k:Article rdfs:subClassOf <http://purl.org/dc/terms/BibliographicResource> .
+k:Journal rdfs:subClassOf <http://purl.org/ontology/bibo/Journal> .
+k:descriptor rdfs:domain k:MeshAssignment .
+
+# PubMed extension aligned to the supplied FDA ontology. The original FDA file
+# is preserved byte-for-byte under integration/fda/ontology.ttl.
+@prefix md: <http://medicaldevice.com/ontology/> .
+k:Device rdfs:subClassOf md:MedicalDevice .
+k:DeviceLinkAssertion a owl:Class; rdfs:subClassOf k:LinkAssertion;
+ rdfs:comment "A revision-bound FDA catalog match, independently reviewable; a submission record is not a device." .
+k:fdaRecord a owl:ObjectProperty; rdfs:range md:FDADataRecord;
+ rdfs:comment "The actual matched FDA submission or source record; distinct from its associated medical device." .
+k:categoryMatch a owl:ObjectProperty;
+ rdfs:comment "FDA product category association; never device identity." .
+k:matchedResource a owl:ObjectProperty;
+ rdfs:comment "The exact catalog resource matched by evidence." .
+k:articleRevision a owl:DatatypeProperty; rdfs:range xsd:integer .
+k:articlePayloadSHA256 a owl:DatatypeProperty; rdfs:range xsd:string .
+k:catalogIdentity a owl:DatatypeProperty; rdfs:range xsd:string .
+k:linkingStatus a owl:DatatypeProperty; rdfs:range xsd:string .
+k:reviewedAt a owl:DatatypeProperty; rdfs:range xsd:dateTime .
+k:reviewMethod a owl:DatatypeProperty; rdfs:range xsd:string .

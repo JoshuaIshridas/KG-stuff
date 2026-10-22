@@ -1,0 +1,5 @@
+PREFIX k: <https://example.org/pubmed-kg/v1/>
+PREFIX md: <http://medicaldevice.com/ontology/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+# Which publications have complete, unavailable or pending enrichment?
+SELECT ?pmid (COALESCE(?s,"pending") AS ?status) (COUNT(DISTINCT ?ann) AS ?annotations) WHERE { ?a k:pmid ?pmid. OPTIONAL { ?a k:enrichmentStatus ?s } OPTIONAL { ?a k:annotation ?ann } } GROUP BY ?pmid ?s ORDER BY ?pmid LIMIT 100
