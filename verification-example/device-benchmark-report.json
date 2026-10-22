@@ -1,0 +1,16 @@
+{
+  "status": "not_established",
+  "threshold": 0.99,
+  "tp": 1,
+  "fn": 0,
+  "fp": 0,
+  "tn": 1,
+  "device_screening_recall": 1.0,
+  "precision": 1.0,
+  "recall_95_percent_lower_bound": 0.20654329147389294,
+  "representativeness_operator_attested": false,
+  "labeling_method": "Synthetic demonstration labels; not a human-curated validation corpus",
+  "population": "Two synthetic test articles only",
+  "near_100_percent_device_recall_established": false,
+  "note": "A synthetic or unrepresentative set cannot substantiate population coverage. A benchmark result does not establish extraction of all facts or verified device identity."
+}

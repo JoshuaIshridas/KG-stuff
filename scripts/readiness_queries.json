@@ -1,0 +1,82 @@
+[
+  [
+    "equipment_recent",
+    "\"Equipment and Supplies\"[MeSH Terms] AND 2024:2026[dp]",
+    25
+  ],
+  [
+    "catheters",
+    "\"Catheters\"[MeSH Terms] AND 2010:2020[dp]",
+    20
+  ],
+  [
+    "implants",
+    "\"Prostheses and Implants\"[MeSH Terms] AND 2000:2010[dp]",
+    20
+  ],
+  [
+    "diagnostics",
+    "\"Diagnostic Equipment\"[MeSH Terms] AND 2015:2020[dp]",
+    20
+  ],
+  [
+    "dental",
+    "\"Dental Equipment\"[MeSH Terms] AND 2000:2015[dp]",
+    20
+  ],
+  [
+    "surgical_mesh",
+    "\"Surgical Mesh\"[MeSH Terms]",
+    20
+  ],
+  [
+    "historical",
+    "\"Equipment and Supplies\"[MeSH Terms] AND 1960:1980[dp]",
+    20
+  ],
+  [
+    "non_english",
+    "\"Equipment and Supplies\"[MeSH Terms] NOT english[la]",
+    20
+  ],
+  [
+    "without_abstract",
+    "\"Equipment and Supplies\"[MeSH Terms] NOT hasabstract[filter]",
+    20
+  ],
+  [
+    "clinical_trials",
+    "(medical device[Title/Abstract] OR catheter[Title/Abstract]) AND clinical trial[Publication Type]",
+    20
+  ],
+  [
+    "recent_not_medline",
+    "(medical device[Title] OR smartwatch[Title] OR continuous glucose monitor[Title] OR transcatheter[Title]) NOT medline[sb]",
+    20
+  ],
+  [
+    "regulatory",
+    "(\"510(k)\"[Title/Abstract] OR \"premarket approval\"[Title/Abstract])",
+    20
+  ],
+  [
+    "books",
+    "device[Title] AND booksdocs[sb]",
+    10
+  ],
+  [
+    "comparison",
+    "\"Mathematics\"[MeSH Terms] NOT \"Equipment and Supplies\"[MeSH Terms]",
+    20
+  ],
+  [
+    "retracted",
+    "\"Equipment and Supplies\"[MeSH Terms] AND Retracted Publication[Publication Type]",
+    20
+  ],
+  [
+    "general_recent",
+    "2025[dp]",
+    20
+  ]
+]

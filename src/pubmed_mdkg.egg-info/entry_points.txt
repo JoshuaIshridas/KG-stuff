@@ -1,0 +1,2 @@
+[console_scripts]
+pmkg = pubmed_kg.cli:entrypoint

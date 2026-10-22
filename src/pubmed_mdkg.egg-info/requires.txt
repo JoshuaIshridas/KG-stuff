@@ -1,0 +1,9 @@
+lxml>=5
+requests>=2.32
+rdflib>=7
+pyshacl>=0.30
+jsonschema>=4.23
+pyoxigraph<0.6,>=0.5.12
+
+[test]
+pytest>=8

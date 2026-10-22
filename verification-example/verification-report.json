@@ -1,0 +1,52 @@
+{
+  "status": "verified",
+  "workflow": [
+    "verify-source-count",
+    "write-json",
+    "verify-json",
+    "write-turtle",
+    "verify-turtle"
+  ],
+  "sources": [
+    {
+      "name": "baseline.xml",
+      "counts": {
+        "article": 3,
+        "metadata_nodes": 131,
+        "metadata_attributes": 29
+      },
+      "record_event_retention": 1.0,
+      "eligible_metadata_retention": 1.0
+    },
+    {
+      "name": "update.xml",
+      "counts": {
+        "article": 1,
+        "metadata_nodes": 43,
+        "metadata_attributes": 9,
+        "delete": 1
+      },
+      "record_event_retention": 1.0,
+      "eligible_metadata_retention": 1.0
+    }
+  ],
+  "final_articles": 2,
+  "deleted_pmids": 1,
+  "serialized_partition_triples": 743,
+  "partitions": [
+    {
+      "status": "verified",
+      "articles": 2,
+      "metadata_nodes": 86
+    }
+  ],
+  "record_event_retention": 1.0,
+  "eligible_metadata_retention": 1.0,
+  "device_recall": "not_measured",
+  "all_pubmed_coverage": "not_measured",
+  "limitations": [
+    "Retention covers supplied sources and declared safe metadata, not all facts in article text.",
+    "A full PubMed universe requires a reconciled complete baseline and all applicable updates.",
+    "Device recall requires an independently labeled representative benchmark."
+  ]
+}
